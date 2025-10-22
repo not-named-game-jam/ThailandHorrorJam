@@ -157,7 +157,7 @@ public class DialogueSystem : MonoBehaviour
         skipCooldown += Time.unscaledDeltaTime;
 
         // Check for player input to continue
-        if (Pressed() && skipCooldown >= 0.5f)
+        if (Pressed() && skipCooldown >= 0.2f)
         {
             skipCooldown = 0;
             ContinueDialogue();

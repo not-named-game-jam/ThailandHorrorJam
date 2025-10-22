@@ -19,14 +19,14 @@ MonoBehaviour:
     typeInterval: 0.05
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Maya
-    characterSprite: {fileID: 21300000, guid: cfa48474a9126d24ea318538391a2bca, type: 3}
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
   - dialogueType: 1
     text: What have you be eating lately huh? :p
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.05
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Maya
-    characterSprite: {fileID: 21300000, guid: cfa48474a9126d24ea318538391a2bca, type: 3}
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
   - dialogueType: 1
     text: 'I..
 
@@ -35,19 +35,19 @@ MonoBehaviour:
     typeInterval: 1
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Rika
-    characterSprite: {fileID: 21300000, guid: 1a2ba8127b22fcf448948bad5aac06be, type: 3}
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
   - dialogueType: 1
     text: I've been eating burg-
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.08
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Rika
-    characterSprite: {fileID: 21300000, guid: 1a2ba8127b22fcf448948bad5aac06be, type: 3}
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
   - dialogueType: 1
     text: GYA! ><
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.1
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Rika
-    characterSprite: {fileID: 21300000, guid: 1a2ba8127b22fcf448948bad5aac06be, type: 3}
-  _currentLineIndex: -1
+    characterSprite: {fileID: 21300000, guid: 3497fb685e16c034e905fb6d8391ba80, type: 3}
+  _currentLineIndex: 0
