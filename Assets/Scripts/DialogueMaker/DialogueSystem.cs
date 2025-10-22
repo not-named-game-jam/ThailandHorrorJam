@@ -2,6 +2,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections; // Needed for coroutines
+using System.Linq;
+using System.Collections.Generic;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -10,9 +12,12 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI[] sentenceText;
 
     [SerializeField] private GameObject immersiveDialoguePanel;
-    
     [SerializeField] private GameObject characterDialoguePanel;
-    [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private GameObject justTextPanel;
+
+    [SerializeField] private CanvasGroup immersiveContinueIndicator;
+    [SerializeField] private CanvasGroup characterContinueIndicator;
+    [SerializeField] private CanvasGroup justTextContinueIndicator;
     [SerializeField] private Image image;
     // --- Sound ---
     // Removed direct AudioClip field, now set per line
@@ -30,6 +35,12 @@ public class DialogueSystem : MonoBehaviour
     private DialogueMaker _currentSequence;
 
     private float skipCooldown;
+    private float continueIndicatorCooldown;
+    private float continueIndicatorAlpha;
+    private float targetAlpha;
+
+    private List<int> _pauseIndices;
+    private List<FunctionCalls> _functionCalls;
 
     void Awake()
     {
@@ -39,13 +50,13 @@ public class DialogueSystem : MonoBehaviour
 
     void Start()
     {
-        dialoguePanel.SetActive(false);
+        justTextPanel.SetActive(false);
     }
 
     /// <summary>
     /// Sets and starts typing a new line.
     /// </summary>
-    public void SetDialogueLine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, AudioClip sound, DialogueType type)
+    public void SetDialogueLine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, AudioClip sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls)
     {
         IsActive = true;
 
@@ -53,19 +64,19 @@ public class DialogueSystem : MonoBehaviour
         {
             immersiveDialoguePanel.SetActive(true);
             characterDialoguePanel.SetActive(false);
-            dialoguePanel.SetActive(false);
+            justTextPanel.SetActive(false);
         }
         else if(type == DialogueType.CharacterDialogue)
         {
             immersiveDialoguePanel.SetActive(false);
             characterDialoguePanel.SetActive(true);
-            dialoguePanel.SetActive(false);
+            justTextPanel.SetActive(false);
         }
         else if(type == DialogueType.JustText)
         {
             immersiveDialoguePanel.SetActive(false);
             characterDialoguePanel.SetActive(false);
-            dialoguePanel.SetActive(true);
+            justTextPanel.SetActive(true);
         }
 
         // Set UI elements
@@ -74,13 +85,15 @@ public class DialogueSystem : MonoBehaviour
 
         foreach(TextMeshProUGUI x in sentenceText)
         {
+            x.gameObject.SetActive(true);
             x.text = sentence;
-            x.color = textCol;
+            x.color = new Color(textCol.r, textCol.g, textCol.b, 1f);
         }
-        // sentenceText.text = sentence;
 
         _secondsPerChar = typeInterval;
         _dialogueAudio = sound;
+        _pauseIndices = pauseIndices;
+        _functionCalls = functionCalls;
 
         // Clear previous text and start typing effect
         foreach(TextMeshProUGUI x in sentenceText)
@@ -114,17 +127,34 @@ public class DialogueSystem : MonoBehaviour
     {
         IsTyping = true;
         int totalLength = sentenceText[0].text.Length;
+        int currentCharIndex = 0;
         
-        while (sentenceText[0].maxVisibleCharacters < totalLength)
+        while (currentCharIndex < totalLength)
         {
-            foreach (TextMeshProUGUI x in sentenceText)
-            {
-                x.maxVisibleCharacters++;
+            // Check for pause at current character index
+            int pauseCount = _pauseIndices.Count(i => i == currentCharIndex);
+            if (pauseCount > 0) {
+                float pauseDuration = _secondsPerChar * 3 * pauseCount;
+                yield return new WaitForSecondsRealtime(pauseDuration);
             }
-            // sentenceText.maxVisibleCharacters++;
+
+            // Check for function calls at current character index
+            if (_functionCalls.Any(x => x.index == currentCharIndex))
+            {
+                string functionName = _functionCalls.First(x => x.index == currentCharIndex).functionName;
+                Debug.Log($"Function call at index {currentCharIndex}: {functionName}");
+            }
+
+            // Update visible characters
+            foreach (TextMeshProUGUI textElement in sentenceText)
+            {
+                textElement.maxVisibleCharacters = currentCharIndex + 1;
+            }
+            currentCharIndex++;
+
             // Play sound if available
             AudioSource sound = gameObject.GetComponent<AudioSource>();
-            if (_dialogueAudio != null && gameObject.GetComponent<AudioSource>() != null) {
+            if (_dialogueAudio != null && sound != null) {
                 sound.clip = _dialogueAudio;
                 sound.Play();
             }
@@ -145,9 +175,15 @@ public class DialogueSystem : MonoBehaviour
         IsActive = false;
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
-        dialoguePanel.SetActive(false);
+        justTextPanel.SetActive(false);
         _currentSequence = null; // Clear the sequence reference
         skipCooldown = 0;
+        continueIndicatorCooldown = 0;
+        continueIndicatorAlpha = 0f;
+        targetAlpha = 0f;
+        immersiveContinueIndicator.alpha = 0;
+        characterContinueIndicator.alpha = 0;
+        justTextContinueIndicator.alpha = 0;
     }
 
     void Update()
@@ -161,6 +197,24 @@ public class DialogueSystem : MonoBehaviour
         {
             skipCooldown = 0;
             ContinueDialogue();
+        }
+
+        if(!IsTyping && _currentSequence != null)
+        {
+            continueIndicatorCooldown += Time.unscaledDeltaTime;
+
+            targetAlpha = continueIndicatorCooldown >= 0.5f ? 1f : 0f;
+            
+            float smoothTime = 0.07f;
+            continueIndicatorAlpha = Mathf.Lerp(continueIndicatorAlpha, targetAlpha, Time.unscaledDeltaTime / smoothTime);
+            
+            immersiveContinueIndicator.alpha = continueIndicatorAlpha;
+            characterContinueIndicator.alpha = continueIndicatorAlpha;
+            justTextContinueIndicator.alpha = continueIndicatorAlpha;
+            
+            if(continueIndicatorCooldown >= 1f) {
+                continueIndicatorCooldown = 0;
+            }
         }
     }
 
@@ -182,6 +236,11 @@ public class DialogueSystem : MonoBehaviour
         else if (_currentSequence != null)
         {
             // Typing is done, advance to the next line managed by the ScriptableObject
+            immersiveContinueIndicator.alpha = 0;
+            characterContinueIndicator.alpha = 0;
+            justTextContinueIndicator.alpha = 0;
+            continueIndicatorCooldown = 0;
+            continueIndicatorAlpha = 0;
             _currentSequence.StartDialogue();
         }
     }
