@@ -17,21 +17,21 @@ MonoBehaviour:
     text: '*Rika reaches hand on the counter*'
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.04
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
   - dialogueType: 2
     text: ...
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.5
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
   - dialogueType: 2
     text: There was nothing there...
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.07
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
-  _currentLineIndex: 2
+  _currentLineIndex: -1

@@ -19,34 +19,35 @@ MonoBehaviour:
       I shall Rise till I Fall'
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.075
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
   - dialogueType: 0
     text: Me, I'm the Skibidi Sigmas thy self...
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.09
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
   - dialogueType: 0
     text: AND YOU!!!
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.025
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
   - dialogueType: 0
     text: shall
     textColor: {r: 1, g: 1, b: 1, a: 1}
     typeInterval: 0.07
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
   - dialogueType: 0
     text: PERISHED
     textColor: {r: 1, g: 0.19339621, b: 0.19339621, a: 1}
     typeInterval: 0.05
-    typeSound: {fileID: 0}
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: 
     characterSprite: {fileID: 0}
+  _currentLineIndex: -1
