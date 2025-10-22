@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Immersive
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - dialogueType: 0
+    text: 'Who''s the skibidi of em all
+
+      I shall Rise till I Fall'
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    typeInterval: 0.075
+    typeSound: {fileID: 0}
+    characterName: 
+    characterSprite: {fileID: 0}
+  - dialogueType: 0
+    text: Me, I'm the Skibidi Sigmas thy self...
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    typeInterval: 0.09
+    typeSound: {fileID: 0}
+    characterName: 
+    characterSprite: {fileID: 0}
+  - dialogueType: 0
+    text: AND YOU!!!
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    typeInterval: 0.025
+    typeSound: {fileID: 0}
+    characterName: 
+    characterSprite: {fileID: 0}
+  - dialogueType: 0
+    text: shall
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    typeInterval: 0.07
+    typeSound: {fileID: 0}
+    characterName: 
+    characterSprite: {fileID: 0}
+  - dialogueType: 0
+    text: PERISHED
+    textColor: {r: 1, g: 0.19339621, b: 0.19339621, a: 1}
+    typeInterval: 0.05
+    typeSound: {fileID: 0}
+    characterName: 
+    characterSprite: {fileID: 0}
