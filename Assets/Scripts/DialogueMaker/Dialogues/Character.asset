@@ -123,6 +123,7 @@ MonoBehaviour:
     characterName: Rika
     pauseIndex: 00000000000000000a0000000a000000
     functionCalls:
+<<<<<<< HEAD
     - index: 0
       functionType: 2
       parameter:
@@ -177,3 +178,8 @@ MonoBehaviour:
       parameter:
       - boom
   _currentLineIndex: -1
+=======
+    - index: 10
+      functionName: Hello world
+  _currentLineIndex: 8
+>>>>>>> 2603d068579edab504e60f2f04af1a99cc5634ce
