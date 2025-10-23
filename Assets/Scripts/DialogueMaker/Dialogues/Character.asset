@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Character
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: Rika!!! $$><
+  - text: Rika!!! $><
     displayText: Rika!!! ><
     textColor: {r: 1, g: 1, b: 1, a: 0}
     characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
@@ -21,7 +21,7 @@ MonoBehaviour:
     dialogueType: 1
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Maya
-    pauseIndex: 0800000008000000
+    pauseIndex: 08000000
     functionCalls: []
   - text: What?
     displayText: What?
@@ -63,7 +63,7 @@ MonoBehaviour:
     characterName: Maya
     pauseIndex: 
     functionCalls: []
-  - text: I-I... $$$$I have a crush on you, Maya. $$$Please go out with me!!!
+  - text: I-I... $$$I have a crush on you, Maya. $$$Please go out with me!!!
     displayText: I-I... I have a crush on you, Maya. Please go out with me!!!
     textColor: {r: 1, g: 1, b: 1, a: 0}
     characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
@@ -71,7 +71,7 @@ MonoBehaviour:
     dialogueType: 1
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Rika
-    pauseIndex: 07000000070000000700000007000000240000002400000024000000
+    pauseIndex: 070000000700000007000000240000002400000024000000
     functionCalls: []
   - text: ...
     displayText: ...
@@ -93,6 +93,16 @@ MonoBehaviour:
     characterName: Rika
     pauseIndex: 
     functionCalls: []
+  - text: '```...'
+    displayText: ...
+    textColor: {r: 1, g: 1, b: 1, a: 0}
+    characterSprite: {fileID: 0}
+    typeInterval: 0.12
+    dialogueType: 0
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
+    characterName: Rika
+    pauseIndex: 
+    functionCalls: []
   - text: '```RIKA!!! WAKE UP!!! YOU HAVE SCHOOL TOMORROW!!!'
     displayText: RIKA!!! WAKE UP!!! YOU HAVE SCHOOL TOMORROW!!!
     textColor: {r: 1, g: 1, b: 1, a: 0}
@@ -102,7 +112,68 @@ MonoBehaviour:
     typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
     characterName: Rika
     pauseIndex: 
+    functionCalls: []
+  - text: '```$$TRALALERO $$TRALALA'
+    displayText: TRALALERO TRALALA
+    textColor: {r: 0.31630474, g: 0.50530785, b: 1, a: 0}
+    characterSprite: {fileID: 0}
+    typeInterval: 0.034
+    dialogueType: 0
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
+    characterName: Rika
+    pauseIndex: 00000000000000000a0000000a000000
     functionCalls:
-    - index: 10
-      functionName: Hello world
+    - index: 0
+      functionType: 2
+      parameter:
+      - trala
+    - index: 15
+      functionType: 1
+      parameter:
+      - boom
+    - index: 0
+      functionType: 4
+      parameter:
+      - trala
+    - index: 1
+      functionType: 6
+      parameter:
+      - trala
+      - 1
+  - text: ...
+    displayText: ...
+    textColor: {r: 1, g: 1, b: 1, a: 0}
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.091
+    dialogueType: 1
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
+    characterName: Rika
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 3
+      parameter: []
+    - index: 2
+      functionType: 7
+      parameter:
+      - trala
+      - 1
+  - text: NO!!!!!!
+    displayText: NO!!!!!!
+    textColor: {r: 1, g: 1, b: 1, a: 0}
+    characterSprite: {fileID: 21300000, guid: c85d44a3c2a8ea9468cde6b7baca4bfc, type: 3}
+    typeInterval: 0.026
+    dialogueType: 1
+    typeSound: {fileID: 8300000, guid: b6897325698c3f14e97ff1bbbef7b37c, type: 3}
+    characterName: Rika
+    pauseIndex: 
+    functionCalls:
+    - index: 3
+      functionType: 5
+      parameter:
+      - trala
+    - index: 0
+      functionType: 1
+      parameter:
+      - boom
   _currentLineIndex: -1

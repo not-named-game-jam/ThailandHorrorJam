@@ -2,12 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class FunctionCalls {
-    public int index;
-    public string functionName;
-}
-
 public enum DialogueType { TextImmersive, CharacterDialogue, JustText }
 
 [System.Serializable]
@@ -31,6 +25,18 @@ public class DialogueLine
     public void Initialize() {
         typeSound = Resources.Load<AudioClip>("Sounds/Dialogue/speak");
         displayText = text;
+        
+        if (characterSprite != null) {
+            characterName = characterSprite.name.Split('_')[0];
+            dialogueType = DialogueType.CharacterDialogue;
+        }
+        else if (!string.IsNullOrEmpty(text) && text.StartsWith("```")) {
+            dialogueType = DialogueType.TextImmersive;
+            displayText = displayText.Substring(3);
+        }
+        else {
+            dialogueType = DialogueType.JustText;
+        }
 
         pauseIndex.Clear();
         for(int i = 0; i < displayText.Length; i++) {
@@ -40,19 +46,6 @@ public class DialogueLine
                 i--;
             }
         }
-        
-        if (characterSprite != null) {
-            characterName = characterSprite.name.Split('_')[0];
-            dialogueType = DialogueType.CharacterDialogue;
-        }
-        else if (!string.IsNullOrEmpty(text) && text.StartsWith("```")) {
-            dialogueType = DialogueType.TextImmersive;
-            displayText = text.Substring(3);
-        }
-        else {
-            dialogueType = DialogueType.JustText;
-        }
-
     }
 }
 

@@ -138,12 +138,9 @@ public class DialogueSystem : MonoBehaviour
                 yield return new WaitForSecondsRealtime(pauseDuration);
             }
 
-            // Check for function calls at current character index
-            if (_functionCalls.Any(x => x.index == currentCharIndex))
-            {
-                string functionName = _functionCalls.First(x => x.index == currentCharIndex).functionName;
-                Debug.Log($"Function call at index {currentCharIndex}: {functionName}");
-            }
+            _functionCalls
+                .FindAll(x => x.index == currentCharIndex)
+                .ForEach(x => x.CallFunction(this));
 
             // Update visible characters
             foreach (TextMeshProUGUI textElement in sentenceText)
