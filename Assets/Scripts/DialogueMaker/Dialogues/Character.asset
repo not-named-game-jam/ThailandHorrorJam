@@ -105,4 +105,4 @@ MonoBehaviour:
     functionCalls:
     - index: 10
       functionName: Hello world
-  _currentLineIndex: -1
+  _currentLineIndex: 8
