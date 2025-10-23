@@ -223,11 +223,21 @@ public class DialogueSystem : MonoBehaviour
         {
             // Skip typing animation
             StopAllCoroutines();
+            
+            // Call all remaining functions that would have been called during typing
+            int totalLength = sentenceText[0].text.Length;
+            for (int i = sentenceText[0].maxVisibleCharacters; i < totalLength; i++)
+            {
+                _functionCalls
+                    .FindAll(x => x.index == i)
+                    .ForEach(x => x.CallFunction(this));
+            }
+            
+            // Show all text
             foreach(TextMeshProUGUI x in sentenceText)
             {
                 x.maxVisibleCharacters = x.text.Length;
             }
-            // sentenceText.maxVisibleCharacters = sentenceText.text.Length;
             IsTyping = false;
         }
         else if (_currentSequence != null)
