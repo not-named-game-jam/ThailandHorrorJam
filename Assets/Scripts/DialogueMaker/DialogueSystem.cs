@@ -35,6 +35,8 @@ public class DialogueSystem : MonoBehaviour
     private float continueIndicatorAlpha;
     private float targetAlpha;
 
+    private bool isFading = false;
+
     void Awake()
     {
         if (instance == null) instance = this;
@@ -42,6 +44,7 @@ public class DialogueSystem : MonoBehaviour
     }
 
     private IEnumerator FadePanel(GameObject panel, bool isFadeIn, float duration = 0.3f) {
+        isFading = true;
         panel.SetActive(true);
         var canvasGroup = panel.GetComponent<CanvasGroup>();
         
@@ -59,6 +62,7 @@ public class DialogueSystem : MonoBehaviour
         
         canvasGroup.alpha = targetAlpha;
         panel.SetActive(isFadeIn);
+        isFading = false;
     }
 
     private IEnumerator SetDialogueCoroutine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, string sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls) {
@@ -175,6 +179,7 @@ public class DialogueSystem : MonoBehaviour
         characterDialoguePanel.SetActive(false);
         justTextPanel.SetActive(false);
         _currentSequence = null; // Clear the sequence reference
+        _type = DialogueType.Wait;
         skipCooldown = 0;
         continueIndicatorCooldown = 0;
         continueIndicatorAlpha = 0f;
@@ -190,7 +195,7 @@ public class DialogueSystem : MonoBehaviour
 
         skipCooldown += Time.unscaledDeltaTime;
         
-        if (Pressed() && skipCooldown >= 0.3f)
+        if (Pressed() && skipCooldown >= 0.3f && !isFading && _type != DialogueType.Wait)
         {
             skipCooldown = 0;
             ContinueDialogue();

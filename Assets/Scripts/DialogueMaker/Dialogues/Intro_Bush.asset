@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Intro_Bush
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: It's a bush.
+    displayText: This tree is dead...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 110000001200000013000000
+    functionCalls: []
+  - text: This kind of plant is quite tolerant to harsh condition$.$.$. $$Only if
+      humans could do the same$.$.$.
+    displayText: Just like my inside...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 130000001400000015000000
+    functionCalls: []
+  _currentLineIndex: -1

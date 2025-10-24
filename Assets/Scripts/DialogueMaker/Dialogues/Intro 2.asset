@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Intro 2
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: "$$.$.$.$$I don\u2019t see anything useful here, $$it\u2019s all sand!
+      $$Do you see something, Maya?"
+    displayText: "...I don\u2019t see anything useful here, it\u2019s all sand! Do
+      you see something, Maya?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000000000000100000002000000030000000300000025000000250000003400000034000000
+    functionCalls: []
+  - text: I think I do!! $$$Here, $$follow me!!
+    displayText: I think I do!! Here, follow me!!
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f0000000f0000001500000015000000
+    functionCalls: []
+  - text: Huh?
+    displayText: Huh?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                              '
+    displayText: '                                                              '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 40
+      functionType: 1
+      parameter:
+      - boom
+    - index: 20
+      functionType: 2
+      parameter:
+      - DARKNESS
+  - text: Suddenly, the surreal desert landscape turns into a shadowy hallway.
+    displayText: Suddenly, the surreal desert landscape turns into a shadowy hallway.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                   '
+    displayText: '                   '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: What?! $$$How did you do that$?$?$?
+    displayText: What?! How did you do that???
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0700000007000000070000001a0000001b0000001c000000
+    functionCalls: []
+  - text: "I\u2019ll explain later after we get out of here, $$but right now you
+      just have to follow me, $$okeh?"
+    displayText: "I\u2019ll explain later after we get out of here, but right now
+      you just have to follow me, okeh?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2d0000002d0000005700000057000000
+    functionCalls: []
+  - text: Uh$.$.$.
+    displayText: Uh...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 020000000300000004000000
+    functionCalls: []
+  - text: Fine$.$.$.$?
+    displayText: Fine...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000050000000600000007000000
+    functionCalls: []
+  - text: Rika nods and then they walk in silence.
+    displayText: Rika nods and then they walk in silence.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "The silence itself is scary, $$but with the echo of their breath it\u2019s
+      outright terrifying."
+    displayText: "The silence itself is scary, but with the echo of their breath
+      it\u2019s outright terrifying."
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1d0000001d000000
+    functionCalls: []
+  - text: At the end, $$there is a single door.
+    displayText: At the end, there is a single door.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0c0000000c000000
+    functionCalls: []
+  - text: It looks normal enough, $$but something about it is quite unsettling.
+    displayText: It looks normal enough, but something about it is quite unsettling.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1800000018000000
+    functionCalls: []
+  - text: Why does that door look so familiar? $$$Have I seen it before somewhere?
+    displayText: Why does that door look so familiar? Have I seen it before somewhere?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 250000002500000025000000
+    functionCalls: []
+  - text: Is something wrong, $$Rika? $$You look worried.
+    displayText: Is something wrong, Rika? You look worried.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 14000000140000001a0000001a000000
+    functionCalls: []
+  - text: "It\u2019s$.$.$. $$nothing. $$The door just looks familiar."
+    displayText: "It\u2019s... nothing. The door just looks familiar."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000050000000600000008000000080000001100000011000000
+    functionCalls: []
+  - text: Familiar? $$Like, $$you saw it from a dream?
+    displayText: Familiar? Like, you saw it from a dream?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a0000001000000010000000
+    functionCalls: []
+  - text: "I don\u2019t know. $$It\u2019s like a memory that\u2019s- $$$$$No$.$.$.
+      $$wait."
+    displayText: "I don\u2019t know. It\u2019s like a memory that\u2019s- No... wait."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0e0000000e00000029000000290000002900000029000000290000002b0000002c0000002d0000002f0000002f000000
+    functionCalls: []
+  - text: That doorknob. $$The acoustic seal and the pet door at the bottom$.$.$.
+    displayText: That doorknob. The acoustic seal and the pet door at the bottom...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f0000003f0000004000000041000000
+    functionCalls: []
+  - text: This$.$.$. $$this is my old bedroom door!
+    displayText: This... this is my old bedroom door!
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000060000000800000008000000
+    functionCalls: []
+  - text: A pet door? $$Do you have a pet, $$Rika? $$I never knew that!
+    displayText: A pet door? Do you have a pet, Rika? I never knew that!
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0c0000000c0000001f0000001f0000002500000025000000
+    functionCalls: []
+  - text: Well$.$.$. $$The short answer is no.
+    displayText: Well... The short answer is no.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000060000000800000008000000
+    functionCalls: []
+  - text: I just wanted a small door at that time. $$I didn't have any pet.
+    displayText: I just wanted a small door at that time. I didn't have any pet.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2900000029000000
+    functionCalls: []
+  - text: Ah$.$.$. $$$$Well$.$.$.
+    displayText: Ah... Well...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 020000000300000004000000060000000600000006000000060000000a0000000b0000000c000000
+    functionCalls: []
+  - text: "Anyway, $$let\u2019s get in! $$I want to see what your room looks like!"
+    displayText: "Anyway, let\u2019s get in! I want to see what your room looks like!"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000080000001600000016000000
+    functionCalls: []
+  - text: "It\u2019s just like every other bedroom though, $$don\u2019t get your
+      hopes up$.$.$."
+    displayText: "It\u2019s just like every other bedroom though, don\u2019t get
+      your hopes up..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2b0000002b000000420000004300000044000000
+    functionCalls: []
+  - text: Rika said slyly as Maya opened the door to her old bedroom. $$$The door
+      closed behind them and disappeared.
+    displayText: Rika said slyly as Maya opened the door to her old bedroom. The
+      door closed behind them and disappeared.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3c0000003c0000003c000000
+    functionCalls: []
+  _currentLineIndex: -1

@@ -520,7 +520,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: $$$$$$$Or$$.$$.$$. $$$$maybe I deserve it$$.$$.$$.$$$?
-    displayText: Or... maybe I deserve it.
+    displayText: Or... maybe I deserve it...?
     color: 0
     characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
     typeInterval: 0.05
@@ -528,7 +528,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 00000000000000000000000000000000000000000200000003000000040000000600000006000000
+    pauseIndex: 0000000000000000000000000000000000000000000000000000000002000000020000000300000003000000040000000400000006000000060000000600000006000000180000001800000019000000190000001a0000001a0000001b0000001b0000001b000000
     functionCalls:
     - index: -1
       functionType: 3
@@ -660,10 +660,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 070000000800000009000000
+    pauseIndex: 070000000700000008000000080000000900000009000000
     functionCalls: []
-  - text: '                                      '
-    displayText: '                                      '
+  - text: '                                                                                               '
+    displayText: '                                                                                               '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
@@ -673,4 +673,268 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: -1
+  - text: $$$$A soft warm hand is stroking Rika's hair, $$another gently wiping tears
+      off her face.
+    displayText: A soft warm hand is stroking Rika's hair, another gently wiping
+      tears off her face.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000000000000000000000000002a0000002a000000
+    functionCalls:
+    - index: -1
+      functionType: 2
+      parameter:
+      - SAD
+  - text: "It\u2019s the comfort she yearned for$.$.$."
+    displayText: "It\u2019s the comfort she yearned for..."
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 200000002100000022000000
+    functionCalls: []
+  - text: Maybe it is what the afterlife feels like? $$But surely she isn't supposed
+      to be in heaven like this.
+    displayText: Maybe it is what the afterlife feels like? But surely she isn't
+      supposed to be in heaven like this.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2b0000002b000000
+    functionCalls: []
+  - text: The touch$.$.$. $$is so familiar, $$like something she once knew.
+    displayText: The touch... is so familiar, like something she once knew.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 090000000a0000000b0000000d0000000d0000001d0000001d000000
+    functionCalls: []
+  - text: Rika opens her eyes and finds herself in another girl's arms with head
+      in her lap.
+    displayText: Rika opens her eyes and finds herself in another girl's arms with
+      head in her lap.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: $...
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.12
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000
+    functionCalls: []
+  - text: $Maya.$.$.$? $$Is it really you?
+    displayText: Maya...? Is it really you?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000500000006000000070000000900000009000000
+    functionCalls: []
+  - text: Hey, $$how are you feeling?
+    displayText: Hey, how are you feeling?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000005000000
+    functionCalls: []
+  - text: Her voice sounds exactly the same as Rika remembers the last time they
+      spoke. $$It is comforting to know that her only friend, Maya, has not changed
+      at all.
+    displayText: Her voice sounds exactly the same as Rika remembers the last time
+      they spoke. It is comforting to know that her only friend, Maya, has not changed
+      at all.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 4e0000004e000000
+    functionCalls: []
+  - text: "I-$$I'm OK, $$just not enough sleep, $$that\u2019s all$.$.$."
+    displayText: "I-I'm OK, just not enough sleep, that\u2019s all..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 02000000020000000a0000000a00000021000000210000002b0000002c0000002d000000
+    functionCalls: []
+  - text: "Rika, $$$you swallowed like a dozen sleeping pills, $$you\u2019re not
+      fine."
+    displayText: "Rika, you swallowed like a dozen sleeping pills, you\u2019re not
+      fine."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0600000006000000060000003100000031000000
+    functionCalls: []
+  - text: "Maya glared at her and crossed her arms over her chest. $$Rika\u2019s
+      eyes went wide as she gathered herself upright."
+    displayText: "Maya glared at her and crossed her arms over her chest. Rika\u2019s
+      eyes went wide as she gathered herself upright."
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3800000038000000
+    functionCalls: []
+  - text: $$.$$.$$.$$What$?!
+    displayText: ...What?!
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000000000001000000010000000200000002000000030000000300000007000000
+    functionCalls: []
+  - text: Yeh, $$and now we are stuck here, $$in this weird place.
+    displayText: Yeh, and now we are stuck here, in this weird place.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000002000000020000000
+    functionCalls: []
+  - text: This place kinda sucks, $$don't you think so?
+    displayText: This place kinda sucks, don't you think so?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1800000018000000
+    functionCalls: []
+  - text: "Maya gestures around, $$they\u2019re in a desert that seems to be no end.
+      $$There\u2019s nothing but sand."
+    displayText: "Maya gestures around, they\u2019re in a desert that seems to be
+      no end. There\u2019s nothing but sand."
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 16000000160000004300000043000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: .$.$.$This place sucks.
+    displayText: ...This place sucks.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000200000003000000
+    functionCalls: []
+  - text: I hate it.
+    displayText: I hate it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Me too.
+    displayText: Me too.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "So, $$come on, $$let\u2019s look around, $$see if there is anything useful
+      to get us out of this lifeless wasteland."
+    displayText: "So, come on, let\u2019s look around, see if there is anything useful
+      to get us out of this lifeless wasteland."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000000d0000000d0000002000000020000000
+    functionCalls: []
+  - text: '        '
+    displayText: '        '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: 32
