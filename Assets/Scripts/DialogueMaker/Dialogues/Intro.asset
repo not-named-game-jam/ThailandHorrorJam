@@ -1,0 +1,676 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: "```$$$$$$$$$$$$$$\u201CNobody will ever understand you.\u201D"
+    displayText: "\u201CNobody will ever understand you.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    functionCalls:
+    - index: -1
+      functionType: 2
+      parameter:
+      - CICADA
+  - text: "```\u201CYour nightmare will never end.\u201D"
+    displayText: "\u201CYour nightmare will never end.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "```\u201CIt\u2019s just you.\u201D"
+    displayText: "\u201CIt\u2019s just you.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "```\u201CIt has always been you.\u201D"
+    displayText: "\u201CIt has always been you.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Someone is talking in her head.
+    displayText: Someone is talking in her head.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: It's always in her dream, $$her nightmare, $$tormenting her every time
+      she goes to sleep.
+    displayText: It's always in her dream, her nightmare, tormenting her every time
+      she goes to sleep.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1a0000001a0000002900000029000000
+    functionCalls: []
+  - text: Rika is used to it now, $$really, $$all she needs is just a couple pills
+      to help her shut these voices off.
+    displayText: Rika is used to it now, really, all she needs is just a couple pills
+      to help her shut these voices off.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 18000000180000002000000020000000
+    functionCalls: []
+  - text: Still, $$the voices never really went away.
+    displayText: Still, the voices never really went away.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0700000007000000
+    functionCalls: []
+  - text: "Every morning she woke up wishing she never had, $$with words slicing
+      through her thoughts, eating her alive from inside until there\u2019s nothing
+      left except the shell of what she used to be."
+    displayText: "Every morning she woke up wishing she never had, with words slicing
+      through her thoughts, eating her alive from inside until there\u2019s nothing
+      left except the shell of what she used to be."
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3100000031000000
+    functionCalls: []
+  - text: All this$.$.$. $$just to relive the same nightmare all over again.
+    displayText: All this... just to relive the same nightmare all over again.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000090000000a0000000c0000000c000000
+    functionCalls: []
+  - text: "```$$$$$$\u201CEveryone\u2019s gone now.\u201D"
+    displayText: "\u201CEveryone\u2019s gone now.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 000000000000000000000000000000000000000000000000
+    functionCalls: []
+  - text: "```\u201CThey left you again, $$just like they always do.\u201D"
+    displayText: "\u201CThey left you again, just like they always do.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 1600000016000000
+    functionCalls: []
+  - text: "```\u201CIt\u2019s all your fault.\u201D"
+    displayText: "\u201CIt\u2019s all your fault.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: The voices get louder and louder, $$like some kind of signal.
+    displayText: The voices get louder and louder, like some kind of signal.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2200000022000000
+    functionCalls: []
+  - text: A signal to wake up from this cemetery of memories, $$or perhaps, $$to
+      never open her eyes again.
+    displayText: A signal to wake up from this cemetery of memories, or perhaps,
+      to never open her eyes again.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 34000000340000004000000040000000
+    functionCalls: []
+  - text: $$$The latter might be nice$.$.$.
+    displayText: The latter might be nice...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000000000000000000018000000190000001a000000
+    functionCalls: []
+  - text: "$$$Wonder how many days will go by until someone notices that I\u2019m
+      gone$.$.$."
+    displayText: "Wonder how many days will go by until someone notices that I\u2019m
+      gone..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a32fafbf821b6c84ca74a356f7b9b009, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000000000000000000430000004400000045000000
+    functionCalls: []
+  - text: "A gust of cool breeze passes through Rika\u2019s body, $$sending shivers
+      through her spine."
+    displayText: "A gust of cool breeze passes through Rika\u2019s body, sending
+      shivers through her spine."
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3200000032000000
+    functionCalls: []
+  - text: Dreams have never felt so real as this moment.
+    displayText: Dreams have never felt so real as this moment.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika has to wake up. $$She can't.
+    displayText: Rika has to wake up. She can't.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1500000015000000
+    functionCalls: []
+  - text: The fear washes through her just like the wind did.
+    displayText: The fear washes through her just like the wind did.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika is frozen in place, $$she knows she should move.
+    displayText: Rika is frozen in place, she knows she should move.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1900000019000000
+    functionCalls: []
+  - text: But every time she tries, $$she suddenly feels like all of her energy just
+      vanishes.
+    displayText: But every time she tries, she suddenly feels like all of her energy
+      just vanishes.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1a0000001a000000
+    functionCalls: []
+  - text: Deep inside her mind, $$there is a tiny bit of hope that someone will find
+      her and wake her up.
+    displayText: Deep inside her mind, there is a tiny bit of hope that someone will
+      find her and wake her up.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1600000016000000
+    functionCalls: []
+  - text: But no one will. $$She is alone.
+    displayText: But no one will. She is alone.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.055
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1100000011000000
+    functionCalls: []
+  - text: $$$It's Ok. $$No one died because they got stuck in a dream, $$right?
+    displayText: It's Ok. No one died because they got stuck in a dream, right?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.033
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000000000000000000009000000090000003800000038000000
+    functionCalls: []
+  - text: It's just a dream. $$ I.$.$. $$I will wake up eventually.
+    displayText: It's just a dream.  I... I will wake up eventually.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a32fafbf821b6c84ca74a356f7b9b009, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 130000001300000016000000170000001900000019000000
+    functionCalls: []
+  - text: Even if no one came, $$ the alarm clock will wake me up.$$.$. $$$$Right$$.$$.$$.$$$?
+    displayText: Even if no one came,  the alarm clock will wake me up... Right...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.025
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1500000015000000360000003600000037000000390000003900000039000000390000003e0000003e0000003f0000003f0000004000000040000000410000004100000041000000
+    functionCalls: []
+  - text: $$$The panic starts to reappear again.
+    displayText: The panic starts to reappear again.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.042
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000000000000000000
+    functionCalls: []
+  - text: Rika started mumbling whatever reasoning she could come up with, $$to convince
+      herself that this is just another nightmare, $$to make herself believe that
+      she will wake up and continue living as usual.
+    displayText: Rika started mumbling whatever reasoning she could come up with,
+      to convince herself that this is just another nightmare, to make herself believe
+      that she will wake up and continue living as usual.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.033
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 41000000410000007a0000007a000000
+    functionCalls: []
+  - text: "However, $$the more she tried to think, $$the deeper she was dragged into
+      her painful memories.\r"
+    displayText: "However, the more she tried to think, the deeper she was dragged
+      into her painful memories.\r"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 09000000090000002600000026000000
+    functionCalls: []
+  - text: She remembers the time her parents left her home alone for a week, $$the
+      time her friends betrayed her, $$the time her pride was shattered to pieces.
+    displayText: She remembers the time her parents left her home alone for a week,
+      the time her friends betrayed her, the time her pride was shattered to pieces.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 43000000430000006600000066000000
+    functionCalls: []
+  - text: Yet, $$through some twisted logic in her head, $$those are bittersweet
+      memories.$.$.
+    displayText: Yet, through some twisted logic in her head, those are bittersweet
+      memories...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000002d0000002d0000004c0000004d000000
+    functionCalls: []
+  - text: She's older now. $$Those fears had been long gone and turned into anger.
+    displayText: She's older now. Those fears had been long gone and turned into
+      anger.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1100000011000000
+    functionCalls: []
+  - text: It turned into hatred, $$not only towards some individuals, $$but toward
+      the world as well.
+    displayText: It turned into hatred, not only towards some individuals, but toward
+      the world as well.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 17000000170000003a0000003a000000
+    functionCalls: []
+  - text: After all, $$why is it always her that has to suffer?
+    displayText: After all, why is it always her that has to suffer?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b000000
+    functionCalls: []
+  - text: My hate is justified, $$right? $$I have done nothing to deserve this.
+    displayText: My hate is justified, right? I have done nothing to deserve this.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 16000000160000001d0000001d000000
+    functionCalls: []
+  - text: Rika said to herself as she watched memories after memories play in front
+      of her.
+    displayText: Rika said to herself as she watched memories after memories play
+      in front of her.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Tears and smiles both appeared on her face as emotions exploded in her
+      chest.
+    displayText: Tears and smiles both appeared on her face as emotions exploded
+      in her chest.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Hatred turned to sorrowful disappointment, $$and then it turned to nothing.
+    displayText: Hatred turned to sorrowful disappointment, and then it turned to
+      nothing.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2b0000002b000000
+    functionCalls: []
+  - text: Rika fell to her knees, $$curling herself into a ball, $$making herself
+      as small as possible.
+    displayText: Rika fell to her knees, curling herself into a ball, making herself
+      as small as possible.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 18000000180000003500000035000000
+    functionCalls: []
+  - text: Whimpers escaped her lips unwillingly as she wishes she was never born
+      in the first place.
+    displayText: Whimpers escaped her lips unwillingly as she wishes she was never
+      born in the first place.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: $$$$$$$Or$$.$$.$$. $$$$maybe I deserve it$$.$$.$$.$$$?
+    displayText: Or... maybe I deserve it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000000000000000000000000000000000000200000003000000040000000600000006000000
+    functionCalls:
+    - index: -1
+      functionType: 3
+      parameter: []
+  - text: "```$$$$\u201CNobody will ever understand you.\u201D"
+    displayText: "\u201CNobody will ever understand you.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 00000000000000000000000000000000
+    functionCalls: []
+  - text: "```\u201CYour nightmare will never end.\u201D"
+    displayText: "\u201CYour nightmare will never end.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "```\u201CIt\u2019s just you.\u201D"
+    displayText: "\u201CIt\u2019s just you.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "```\u201CIt has always been you.\u201D"
+    displayText: "\u201CIt has always been you.\u201D"
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.048
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Her fingers clutched the weight of a small plastic bottle.
+    displayText: Her fingers clutched the weight of a small plastic bottle.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: This never was a permanent solution, $$voices still reappeared every morning
+      she woke up, $$every night she forgot to take them.
+    displayText: This never was a permanent solution, voices still reappeared every
+      morning she woke up, every night she forgot to take them.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 25000000250000005800000058000000
+    functionCalls: []
+  - text: Maybe$.$.$. $$just maybe if she takes more$.$.$.$, $$it might really stop.
+    displayText: Maybe... just maybe if she takes more..., it might really stop.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000006000000070000000900000009000000250000002600000027000000280000002a0000002a000000
+    functionCalls: []
+  - text: There must be a better way, $$that's what she's always wanted to believe.
+      $$But right now, $$it's just too much.
+    displayText: There must be a better way, that's what she's always wanted to believe.
+      But right now, it's just too much.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1c0000001c00000048000000480000005700000057000000
+    functionCalls: []
+  - text: Rika tipped the bottle. $$One by one, $$the cylindrical capsules entered
+      her mouth, $$and the scent of pear blossoms permeated throughout her body.
+    displayText: Rika tipped the bottle. One by one, the cylindrical capsules entered
+      her mouth, and the scent of pear blossoms permeated throughout her body.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 180000001800000024000000240000005000000050000000
+    functionCalls: []
+  - text: The peace she yearned for, $$the silence she desired, $$is not that far
+      away anymore.
+    displayText: The peace she yearned for, the silence she desired, is not that
+      far away anymore.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1b0000001b0000003400000034000000
+    functionCalls: []
+  - text: Finally$$.$$.$$.
+    displayText: Finally...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.07
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 070000000800000009000000
+    functionCalls: []
+  - text: '                                      '
+    displayText: '                                      '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: -1

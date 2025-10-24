@@ -19,28 +19,21 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private CanvasGroup characterContinueIndicator;
     [SerializeField] private CanvasGroup justTextContinueIndicator;
     [SerializeField] private Image image;
-    // --- Sound ---
-    // Removed direct AudioClip field, now set per line
 
-    // --- Core State ---
     public static DialogueSystem instance;
     public bool IsActive { get; private set; } = false;
-    public bool IsTyping { get; private set; } = false;
+    public bool IsTyping { get; private set; } = true;
+    private string _dialogueAudio;
+    private List<int> _pauseIndices;
+    private List<FunctionCalls> _functionCalls;
+    private DialogueType _type = DialogueType.Wait;
 
-    // --- Typing Logic ---
-    private float _secondsPerChar = 0.06f; // Default typing speed
-    private AudioClip _dialogueAudio;      // Sound set by the current line
-
-    // Reference to the currently playing sequence
+    private float _secondsPerChar = 0.06f;
     private DialogueMaker _currentSequence;
-
     private float skipCooldown;
     private float continueIndicatorCooldown;
     private float continueIndicatorAlpha;
     private float targetAlpha;
-
-    private List<int> _pauseIndices;
-    private List<FunctionCalls> _functionCalls;
 
     void Awake()
     {
@@ -48,76 +41,83 @@ public class DialogueSystem : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    void Start()
-    {
-        justTextPanel.SetActive(false);
+    private IEnumerator FadePanel(GameObject panel, bool isFadeIn, float duration = 0.3f) {
+        panel.SetActive(true);
+        var canvasGroup = panel.GetComponent<CanvasGroup>();
+        
+        float elapsed = 0f;
+        float startAlpha = isFadeIn ? 0f : 1f;
+        float targetAlpha = isFadeIn ? 1f : 0f;
+        canvasGroup.alpha = startAlpha;
+        
+        while (elapsed < duration) {
+            elapsed += Time.unscaledDeltaTime;
+            float progress = Mathf.Clamp01(elapsed / duration);
+            canvasGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, progress);
+            yield return null;
+        }
+        
+        canvasGroup.alpha = targetAlpha;
+        panel.SetActive(isFadeIn);
+    }
+
+    private IEnumerator SetDialogueCoroutine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, string sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls) {
+        IsTyping = true;
+
+        if (_type != type) {
+            if (_type == DialogueType.TextImmersive) {
+                yield return StartCoroutine(FadePanel(immersiveDialoguePanel, false));
+            } else if (_type == DialogueType.CharacterDialogue) {
+                yield return StartCoroutine(FadePanel(characterDialoguePanel, false));
+            } else if (_type == DialogueType.JustText) {
+                yield return StartCoroutine(FadePanel(justTextPanel, false));
+            }
+        }
+
+        IsActive = true;
+        image.sprite = sprite;
+        nameText.text = speaker;
+        _dialogueAudio = type == DialogueType.Wait ? "" : sound;
+        _pauseIndices = pauseIndices;
+        _functionCalls = functionCalls;
+        _secondsPerChar = typeInterval;
+
+        // Set the text content for all text elements
+        foreach (TextMeshProUGUI x in sentenceText) {
+            x.text = sentence;
+            x.color = textCol;
+            x.maxVisibleCharacters = 0;
+        }
+
+        // Fade in the new panel if changing types and not changing to Wait type
+        if (_type != type) {
+            if (type == DialogueType.TextImmersive) {
+                yield return StartCoroutine(FadePanel(immersiveDialoguePanel, true));
+            } else if (type == DialogueType.CharacterDialogue) {
+                yield return StartCoroutine(FadePanel(characterDialoguePanel, true));
+            } else if (type == DialogueType.JustText) {
+                yield return StartCoroutine(FadePanel(justTextPanel, true));
+            }
+        }
+        _type = type;
+
+        yield return StartCoroutine(TypeSentence());
     }
 
     /// <summary>
     /// Sets and starts typing a new line.
     /// </summary>
-    public void SetDialogueLine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, AudioClip sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls)
+    public void SetDialogueLine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, string sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls)
     {
-        IsActive = true;
-
-        if (type == DialogueType.TextImmersive)
-        {
-            immersiveDialoguePanel.SetActive(true);
-            characterDialoguePanel.SetActive(false);
-            justTextPanel.SetActive(false);
-        }
-        else if(type == DialogueType.CharacterDialogue)
-        {
-            immersiveDialoguePanel.SetActive(false);
-            characterDialoguePanel.SetActive(true);
-            justTextPanel.SetActive(false);
-        }
-        else if(type == DialogueType.JustText)
-        {
-            immersiveDialoguePanel.SetActive(false);
-            characterDialoguePanel.SetActive(false);
-            justTextPanel.SetActive(true);
-        }
-
-        // Set UI elements
-        image.sprite = sprite;
-        nameText.text = speaker;
-
-        foreach(TextMeshProUGUI x in sentenceText)
-        {
-            x.gameObject.SetActive(true);
-            x.text = sentence;
-            x.color = new Color(textCol.r, textCol.g, textCol.b, 1f);
-        }
-
-        _secondsPerChar = typeInterval;
-        _dialogueAudio = sound;
-        _pauseIndices = pauseIndices;
-        _functionCalls = functionCalls;
-
-        // Clear previous text and start typing effect
-        foreach(TextMeshProUGUI x in sentenceText)
-        {
-            x.maxVisibleCharacters = 0;
-        }
-        // sentenceText.maxVisibleCharacters = 0;
-
         StopAllCoroutines();
-        StartCoroutine(TypeSentence());
+        StartCoroutine(SetDialogueCoroutine(sentence, textCol, speaker, sprite, typeInterval, sound, type, pauseIndices, functionCalls));
     }
 
-    // New method to visually hide the dialogue panel content (e.g., reset text/image)
     public void ClearDialoguePanel()
     {
         nameText.text = "";
-
-        foreach(TextMeshProUGUI x in sentenceText)
-        {
-            x.text = "";
-        }
-        // sentenceText.text = "";
-        // You might set the image to a placeholder or transparent sprite here
-        image.sprite = null; 
+        foreach (TextMeshProUGUI x in sentenceText) x.text = "";
+        image.sprite = null;
     }
 
     /// <summary>
@@ -128,12 +128,17 @@ public class DialogueSystem : MonoBehaviour
         IsTyping = true;
         int totalLength = sentenceText[0].text.Length;
         int currentCharIndex = 0;
-        
+
+        _functionCalls
+            .FindAll(x => x.index == -1)
+            .ForEach(x => x.CallFunction(this));
+
         while (currentCharIndex < totalLength)
         {
             // Check for pause at current character index
             int pauseCount = _pauseIndices.Count(i => i == currentCharIndex);
-            if (pauseCount > 0) {
+            if (pauseCount > 0)
+            {
                 float pauseDuration = _secondsPerChar * 3 * pauseCount;
                 yield return new WaitForSecondsRealtime(pauseDuration);
             }
@@ -149,13 +154,9 @@ public class DialogueSystem : MonoBehaviour
             }
             currentCharIndex++;
 
-            // Play sound if available
-            AudioSource sound = gameObject.GetComponent<AudioSource>();
-            if (_dialogueAudio != null && sound != null) {
-                sound.clip = _dialogueAudio;
-                sound.Play();
-            }
-            
+            // Play sound
+            SoundManager.instance.PlaySfx(_dialogueAudio, 0.5f);
+
             // Use WaitForSecondsRealtime since Time.timeScale is 0
             yield return new WaitForSecondsRealtime(_secondsPerChar);
         }
@@ -188,28 +189,32 @@ public class DialogueSystem : MonoBehaviour
         if (!IsActive) return;
 
         skipCooldown += Time.unscaledDeltaTime;
-
-        // Check for player input to continue
-        if (Pressed() && skipCooldown >= 0.2f)
+        
+        if (Pressed() && skipCooldown >= 0.3f)
         {
             skipCooldown = 0;
             ContinueDialogue();
         }
 
-        if(!IsTyping && _currentSequence != null)
+        if (!IsTyping && _currentSequence != null)
         {
+            if(_type == DialogueType.Wait) {
+                ContinueDialogue();
+                return;
+            }
             continueIndicatorCooldown += Time.unscaledDeltaTime;
 
-            targetAlpha = continueIndicatorCooldown >= 0.5f ? 1f : 0f;
-            
+            targetAlpha = continueIndicatorCooldown >= 0.3f ? 1f : 0f;
+
             float smoothTime = 0.07f;
             continueIndicatorAlpha = Mathf.Lerp(continueIndicatorAlpha, targetAlpha, Time.unscaledDeltaTime / smoothTime);
-            
+
             immersiveContinueIndicator.alpha = continueIndicatorAlpha;
             characterContinueIndicator.alpha = continueIndicatorAlpha;
             justTextContinueIndicator.alpha = continueIndicatorAlpha;
-            
-            if(continueIndicatorCooldown >= 1f) {
+
+            if (continueIndicatorCooldown >= 1f)
+            {
                 continueIndicatorCooldown = 0;
             }
         }
@@ -218,31 +223,26 @@ public class DialogueSystem : MonoBehaviour
     public void ContinueDialogue()
     {
         if (!IsActive) return;
-        
+
         if (IsTyping)
         {
             // Skip typing animation
             StopAllCoroutines();
-            
+
             // Call all remaining functions that would have been called during typing
-            int totalLength = sentenceText[0].text.Length;
-            for (int i = sentenceText[0].maxVisibleCharacters; i < totalLength; i++)
-            {
-                _functionCalls
-                    .FindAll(x => x.index == i)
-                    .ForEach(x => x.CallFunction(this));
-            }
-            
+            _functionCalls
+                .FindAll(x => x.index >= sentenceText[0].maxVisibleCharacters)
+                .ForEach(x => x.CallFunction(this));
+
             // Show all text
-            foreach(TextMeshProUGUI x in sentenceText)
-            {
+            foreach (TextMeshProUGUI x in sentenceText) {
                 x.maxVisibleCharacters = x.text.Length;
             }
+            
             IsTyping = false;
         }
         else if (_currentSequence != null)
         {
-            // Typing is done, advance to the next line managed by the ScriptableObject
             immersiveContinueIndicator.alpha = 0;
             characterContinueIndicator.alpha = 0;
             justTextContinueIndicator.alpha = 0;

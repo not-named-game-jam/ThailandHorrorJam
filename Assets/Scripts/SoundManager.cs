@@ -43,6 +43,7 @@ public class SoundManager : MonoBehaviour
     }
 
     public void PlaySfx(string sfxName, float volume = 1f, float pitch = 1f) {
+        if(string.IsNullOrEmpty(sfxName)) return;
         AudioClip clip = Resources.Load<AudioClip>("Sounds/SFX/" + sfxName);
         if (clip == null) {
             Debug.LogError($"SFX not found: {sfxName}");
