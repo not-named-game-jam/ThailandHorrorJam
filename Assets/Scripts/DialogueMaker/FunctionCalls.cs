@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System;
+using SmoothShakeFree;
 
 [System.Serializable]
 public class FunctionCalls
@@ -16,7 +17,8 @@ public class FunctionCalls
         EnableObject,
         DisableObject,
         FadeIn,
-        FadeOut
+        FadeOut,
+        CamShake
     }
 
     public int index;
@@ -78,6 +80,10 @@ public class FunctionCalls
                 if (objToFadeOut == null || objToFadeOut.GetComponent<CanvasGroup>() == null) return;
                 monoBehaviour.StartCoroutine(Fade(objToFadeOut, float.Parse(parameter[1]), 1f, 0f));
                 Debug.Log("Faded out object: " + parameter[0]);
+                break;
+
+            case FunctionType.CamShake:
+                GameObject.FindWithTag("MainCamera").GetComponent<SmoothShake>().StartShake();
                 break;
 
             default:

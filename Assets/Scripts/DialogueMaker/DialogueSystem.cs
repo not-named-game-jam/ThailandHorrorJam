@@ -173,7 +173,7 @@ public class DialogueSystem : MonoBehaviour
     /// </summary>
     public void EndDialogue()
     {
-        Time.timeScale = 1;
+        // Time.timeScale = 1;
         IsActive = false;
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
@@ -262,7 +262,7 @@ public class DialogueSystem : MonoBehaviour
     /// </summary>
     public void SetCurrentSequence(DialogueMaker sequence)
     {
-        Time.timeScale = 0;
+        // Time.timeScale = 0;
         _currentSequence = sequence;
     }
 
