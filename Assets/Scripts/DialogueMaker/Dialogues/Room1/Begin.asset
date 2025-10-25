@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Begin
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: "It\u2019s exactly how I remember it."
+    displayText: "It\u2019s exactly how I remember it."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 2
+      parameter:
+      - MEMORY
+  - text: Really? But it looks so$.$.$.
+    displayText: Really? But it looks so...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 170000001800000019000000
+    functionCalls: []
+  - text: Decrepit $$and worn down? $$Like it hasn't been cleaned in decades?
+    displayText: Decrepit and worn down? Like it hasn't been cleaned in decades?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 09000000090000001800000018000000
+    functionCalls: []
+  - text: I did't know your childhood is this bad Rika. $$I feel bad for you$.$.$.
+    displayText: I did't know your childhood is this bad Rika. I feel bad for you...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2e0000002e000000400000004100000042000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.12
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: What $I $mean $is, $$its layout is exactly like how I remember it.
+    displayText: What I mean is, its layout is exactly like how I remember it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000070000000c0000001000000010000000
+    functionCalls: []
+  - text: I cleaned my room at least twice a day since I was 5. $$My parents even
+      gave me cleaning tools and  a book on how to clean properly.
+    displayText: I cleaned my room at least twice a day since I was 5. My parents
+      even gave me a book on how to clean properly, with a complete set of cleaning
+      tools.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 36000000360000006f0000006f000000
+    functionCalls: []
+  - text: Yikes, $$your parents are so weird. $$Why would any parent make their child
+      do housework at that age?
+    displayText: Yikes, your parents are so weird. Why would any parent make their
+      child do housework at that age?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 07000000070000002200000022000000
+    functionCalls: []
+  - text: If I were you, $$I'd never talk to them again.
+    displayText: If I were you, I'd never talk to them again.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f000000
+    functionCalls: []
+  - text: "Yeah, I wouldn\u2019t either."
+    displayText: "Yeah, I wouldn\u2019t either."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika chuckled.
+    displayText: Rika chuckled.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Her eyes wander around. $$This room brings back lots of memories.
+    displayText: Her eyes wander around. This room brings back lots of memories.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1800000018000000
+    functionCalls: []
+  - text: She changed her room layout completely when she started school, $$so this
+      layout feels nostalgic. $$Some books on the shelf, $$some childish drawings
+      on the wall, $$and$.$.$.$
+    displayText: She changes her room layout completely when she started school,
+      so this layout feels nostalgic. Some books on the shelf, some childish drawings
+      on the wall, and...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 4000000040000000600000006000000079000000790000009d0000009d000000a0000000a1000000a2000000a3000000
+    functionCalls: []
+  - text: A kid?
+    displayText: A kid?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Is that a kid? $$She's so cute!
+    displayText: Is that a kid? She's so cute!
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f000000
+    functionCalls: []
+  - text: Huh, $$What?
+    displayText: Huh, What?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000005000000
+    functionCalls: []
+  - text: The child is on the floor, $$drawing with crayons.
+    displayText: The child is on the floor, drawing with crayons.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1b0000001b000000
+    functionCalls: []
+  - text: "She kinda looks like you$.$.$.$? $$Wait it\u2019s you! $$It\u2019s baby
+      Rika!!"
+    displayText: "She kinda looks like you...? Wait it\u2019s you! It\u2019s baby
+      Rika!!"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 18000000190000001a0000001b0000001d0000001d0000002c0000002c000000
+    functionCalls: []
+  - text: "Maya said with excitement, $$her eyes are all sparkled. $$However, $$the
+      child doesn\u2019t respond"
+    displayText: "Maya said with excitement, her eyes are all sparkled. However,
+      the child doesn\u2019t respond"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1b0000001b00000036000000360000003f0000003f000000
+    functionCalls: []
+  - text: "Huh, she doesn\u2019t seem to hear us though$.$.$. $$She's drawing."
+    displayText: "Huh, she doesn\u2019t seem to hear us though... She's drawing."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2700000028000000290000002b0000002b000000
+    functionCalls: []
+  - text: Did you draw a lot when you were a kid, $$Rika?
+    displayText: Did you draw a lot when you were a kid, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2800000028000000
+    functionCalls: []
+  - text: "It was just a childish drawing though. $$I don\u2019t have any talent
+      in anything, $$really."
+    displayText: "It was just a childish drawing though. I don\u2019t have any talent
+      in anything, really."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 27000000270000004c0000004c000000
+    functionCalls: []
+  - text: Maybe I just want to impress my parents.
+    displayText: Maybe I just want to impress my parents.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: By drawing?
+    displayText: By drawing?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: What else can a child do? $$Compose music? $$Study software architecture?
+      $$Invent a cure for cancer?
+    displayText: What else can a child do? Compose music? Study software architecture?
+      Invent a cure for cancer?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1a0000001a00000029000000290000004600000046000000
+    functionCalls: []
+  - text: "You don\u2019t have to be sarcastic for everything, $$Rika$.$.$."
+    displayText: "You don\u2019t have to be sarcastic for everything, Rika..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2f0000002f000000330000003400000035000000
+    functionCalls: []
+  - text: And, $$are they impressed by your childish drawing?
+    displayText: And, are they impressed by your childish drawing?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000005000000
+    functionCalls: []
+  - text: Nah$.$.$. $$Not at all$.$.$. $$Somehow they can always find something to
+      criticize in my work$.$.$.
+    displayText: "Nah... Not at all... I don\u2019t know if they have any experience
+      with being an art teacher or not, but somehow they can always find something
+      to criticize in my work..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 030000000400000005000000070000000700000011000000120000001300000015000000150000006000000060000000a2000000a3000000a4000000
+    functionCalls: []
+  - text: "Aw$.$.$. $$How cruel$.$.$. $$That can ruin a child\u2019s imagination,
+      $$don\u2019t they know that?"
+    displayText: "Aw... How cruel... That can ruin a child\u2019s imagination, don\u2019t
+      they know that?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 02000000030000000400000006000000060000000f000000100000001100000013000000130000003800000038000000
+    functionCalls: []
+  - text: '                              '
+    displayText: '                              '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.075
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 15
+      functionType: 1
+      parameter:
+      - boom
+  - text: 'The sound of crayon snapping in half makes young Rika shocked. $$The kid
+      started to cry, $$letting a little whimper out, $$but not anything louder. '
+    displayText: 'The sound of crayon snapping in half makes young Rika shocked.
+      The kid started to cry, letting a little whimper out, but not anything louder. '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3f0000003f00000057000000570000007500000075000000
+    functionCalls: []
+  - text: You$.$.$. $$crybaby?
+    displayText: You... crybaby?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0300000004000000050000000700000007000000
+    functionCalls: []
+  - text: "That's not wrong. $$But you're probably the same$.$.$. $$Or are you saying
+      you\u2019ve never been a child before?"
+    displayText: "That's not wrong. But you're probably the same... Or are you saying
+      you\u2019ve never been a child before?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 12000000120000002e0000002f000000300000003200000032000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Anyway, $$you've been doing that since you were a kid, $$huh?
+    displayText: Anyway, you've been doing that since you were a kid, huh?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000080000003500000035000000
+    functionCalls: []
+  - text: Do what?
+    displayText: Do what?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: When you cry, $$you are always so quiet. $$If I was not looking at you
+      I would never know you were crying at all.
+    displayText: When you cry, you are always so quiet. If I was not looking at you
+      I would never know you were crying at all.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0e0000000e0000002700000027000000
+    functionCalls: []
+  - text: .$.$.$$Maybe I did do that.
+    displayText: ...Maybe I did do that.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 01000000020000000300000003000000
+    functionCalls: []
+  - text: I don't want to bother anyone.
+    displayText: I don't want to bother anyone.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: "Well, $$come on, $$let\u2019s find this little Rika some replacement crayons!"
+    displayText: "Well, come on, let\u2019s find this little Rika some replacement
+      crayons!"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000000f0000000f000000
+    functionCalls: []
+  _currentLineIndex: -1

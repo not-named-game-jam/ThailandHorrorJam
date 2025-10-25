@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Pear blossom pot
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: What flower is this? $$Do you know, $$Rika?
+    displayText: What flower is this? Do you know, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 15000000150000002200000022000000
+    functionCalls: []
+  - text: It's Rika.
+    displayText: It's Rika.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$.$.$? $$I know your name. $$Or did I pronounce it wrong?
+    displayText: ...? I know your name. Or did I pronounce it wrong?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 01000000020000000300000005000000050000001700000017000000
+    functionCalls: []
+  - text: No, $$I mean, $$the flower is Rika, $$a pear blossom. $$My parents named
+      me after it.
+    displayText: No, I mean, the flower is Rika, a pear blossom. My parents named
+      me after it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000000c0000000c00000020000000200000003000000030000000
+    functionCalls: []
+  - text: Aww.$.$. $$Naming a daughter after a flower is such an adorable thing to
+      do.$.$.
+    displayText: Aww... Naming a daughter after a flower is such an adorable thing
+      to do...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 040000000500000007000000070000004800000049000000
+    functionCalls: []
+  - text: Involuntarily naming someone after a flower of peace and purity just to
+      have that someone live a life without peace isn't adorable though.$.$.
+    displayText: Involuntarily naming someone after a flower of peace and purity
+      just to have that someone live a life without peace isn't adorable though...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 8a0000008b000000
+    functionCalls: []
+  - text: Sorry to hear that.$.$.
+    displayText: Sorry to hear that...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1300000014000000
+    functionCalls: []
+  - text: Anyway, $$it's already withered. $$Don't linger on dead plants too much.
+    displayText: Anyway, it's already withered. Don't linger on dead plants too much.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000080000001f0000001f000000
+    functionCalls: []
+  _currentLineIndex: -1

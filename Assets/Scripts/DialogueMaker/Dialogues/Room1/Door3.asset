@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Door3
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: '```Placeholder for jumpscare'
+    displayText: Placeholder for jumpscare
+    color: 2
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$.$.Okay, $$I accept that someone may be playing a prank on us.
+    displayText: ...Okay, I accept that someone may be playing a prank on us.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 01000000020000000900000009000000
+    functionCalls: []
+  - text: So, $$who is that someone? $$Do you know?
+    displayText: So, who is that someone? Do you know?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000001900000019000000
+    functionCalls: []
+  - text: I don't. $$Let's leave this room before they get even crazier.
+    displayText: I don't. Let's leave this room before they get even crazier.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0900000009000000
+    functionCalls: []
+  _currentLineIndex: -1

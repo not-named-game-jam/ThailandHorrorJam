@@ -197,7 +197,7 @@ public class DialogueSystem : MonoBehaviour
         
         if (Pressed() && skipCooldown >= 0.3f && !isFading && _type != DialogueType.Wait)
         {
-            skipCooldown = 0;
+            skipCooldown = 0.0f;
             ContinueDialogue();
         }
 

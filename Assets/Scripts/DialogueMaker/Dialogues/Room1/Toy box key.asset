@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Toy box key
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Ah! $$This rusty key is for the toy box. $$I wonder if it still works with
+      all this rust$.$.$.
+    displayText: Ah! This rusty key is for the toy box. I wonder if it still works
+      with all this rust...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000002700000027000000540000005500000056000000
+    functionCalls: []
+  - text: "Rika, $$why is the toy box locked? $$Aren\u2019t you supposed to play
+      with them?"
+    displayText: "Rika, why is the toy box locked? Aren\u2019t you supposed to play
+      with them?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000002100000021000000
+    functionCalls: []
+  - text: I read in a book that by keeping stuff locked up, $$a child can learn to
+      be responsible. $$So I asked my parents for a lockable box.
+    displayText: I read in a book that by keeping stuff locked up, a child can learn
+      to be responsible. So I asked my parents for a lockable box.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 32000000320000005700000057000000
+    functionCalls: []
+  - text: You mean$.$.$. $$the child Rika read a book about how to raise a child,
+      $then try to follow it to raise yourself? $$Why$.$.$.$?
+    displayText: You mean... the child Rika read a book about how to raise a child,
+      then try to follow it to raise yourself? Why...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000090000000a0000000c0000000c000000430000006c0000006c0000006f000000700000007100000072000000
+    functionCalls: []
+  - text: Who knows? $$I don't even understand myself.
+    displayText: Who knows? I don't even understand myself.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b000000
+    functionCalls: []
+  _currentLineIndex: -1

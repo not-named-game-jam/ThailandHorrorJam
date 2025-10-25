@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: After giving crayons
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Finally.$.$. $$She stopped crying.
+    displayText: Finally... She stopped crying.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000090000000b0000000b000000
+    functionCalls: []
+  - text: '                                                        '
+    displayText: '                                                        '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Look. $$Her hands move again. $$She's drawing.
+    displayText: Look. Her hands move again. She's drawing.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000001c0000001c000000
+    functionCalls: []
+  - text: And she will probably keep drawing for a long long time.
+    displayText: And she will probably keep drawing for a long long time. Until the
+      day her age reaches the range applicable by the compulsory education law, where
+      I'm forced to go out.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 39000000390000008d0000008d000000
+    functionCalls: []
+  - text: Until the day her age reaches the range applicable by the compulsory education
+      law, $$where I'm forced to go out.
+    displayText: And she will probably keep drawing for a long long time. Until the
+      day her age reaches the range applicable by the compulsory education law, where
+      I'm forced to go out.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 39000000390000008d0000008d000000
+    functionCalls: []
+  - text: Why can't you just say until she starts going to school?
+    displayText: Why can't you just say until she starts going to school?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                                '
+    displayText: '                                                                '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - boom
+  - text: Ah.$.$. $$Anyway, $$it seems like the door has unlocked. $$Let's go to
+      the next room.
+    displayText: Ah... Anyway, it seems like the door has unlocked. Let's go to the
+      next room.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 030000000400000006000000060000000e0000000e0000003300000033000000
+    functionCalls: []
+  _currentLineIndex: -1

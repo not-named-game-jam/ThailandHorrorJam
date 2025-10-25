@@ -16,7 +16,7 @@ public class DialogueLine
     public TextColor color = TextColor.White;
     public Sprite characterSprite;
     [Range(0.01f, 0.12f)]
-    public float typeInterval = 0.05f;
+    public float typeInterval = 0.036f;
 
     [HideInInspector] public DialogueType dialogueType = DialogueType.CharacterDialogue;
     [HideInInspector] public string typeSound;
