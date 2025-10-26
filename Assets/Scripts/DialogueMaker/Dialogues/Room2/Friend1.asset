@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Friend1
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Your elementary school friend! $$So cute!
+    displayText: Your elementary school friend! So cute!
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$.$.$$She sabotaged my artwork though.
+    displayText: ...She sabotaged my artwork though.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Eh? $$How? $$Why?
+    displayText: Eh? How? Why?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000000900000009000000
+    functionCalls: []
+  - text: In art class, $$she always complimented me and asked me to teach her art.
+    displayText: In art class, she always complimented me and asked me to teach her
+      art.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0e0000000e000000
+    functionCalls: []
+  - text: Oh? $$And then?
+    displayText: Oh? And then?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000004000000
+    functionCalls: []
+  - text: She has a talent that I don't have. $$In just 2 months, $$she surpassed
+      me completely.
+    displayText: She has a talent that I don't have. In just 2 months, she surpassed
+      me completely.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 24000000240000003600000036000000
+    functionCalls: []
+  - text: That must be hard on you.$.$.
+    displayText: That must be hard on you...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 190000001a000000
+    functionCalls: []
+  - text: And then after that, $$she intentionally enters every competition I entered
+      and eventually takes the top places away from me.
+    displayText: And then after that, she intentionally enters every competition
+      I entered and eventually takes the top places away from me. And somehow, she
+      tries to console me for my lack of skills... How irritating...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 15000000150000007c0000007c0000008900000089000000b7000000b8000000ba000000ba000000c9000000ca000000
+    functionCalls: []
+  - text: And somehow, $$she tries to console me for my lack of skills.$.$. $$How
+      irritating.$.$.
+    displayText: And then after that, she intentionally enters every competition
+      I entered and eventually takes the top places away from me. And somehow, she
+      tries to console me for my lack of skills... How irritating...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 15000000150000007c0000007c0000008900000089000000b7000000b8000000ba000000ba000000c9000000ca000000
+    functionCalls: []
+  - text: Rika.$.$.
+    displayText: Rika...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000006000000
+    functionCalls: []
+  - text: The teacher definitely knew it, $$but they never did anything. $$And in
+      the end, $$we moved on to separate middle school.
+    displayText: The teacher definitely knew it, but they never did anything. In
+      the end, we moved on to separate middle school. I haven't seen her in years
+      now. This picture is her last gift to me before we went our separate ways.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 20000000200000003d0000003d000000490000004900000070000000700000009100000091000000
+    functionCalls: []
+  - text: I haven't seen her in years now. $$This picture is her last gift to me
+      before we went our separate ways.
+    displayText: The teacher definitely knew it, but they never did anything. In
+      the end, we moved on to separate middle school. I haven't seen her in years
+      now. This picture is her last gift to me before we went our separate ways.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 20000000200000003d0000003d000000490000004900000070000000700000009100000091000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Anyway, $$I got the jigsaw already. $$Let's go.
+    displayText: Anyway, I got the jigsaw already. Let's go.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000080000002200000022000000
+    functionCalls: []
+  _currentLineIndex: -1

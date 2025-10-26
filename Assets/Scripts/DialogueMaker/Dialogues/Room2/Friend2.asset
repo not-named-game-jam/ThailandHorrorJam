@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Friend2
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Is this one of your friends at school?
+    displayText: Is this one of your friends at school?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Yes.$.$. $$She was weird though. $$I'm quite uncomfortable with her around.
+    displayText: Yes... She was weird though. I'm quite uncomfortable with her around.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 040000000500000007000000070000001d0000001d000000
+    functionCalls: []
+  - text: How? $$She doesn't look weird in this picture?
+    displayText: How? She doesn't look weird in this picture?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000005000000
+    functionCalls: []
+  - text: One day, $$I was eating, $$and she and her friend group just decided they
+      would talk to me. $$And so they sit down opposite of me and start talking.
+    displayText: One day, I was eating, and she and her friend group just decided
+      they would talk to me. And so they sit down opposite of me and start talking.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 090000000900000017000000170000005800000058000000
+    functionCalls: []
+  - text: And you don't want to talk to her group, $$Rika?
+    displayText: And you don't want to talk to her group, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2900000029000000
+    functionCalls: []
+  - text: Don't think of me like that. $$I don't have social anxiety, $$you know?
+      $$It's just like.$.$. $$she's harassing me.
+    displayText: Don't think of me like that. I don't have social anxiety, you know?
+      It's just like... she's harassing me.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1d0000001d0000003a0000003a000000440000004400000053000000540000005600000056000000
+    functionCalls: []
+  - text: Harassing? $$That much? $$Au.$.$. $$You've no luck in finding friends,
+      $$huh?
+    displayText: Harassing? That much? Au... You've no luck in finding friends, huh?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b0000001600000016000000190000001a0000001c0000001c0000003f0000003f000000
+    functionCalls: []
+  - text: Who in the world starts a conversation with a dirty joke? $$And why are
+      they so insistent on asking me whether I have a crush on someone or not?
+    displayText: Who in the world starts a conversation with a dirty joke? And why
+      are they so insistent on asking me whether I have a crush on someone or not?
+      And to make it worse, the group pressure discourages me from walking out of
+      it too.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3a0000003a0000008f0000008f000000a5000000a5000000
+    functionCalls: []
+  - text: And to make it worse, $$the group pressure discourages me from walking
+      out of it too.
+    displayText: Who in the world starts a conversation with a dirty joke? And why
+      are they so insistent on asking me whether I have a crush on someone or not?
+      And to make it worse, the group pressure discourages me from walking out of
+      it too.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3a0000003a0000008f0000008f000000a5000000a5000000
+    functionCalls: []
+  - text: That's like.$.$. $$a new form of sexual harassment.$.$.?
+    displayText: That's like... a new form of sexual harassment...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0c0000000d0000000f0000000f0000002f00000030000000
+    functionCalls: []
+  - text: You can call it whatever you want, $$but almost everyone in school is like
+      that, $$and it makes my life unhappy.
+    displayText: You can call it whatever you want, but almost everyone in school
+      is like that, and it makes my life unhappy. But anyway, I found a jigsaw behind
+      the portrait here. Let's go.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 23000000230000004f0000004f0000006d0000006d0000007900000079000000a4000000a4000000
+    functionCalls: []
+  - text: But anyway, $$I found a jigsaw behind the portrait here. $$Let's go.
+    displayText: You can call it whatever you want, but almost everyone in school
+      is like that, and it makes my life unhappy. But anyway, I found a jigsaw behind
+      the portrait here. Let's go.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 23000000230000004f0000004f0000006d0000006d0000007900000079000000a4000000a4000000
+    functionCalls: []
+  _currentLineIndex: -1

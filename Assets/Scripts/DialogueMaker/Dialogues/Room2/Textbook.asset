@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Textbook
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Oh! Oh! A textbook! What are you studying at elementary school? $$I want
+      to know.
+    displayText: Oh! Oh! A textbook! What are you studying at elementary school?
+      I want to know.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 4000000040000000
+    functionCalls: []
+  - text: This one is Japanese. $$Do you want to do kanji practice or something?
+    displayText: This one is Japanese. Do you want to do kanji practice or something?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1600000016000000
+    functionCalls: []
+  - text: Ouch.$.$. $$I don't want to do it.$.$.
+    displayText: Ouch... I don't want to do it...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 050000000600000008000000080000001e0000001f000000
+    functionCalls: []
+  - text: You're this old and you're telling me you can't read kanji? $$Come on,
+      $$what does.$.$.
+    displayText: You're this old and you're telling me you can't read kanji? Come
+      on, what does...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3c0000003c00000045000000450000004f00000050000000
+    functionCalls: []
+  - text: "What does \u663C means?"
+    displayText: "What does \u663C means?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                       '
+    displayText: "What does \u663C means?"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 20
+      functionType: 1
+      parameter:
+      - boom
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Oh, $$there's a jigsaw in this kanji textbook.
+    displayText: Oh, there's a jigsaw in this kanji textbook.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000004000000
+    functionCalls: []
+  - text: "Great, $$but.$.$. $$What does \u663C mean though.$.$."
+    displayText: "Great, but... What does \u663C mean though..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 07000000070000000b0000000c0000000e0000000e0000002600000027000000
+    functionCalls: []
+  - text: It means.$.$. $$Uh.$.$.
+    displayText: It means... Uh...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 090000000a0000000c0000000c0000000f00000010000000
+    functionCalls: []
+  - text: Rika, $$are you telling me you can't read kanji after teasing me like that?
+    displayText: Rika, are you telling me you can't read kanji after teasing me like
+      that?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0600000006000000
+    functionCalls: []
+  - text: No no. $$That kanji reads 'Hiru' and it means day. $$I know it. $$But it's
+      like.$.$. $$weird.$.$. $$Like something's missing.$.$.
+    displayText: No no. That kanji reads 'Hiru' and it means day. I know it. But
+      it's like... weird... Like something's missing...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 070000000700000031000000310000003c0000003c0000004a0000004b0000004d0000004d000000530000005400000056000000560000006f00000070000000
+    functionCalls: []
+  - text: Oh, $$it's that one.
+    displayText: Oh, it's that one.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000004000000
+    functionCalls: []
+  - text: Anyway, $$let's not waste more time and continue the puzzle.
+    displayText: Anyway, let's not waste more time and continue the puzzle.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0800000008000000
+    functionCalls: []
+  _currentLineIndex: -1

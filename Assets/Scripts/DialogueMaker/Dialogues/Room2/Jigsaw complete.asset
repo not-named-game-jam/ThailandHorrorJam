@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Jigsaw complete
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: It's finished.$.$.
+    displayText: It's finished...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0e0000000f000000
+    functionCalls: []
+  - text: What will happen now.$.$.?
+    displayText: What will happen now...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1500000016000000
+    functionCalls: []
+  - text: '                                                                             '
+    displayText: What will happen now...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1500000016000000
+    functionCalls:
+    - index: 20
+      functionType: 1
+      parameter:
+      - amogus
+  - text: .$.$.?
+    displayText: ...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Of course, $$a school hallway. $$The place everyone loves.
+    displayText: Of course, a school hallway. The place everyone loves.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b0000001d0000001d000000
+    functionCalls: []
+  - text: .$.$.?
+    displayText: ...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.045
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Maya, $$don't you love the place called hallway? $$A place where you can
+      do fun things, $$like.$.$. $$walking.$.$. $$and, $$uh, $$waiting.$.$. $$And
+      also.$.$. $$greeting teacher.$.$.?
+    displayText: Maya, don't you love the place called hallway? A place where you
+      can do fun things, like... walking... and, uh, waiting... And also... greeting
+      teacher...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000002f0000002f0000005400000054000000590000005a0000005c0000005c000000640000006500000067000000670000006c0000006c000000700000007000000078000000790000007b0000007b000000840000008500000087000000870000009800000099000000
+    functionCalls: []
+  - text: You're acting weird, $$Rika.
+    displayText: You're acting weird, Rika.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1500000015000000
+    functionCalls: []
+  - text: I-I.$.$. $$I just feel kind of uneasy.$.$. $$It doesn't make sense here
+      though. $$This hallway looks less scary than this room. $$Why.$.$.
+    displayText: I-I... I just feel kind of uneasy... It doesn't make sense here
+      though. This hallway looks less scary than this room. Why...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a32fafbf821b6c84ca74a356f7b9b009, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000070000000700000022000000230000002500000025000000480000004800000076000000760000007a0000007b000000
+    functionCalls: []
+  - text: Rika.$.$.
+    displayText: Rika...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000006000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: Don't worry. I'm fine... Let's go.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0d0000000d00000016000000170000001900000019000000
+    functionCalls: []
+  - text: Don't worry. $$I'm fine.$.$. $$Let's go.
+    displayText: Don't worry. I'm fine... Let's go.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0d0000000d00000016000000170000001900000019000000
+    functionCalls: []
+  _currentLineIndex: -1
