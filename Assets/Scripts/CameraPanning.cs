@@ -9,7 +9,7 @@ public class CameraPanning : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera cam;
     [SerializeField] public float cameraSpeed = 100f;
-    private float cameraDeadzone = 10.005f;
+    private float cameraDeadzone = 5.005f;
     void Start()
     {
 
