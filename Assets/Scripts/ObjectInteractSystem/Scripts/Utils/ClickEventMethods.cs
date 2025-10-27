@@ -99,8 +99,6 @@ public class ClickEventMethods : MonoBehaviour
             case ClickEventType.Popup:
                 if (gameObject.activeSelf) return;
                 gameObject.SetActive(true);
-                //animator.Play(PopupHash);
-                //animator.SetBool("isPoppingUp", true);
                 break;
 
             case ClickEventType.CloseEvent:
