@@ -12,5 +12,106 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
   m_Name: Puzzle_1_Before
   m_EditorClassIdentifier: 
-  dialogueSequence: []
+  dialogueSequence:
+  - text: Wa -$$$$ What happened?
+    displayText: Wa - What happened?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000000400000004000000
+    functionCalls: []
+  - text: Hey, $$you're finally up,
+    displayText: Hey, you're finally up,
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000005000000
+    functionCalls: []
+  - text: You passed out. $$$$I cleared the last room for you. $$$$Want to talk about
+      what happened?
+    displayText: You passed out. I cleared the last room for you. Want to talk about
+      what happened?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1000000010000000100000001000000031000000310000003100000031000000
+    functionCalls: []
+  - text: No.
+    displayText: No.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Ok.
+    displayText: Ok.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: $.$.$.$
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000010000000200000003000000
+    functionCalls: []
+  - text: $.$.$.$
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000010000000200000003000000
+    functionCalls: []
+  - text: $.$.$.$
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 00000000010000000200000003000000
+    functionCalls: []
+  - text: "It\u2019s fine\u2026$$$$$$$ You can take your time. "
+    displayText: "It\u2019s fine\u2026 You can take your time. "
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a0000000a0000000a0000000a0000000a0000000a000000
+    functionCalls: []
   _currentLineIndex: -1

@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PuzzleTriggers : MonoBehaviour
+public class PuzzleChecker1 : MonoBehaviour
 {
     [SerializeField] DialogueMaker screech;
     [SerializeField] DialogueMaker puzzle1Failure;
     [SerializeField] DialogueMaker puzzle1Solved;
+    [SerializeField] GameObject circleMarker;
     [SerializeField] GameObject[] scribbles;
     [SerializeField] GameObject[] dateButtons;
-    [SerializeField] GameObject circleMarker;
-    [SerializeField] Clock clock;
 
     public int failcount;
 
@@ -20,7 +19,8 @@ public class PuzzleTriggers : MonoBehaviour
         failcount = 0;
     }
 
-    public void Puzzle1Wrong()
+
+    public void Puzzle1Wrong(int index)
     {
         if (!circleMarker.activeSelf) circleMarker.SetActive(true);
         failcount++;
@@ -31,7 +31,7 @@ public class PuzzleTriggers : MonoBehaviour
             screech.StartDialogue();
             // Shows scribbling for each failure.
             scribbles[failcount - 1].SetActive(!scribbles[failcount - 1].activeSelf);
-            circleMarker.transform.position = dateButtons[failcount - 1].transform.position;
+            circleMarker.transform.position = dateButtons[index].transform.position;
             if (failcount == 3)
             {
                 // Two girls yap about their predicament.
@@ -39,8 +39,8 @@ public class PuzzleTriggers : MonoBehaviour
             }
         }
     }
-    
-    public void Puzzle1Correct()
+
+    public void Puzzle1Correct(int index)
     {
         if (!circleMarker.activeSelf) circleMarker.SetActive(true);
         Debug.Log("Correct");
@@ -52,13 +52,8 @@ public class PuzzleTriggers : MonoBehaviour
                 button.SetActive(false);
             }
         }
-        circleMarker.transform.position = dateButtons[dateButtons.Length - 1].transform.position;
+        circleMarker.transform.position = dateButtons[index].transform.position;
+
         puzzle1Solved.StartDialogue();
-    }
-    
-    public void TriggerPuzzle3()
-    {
-        clock.StopAtTime(09, 35);
-        // TBA
     }
 }

@@ -18,7 +18,7 @@ public class Clock : MonoBehaviour
     float minuteAngle;
     float hourAngle;
     
-    void Awake()
+    void Start()
     {
         totalSecondsElapsed = 0;
         minuteAngle = 0;
@@ -38,6 +38,7 @@ public class Clock : MonoBehaviour
                 totalSecondsElapsed = targetSeconds;
                 isStopping = false;
                 stopped = true;
+                Debug.Log("The clock has come to a stop.");
             }
         }
         else if (stopped)
