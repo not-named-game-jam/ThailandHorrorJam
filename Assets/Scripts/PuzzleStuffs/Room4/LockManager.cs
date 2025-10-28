@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class LockManager : MonoBehaviour
 {
+    [SerializeField] DialogueMaker invalid;
     [SerializeField] DialogueMaker unlocked;
     [SerializeField] TextMeshProUGUI displayPIN;
 
@@ -32,7 +33,7 @@ public class LockManager : MonoBehaviour
         else
         {
             Debug.Log("Invalid PIN Length, Try Again!\n");
-            SoundManager.instance.PlaySfx("lockInvalid");
+            invalid.StartDialogue();
         }
         Debug.Log(code);
     }
@@ -42,7 +43,7 @@ public class LockManager : MonoBehaviour
         if (string.IsNullOrEmpty(code) || code.Length != 4)
         {
             Debug.Log("Invalid PIN Length, Try Again!\n");
-            SoundManager.instance.PlaySfx("lockInvalid");
+            invalid.StartDialogue();
         }
         else if (code == answer)
         {
@@ -52,7 +53,7 @@ public class LockManager : MonoBehaviour
         else
         {
             Debug.Log("Incorrect!\n");
-            SoundManager.instance.PlaySfx("lockInvalid");
+            invalid.StartDialogue();
         }
     }
 }

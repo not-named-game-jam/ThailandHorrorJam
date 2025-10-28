@@ -13,31 +13,61 @@ MonoBehaviour:
   m_Name: Puzzle_1_Solved
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: It's- $$$ It's not like I wanted you to choose$$$ ME or anything, $$$$baka~!
-    displayText: It's-  It's not like I wanted you to choose ME or anything, baka~!
+  - text: "Phew\u2026$$$$$ That\u2019s quite confusing."
+    displayText: "Phew\u2026 That\u2019s quite confusing."
     color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.02
-    dialogueType: 2
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0600000006000000060000002b0000002b0000002b0000003c0000003c0000003c0000003c000000
+    pauseIndex: 0500000005000000050000000500000005000000
     functionCalls:
     - index: 0
       functionType: 1
       parameter:
-      - amogus
-  - text: ' '
-    displayText: ' '
+      - lockValid
+  - text: $$$.$.$.
+    displayText: ...
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.02
-    dialogueType: 3
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0000000000000000000000000100000002000000
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - Puzzle1
+  - text: Rika?
+    displayText: Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.02
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - Puzzle1
+  - text: $$$$Friday$$.$$.$$.$$?
+    displayText: Friday...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.02
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000000000000000000000000000600000006000000070000000700000008000000080000000900000009000000
     functionCalls:
     - index: 0
       functionType: 5

@@ -13,34 +13,87 @@ MonoBehaviour:
   m_Name: Puzzle_2_Solved
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: '```$$$$6$$$$7 $$$$$$$$Mango $$$$$$$$Mustard'
-    displayText: 67 Mango Mustard
+  - text: "That flower is so beautiful. $$$$ Why would someone break it like that,
+      $$$ even if it\u2019s in a dream$$.$.$.$"
+    displayText: "That flower is so beautiful.  Why would someone break it like that, 
+      even if it\u2019s in a dream..."
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 000000000000000000000000000000000100000001000000010000000100000003000000030000000300000003000000030000000300000003000000030000000900000009000000090000000900000009000000090000000900000009000000
-    functionCalls:
-    - index: 0
-      functionType: 1
-      parameter:
-      - emotional
-  - text: ' '
-    displayText: ' '
-    color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.02
-    dialogueType: 3
-    typeSound: speak
-    characterName: 
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1d0000001d0000001d0000001d0000004400000044000000440000005c0000005c0000005d0000005e0000005f000000
     functionCalls:
     - index: 0
       functionType: 5
       parameter:
       - Puzzle2
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: Rika?
+    displayText: Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: Yes.
+    displayText: Yes.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
   _currentLineIndex: -1

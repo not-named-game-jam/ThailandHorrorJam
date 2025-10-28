@@ -11,7 +11,7 @@ public class Clock : MonoBehaviour
     const float hourDegree = 30f;
     public float spinrate = 600f;
     public float stopLerpSpeed = 120f;
-    bool stopped;
+    public bool stopped;
     bool isStopping;
     float totalSecondsElapsed;
     float targetSeconds;
@@ -21,6 +21,7 @@ public class Clock : MonoBehaviour
     void Start()
     {
         totalSecondsElapsed = 0;
+        targetSeconds = 0;
         minuteAngle = 0;
         hourAngle = 0;
         stopped = false;
@@ -33,7 +34,7 @@ public class Clock : MonoBehaviour
         {
             totalSecondsElapsed = Mathf.Lerp(totalSecondsElapsed, targetSeconds, Time.deltaTime * stopLerpSpeed);
 
-            if (Mathf.Abs(targetSeconds - totalSecondsElapsed) < 0.1f)
+            if (Mathf.Abs(targetSeconds - totalSecondsElapsed) < 75f)
             {
                 totalSecondsElapsed = targetSeconds;
                 isStopping = false;

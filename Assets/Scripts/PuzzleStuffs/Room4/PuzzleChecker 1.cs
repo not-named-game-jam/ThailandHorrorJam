@@ -35,6 +35,7 @@ public class PuzzleChecker1 : MonoBehaviour
             if (failcount == 3)
             {
                 // Two girls yap about their predicament.
+                screech.StartDialogue();
                 puzzle1Failure.StartDialogue();
             }
         }
