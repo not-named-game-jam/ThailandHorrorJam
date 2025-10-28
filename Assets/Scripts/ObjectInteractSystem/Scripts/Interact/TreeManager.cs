@@ -30,6 +30,7 @@ public class TreeManager : MonoBehaviour
     }
     public void IncrementClick() // Called by button 
     {
+        if (hasSpawnPaper) return;
         clickedAmount++;
 
         CheckState(clickedAmount);
@@ -59,6 +60,7 @@ public class TreeManager : MonoBehaviour
     
     private IEnumerator SpawnPaperCoroutine()
     {
+        hasSpawnPaper = true;
         GameObject prefab = Instantiate(
             paperPrefab,
             parent: this.transform.parent,
