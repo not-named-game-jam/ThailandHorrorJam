@@ -50,7 +50,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 09000000090000001800000018000000
     functionCalls: []
-  - text: I did't know your childhood is this bad Rika. $$I feel bad for you$.$.$.
+  - text: I didn't know your childhood is this bad Rika. $$I feel bad for you$.$.$.
     displayText: I did't know your childhood is this bad Rika. I feel bad for you...
     color: 0
     characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
@@ -86,8 +86,7 @@ MonoBehaviour:
   - text: I cleaned my room at least twice a day since I was 5. $$My parents even
       gave me cleaning tools and  a book on how to clean properly.
     displayText: I cleaned my room at least twice a day since I was 5. My parents
-      even gave me a book on how to clean properly, with a complete set of cleaning
-      tools.
+      even gave me cleaning tools and  a book on how to clean properly.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -95,7 +94,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 36000000360000006f0000006f000000
+    pauseIndex: 3600000036000000
     functionCalls: []
   - text: Yikes, $$your parents are so weird. $$Why would any parent make their child
       do housework at that age?
@@ -157,7 +156,7 @@ MonoBehaviour:
   - text: She changed her room layout completely when she started school, $$so this
       layout feels nostalgic. $$Some books on the shelf, $$some childish drawings
       on the wall, $$and$.$.$.$
-    displayText: She changes her room layout completely when she started school,
+    displayText: She changed her room layout completely when she started school,
       so this layout feels nostalgic. Some books on the shelf, some childish drawings
       on the wall, and...
     color: 0
@@ -333,9 +332,8 @@ MonoBehaviour:
     functionCalls: []
   - text: Nah$.$.$. $$Not at all$.$.$. $$Somehow they can always find something to
       criticize in my work$.$.$.
-    displayText: "Nah... Not at all... I don\u2019t know if they have any experience
-      with being an art teacher or not, but somehow they can always find something
-      to criticize in my work..."
+    displayText: Nah... Not at all... Somehow they can always find something to criticize
+      in my work...
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.036
@@ -343,7 +341,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 030000000400000005000000070000000700000011000000120000001300000015000000150000006000000060000000a2000000a3000000a4000000
+    pauseIndex: 03000000040000000500000007000000070000001100000012000000130000001500000015000000530000005400000055000000
     functionCalls: []
   - text: "Aw$.$.$. $$How cruel$.$.$. $$That can ruin a child\u2019s imagination,
       $$don\u2019t they know that?"
@@ -501,4 +499,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 06000000060000000f0000000f000000
     functionCalls: []
-  _currentLineIndex: -1
+  _currentLineIndex: 14

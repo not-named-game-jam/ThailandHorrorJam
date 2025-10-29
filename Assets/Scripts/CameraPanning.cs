@@ -9,14 +9,27 @@ public class CameraPanning : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera cam;
     [SerializeField] public float cameraSpeed = 100f;
-    private float cameraDeadzone = 10.005f;
+    [SerializeField] public DialogueSystem isDialogueActive;
+    public bool stopCamWhenDialogue;
+    private float savedcameraSpeed;
+    private float cameraDeadzone = 5.005f;
     void Start()
     {
-
+        savedcameraSpeed = cameraSpeed;
     }
 
     void Update()
     {
+        if (isDialogueActive != null && isDialogueActive.IsActive && stopCamWhenDialogue)
+        {
+            cameraSpeed = 0;
+        }
+
+        else
+        {
+            cameraSpeed = savedcameraSpeed;
+        }
+        
         Vector3 mousePosi = Input.mousePosition;
         mousePosi.z = cameraDeadzone - 0.005f;
         Vector3 toWorldmousePosi = cam.ScreenToWorldPoint(mousePosi);
@@ -26,6 +39,7 @@ public class CameraPanning : MonoBehaviour
         {
             rb.MovePosition(newPosi);
         }
+    
     }
 }
 
