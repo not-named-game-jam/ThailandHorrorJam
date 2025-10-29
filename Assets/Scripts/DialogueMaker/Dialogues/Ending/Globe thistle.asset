@@ -1,0 +1,703 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Globe thistle
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: '```"I choose to live."'
+    displayText: '"I choose to live."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Maya said it first, $$but Rika's soft voice came a fraction of a second
+      later. $$They made the same choice.
+    displayText: Maya said it first, but Rika's soft voice came a fraction of a second
+      later. They made the same choice.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 14000000140000004d0000004d000000
+    functionCalls: []
+  - text: I.$.$.I cannot forgive anyone. $$Not me. $$Not them.
+    displayText: I...I cannot forgive anyone. Not me. Not them.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 02000000030000001d0000001d0000002500000025000000
+    functionCalls: []
+  - text: You don't have to.
+    displayText: You don't have to.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: The world breaks me and everyone else. $$And it will keep breaking us until
+      we have nothing left.
+    displayText: The world breaks me and everyone else. And it will keep breaking
+      us until we have nothing left.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2700000027000000
+    functionCalls: []
+  - text: It probably will.
+    displayText: It probably will.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Nothing will get better. $$People of the past had hoped, $$but those hopes
+      never came true.
+    displayText: Nothing will get better. People of the past had hoped, but those
+      hopes never came true.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 708777bab44cd2f45b2812ba56f77be9, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 19000000190000003700000037000000
+    functionCalls: []
+  - text: Even if an old kind of pain stops, $$a new pain will always come.
+    displayText: Even if an old kind of pain stops, a new pain will always come.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2300000023000000
+    functionCalls: []
+  - text: Then.$.$.Why do we choose to live, $$Maya?
+    displayText: Then...Why do we choose to live, Maya?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000060000002100000021000000
+    functionCalls: []
+  - text: It's because we despise this world.
+    displayText: It's because we despise this world.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Life is painful. $$Nothing goes as expected.
+    displayText: Life is painful. Nothing goes as expected.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1100000011000000
+    functionCalls: []
+  - text: But Rika has survived for more than 2 decades, $$living, $$breathing in
+      the air of this ugly world.
+    displayText: But Rika has survived for more than 2 decades, living, breathing
+      in the air of this ugly world.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2f0000002f0000003700000037000000
+    functionCalls: []
+  - text: She has lived this long out of spite. $$Why stop now?
+    displayText: She has lived this long out of spite. Why stop now?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2600000026000000
+    functionCalls: []
+  - text: Rika looked at the weathered down door, $$at the globe thistles growing
+      through the cracks.
+    displayText: Rika looked at the weathered down door, at the globe thistles growing
+      through the cracks.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2800000028000000
+    functionCalls: []
+  - text: That flower's so ugly.
+    displayText: That flower's so ugly.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: I hate it.
+    displayText: I hate it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Me too.
+    displayText: Me too.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$.$.Let's go.
+    displayText: ...Let's go.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: They walked towards the door. $$This is the final choice they made by themselves,
+      $$and the only choice that will satisfy her.
+    displayText: They walked towards the door. This is the final choice they made
+      by themselves, and the only choice that will satisfy her.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e0000005000000050000000
+    functionCalls: []
+  - text: The door doesn't open easily. $$Rika pulled hard against the rusty chain
+      to force it open.
+    displayText: The door doesn't open easily. Rika pulled hard against the rusty
+      chain to force it open.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e000000
+    functionCalls: []
+  - text: The chain made a loud screech as it snapped.
+    displayText: The chain made a loud screech as it snapped.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika and Maya slowly fused into one, $$and.$.$.
+    displayText: Rika and Maya slowly fused into one, and...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2500000025000000290000002a000000
+    functionCalls: []
+  - text: '                                                                                      '
+    displayText: '                                                                                      '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 3
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - amogus
+  - text: A steady beat. Beep Beep Beep
+    displayText: A steady beat. Beep Beep Beep
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Temperature: 36.4 \xB0C"
+    displayText: "Temperature: 36.4 \xB0C"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Heartrate: 86 bpm'
+    displayText: 'Heartrate: 86 bpm'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Oxygen: 98%'
+    displayText: 'Oxygen: 98%'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Blood pressure: 110/68 mmHg'
+    displayText: 'Blood pressure: 110/68 mmHg'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Respiratory rate: 16 breaths per minute'
+    displayText: 'Respiratory rate: 16 breaths per minute'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika's fingers twitch against a cold and rough bed sheet.
+    displayText: Rika's fingers twitch against a cold and rough bed sheet.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: The hospital's sanitized smell is as strong as ever. $$Rika doesn't like
+      it.
+    displayText: The hospital's sanitized smell is as strong as ever. Rika doesn't
+      like it.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3500000035000000
+    functionCalls: []
+  - text: She doesn't like much of anything, $$really.
+    displayText: She doesn't like much of anything, really.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2300000023000000
+    functionCalls: []
+  - text: Agh.$.$.This smell makes me want to vomit.$.$.
+    displayText: Agh...This smell makes me want to vomit...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000050000002800000029000000
+    functionCalls: []
+  - text: '"Rika.$.$."'
+    displayText: '"Rika..."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 0600000007000000
+    functionCalls: []
+  - text: Rika looked at the source of the voice. $$It was her mother.
+    displayText: Rika looked at the source of the voice. It was her mother.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2800000028000000
+    functionCalls: []
+  - text: I hate you.$.$.
+    displayText: I hate you...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000c000000
+    functionCalls: []
+  - text: '"That''s the first thing you say after you wake up, $$huh? $$Am I that
+      bad of a mother?"'
+    displayText: '"That''s the first thing you say after you wake up, huh? Am I that
+      bad of a mother?"'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 33000000330000003800000038000000
+    functionCalls: []
+  - text: Her smile shows only sorrow.
+    displayText: Her smile shows only sorrow.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Yes, $$you are.
+    displayText: Yes, you are.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000005000000
+    functionCalls: []
+  - text: '".$.$.I''m sorry."'
+    displayText: '"...I''m sorry."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 0200000003000000
+    functionCalls: []
+  - text: It's fine, $$I understand now. $$But I don't forgive you though.
+    displayText: It's fine, I understand now. But I don't forgive you though.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b0000001d0000001d000000
+    functionCalls: []
+  - text: '"Okay.$.$."'
+    displayText: '"Okay..."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 0600000007000000
+    functionCalls: []
+  - text: '".$.$."'
+    displayText: '"..."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 0200000003000000
+    functionCalls: []
+  - text: '"This might not be the right time.$.$.., $$but here''s a gift from your
+      friend. $$I should have given it to you a long time ago, $$but I never had
+      the chance."'
+    displayText: '"This might not be the right time...., but here''s a gift from
+      your friend. I should have given it to you a long time ago, but I never had
+      the chance."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 220000002300000027000000270000004b0000004b0000007a0000007a000000
+    functionCalls: []
+  - text: The mother passed a small box to Rika. $$There is a note attached to it,
+      $$written in Mahiru's handwriting.
+    displayText: The mother passed a small box to Rika. There is a note attached
+      to it, written in Mahiru's handwriting.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 27000000270000004700000047000000
+    functionCalls: []
+  - text: The note reads, "You're nice. $$Everyone wants to be friends with you.
+      $$Let's have fun together with them in the future!"
+    displayText: The note reads, "You're nice. Everyone wants to be friends with
+      you. Let's have fun together with them in the future!"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e0000004500000045000000
+    functionCalls: []
+  - text: Inside, $$there is a flower. $$A globe thistle.
+    displayText: Inside, there is a flower. A globe thistle.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000080000001b0000001b000000
+    functionCalls: []
+  - text: "\"If you don't like it, $$just throw it away. $$I just want to let you
+      know that that girl does care about\u2014\""
+    displayText: "\"If you don't like it, just throw it away. I just want to let
+      you know that that girl does care about\u2014\""
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 17000000170000002b0000002b000000
+    functionCalls: []
+  - text: She was too naive.
+    displayText: She was too naive.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '".$.$.so you will throw it away, $$huh? $$That''s what I thought.$.$."'
+    displayText: '"...so you will throw it away, huh? That''s what I thought..."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 02000000030000001f0000001f00000024000000240000003a0000003b000000
+    functionCalls: []
+  - text: No, $$I won't.
+    displayText: No, I won't.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000004000000
+    functionCalls: []
+  - text: The mother is confused.
+    displayText: The mother is confused.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '"Why.$.$.?"'
+    displayText: '"Why...?"'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: Mother
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 0500000006000000
+    functionCalls: []
+  - text: Because it's funny. $$Her flower taste is just terrible. $$Haha.$.$.
+    displayText: Because it's funny. Her flower taste is just terrible. Haha...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 140000001400000037000000370000003c0000003d000000
+    functionCalls: []
+  - text: Rika lets out a bitter laugh, $$which then turns into an innocent giggle.
+    displayText: Rika lets out a bitter laugh, which then turns into an innocent
+      giggle.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e000000
+    functionCalls: []
+  - text: It doesn't fit the situation at all. $$But that's all she can do for now.
+    displayText: It doesn't fit the situation at all. But that's all she can do for
+      now.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2500000025000000
+    functionCalls: []
+  - text: Rika took out the bracelet that's still on her wrist, $$Mahiru's bracelet,
+      $$and placed it in the box.
+    displayText: Rika took out the bracelet that's still on her wrist, Mahiru's bracelet,
+      and placed it in the box.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 36000000360000004900000049000000
+    functionCalls: []
+  - text: She looked outside the window. $$The sky is gray, $$it will probably rain
+      soon.
+    displayText: She looked outside the window. The sky is gray, it will probably
+      rain soon.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1f0000001f0000003000000030000000
+    functionCalls: []
+  - text: And Rika will live on to see it.$.$.
+    displayText: And Rika will live on to see it...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2000000021000000
+    functionCalls: []
+  _currentLineIndex: -1

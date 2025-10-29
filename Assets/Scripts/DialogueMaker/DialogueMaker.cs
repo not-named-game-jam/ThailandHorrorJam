@@ -57,8 +57,8 @@ public class DialogueLine
         textColor = color switch {
             TextColor.Red => new Color(0.733f, 0.0667f, 0.2157f),  // #BB1537 (Red)
             TextColor.Gold => new Color(1f, 0.84f, 0f),            // Gold
-            TextColor.Navy => new Color(0f, 0f, 0.5f),             // Navy blue
-            TextColor.Teal => new Color(0f, 0.5f, 0.5f),           // Teal
+            TextColor.Navy => new Color(0.4f, 0.4f, 0.8f),             // Navy blue
+            TextColor.Teal => new Color(0.2f, 0.6f, 0.6f),           // Teal
             TextColor.Gray => new Color(0.6f, 0.6f, 0.6f),         // Gray
             TextColor.Pink => new Color(1f, 0.41f, 0.71f),         // Pink
             TextColor.Orange => new Color(1f, 0.65f, 0f),          // Orange

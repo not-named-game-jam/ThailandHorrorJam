@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: e64dfca1d42d4bb43910ef283cc4f5b6, type: 2}
+      - m_Target: {fileID: 11400000, guid: 21cffa7a20056db44aebefc6ce7c41ba, type: 2}
         m_TargetAssemblyTypeName: DialogueMaker, Assembly-CSharp
         m_MethodName: StartDialogue
         m_Mode: 1

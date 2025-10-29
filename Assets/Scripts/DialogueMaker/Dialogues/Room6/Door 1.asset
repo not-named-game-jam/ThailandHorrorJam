@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Door 1
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Rika, $$this is the door to continue living. $$If you think that we are
+      all flawed and nobody knows the correct answer to life, $$then this door is
+      for you.
+    displayText: Rika, this is the door to continue living. If you think that we
+      are all flawed and nobody knows the correct answer to life, then this door
+      is for you.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000002b0000002b0000007c0000007c000000
+    functionCalls: []
+  - text: You forgive yourself. $$You forgive everyone. $$You decide to believe in
+      humanity despite all that has happened.$.$. $$Is this what you want, $$Rika?
+    displayText: You forgive yourself. You forgive everyone. You decide to believe
+      in humanity despite all that has happened... Is this what you want, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 16000000160000002c0000002c0000006c0000006d0000006f0000006f0000008600000086000000
+    functionCalls: []
+  _currentLineIndex: -1

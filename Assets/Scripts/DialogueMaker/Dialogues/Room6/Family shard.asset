@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Family shard
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: This is.$.$. $$the living room? $$It's not worn down like in that jigsaw
+      puzzle room.
+    displayText: This is... the living room? It's not worn down like in that jigsaw
+      puzzle room.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000090000000b0000000b0000001c0000001c000000
+    functionCalls: []
+  - text: That's your mother and grandmother, $$Rika.
+    displayText: That's your mother and grandmother, Rika.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2400000024000000
+    functionCalls: []
+  - text: They are arguing? $$It's just as usual, $$huh?
+    displayText: They are arguing? It's just as usual, huh?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 12000000120000002600000026000000
+    functionCalls: []
+  - text: '```"Haruka, $$why is your living room this messy? $$Since you bought this
+      home, $$it''s like you never organize it once. $$I think you can do better."'
+    displayText: '"Haruka, why is your living room this messy? Since you bought this
+      home, it''s like you never organize it once. I think you can do better."'
+    color: 3
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Grandmother
+    textColor: {r: 0.4, g: 0.4, b: 0.8, a: 1}
+    pauseIndex: 09000000090000002d0000002d00000049000000490000006f0000006f000000
+    functionCalls: []
+  - text: '```"Mother.$.$. $$It''s not messy, $$I''m sure of it.$.$."'
+    displayText: '"Mother... It''s not messy, I''m sure of it..."'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Haruka
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 08000000090000000b0000000b0000001b0000001b0000002a0000002b000000
+    functionCalls: []
+  - text: '```"How many times have I told you to just stay home and watch your kid
+      huh? $$This is what happen if you let girls have too much freedom. $$And now
+      they all think they can do whatever they want."'
+    displayText: '"How many times have I told you to just stay home and watch your
+      kid huh? This is what happen if you let girls have too much freedom. And now
+      they all think they can do whatever they want."'
+    color: 3
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Grandmother
+    textColor: {r: 0.4, g: 0.4, b: 0.8, a: 1}
+    pauseIndex: 4a0000004a0000008600000086000000
+    functionCalls: []
+  - text: '```"Why do you need to involve Rika into this???"'
+    displayText: '"Why do you need to involve Rika into this???"'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Haruka
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```"Whatever. $$You can do whatever you want. $$But trust me. $$I''m your
+      mother. $$$Oh also! $$I brought this snack here. $$It''s very delicious. $$Make
+      sure Rika eats this everyday."'
+    displayText: '"Whatever. You can do whatever you want. But trust me. I''m your
+      mother. Oh also! I brought this snack here. It''s very delicious. Make sure
+      Rika eats this everyday."'
+    color: 3
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Grandmother
+    textColor: {r: 0.4, g: 0.4, b: 0.8, a: 1}
+    pauseIndex: 0b0000000b0000002900000029000000370000003700000048000000480000004800000051000000510000006c0000006c0000008100000081000000
+    functionCalls: []
+  - text: '```"I''m asking, $$why do you need to involve Rika into this??? $$Let
+      her do her own thing!"'
+    displayText: '"I''m asking, why do you need to involve Rika into this??? Let
+      her do her own thing!"'
+    color: 4
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Haruka
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 0d0000000d0000003a0000003a000000
+    functionCalls: []
+  - text: "```\"You're talking back to me, $$hm? $$Also, $$when will you have a second
+      kid? $$My neighbor already has 3 grandchildren. $$Why are you still\u2014\""
+    displayText: "\"You're talking back to me, hm? Also, when will you have a second
+      kid? My neighbor already has 3 grandchildren. Why are you still\u2014\""
+    color: 3
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Grandmother
+    textColor: {r: 0.4, g: 0.4, b: 0.8, a: 1}
+    pauseIndex: 1c0000001c0000002000000020000000260000002600000047000000470000007000000070000000
+    functionCalls: []
+  - text: The conversation blurs into the background. $$The constant one-sided conversation
+      continues on until Rika's grandmother leaves
+    displayText: The conversation blurs into the background. The constant one-sided
+      conversation continues on until Rika's grandmother leaves
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Grandmother
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2c0000002c000000
+    functionCalls: []
+  - text: .$.$.I never knew my grandmother was like that.
+    displayText: ...I never knew my grandmother was like that.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Actually, $$you never cared. $$This conversation is in your memory, $$but
+      you just never processed it.
+    displayText: Actually, you never cared. This conversation is in your memory,
+      but you just never processed it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a0000001b0000001b0000004000000040000000
+    functionCalls: []
+  - text: You only saw the result, $$your mother's behavior towards you. $$But you
+      never understood what caused it.
+    displayText: You only saw the result, your mother's behavior towards you. But
+      you never understood what caused it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 19000000190000003d0000003d000000
+    functionCalls: []
+  - text: After the grandmother leaves, $$Haruka slumps on the sofa, $$exhausted.
+      $$She just stared at the ceiling for who knows how long.
+    displayText: After the grandmother leaves, Haruka slumps on the sofa, exhausted.
+      She just stared at the ceiling for who knows how long.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e00000039000000390000004400000044000000
+    functionCalls: []
+  - text: And then, $$she picks up a piece of paper and writes down something.
+    displayText: And then, she picks up a piece of paper and writes down something.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a000000
+    functionCalls: []
+  - text: '```''Rika, $$if you want anything, $$you can tell me :)'''
+    displayText: '''Rika, if you want anything, you can tell me :)'''
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 07000000070000001d0000001d000000
+    functionCalls: []
+  - text: Haruka stood up, $$and walked towards Rika's room. $$She slid the piece
+      of paper under the doorway, $$and walked away with a slight smile, $$satisfied.
+    displayText: Haruka stood up, and walked towards Rika's room. She slid the piece
+      of paper under the doorway, and walked away with a slight smile, satisfied.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Haruka
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1100000011000000310000003100000060000000600000008500000085000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: You interpreted that as her ignoring you. $$I can understand that. $$You're
+      not wrong.
+    displayText: You interpreted that as her ignoring you. I can understand that.
+      You're not wrong.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2a0000002a0000004100000041000000
+    functionCalls: []
+  - text: Other parents will actively do things for their children, $$but yours don't.
+      $$I don't blame you.
+    displayText: Other parents will actively do things for their children, but yours
+      don't. I don't blame you.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3a0000003a0000004b0000004b000000
+    functionCalls: []
+  - text: But she did care about me.$.$.
+    displayText: But she did care about me...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1a0000001b000000
+    functionCalls: []
+  - text: Your mother just wants you to live a happy life. $$She doesn't want you
+      to experience what she had to experience as a child.
+    displayText: Your mother just wants you to live a happy life. She doesn't want
+      you to experience what she had to experience as a child.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3100000031000000
+    functionCalls: []
+  - text: A fussy parent. $$A strict parent. $$A self-centered, $$judgemental, $$and
+      toxic parent. $$None of that.
+    displayText: A fussy parent. A strict parent. A self-centered, judgemental, and
+      toxic parent. None of that.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1000000010000000210000002100000032000000320000003f0000003f0000005100000051000000
+    functionCalls: []
+  - text: She wants you to choose your own life. $$That's why she won't decide things
+      for you like your grandmother did.
+    displayText: She wants you to choose your own life. That's why she won't decide
+      things for you like your grandmother did.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2700000027000000
+    functionCalls: []
+  - text: Maybe she's not perfect, $$but she tried what she can.
+    displayText: Maybe she's not perfect, but she tried what she can.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1900000019000000
+    functionCalls: []
+  - text: I.$.$. $$I can't blame her for it.$.$. $$She really cared for me, $$but
+      I.$.$. $$I am the one who ignored her.$.$.?
+    displayText: I... I can't blame her for it... She really cared for me, but I...
+      I am the one who ignored her...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 020000000300000005000000050000001e0000001f00000021000000210000003a0000003a000000400000004100000043000000430000006000000061000000
+    functionCalls: []
+  - text: Nobody is really in the wrong in this case. $$We all just tried our best
+      in our own way.
+    displayText: Nobody is really in the wrong in this case. We all just tried our
+      best in our own way.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2c0000002c000000
+    functionCalls: []
+  - text: Now.$.$. $$Rika.$.$ $$Let's go to another shard.$.$.
+    displayText: Now... Rika.. Let's go to another shard...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 040000000500000007000000070000000c0000000d0000000e0000000e0000002800000029000000
+    functionCalls: []
+  _currentLineIndex: -1

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Door 2
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Rika, $$this is the door to let you rest here forever. $$You don't need
+      to endure anything anymore. $$If the world is too cruel, $$then let it be.
+    displayText: Rika, this is the door to let you rest here forever. You don't need
+      to endure anything anymore. If the world is too cruel, then let it be.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0600000006000000350000003500000060000000600000007b0000007b000000
+    functionCalls: []
+  - text: You've tried your best, $$but nothing went as you expected. $$You've lost
+      everything. $$You don't deserve this.
+    displayText: You've tried your best, but nothing went as you expected. You've
+      lost everything. You don't deserve this.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 18000000180000003a0000003a0000005200000052000000
+    functionCalls: []
+  - text: If you choose this door, $$you can finally be at peace.$.$. $$Is this what
+      you want, $$Rika?
+    displayText: If you choose this door, you can finally be at peace... Is this
+      what you want, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1900000019000000350000003600000038000000380000004f0000004f000000
+    functionCalls: []
+  _currentLineIndex: -1
