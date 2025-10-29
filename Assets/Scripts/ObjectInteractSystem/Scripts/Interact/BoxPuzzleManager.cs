@@ -8,7 +8,9 @@ public class BoxPuzzleManager : MonoBehaviour
     //[SerializeField] int correctNumberCode;
     [SerializeField] DialogueMaker triggerDialogue;
     [SerializeField] List<ScrollSnapWheel> allDigits;
-
+    [SerializeField] GameObject unopenedBoxBackground;
+    [SerializeField] GameObject horizontalDigits;
+    [SerializeField] GameObject openedBoxBackground;
     private bool isDigit1Correct;
     private bool isDigit2Correct;
     private bool isDigit3Correct;
@@ -27,11 +29,13 @@ public class BoxPuzzleManager : MonoBehaviour
 
     void Start()
     {
+        openedBoxBackground.SetActive(false);
         foreach (ScrollSnapWheel wheel in allDigits)
         {
             correctCode += wheel.GetCorrectNumberCode().ToString();
         }
         Debug.Log($"Correct Code is: {correctCode}");
+        
     }
 
     public void CheckCode()
@@ -46,9 +50,26 @@ public class BoxPuzzleManager : MonoBehaviour
             }
         }
 
-        triggerDialogue.StartDialogue();
-        gameObject.SetActive(false);
-        
+        StartCoroutine(Finish());
+
+    }
+
+    IEnumerator Finish()
+    {
+        unopenedBoxBackground.SetActive(false);
+        horizontalDigits.SetActive(false);
+        openedBoxBackground.SetActive(true);
+
+        yield return new WaitForSeconds(2f);
+
+        RoomManager instance = RoomManager.instance;
+        instance.PlayDialogue(instance.GetWinningDialogue());
+
+        CanvasGroup cg = GetComponent<CanvasGroup>();
+        cg.alpha = 0f; // make invisible
+        cg.interactable = false; // disable clicks
+        cg.blocksRaycasts = false;  // stop blocking other UI
+
     }
 
 
