@@ -52,7 +52,7 @@ public class Clock : MonoBehaviour
                 hour = 12 + hour;
             }
             hour = 12 - hour;
-            hourRoot.eulerAngles = new Vector3(0, 0, degree - 90);
+            hourRoot.eulerAngles = new Vector3(0, 0, degree + 30);
         }
         else
         {
@@ -76,7 +76,7 @@ public class Clock : MonoBehaviour
             {
                 minute = 0;
             }
-            minRoot.eulerAngles = new Vector3(0, 0, degree - 90);
+            minRoot.eulerAngles = new Vector3(0, 0, degree);
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
