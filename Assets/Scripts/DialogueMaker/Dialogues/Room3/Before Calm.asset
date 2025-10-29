@@ -13,99 +13,118 @@ MonoBehaviour:
   m_Name: Before Calm
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: "Looks like we\u2019re at your high school."
-    displayText: "Looks like we\u2019re at your high school."
+  - text: "Looks like we're at your high school."
+    displayText: "Looks like we're at your high school."
     color: 0
-    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
-    typeInterval: 0.0335
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: Skipping through the hallway as Rika walked behind her$$$, trying her best
-      to force her face to create a small smile.
-    displayText: Skipping through the hallway as Rika walked behind her, trying her
-      best to force her face to create a small smile.
+  - text: Maya said, $$skipping through the hallway as Rika walked behind her.
+    displayText: Maya said, skipping through the hallway as Rika walked behind her.
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0398
+    typeInterval: 0.036
     dialogueType: 2
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 360000003600000036000000
+    pauseIndex: 0b0000000b000000
     functionCalls: []
-  - text: "Her face pale like a paper$$$, her body starts to shake. $$$Rika tries
-      to stop it$$$$$$, but she can\u2019t."
+  - text: Rika is trying her best to force herself to create a small smile.
+    displayText: Rika is trying her best to force herself to create a small smile.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Her face pale like a paper, $$her body starts to shake. $$$Rika tries
+      to stop it$$$$$$, but she can't."
     displayText: "Her face pale like a paper, her body starts to shake. Rika tries
-      to stop it, but she can\u2019t."
+      to stop it, but she can't."
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0398
+    typeInterval: 0.036
     dialogueType: 2
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1a0000001a0000001a0000003600000036000000360000004b0000004b0000004b0000004b0000004b0000004b000000
+    pauseIndex: 1c0000001c0000003600000036000000360000004b0000004b0000004b0000004b0000004b0000004b000000
     functionCalls: []
-  - text: "(Everything was fine, really. $$There should be nothing she\u2019s worried
-      about. $$She just hasn't visited the school for a long time, that\u2019s it.)"
-    displayText: "(Everything was fine, really. There should be nothing she\u2019s
-      worried about. She just hasn't visited the school for a long time, that\u2019s
-      it.)"
+  - text: '```(Everything was fine, really. $$There should be nothing I have to worry
+      about.)'
+    displayText: (Everything was fine, really. There should be nothing I have to
+      worry about.)
     color: 0
-    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
-    typeInterval: 0.0398
-    dialogueType: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1e0000001e0000004b0000004b000000
+    pauseIndex: 1e0000001e000000
+    functionCalls: []
+  - text: "```(I just hasn't visited the school for a long time, $$that's it.)"
+    displayText: "(I just hasn't visited the school for a long time, that's
+      it.)"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3300000033000000
     functionCalls: []
   - text: Hey Rika$$, do you think we can get to the lower floor?$$$ Or is it gonna
       be the loopy stair thing?
     displayText: Hey Rika, do you think we can get to the lower floor? Or is it gonna
       be the loopy stair thing?
     color: 0
-    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
-    typeInterval: 0.0398
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0800000008000000350000003500000035000000
     functionCalls: []
-  - text: The girl goes 2-3 steps down$$ then turns around to talk to her, at the
+  - text: Maya goes 2-3 steps down$$ then turns around to talk to her, $$at the stairs.
+    displayText: Maya goes 2-3 steps down then turns around to talk to her, at the
       stairs.
-    displayText: The girl goes 2-3 steps down then turns around to talk to her, at
-      the stairs.
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0398
+    typeInterval: 0.036
     dialogueType: 2
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1c0000001c000000
+    pauseIndex: 18000000180000003b0000003b000000
     functionCalls: []
-  - text: The stairs...
+  - text: The stairs.$.$.
     displayText: The stairs...
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0492
+    typeInterval: 0.045
     dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0b0000000c000000
     functionCalls: []
   - text: T$h$e$ $s$t$a$i$r$s$.$.$.$
     displayText: The stairs...
     color: 1
     characterSprite: {fileID: 0}
-    typeInterval: 0.0492
+    typeInterval: 0.036
     dialogueType: 2
     typeSound: speak
     characterName: bomb
@@ -115,169 +134,171 @@ MonoBehaviour:
     - index: 0
       functionType: 8
       parameter: []
-  - text: "```\u201CRika,$$$ I really want you to have more fun...\u201D"
+  - text: "```\u201CRika, $$I really want you to have more fun...\u201D"
     displayText: "\u201CRika, I really want you to have more fun...\u201D"
     color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0899
+    typeInterval: 0.05
     dialogueType: 0
     typeSound: speak
     characterName: bomb
     textColor: {r: 1, g: 0.84, b: 0, a: 1}
-    pauseIndex: 060000000600000006000000
+    pauseIndex: 0700000007000000
     functionCalls: []
-  - text: "\u25A0\u25A0\u25A0\u25A0 said$$$, as she stared up at Rika from the stairs
-      below."
+  - text: "```\u25A0\u25A0\u25A0\u25A0 said, $$as she stared up at Rika from the
+      stairs below."
     displayText: "\u25A0\u25A0\u25A0\u25A0 said, as she stared up at Rika from the
       stairs below."
-    color: 0
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0758
-    dialogueType: 2
+    typeInterval: 0.05
+    dialogueType: 0
     typeSound: speak
     characterName: bomb
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 090000000900000009000000
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 0b0000000b000000
     functionCalls: []
-  - text: The sun was setting and it was raining.$$ Almost everyone headed home by
-      now, except for them.
+  - text: '```The sun was setting and it was raining. $$Almost everyone headed home
+      by now, $$except for them.'
     displayText: The sun was setting and it was raining. Almost everyone headed home
       by now, except for them.
+    color: 2
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 0
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 28000000280000004c0000004c000000
+    functionCalls: []
+  - text: "Rika can't even remember what they're fighting about that day.
+      $$Maybe it's \u25A0\u25A0\u25A0\u25A0's fault, $$maybe it's
+      hers."
+    displayText: "Rika can't even remember what they're fighting about
+      that day. Maybe it's \u25A0\u25A0\u25A0\u25A0's fault, maybe it's
+      hers."
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0758
+    typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 2700000027000000
+    pauseIndex: 3f0000003f0000005800000058000000
     functionCalls: []
-  - text: "She can\u2019t even remember what they\u2019re fighting about that day.
-      $$$Maybe it\u2019s \u25A0\u25A0\u25A0\u25A0\u2019s fault$$$, maybe it\u2019s
-      hers."
-    displayText: "She can\u2019t even remember what they\u2019re fighting about that
-      day. Maybe it\u2019s \u25A0\u25A0\u25A0\u25A0\u2019s fault, maybe it\u2019s
-      hers."
-    color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.0758
-    dialogueType: 2
-    typeSound: speak
-    characterName: bomb
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 3e0000003e0000003e000000550000005500000055000000
-    functionCalls: []
-  - text: It has to be hers, right?
+  - text: $$$$It has to be hers, $$right?
     displayText: It has to be hers, right?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0768
+    typeInterval: 0.054
     dialogueType: 2
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 000000000000000000000000000000001300000013000000
     functionCalls: []
   - text: Are we even fighting in the first place?
     displayText: Are we even fighting in the first place?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0768
+    typeInterval: 0.054
     dialogueType: 2
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: Rika?$$$ You don't look fine right now.$$$ What happened$.$.$.$?
+  - text: Rika? $$$You don't look fine right now. $$$What happened$.$.$.$?
     displayText: Rika? You don't look fine right now. What happened...?
     color: 0
     characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
-    typeInterval: 0.0406
+    typeInterval: 0.04
     dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 05000000050000000500000024000000240000002400000032000000330000003400000035000000
+    pauseIndex: 06000000060000000600000025000000250000002500000032000000330000003400000035000000
     functionCalls: []
-  - text: She frowned a little bit$$$, staring back at the crying face of her friend.
-    displayText: She frowned a little bit, staring back at the crying face of her
+  - text: '```Rika frowned a little bit$$$, staring back at the crying face of her
+      friend.'
+    displayText: Rika frowned a little bit, staring back at the crying face of her
       friend.
-    color: 0
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0406
-    dialogueType: 2
+    typeInterval: 0.05
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 180000001800000018000000
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 190000001900000019000000
     functionCalls: []
-  - text: "In the end$$$, you didn\u2019t understand me even a bit$, did you?"
-    displayText: "In the end, you didn\u2019t understand me even a bit, did you?"
-    color: 0
-    characterSprite: {fileID: 21300000, guid: ef5be9ceba7953a49a5dc206d3c4b240, type: 3}
-    typeInterval: 0.0678
+  - text: "```\"In the end$$$, you didn't understand me even a bit, $$did you?\""
+    displayText: "```\"In the end, you didn't understand me even a bit, did
+      you?\""
+    color: 2
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
     dialogueType: 1
     typeSound: speak
     characterName: Rika
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0a0000000a0000000a0000002f000000
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 0e0000000e0000000e0000003500000035000000
     functionCalls:
     - index: 0
       functionType: 8
       parameter: []
-  - text: "She's turning away.$$$ Everything after that seems to pass in a blur$$,
-      she can\u2019t remember anymore of it."
-    displayText: "She's turning away. Everything after that seems to pass in a blur,
-      she can\u2019t remember anymore of it."
-    color: 0
+  - text: "```Rika turned away. $$$Everything after that seems to pass in a blur,
+      $$she can't remember anymore of it."
+    displayText: "Rika turned away. Everything after that seems to pass in a blur,
+      she can't remember anymore of it."
+    color: 2
     characterSprite: {fileID: 0}
     typeInterval: 0.0406
-    dialogueType: 2
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1300000013000000130000004100000041000000
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 1200000012000000120000004100000041000000
     functionCalls: []
-  - text: Except the body at the bottom of the stairs.
+  - text: '```Except the body at the bottom of the stairs.'
     displayText: Except the body at the bottom of the stairs.
-    color: 0
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0805
-    dialogueType: 2
+    typeInterval: 0.07
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: T$h$e$ $b$o$d$y$.$.$.$
+  - text: '```T$h$e$ $b$o$d$y$.$.$.$'
     displayText: The body...
-    color: 0
+    color: 1
     characterSprite: {fileID: 0}
-    typeInterval: 0.0608
-    dialogueType: 2
+    typeInterval: 0.04
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
     pauseIndex: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
     functionCalls: []
-  - text: R$$e$$d$$.$$.$$.$$
+  - text: '```R$$e$$d$$.$$.$$.$$'
     displayText: Red...
     color: 1
     characterSprite: {fileID: 0}
-    typeInterval: 0.042
-    dialogueType: 2
+    typeInterval: 0.04
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
     pauseIndex: 010000000100000002000000020000000300000003000000040000000400000005000000050000000600000006000000
     functionCalls: []
-  - text: B$l$o$o$d$ $s$t$a$i$n$.$.$.$
+  - text: '```B$l$o$o$d$ $s$t$a$i$n$.$.$.$'
     displayText: Blood stain...
     color: 1
     characterSprite: {fileID: 0}
-    typeInterval: 0.0608
-    dialogueType: 2
+    typeInterval: 0.04
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
@@ -290,7 +311,7 @@ MonoBehaviour:
     displayText: RIKA! Can you hear me?!?!
     color: 0
     characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
-    typeInterval: 0.0476
+    typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
     characterName: Maya
@@ -300,98 +321,96 @@ MonoBehaviour:
     - index: 0
       functionType: 8
       parameter: []
-  - text: "```\u201CWhat do you think?\u201D $$$some guy asked."
-    displayText: "\u201CWhat do you think?\u201D some guy asked."
-    color: 0
+  - text: "```\u201CWhat do you think? $$Did she kill her?\u201D $$$some guy asked."
+    displayText: "\u201CWhat do you think? Did she kill her?\u201D some guy asked."
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0476
+    typeInterval: 0.045
     dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 150000001500000015000000
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 1400000014000000270000002700000027000000
     functionCalls: []
-  - text: "```\u201CDid she kill her?\u201D "
+  - text: '```Did I kill her?'
     displayText: "\u201CDid she kill her?\u201D "
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0476
+    typeInterval: 0.045
     dialogueType: 0
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "```\u201CWell, they didn\u2019t arrest her though$$$,but who knows?$$$
+  - text: "```\u201CWell, they didn't arrest her though$$$, but who knows?$$$
       Maybe it's true.\u201D "
-    displayText: "\u201CWell, they didn\u2019t arrest her though,but who knows? Maybe
+    displayText: "\u201CWell, they didn't arrest her though,but who knows? Maybe
       it's true.\u201D "
-    color: 0
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0476
+    typeInterval: 0.045
     dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
     pauseIndex: 240000002400000024000000330000003300000033000000
     functionCalls: []
-  - text: "```\u201CAfterall$$$, she does look a bit anti-social.$$$ She literally
+  - text: "```\u201CAfter all$$$, she does look a bit anti-social.$$$ She literally
       talks to no one except \u25A0$\u25A0$\u25A0$\u25A0$. \u201D "
     displayText: "\u201CAfterall, she does look a bit anti-social. She literally
       talks to no one except \u25A0\u25A0\u25A0\u25A0. \u201D "
-    color: 0
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0476
+    typeInterval: 0.045
     dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
     pauseIndex: 0900000009000000090000002b0000002b0000002b00000052000000530000005400000055000000
     functionCalls: []
-  - text: "```\u201CIf I were to think of the crime from a view of a mystery novel$$$,
-      she has a motive that makes the most sense.\u201D "
-    displayText: "\u201CIf I were to think of the crime from a view of a mystery
-      novel, she has a motive that makes the most sense.\u201D "
-    color: 0
+  - text: "```\u201CShe has a motive that makes the most sense.\u201D "
+    displayText: "\u201CShe has a motive that makes the most sense.\u201D "
+    color: 2
     characterSprite: {fileID: 0}
-    typeInterval: 0.0476
+    typeInterval: 0.045
     dialogueType: 0
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 3f0000003f0000003f000000
+    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    pauseIndex: 
     functionCalls: []
-  - text: "Rika hadn\u2019t cared about them,$$$ she didn't know them$$$, but what
-      if they were right?$$$ It\u2019s all her fault$$, after all."
-    displayText: "Rika hadn\u2019t cared about them, she didn't know them, but what
-      if they were right? It\u2019s all her fault, after all."
+  - text: "Rika hadn't cared about them,$$$ she didn't know them$$$, but what
+      if they were right?$$$ It's all her fault$$, after all."
+    displayText: "Rika hadn't cared about them, she didn't know them, but what
+      if they were right? It's all her fault, after all."
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0476
+    typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1d0000001d0000001d0000003200000032000000320000005000000050000000500000006300000063000000
     functionCalls: []
-  - text: "\u201CG-d -h- can\u2019t br--the.\u201D "
-    displayText: "\u201CG-d -h- can\u2019t br--the.\u201D "
+  - text: "G-d - ca-'t br--t-e."
+    displayText: "G-d - ca-'t br--t-e."
     color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.0749
-    dialogueType: 2
+    characterSprite: {fileID: 21300000, guid: 3497fb685e16c034e905fb6d8391ba80, type: 3}
+    typeInterval: 0.075
+    dialogueType: 1
     typeSound: speak
-    characterName: Maya
+    characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "Someone asks her something$$$, but she can\u2019t hear it$$$, not with
-      all these noises telling her that it\u2019s her fault."
-    displayText: "Someone asks her something, but she can\u2019t hear it, not with
-      all these noises telling her that it\u2019s her fault."
+  - text: "Someone asks her something$$$, but she can't hear it$$$, not with
+      all these noises telling her that it's her fault."
+    displayText: "Someone asks her something, but she can't hear it, not with
+      all these noises telling her that it's her fault."
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0504
+    typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: Maya
@@ -407,75 +426,75 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0200000003000000
+    pauseIndex: 0000000000000000010000000200000003000000
     functionCalls: []
-  - text: "God she can\u2019t breathe."
-    displayText: "God she can\u2019t breathe."
+  - text: "She can't breathe."
+    displayText: "She can't breathe."
     color: 0
-    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
-    typeInterval: 0.0504
-    dialogueType: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.045
+    dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "Rika was taking in small$$, harsh breaths$$$, it\u2019s not enough.$$$
+  - text: "Rika was taking in small$$, harsh breaths. $$$It's not enough.$$$
       Everything looks blurry$$$, everything sounds muffled."
-    displayText: "Rika was taking in small, harsh breaths, it\u2019s not enough.
+    displayText: "Rika was taking in small, harsh breaths. It's not enough.
       Everything looks blurry, everything sounds muffled."
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0504
+    typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1800000018000000270000002700000027000000390000003900000039000000510000005100000051000000
+    pauseIndex: 1800000018000000290000002900000029000000390000003900000039000000510000005100000051000000
     functionCalls: []
   - text: She felt arms wrap around her$$$, a calm voice told her to breathe.
     displayText: She felt arms wrap around her, a calm voice told her to breathe.
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0504
+    typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1d0000001d0000001d000000
     functionCalls: []
-  - text: "Shhh, you don\u2019t have to say sorry, it\u2019s not your fault , just
-      breathe."
-    displayText: "Shhh, you don\u2019t have to say sorry, it\u2019s not your fault
-      , just breathe."
+  - text: "Shhh, $$you don't have to say sorry, $$it's not your fault,
+      $$just breathe."
+    displayText: "Shhh, you don't have to say sorry, it's not your fault,
+      just breathe."
     color: 0
     characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
-    typeInterval: 0.0504
+    typeInterval: 0.04
     dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 060000000600000023000000230000003800000038000000
     functionCalls: []
-  - text: "(Did she say something?$$$ She didn\u2019t even know she was speaking.)"
-    displayText: "(Did she say something? She didn\u2019t even know she was speaking.)"
+  - text: "(Did Maya say something?$$$ Rika didn't even know she was speaking.)"
+    displayText: "(Did Maya say something? Rika didn't even know she was speaking.)"
     color: 0
-    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
-    typeInterval: 0.0504
-    dialogueType: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 170000001700000017000000
+    pauseIndex: 180000001800000018000000
     functionCalls: []
-  - text: "(She\u2019s try to shut up$$$, but she can\u2019t control her mouth$$$,
-      she can\u2019t stop \u2013)"
-    displayText: "(She\u2019s try to shut up, but she can\u2019t control her mouth,
-      she can\u2019t stop \u2013)"
+  - text: "(She's try to shut up$$$, but she can't control her mouth$$$,
+      she can't stop \u2013)"
+    displayText: "(She's try to shut up, but she can't control her mouth,
+      she can't stop \u2013)"
     color: 0
-    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
-    typeInterval: 0.0504
-    dialogueType: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
