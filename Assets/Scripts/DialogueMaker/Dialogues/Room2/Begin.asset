@@ -25,7 +25,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: I think so.
-    displayText: I think it's my parents'
+    displayText: I think so.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -48,8 +48,8 @@ MonoBehaviour:
     functionCalls: []
   - text: Not my fault. $$It's not my responsibility. $$I don't usually spend time
       outside of my own room in the first place.
-    displayText: Not my fault. At that time, I was only responsible for my own room.
-      I never really leave it after all.
+    displayText: Not my fault. It's not my responsibility. I don't usually spend
+      time outside of my own room in the first place.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -57,12 +57,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0e0000000e0000001c0000001c0000004400000044000000
+    pauseIndex: 0e0000000e0000002a0000002a000000
     functionCalls: []
-  - text: I didn't blame you for it though.$.$. $$Hey! What's that jigsaw board?
-      $$Has it always been there?
-    displayText: I didn't blame you for it though... Hey! What's that jigsaw board?
-      Has it always been there?
+  - text: I didn't blame you for it though.$.$.
+    displayText: I didn't blame you for it though...
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.036
@@ -70,7 +68,18 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 210000002200000024000000240000004300000043000000
+    pauseIndex: 2100000022000000
+    functionCalls: []
+  - text: Hey! $$What's that jigsaw board? $$Has it always been there?
+    displayText: Hey! What's that jigsaw board? Has it always been there?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000001f0000001f000000
     functionCalls: []
   - text: Definitely not that I know of.
     displayText: Definitely not that I know of.

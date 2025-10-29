@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Textbook
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: Oh! Oh! A textbook! What are you studying at elementary school? $$I want
-      to know.
+  - text: Oh! $$Oh! $$A textbook! $$What are you studying at elementary school? $$I
+      want to know.
     displayText: Oh! Oh! A textbook! What are you studying at elementary school?
       I want to know.
     color: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 4000000040000000
+    pauseIndex: 0400000004000000080000000800000014000000140000004000000040000000
     functionCalls: []
   - text: This one is Japanese. $$Do you want to do kanji practice or something?
     displayText: This one is Japanese. Do you want to do kanji practice or something?
@@ -73,11 +73,11 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: '                                                       '
-    displayText: "What does \u663C means?"
+    displayText: '                                                       '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.05
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -105,7 +105,7 @@ MonoBehaviour:
     typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
-    characterName: Maya
+    characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0100000002000000
     functionCalls: []
