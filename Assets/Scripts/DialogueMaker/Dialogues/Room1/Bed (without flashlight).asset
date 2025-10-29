@@ -13,9 +13,23 @@ MonoBehaviour:
   m_Name: Bed (without flashlight)
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                 '
+    displayText: '                                            '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - UnderBedNoFlash
   - text: There's nothing on the bed.
-    displayText: "That\u2019s the flashlight I used after I turned off the light
-      to navigate to my bed."
+    displayText: There's nothing on the bed.
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.036
@@ -26,7 +40,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: "Rika, $$I can\u2019t see what\u2019s under there. $$It\u2019s too dark"
-    displayText: Scared of ghosts, Rika?
+    displayText: "Rika, I can\u2019t see what\u2019s under there. It\u2019s too dark"
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.036
@@ -34,11 +48,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1200000012000000
+    pauseIndex: 06000000060000002600000026000000
     functionCalls: []
   - text: "Then, let\u2019s investigate other things first."
-    displayText: "Not really. If ghosts exist, I would want to see it with my own
-      eyes, and I wouldn\u2019t be able to see without a flashlight."
+    displayText: "Then, let\u2019s investigate other things first."
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -46,6 +59,21 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0c0000000c0000001d0000001d0000004600000046000000
+    pauseIndex: 
     functionCalls: []
-  _currentLineIndex: -1
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - UnderBedNoFlash
+  _currentLineIndex: 3

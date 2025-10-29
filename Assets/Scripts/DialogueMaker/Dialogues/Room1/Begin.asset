@@ -13,6 +13,37 @@ MonoBehaviour:
   m_Name: Begin
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                                                          '
+    displayText: '                                                                          '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                       '
+    displayText: '                                                       '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 6
+      parameter:
+      - ----Room1----
+      - 1
+    - index: -1
+      functionType: 4
+      parameter:
+      - ----Room1----
   - text: "It\u2019s exactly how I remember it."
     displayText: "It\u2019s exactly how I remember it."
     color: 0
@@ -51,7 +82,7 @@ MonoBehaviour:
     pauseIndex: 09000000090000001800000018000000
     functionCalls: []
   - text: I didn't know your childhood is this bad Rika. $$I feel bad for you$.$.$.
-    displayText: I did't know your childhood is this bad Rika. I feel bad for you...
+    displayText: I didn't know your childhood is this bad Rika. I feel bad for you...
     color: 0
     characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
     typeInterval: 0.036
@@ -59,7 +90,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 2e0000002e000000400000004100000042000000
+    pauseIndex: 2f0000002f000000410000004200000043000000
     functionCalls: []
   - text: .$.$.
     displayText: ...
@@ -83,7 +114,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 05000000070000000c0000001000000010000000
     functionCalls: []
-  - text: I cleaned my room at least twice a day since I was 5. $$My parents even
+  - text: I made myself cleaned my room everyday since I was 5. $$My parents even
       gave me cleaning tools and  a book on how to clean properly.
     displayText: I cleaned my room at least twice a day since I was 5. My parents
       even gave me cleaning tools and  a book on how to clean properly.
@@ -499,4 +530,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 06000000060000000f0000000f000000
     functionCalls: []
-  _currentLineIndex: 14
+  _currentLineIndex: -1

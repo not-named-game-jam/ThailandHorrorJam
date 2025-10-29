@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: 909fd419465585a419559f2b362348fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 3342
+        width: 443
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e41f0dd4c25fc40af53224d1657fe0
+      internalID: -219407057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 3332
+        width: 316
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b288016fce81c478a433613eeb7baa
+      internalID: -1369739852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 3499
+        width: 353
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41619da0298e30c4eb36071a34796c37
+      internalID: -1259842333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 3404
+        width: 606
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0db909ae19cba947a1f33ba79e4d4aa
+      internalID: -1630332456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 3494
+        width: 469
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c973c7a608dbc05419074a60af4f8f5c
+      internalID: -1680107661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2350
+        width: 798
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e5fa2002b26849bdd26c11187e11c
+      internalID: -1911586843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2318
+        width: 803
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57285f06e94947f4ba7c43ff6c37a818
+      internalID: -1219651154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 3081
+        width: 273
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3324850312d58e7479597d7e702acc25
+      internalID: -954508398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2345
+        width: 708
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e243fa2a02676204a96052541887f4d2
+      internalID: -995145579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 2786
+        width: 338
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abb8d6b04eecb7499e70fd8248190a5
+      internalID: 403383405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 2533
+        width: 343
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33deeb9a9297c6b4ba86e9eabe8f8dc0
+      internalID: 183665474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 2441
+        width: 464
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05775dc19f048d94eb57d06e1601d5d2
+      internalID: 1327905038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1149
+        width: 686
+        height: 1059
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7237e5df9d56a5e4190c15a8316c63ff
+      internalID: -473814980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2030
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c87e36b5888130409fe285628dba677
+      internalID: 60658661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 2080
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6df34bdbecc1f48b21251b8fca540b
+      internalID: 324071940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 2080
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ddcf56300a6ab40aac5e897f3b1a29
+      internalID: -311387591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2080
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba4b2a318cee94393660f1bb8e491b
+      internalID: 2110071445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 2080
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a4e5a28bd6f3e44ace0d8d0b60d470
+      internalID: 1569679925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2080
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c01595787e61644b2e0a041b576764
+      internalID: -1656469732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 1081
+        width: 1505
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42771bf739778eb41bbccb54c9ce295d
+      internalID: 961357630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1975
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bceea5db4040e748a02a526fd436733
+      internalID: 368727949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1975
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a7f50b03bcf634cb82d0b4635632ad
+      internalID: -633897544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1975
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0d46c9af5bddb43926e4b8a88fbd90
+      internalID: 1589538584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1975
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245632fdbdff4b545a6e8b874ec7beb2
+      internalID: 1183755884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1975
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f12c2c42d05d4b4fb8bc6b908319e05
+      internalID: 1827998553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1875
+        width: 195
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f43b26748abb1479939e18dafb0ee3
+      internalID: 1865884805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1126
+        width: 1507
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0e49fd87dcdfa49bd86463bbde4039
+      internalID: -1073295985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 53
+        width: 1687
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801bfd129faf5a1488963a0247561a44
+      internalID: 1560489125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 53
+        width: 731
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134effb1b6674b94db08990ba588dec9
+      internalID: -1537702115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 263
+        width: 125
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2202ae15d790247a3178ac5a3f9351
+      internalID: 1491884420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 263
+        width: 121
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d470efbae4919d74bbf9df4b5ffa8dcc
+      internalID: 1173717557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 270
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1e6a63f5f77ae4e9fb60b73b2ed159
+      internalID: -1757183898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 103
+        width: 118
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60459b97e2288ee4393549ed72a7f270
+      internalID: -1800414096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 5 Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 133
+        width: 121
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57dac70b40fdab4c8041ca26be6d054
+      internalID: -643853187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8219b4d4a36cdda46a7983c608645a4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Room 5 Sprite Sheet_0: -219407057
+      Room 5 Sprite Sheet_1: -1369739852
+      Room 5 Sprite Sheet_10: 183665474
+      Room 5 Sprite Sheet_11: 1327905038
+      Room 5 Sprite Sheet_12: -473814980
+      Room 5 Sprite Sheet_13: 60658661
+      Room 5 Sprite Sheet_14: 337848245
+      Room 5 Sprite Sheet_15: 324071940
+      Room 5 Sprite Sheet_16: -311387591
+      Room 5 Sprite Sheet_17: 2110071445
+      Room 5 Sprite Sheet_18: 1569679925
+      Room 5 Sprite Sheet_19: -1656469732
+      Room 5 Sprite Sheet_2: -1259842333
+      Room 5 Sprite Sheet_20: 961357630
+      Room 5 Sprite Sheet_21: 368727949
+      Room 5 Sprite Sheet_22: -633897544
+      Room 5 Sprite Sheet_23: 1589538584
+      Room 5 Sprite Sheet_24: 1183755884
+      Room 5 Sprite Sheet_25: 1827998553
+      Room 5 Sprite Sheet_26: -800684146
+      Room 5 Sprite Sheet_27: 1865884805
+      Room 5 Sprite Sheet_28: -1073295985
+      Room 5 Sprite Sheet_29: 1560489125
+      Room 5 Sprite Sheet_3: -1630332456
+      Room 5 Sprite Sheet_30: -1537702115
+      Room 5 Sprite Sheet_31: 1491884420
+      Room 5 Sprite Sheet_32: 1173717557
+      Room 5 Sprite Sheet_33: -1757183898
+      Room 5 Sprite Sheet_34: -1800414096
+      Room 5 Sprite Sheet_35: -643853187
+      Room 5 Sprite Sheet_4: -1680107661
+      Room 5 Sprite Sheet_5: -1911586843
+      Room 5 Sprite Sheet_6: -1219651154
+      Room 5 Sprite Sheet_7: -954508398
+      Room 5 Sprite Sheet_8: -995145579
+      Room 5 Sprite Sheet_9: 403383405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

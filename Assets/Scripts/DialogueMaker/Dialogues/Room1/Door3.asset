@@ -13,17 +13,70 @@ MonoBehaviour:
   m_Name: Door3
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: '```Placeholder for jumpscare'
-    displayText: Placeholder for jumpscare
-    color: 2
+  - text: 
+    displayText: 
+    color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 0
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
-    textColor: {r: 1, g: 0.84, b: 0, a: 1}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Left Door Close 3
+  - text: '                  '
+    displayText: '                  '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Left Door Open
+  - text: '                                                        '
+    displayText: '                                                        '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Jump Left Door
+    - index: 0
+      functionType: 1
+      parameter:
+      - boom
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Jump Left Door
   - text: .$.$.Okay, $$I accept that someone may be playing a prank on us.
     displayText: ...Okay, I accept that someone may be playing a prank on us.
     color: 0
@@ -57,4 +110,34 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0900000009000000
     functionCalls: []
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Left Door Close No Click
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Left Door Open
   _currentLineIndex: -1

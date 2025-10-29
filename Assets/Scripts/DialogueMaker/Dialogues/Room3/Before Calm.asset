@@ -250,18 +250,18 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: T$h$e$ $b$o$d$y$.$.$.$
+  - text: The body...
     displayText: The body...
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0608
+    typeInterval: 0.0805
     dialogueType: 2
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+    pauseIndex: 
     functionCalls: []
-  - text: R$$e$$d$$.$$.$$.$$
+  - text: R$e$d$.$.$.$
     displayText: Red...
     color: 1
     characterSprite: {fileID: 0}
@@ -270,7 +270,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
-    pauseIndex: 010000000100000002000000020000000300000003000000040000000400000005000000050000000600000006000000
+    pauseIndex: 010000000200000003000000040000000500000006000000
     functionCalls: []
   - text: B$l$o$o$d$ $s$t$a$i$n$.$.$.$
     displayText: Blood stain...
@@ -374,8 +374,8 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1d0000001d0000001d0000003200000032000000320000005000000050000000500000006300000063000000
     functionCalls: []
-  - text: "\u201CG-d -h- can\u2019t br--the.\u201D "
-    displayText: "\u201CG-d -h- can\u2019t br--the.\u201D "
+  - text: "\u201C@##%&%#@@%#@#.\u201D "
+    displayText: "\u201C@##%&%#@@%#@#.\u201D "
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.0749
@@ -407,7 +407,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0200000003000000
+    pauseIndex: 0000000000000000010000000200000003000000
     functionCalls: []
   - text: "God she can\u2019t breathe."
     displayText: "God she can\u2019t breathe."
@@ -481,4 +481,24 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 150000001500000015000000360000003600000036000000
     functionCalls: []
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.0504
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Calm Button
+    - index: -1
+      functionType: 6
+      parameter:
+      - Calm Button
+      - 1
   _currentLineIndex: -1

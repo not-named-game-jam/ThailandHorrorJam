@@ -48,7 +48,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: '                                                              '
+  - text: '                                                                                    '
     displayText: '                                                              '
     color: 0
     characterSprite: {fileID: 0}
@@ -67,6 +67,15 @@ MonoBehaviour:
       functionType: 2
       parameter:
       - DARKNESS
+    - index: 40
+      functionType: 6
+      parameter:
+      - Door To Home
+      - 1
+    - index: 40
+      functionType: 4
+      parameter:
+      - Door To Home
   - text: Suddenly, the surreal desert landscape turns into a shadowy hallway.
     displayText: Suddenly, the surreal desert landscape turns into a shadowy hallway.
     color: 0
@@ -329,8 +338,8 @@ MonoBehaviour:
     functionCalls: []
   - text: "It\u2019s not like there\u2019s a secret portal to a candy dimension in
       the closet or anything. $$$Probably."
-    displayText: "It\u2019s just like every other bedroom though, don\u2019t get
-      your hopes up..."
+    displayText: "It\u2019s not like there\u2019s a secret portal to a candy dimension
+      in the closet or anything. Probably."
     color: 0
     characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
     typeInterval: 0.036
@@ -338,7 +347,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 2b0000002b000000420000004300000044000000
+    pauseIndex: 560000005600000056000000
     functionCalls: []
   - text: Rika said slyly as Maya opened the door to her old bedroom. $$$The door
       closed behind them and disappeared.
@@ -353,4 +362,24 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 3c0000003c0000003c000000
     functionCalls: []
+  - text: '                                                                    '
+    displayText: '                                            '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Intro----
+      - 1
+    - index: 30
+      functionType: 5
+      parameter:
+      - ----Intro----
   _currentLineIndex: -1

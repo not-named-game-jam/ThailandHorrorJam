@@ -12,7 +12,7 @@ public class CameraPanning : MonoBehaviour
     [SerializeField] public DialogueSystem isDialogueActive;
     public bool stopCamWhenDialogue;
     private float savedcameraSpeed;
-    private float cameraDeadzone = 5.005f;
+    private float cameraDeadzone = 5.055f;
     void Start()
     {
         savedcameraSpeed = cameraSpeed;
@@ -31,7 +31,7 @@ public class CameraPanning : MonoBehaviour
         }
         
         Vector3 mousePosi = Input.mousePosition;
-        mousePosi.z = cameraDeadzone - 0.005f;
+        mousePosi.z = cameraDeadzone - 0.055f;
         Vector3 toWorldmousePosi = cam.ScreenToWorldPoint(mousePosi);
         Vector3 newPosi = Vector3.MoveTowards(rb.position, toWorldmousePosi, Time.deltaTime * cameraSpeed);
         float deadZone = Vector3.Distance(rb.position, toWorldmousePosi);

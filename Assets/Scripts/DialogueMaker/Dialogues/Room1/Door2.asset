@@ -13,8 +13,38 @@ MonoBehaviour:
   m_Name: Door2
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: 
+    displayText: I don't know.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Left Door Close 2
+  - text: 
+    displayText: I don't know.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Left Door Open
   - text: Rika opened the door, $$but there's still nothing outside.
-    displayText: Rika opened the door, but there's nothing outside.
+    displayText: Rika opened the door, but there's still nothing outside.
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
@@ -25,7 +55,7 @@ MonoBehaviour:
     pauseIndex: 1600000016000000
     functionCalls: []
   - text: Again? Is there anyone playing prank on us?
-    displayText: What's that? Is there anyone outside?
+    displayText: Again? Is there anyone playing prank on us?
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.036
@@ -37,7 +67,8 @@ MonoBehaviour:
     functionCalls: []
   - text: It's in my dream. $$How can someone enter my dream and play a prank on
       me?
-    displayText: No.
+    displayText: It's in my dream. How can someone enter my dream and play a prank
+      on me?
     color: 0
     characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
     typeInterval: 0.036
@@ -45,10 +76,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1200000012000000
     functionCalls: []
   - text: Then, $$what is it.$.$.?
-    displayText: ...Okay?
+    displayText: Then, what is it...?
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.036
@@ -56,17 +87,47 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0100000002000000
+    pauseIndex: 06000000060000001100000012000000
     functionCalls: []
   - text: I don't know.
-    displayText: ...Okay?
+    displayText: I don't know.
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
-    characterName: Maya
+    characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0100000002000000
+    pauseIndex: 
     functionCalls: []
+  - text: 
+    displayText: I don't know.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Left Door Close 3
+  - text: 
+    displayText: I don't know.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Left Door Open
   _currentLineIndex: -1

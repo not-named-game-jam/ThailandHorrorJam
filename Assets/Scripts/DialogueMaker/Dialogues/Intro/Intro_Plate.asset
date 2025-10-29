@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: This stone plate is so dusty that I can't discern what it's for.
-    displayText: This cactus looks exactly like the one I got pricked by when I was
-      5.
+    displayText: This stone plate is so dusty that I can't discern what it's for.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -26,8 +25,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: Why is there a stone plate in a place like this anyway$.$.$.?
-    displayText: Since then, I can somehow see myself in this kind of plants. It's
-      kind of poetic, really.
+    displayText: Why is there a stone plate in a place like this anyway...?
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.036
@@ -35,6 +33,25 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 3d0000003d0000005200000052000000
+    pauseIndex: 360000003700000038000000
     functionCalls: []
+  - text: 
+    displayText: Why is there a stone plate in a place like this anyway...?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 360000003700000038000000
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Plate
+    - index: -1
+      functionType: 4
+      parameter:
+      - Plate No Click
   _currentLineIndex: -1

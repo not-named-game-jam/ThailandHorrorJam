@@ -13,6 +13,35 @@ MonoBehaviour:
   m_Name: Intro
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                                                '
+    displayText: '                                                                '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 7
+      parameter:
+      - StartGameBG
+      - 1
+    - index: -1
+      functionType: 7
+      parameter:
+      - Play Game
+      - 1
+    - index: -1
+      functionType: 5
+      parameter:
+      - Lock CameraPanner
+    - index: -1
+      functionType: 4
+      parameter:
+      - Camera Panner Boundary
   - text: "```$$$$$$$$$$$$$$\u201CNobody will ever understand you.\u201D"
     displayText: "\u201CNobody will ever understand you.\u201D"
     color: 1
@@ -28,6 +57,10 @@ MonoBehaviour:
       functionType: 2
       parameter:
       - CICADA
+    - index: -1
+      functionType: 5
+      parameter:
+      - StartGameBG
   - text: "```\u201CYour nightmare will never end.\u201D"
     displayText: "\u201CYour nightmare will never end.\u201D"
     color: 1
@@ -725,6 +758,26 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 090000000a0000000b0000000d0000000d0000001d0000001d000000
     functionCalls: []
+  - text: '                                                           '
+    displayText: '                                                           '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 6
+      parameter:
+      - ----Intro----
+      - 1
+    - index: -1
+      functionType: 4
+      parameter:
+      - ----Intro----
   - text: Rika opens her eyes and finds herself in another girl's arms with head
       in her lap.
     displayText: Rika opens her eyes and finds herself in another girl's arms with
@@ -937,4 +990,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: 32
+  _currentLineIndex: -1

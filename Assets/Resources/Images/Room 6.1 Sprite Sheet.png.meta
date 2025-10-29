@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: e4de5396019b0df4b8d4b9871ec52ee6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 3553
+        width: 1297
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81a9767c35b0374bbd531fd677ea653
+      internalID: -216685356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1041
+        width: 3299
+        height: 3303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f20e41208c2814dbf7db87d6cd6a28
+      internalID: -584636940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 1695
+        width: 528
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359d1c3b3cb10e943a441907bfcc4351
+      internalID: -1564308512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 2443
+        width: 763
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f243903da56c443a0a67c7ef183826
+      internalID: -827757187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4267
+        y: 1632
+        width: 344
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd850df69e8b5d469d78494ce6eca0c
+      internalID: 1133660084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 2444
+        width: 763
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9bf06e6f9b2404fad52e110e325cf1
+      internalID: -822417868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 956
+        width: 374
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667841087290b224dbe52e55a9ce15cc
+      internalID: -1231021518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 998
+        width: 440
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6707309a9bfd194e874a8f8614cabe6
+      internalID: -1100497656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 311
+        width: 609
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa2ba45c69468c44aba40ffb691005f
+      internalID: 705974926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 6.1 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 275
+        width: 413
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b32f6755520e5845a75a8dbde2abd3a
+      internalID: 688326430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f47fd016c7a74ed4ab5b32e7c5658599
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Room 6.1 Sprite Sheet_0: 1284476995
+      Room 6.1 Sprite Sheet_1: 640802056
+      Room 6.1 Sprite Sheet_10: -583195732
+      Room 6.1 Sprite Sheet_11: -232985083
+      Room 6.1 Sprite Sheet_12: -584636940
+      Room 6.1 Sprite Sheet_13: -522532465
+      Room 6.1 Sprite Sheet_14: -102768436
+      Room 6.1 Sprite Sheet_15: 991802649
+      Room 6.1 Sprite Sheet_16: -1564308512
+      Room 6.1 Sprite Sheet_17: -827757187
+      Room 6.1 Sprite Sheet_18: 1133660084
+      Room 6.1 Sprite Sheet_19: -822417868
+      Room 6.1 Sprite Sheet_2: 2131784578
+      Room 6.1 Sprite Sheet_20: 319346232
+      Room 6.1 Sprite Sheet_21: 1539712612
+      Room 6.1 Sprite Sheet_22: -503031093
+      Room 6.1 Sprite Sheet_23: 1371086600
+      Room 6.1 Sprite Sheet_24: -147742096
+      Room 6.1 Sprite Sheet_25: 1394195717
+      Room 6.1 Sprite Sheet_26: 1612105452
+      Room 6.1 Sprite Sheet_27: -1231021518
+      Room 6.1 Sprite Sheet_28: -1100497656
+      Room 6.1 Sprite Sheet_29: -403671817
+      Room 6.1 Sprite Sheet_3: -1599130307
+      Room 6.1 Sprite Sheet_30: 1292730874
+      Room 6.1 Sprite Sheet_31: 2047320987
+      Room 6.1 Sprite Sheet_32: -1598069283
+      Room 6.1 Sprite Sheet_33: 705974926
+      Room 6.1 Sprite Sheet_34: 688326430
+      Room 6.1 Sprite Sheet_4: -216685356
+      Room 6.1 Sprite Sheet_5: -339766840
+      Room 6.1 Sprite Sheet_6: -120390012
+      Room 6.1 Sprite Sheet_7: 1012225980
+      Room 6.1 Sprite Sheet_8: 1279351174
+      Room 6.1 Sprite Sheet_9: 1507661351
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

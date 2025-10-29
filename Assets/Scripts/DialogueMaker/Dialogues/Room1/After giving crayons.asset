@@ -13,6 +13,36 @@ MonoBehaviour:
   m_Name: After giving crayons
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Cry
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Normal
   - text: Finally.$.$. $$She stopped crying.
     displayText: Finally... She stopped crying.
     color: 0
@@ -24,7 +54,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 08000000090000000b0000000b000000
     functionCalls: []
-  - text: '                                                        '
+  - text: '                        '
     displayText: '                                                        '
     color: 0
     characterSprite: {fileID: 0}
@@ -47,9 +77,7 @@ MonoBehaviour:
     pauseIndex: 06000000060000001c0000001c000000
     functionCalls: []
   - text: And she will probably keep drawing for a long long time.
-    displayText: And she will probably keep drawing for a long long time. Until the
-      day her age reaches the range applicable by the compulsory education law, where
-      I'm forced to go out.
+    displayText: And she will probably keep drawing for a long long time.
     color: 0
     characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
     typeInterval: 0.036
@@ -57,13 +85,12 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 39000000390000008d0000008d000000
+    pauseIndex: 
     functionCalls: []
   - text: Until the day her age reaches the range applicable by the compulsory education
       law, $$where I'm forced to go out.
-    displayText: And she will probably keep drawing for a long long time. Until the
-      day her age reaches the range applicable by the compulsory education law, where
-      I'm forced to go out.
+    displayText: Until the day her age reaches the range applicable by the compulsory
+      education law, where I'm forced to go out.
     color: 0
     characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
     typeInterval: 0.036
@@ -71,7 +98,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 39000000390000008d0000008d000000
+    pauseIndex: 5400000054000000
     functionCalls: []
   - text: Why can't you just say until she starts going to school?
     displayText: Why can't you just say until she starts going to school?
@@ -84,7 +111,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: '                                                                '
+  - text: '                                     '
     displayText: '                                                                '
     color: 0
     characterSprite: {fileID: 0}
@@ -99,6 +126,14 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - boom
+    - index: 0
+      functionType: 4
+      parameter:
+      - Front Door Open Wide
+    - index: 0
+      functionType: 5
+      parameter:
+      - Front Door Close
   - text: Ah.$.$. $$Anyway, $$it seems like the door has unlocked. $$Let's go to
       the next room.
     displayText: Ah... Anyway, it seems like the door has unlocked. Let's go to the

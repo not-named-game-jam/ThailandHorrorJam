@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: This cactus looks exactly like the one I got pricked by when I was 5.
-    displayText: It's a bush.
+    displayText: This cactus looks exactly like the one I got pricked by when I was
+      5.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -26,7 +27,8 @@ MonoBehaviour:
     functionCalls: []
   - text: I was interested in sharp objects at that time, $$and I asked mother to
       buy it for me. $$The rest was history$.$.$.
-    displayText: It's a bush.
+    displayText: I was interested in sharp objects at that time, and I asked mother
+      to buy it for me. The rest was history...
     color: 0
     characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
     typeInterval: 0.036
@@ -34,6 +36,26 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 30000000300000005500000055000000690000006a0000006b000000
     functionCalls: []
+  - text: 
+    displayText: I was interested in sharp objects at that time, and I asked mother
+      to buy it for me. The rest was history...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 30000000300000005500000055000000690000006a0000006b000000
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Cactus
+    - index: -1
+      functionType: 4
+      parameter:
+      - Cactus No Click
   _currentLineIndex: -1
