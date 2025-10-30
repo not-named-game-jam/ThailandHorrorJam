@@ -65,6 +65,9 @@ public class BoxPuzzleManager : MonoBehaviour
         RoomManager instance = RoomManager.instance;
         instance.PlayDialogue(instance.GetWinningDialogue());
 
+        SliderTimer timer = FindObjectOfType<SliderTimer>();
+        if (timer != null) timer.StopSlider(); 
+
         CanvasGroup cg = GetComponent<CanvasGroup>();
         cg.alpha = 0f; // make invisible
         cg.interactable = false; // disable clicks
