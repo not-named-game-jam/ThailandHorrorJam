@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Friend shard
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: This is.$.$. $$the classroom.$.$.?
+    displayText: This is... the classroom...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000090000000b0000000b000000190000001a000000
+    functionCalls: []
+  - text: '```"Good morning! $$Rika!"'
+    displayText: '"Good morning! Rika!"'
+    color: 7
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nana-chan
+    textColor: {r: 1, g: 0.65, b: 0, a: 1}
+    pauseIndex: 0f0000000f000000
+    functionCalls: []
+  - text: Nana-chan.$.$.? $$What?
+    displayText: Nana-chan...? What?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000b0000000e0000000e000000
+    functionCalls: []
+  - text: The girl didn't respond to Rika's calling, $$and she started setting up
+      her canvas on the table. $$It's like Rika didn't exist in that space.
+    displayText: The girl didn't respond to Rika's calling, and she started setting
+      up her canvas on the table. It's like Rika didn't exist in that space.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2b0000002b0000005f0000005f000000
+    functionCalls: []
+  - text: Rika, $$this is a memory shard. $$You can't interact with the people inside.
+    displayText: Rika, this is a memory shard. You can't interact with the people
+      inside.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000001e0000001e000000
+    functionCalls: []
+  - text: So, $$this shard is about my friends.$.$.
+    displayText: So, this shard is about my friends...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000002300000024000000
+    functionCalls: []
+  - text: '```"Hey, $$Rika.$.$. $$It might be weird to say this right here, $$but.$.$.
+      $$I feel like no matter how hard I study, $$I just can''t reproduce the souls
+      and feelings you poured into your art.$.$."'
+    displayText: '"Hey, Rika... It might be weird to say this right here, but...
+      I feel like no matter how hard I study, I just can''t reproduce the souls and
+      feelings you poured into your art..."'
+    color: 7
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nana-chan
+    textColor: {r: 1, g: 0.65, b: 0, a: 1}
+    pauseIndex: 06000000060000000b0000000c0000000e0000000e00000038000000380000003c0000003d0000003f0000003f0000006700000067000000ae000000af000000
+    functionCalls: []
+  - text: '```"So, $$even if other people don''t see those and they voted for my
+      piece in that competition, $$yours is still so much better in my eyes.$.$."'
+    displayText: '"So, even if other people don''t see those and they voted for my
+      piece in that competition, yours is still so much better in my eyes..."'
+    color: 7
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nana-chan
+    textColor: {r: 1, g: 0.65, b: 0, a: 1}
+    pauseIndex: 05000000050000005b0000005b0000008400000085000000
+    functionCalls: []
+  - text: I didn't remember she said that.$.$.
+    displayText: I didn't remember she said that...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 708777bab44cd2f45b2812ba56f77be9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2000000021000000
+    functionCalls: []
+  - text: It's because of your negative image that you filtered it all out.
+    displayText: It's because of your negative image that you filtered it all out.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: When you want to confirm your suspicion, $$everything else that contradicts
+      what you had in mind is thrown away.$.$.
+    displayText: When you want to confirm your suspicion, everything else that contradicts
+      what you had in mind is thrown away...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 29000000290000006e0000006f000000
+    functionCalls: []
+  - text: '```"So.$.$. $$please.$.$. $$don''t be discouraged by the result.$.$. $$I
+      want you to have fun drawing again.$.$."'
+    displayText: '"So... please... don''t be discouraged by the result... I want
+      you to have fun drawing again..."'
+    color: 7
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nana-chan
+    textColor: {r: 1, g: 0.65, b: 0, a: 1}
+    pauseIndex: 040000000500000007000000070000000e0000000f0000001100000011000000340000003500000037000000370000005c0000005d000000
+    functionCalls: []
+  - text: '```"That one result affects you so much, $$right? $$Even when you''re
+      with Asane-san and her friends, $$you always look sad. $$She''s worried about
+      you and told me about it.$.$. $$So, $$please, $$your art is good the way it
+      is.$.$"'
+    displayText: '"That one result affects you so much, right? Even when you''re
+      with Asane-san and her friends, you always look sad. She''s worried about you
+      and told me about it... So, please, your art is good the way it is.."'
+    color: 7
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nana-chan
+    textColor: {r: 1, g: 0.65, b: 0, a: 1}
+    pauseIndex: 26000000260000002d0000002d0000005e0000005e0000007300000073000000a0000000a1000000a3000000a3000000a7000000a7000000af000000af000000ce000000cf000000
+    functionCalls: []
+  - text: "\u201CAsane-san.$.$.? $$That group.$.$.?\""
+    displayText: "\u201CAsane-san...? That group...?\""
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000c0000000f0000000f0000001a0000001b000000
+    functionCalls: []
+  - text: They all think of you as a genuine friend, $$but you did not.
+    displayText: They all think of you as a genuine friend, but you did not.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2b0000002b000000
+    functionCalls: []
+  - text: They tried to care about you in their own way, $$but you interpreted those
+      ways as hurting you.
+    displayText: They tried to care about you in their own way, but you interpreted
+      those ways as hurting you.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2f0000002f000000
+    functionCalls: []
+  - text: What you think they make fun of you is actually just what normal teenagers
+      talk about. $$They just don't know you hate it.
+    displayText: What you think they make fun of you is actually just what normal
+      teenagers talk about. They just don't know you hate it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 5700000057000000
+    functionCalls: []
+  - text: Ah.$.$.Yeah.$.$. $$I.$.$.I never told them I was uncomfortable.$.$.
+    displayText: Ah...Yeah... I...I never told them I was uncomfortable...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 708777bab44cd2f45b2812ba56f77be9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 03000000040000000a0000000b0000000d0000000d0000000f000000100000003700000038000000
+    functionCalls: []
+  - text: You didn't. $$You just assumed they knew. $$Assumed they were doing it
+      on purpose.
+    displayText: You didn't. You just assumed they knew. Assumed they were doing
+      it on purpose.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0c0000000c0000002800000028000000
+    functionCalls: []
+  - text: They just wanted to be friends with me and wanted me to be happy, $$but
+      I rejected them.$.$.$?
+    displayText: They just wanted to be friends with me and wanted me to be happy,
+      but I rejected them...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 4200000042000000560000005700000058000000
+    functionCalls: []
+  - text: It's fine, $$Rika.$.$. $$Let the past be the past. $$Let's leave this shard.$.$.
+    displayText: It's fine, Rika... Let the past be the past. Let's leave this shard...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b000000100000001100000013000000130000002d0000002d0000004400000045000000
+    functionCalls: []
+  _currentLineIndex: -1

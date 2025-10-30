@@ -116,7 +116,7 @@ MonoBehaviour:
     functionCalls: []
   - text: I made myself cleaned my room everyday since I was 5. $$My parents even
       gave me cleaning tools and  a book on how to clean properly.
-    displayText: I cleaned my room at least twice a day since I was 5. My parents
+    displayText: I made myself cleaned my room everyday since I was 5. My parents
       even gave me cleaning tools and  a book on how to clean properly.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}

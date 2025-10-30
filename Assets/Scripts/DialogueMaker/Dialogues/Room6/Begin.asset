@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Begin
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: The sound of waves crashing against the shore can be heard from afar. $$The
+      warm and gentle sunlight shines down over Rika and Maya, $$who are sitting
+      beside each other.
+    displayText: The sound of waves crashing against the shore can be heard from
+      afar. The warm and gentle sunlight shines down over Rika and Maya, who are
+      sitting beside each other.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 46000000460000008300000083000000
+    functionCalls: []
+  - text: Rika has never been to a beach before. $$It's neither because she can't
+      afford it, $$nor because of her parents' lack of time. $$Even if she found
+      herself standing over the seaside, $$she would never dare to look at it.
+    displayText: Rika has never been to a beach before. It's neither because she
+      can't afford it, nor because of her parents' lack of time. Even if she found
+      herself standing over the seaside, she would never dare to look at it.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 270000002700000051000000510000007b0000007b000000b0000000b0000000
+    functionCalls: []
+  - text: It's just so.$.$.peaceful.
+    displayText: It's just so...peaceful.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0d0000000e000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Rika.
+    displayText: Rika.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Yes.
+    displayText: Yes.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: We've been through so much, $$Rika. $$Anyone would break if they are in
+      the same situation as ours.
+    displayText: We've been through so much, Rika. Anyone would break if they are
+      in the same situation as ours.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1c0000001c0000002200000022000000
+    functionCalls: []
+  - text: I know.
+    displayText: I know.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: This world is the place between dream and death. $$It's the boundary between
+      existing and not existing.
+    displayText: This world is the place between dream and death. It's the boundary
+      between existing and not existing.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3100000031000000
+    functionCalls: []
+  - text: You've heard this many times, $$but people always say life flashes before
+      their eyes when they die.
+    displayText: You've heard this many times, but people always say life flashes
+      before their eyes when they die.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e000000
+    functionCalls: []
+  - text: But what these people see is just a retrospective memory.
+    displayText: But what these people see is just a retrospective memory.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: What do you mean?
+    displayText: What do you mean?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika, $$people's lives are long. $$You cannot compress it all into one
+      second like what those people see.
+    displayText: Rika, people's lives are long. You cannot compress it all into one
+      second like what those people see.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000001f0000001f000000
+    functionCalls: []
+  - text: What you get is this long and painful journey across everything you've
+      experienced. $$By yourself. $$Alone.
+    displayText: What you get is this long and painful journey across everything
+      you've experienced. By yourself. Alone.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 54000000540000006100000061000000
+    functionCalls: []
+  - text: But I have you here too.$.$.?
+    displayText: But I have you here too...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1800000019000000
+    functionCalls: []
+  - text: That's because I am a part of you, $$Rika
+    displayText: That's because I am a part of you, Rika
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2300000023000000
+    functionCalls: []
+  - text: Maya patted Rika's head and smiled. $$Her smile is more sad now.
+    displayText: Maya patted Rika's head and smiled. Her smile is more sad now.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2400000024000000
+    functionCalls: []
+  - text: B-But I don't really understand you.$.$.And if I don't understand you,
+      $$then we aren't really the same person.$.$.$?
+    displayText: B-But I don't really understand you...And if I don't understand
+      you, then we aren't really the same person...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 240000002500000045000000450000006b0000006c0000006d000000
+    functionCalls: []
+  - text: Yes. $$You don't understand me. $$I am the part of you you chose to deny.
+      $$I am the part of you you chose to not understand.
+    displayText: Yes. You don't understand me. I am the part of you you chose to
+      deny. I am the part of you you chose to not understand.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000001e0000001e0000004600000046000000
+    functionCalls: []
+  - text: I.$.$. $$I denied a part of myself.$.$.
+    displayText: I... I denied a part of myself...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 020000000300000005000000050000001f00000020000000
+    functionCalls: []
+  - text: That's fine. $$I even try to deny myself as much as I can, $$just like
+      you.
+    displayText: That's fine. I even try to deny myself as much as I can, just like
+      you.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0d0000000d0000003900000039000000
+    functionCalls: []
+  - text: You see, $$the reason why I tried my best to act like I don't know anything,
+      $$is so I can spend time with you without that huge burden.$.$.
+    displayText: You see, the reason why I tried my best to act like I don't know
+      anything, is so I can spend time with you without that huge burden...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 09000000090000004b0000004b0000008400000085000000
+    functionCalls: []
+  - text: Despite knowing that eventually, $$it would hurt you at the end.$.$. $$I'm
+      sorry too.$.$.
+    displayText: Despite knowing that eventually, it would hurt you at the end...
+      I'm sorry too...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 21000000210000003e0000003f00000041000000410000004f00000050000000
+    functionCalls: []
+  - text: Maya stood up, $$spread her hands out, $$and turned toward Rika.
+    displayText: Maya stood up, spread her hands out, and turned toward Rika.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f0000002500000025000000
+    functionCalls: []
+  - text: This world is the place between dream and death. $$You chose death in the
+      real world, $$but that decision is without the full context.
+    displayText: This world is the place between dream and death. You chose death
+      in the real world, but that decision is without the full context.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 31000000310000005400000054000000
+    functionCalls: []
+  - text: This place can give you the choice to either live again, $$or die as your
+      whole self.
+    displayText: This place can give you the choice to either live again, or die
+      as your whole self.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3900000039000000
+    functionCalls: []
+  - text: The sound of waves stopped. $$The sunlight slowly dimmed away. $$The air
+      turns colder. $$And the wall of simulation shattered into pieces.
+    displayText: The sound of waves stopped. The sunlight slowly dimmed away. The
+      air turns colder. And the wall of simulation shattered into pieces.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1c0000001c0000003d0000003d0000005300000053000000
+    functionCalls: []
+  - text: The room materializes as a surreal landscape. Each fragment broken from
+      the wall turns into crystal shards floating in the air, $$reflecting each moment
+      of Rika's life.
+    displayText: The room materializes as a surreal landscape. Each fragment broken
+      from the wall turns into crystal shards floating in the air, reflecting each
+      moment of Rika's life.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 8000000080000000
+    functionCalls: []
+  - text: Everything exists simultaneously, $$and the past, $$present, $$and future
+      are all visible at the same time, $$flickering like a corrupted save file.
+    displayText: Everything exists simultaneously, and the past, present, and future
+      are all visible at the same time, flickering like a corrupted save file.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2200000022000000300000003000000039000000390000006600000066000000
+    functionCalls: []
+  - text: A blank mirror stood in the center of the room.
+    displayText: A blank mirror stood in the center of the room.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika, $$let's inspect each fragments and reassemble the whole picture.
+      $$And then, $$the choice is yours.
+    displayText: Rika, let's inspect each fragments and reassemble the whole picture.
+      And then, the choice is yours.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 060000000600000045000000450000004f0000004f000000
+    functionCalls: []
+  - text: .$.$.It's ours.
+    displayText: ...It's ours.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Yeah.$.$.
+    displayText: Yeah...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000006000000
+    functionCalls: []
+  _currentLineIndex: -1

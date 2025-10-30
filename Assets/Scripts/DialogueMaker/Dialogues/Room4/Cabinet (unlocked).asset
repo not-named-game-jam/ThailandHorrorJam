@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Cabinet (unlocked)
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: And that is.$.$. $$the door to the next room.
+    displayText: And that is... the door to the next room.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0c0000000d0000000f0000000f000000
+    functionCalls: []
+  - text: I wonder how much longer this will last. $$You can't have an infinite amount
+      of puzzles, $$right?
+    displayText: I wonder how much longer this will last. You can't have an infinite
+      amount of puzzles, right?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 29000000290000005700000057000000
+    functionCalls: []
+  - text: If so, $$it will get boring so fast.
+    displayText: If so, it will get boring so fast.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0700000007000000
+    functionCalls: []
+  - text: Yeah.$.$. $$So, $$to not waste more time and make you bored, $$let's go
+      to the next one, $$Rika?
+    displayText: Yeah... So, to not waste more time and make you bored, let's go
+      to the next one, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 050000000600000008000000080000000c0000000c00000037000000370000005100000051000000
+    functionCalls: []
+  - text: Okay. $$But maybe, $$even if it's a bit boring, $$it might not be so bad.$.$.
+      $$Because of this place, $$I can recover my memories with Mahiru after all.$.$.
+    displayText: Okay. But maybe, even if it's a bit boring, it might not be so bad...
+      Because of this place, I can recover my memories with Mahiru after all...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 060000000600000011000000110000002c0000002c000000430000004400000046000000460000005d0000005d0000008d0000008e000000
+    functionCalls: []
+  - text: "Au.$.$. $$Rika.$.$. $$Can you at least treasure me when you are with me?
+      $$You're gonna make me sad\u2014"
+    displayText: "Au... Rika... Can you at least treasure me when you are with me?
+      You're gonna make me sad\u2014"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 030000000400000006000000060000000b0000000c0000000e0000000e0000004100000041000000
+    functionCalls: []
+  - text: Rika padded Maya's shoulder.
+    displayText: Rika padded Maya's shoulder.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Not only that. $$One of the reasons it might not be so bad is you. $$Spending
+      time with you makes my life better. $$So, $$don't be sad.
+    displayText: Not only that. One of the reasons it might not be so bad is you.
+      Spending time with you makes my life better. So, don't be sad.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f00000041000000410000006e0000006e0000007200000072000000
+    functionCalls: []
+  - text: Ah.$.$.
+    displayText: Ah...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0300000004000000
+    functionCalls: []
+  - text: Let's go. $$The quicker we get out of here, $$the quicker we can go do
+      whatever we want. $$Maya.$.$.
+    displayText: Let's go. The quicker we get out of here, the quicker we can go
+      do whatever we want. Maya...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a0000002a0000002a00000055000000550000005a0000005b000000
+    functionCalls: []
+  - text: Yeah.$.$. $$Let's go.$.$.
+    displayText: Yeah... Let's go...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 050000000600000008000000080000001100000012000000
+    functionCalls: []
+  - text: Rika and Maya walk into the closet together.
+    displayText: Rika and Maya walk into the closet together.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika glanced back at the room for a second and thought to herself. $$Is
+      there anything else she hasn't remembered?
+    displayText: Rika glanced back at the room for a second and thought to herself.
+      Is there anything else she hasn't remembered?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.045
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 4300000043000000
+    functionCalls: []
+  - text: Friday. $$4th of April. $$Mahiru. $$Plum blossoms. $$Birthday. $$Bracelet.
+    displayText: Friday. 4th of April. Mahiru. Plum blossoms. Birthday. Bracelet.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 080000000800000016000000160000001e0000001e0000002d0000002d0000003700000037000000
+    functionCalls: []
+  - text: School stairway. $$Memory. $$9:35 PM. $$Blood stains. $$Gift. $$Friend.
+      $$Family. $$Isolation. $$Alone.$.$. $$Maya.$.$.
+    displayText: School stairway. Memory. 9:35 PM. Blood stains. Gift. Friend. Family.
+      Isolation. Alone... Maya...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 110000001100000019000000190000002200000022000000300000003000000036000000360000003e0000003e0000004600000046000000510000005100000057000000580000005a0000005a0000005f00000060000000
+    functionCalls: []
+  - text: Why did she even forget about Mahiru anyway? $$It's this memory, $$and
+      this memory only?
+    displayText: Why did she even forget about Mahiru anyway? It's this memory, and
+      this memory only?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2d0000002d0000003f0000003f000000
+    functionCalls: []
+  - text: Rika didn't stop her steps, $$one of her legs entered another room already.
+      $$Her body gradually got transported to the next room.$.$.
+    displayText: Rika didn't stop her steps, one of her legs entered another room
+      already. Her body gradually got transported to the next room...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1c0000001c0000004a0000004a0000007e0000007f000000
+    functionCalls: []
+  - text: That's the moment she realized.$.$.
+    displayText: That's the moment she realized...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.07
+    dialogueType: 2
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1f00000020000000
+    functionCalls: []
+  - text: that something bad must have happened.
+    displayText: that something bad must have happened.
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.08
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "W-Wait\u2014\u201D"
+    displayText: "W-Wait\u2014\u201D"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e23284570d4398b45acdfcf5a62324b6, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika tried to cling on to the previous room, $$but to no avail.
+    displayText: Rika tried to cling on to the previous room, but to no avail.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.05
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2d0000002d000000
+    functionCalls: []
+  - text: Because it had already started.
+    displayText: Because it had already started.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: -1

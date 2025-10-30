@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Spider lily
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: '```"I choose death."'
+    displayText: '"I choose death."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika said it first, $$but Maya's soft voice came a fraction of a second
+      later. $$They made the same choice.
+    displayText: Rika said it first, but Maya's soft voice came a fraction of a second
+      later. They made the same choice.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 14000000140000004d0000004d000000
+    functionCalls: []
+  - text: I can't carry this burden anymore, $$Maya. $$The truth is that I killed
+      Mahiru, $$I did bad things to everyone, $$and the truth will stay the same.
+    displayText: I can't carry this burden anymore, Maya. The truth is that I killed
+      Mahiru, I did bad things to everyone, and the truth will stay the same.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 230000002300000029000000290000004c0000004c0000006a0000006a000000
+    functionCalls: []
+  - text: It's too much.$.$.
+    displayText: It's too much...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0e0000000f000000
+    functionCalls: []
+  - text: You are only human, $$Rika. $$And you've reached your limit a long time
+      ago.
+    displayText: You are only human, Rika. And you've reached your limit a long time
+      ago.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 14000000140000001a0000001a000000
+    functionCalls: []
+  - text: If I go back there, $$I would just be a burden to others. $$I would drag
+      them down with me even if I don't intend to do it.
+    displayText: If I go back there, I would just be a burden to others. I would
+      drag them down with me even if I don't intend to do it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 14000000140000003800000038000000
+    functionCalls: []
+  - text: It's fine.
+    displayText: It's fine.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: I don't want to hate myself more than this.$.$.
+    displayText: I don't want to hate myself more than this...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2b0000002c000000
+    functionCalls: []
+  - text: That's totally fine.
+    displayText: That's totally fine.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "I\u2014I just want it to end."
+    displayText: "I\u2014I just want it to end."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Then let it end, $$Rika. $$Let's go together.
+    displayText: Then let it end, Rika. Let's go together.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 11000000110000001700000017000000
+    functionCalls: []
+  - text: They walked towards the door. $$The red spider lily blooms, $$welcoming
+      them to the land of nothingness. $$A void even darker than the void they came
+      from.
+    displayText: They walked towards the door. The red spider lily blooms, welcoming
+      them to the land of nothingness. A void even darker than the void they came
+      from.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1e0000001e0000003a0000003a0000006500000065000000
+    functionCalls: []
+  - text: This is the final choice they made by themselves, $$and the only choice
+      that will satisfy her.
+    displayText: This is the final choice they made by themselves, and the only choice
+      that will satisfy her.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 3200000032000000
+    functionCalls: []
+  - text: The door swings open.
+    displayText: The door swings open.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: No light. $$No sound. $$No pain. $$Nothing.
+    displayText: No light. No sound. No pain. Nothing.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a00000014000000140000001d0000001d000000
+    functionCalls: []
+  - text: Nothing, $$but Rika and Maya.
+    displayText: Nothing, but Rika and Maya.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0900000009000000
+    functionCalls: []
+  - text: Nothing, $$but a girl who has committed a sin so grave that she couldn't
+      forgive herself.
+    displayText: Nothing, but a girl who has committed a sin so grave that she couldn't
+      forgive herself.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0900000009000000
+    functionCalls: []
+  - text: And.$.$.
+    displayText: And...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000
+    functionCalls: []
+  - text: '                                                                        '
+    displayText: '                                                                        '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 3
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 10
+      functionType: 1
+      parameter:
+      - amogus
+  - text: A steady tone. $$Continuous. $$Uninterrupted.
+    displayText: A steady tone. Continuous. Uninterrupted.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0f0000000f0000001b0000001b000000
+    functionCalls: []
+  - text: Beeeeeeeeeeep
+    displayText: Beeeeeeeeeeep
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Temperature: 34.2 \xB0C"
+    displayText: "Temperature: 34.2 \xB0C"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Heartrate: 0 bpm'
+    displayText: 'Heartrate: 0 bpm'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Oxygen: --%'
+    displayText: 'Oxygen: --%'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Blood pressure: --/-- mmHg'
+    displayText: 'Blood pressure: --/-- mmHg'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Respiratory rate: 0 breaths per minute'
+    displayText: 'Respiratory rate: 0 breaths per minute'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Time of death: 3:14 AM'
+    displayText: 'Time of death: 3:14 AM'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: The nurse removed the respirator and pulled a white sheet over Rika's body.
+    displayText: The nurse removed the respirator and pulled a white sheet over Rika's
+      body.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 2
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```"Such a young girl.$.$."'
+    displayText: '"Such a young girl..."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nurse 1
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1300000014000000
+    functionCalls: []
+  - text: '```"Did anyone ever come to visit her?"'
+    displayText: '"Did anyone ever come to visit her?"'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nurse 2
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```"No.$.$."'
+    displayText: '"No..."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nurse 1
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000
+    functionCalls: []
+  - text: '```"Hey, $$but I heard her mother tried to contact the hospital a few
+      days ago. $$She''s trying to book a flight back to Japan."'
+    displayText: '"Hey, but I heard her mother tried to contact the hospital a few
+      days ago. She''s trying to book a flight back to Japan."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nurse 2
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000004b0000004b000000
+    functionCalls: []
+  - text: '```"It''s too late now.$.$. $$How sad.$.$."'
+    displayText: '"It''s too late now... How sad..."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nurse 1
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 130000001400000016000000160000001e0000001f000000
+    functionCalls: []
+  - text: '```"Rest in peace, $$Konomi Rika.$.$. $$Life must have been painful for
+      her to choose such an end. $$May the next life treat her more gently.$.$."'
+    displayText: '"Rest in peace, Konomi Rika... Life must have been painful for
+      her to choose such an end. May the next life treat her more gently..."'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.04
+    dialogueType: 0
+    typeSound: speak
+    characterName: Nurse 2
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 10000000100000001c0000001d0000001f0000001f0000005a0000005a0000008200000083000000
+    functionCalls: []
+  _currentLineIndex: -1

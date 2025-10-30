@@ -13,39 +13,11 @@ MonoBehaviour:
   m_Name: After Calm
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: '                                                           '
-    displayText: '                                             '
-    color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.0434
-    dialogueType: 3
-    typeSound: speak
-    characterName: 
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
-    functionCalls:
-    - index: 0
-      functionType: 7
-      parameter:
-      - Calm Button
-      - 1
-    - index: 30
-      functionType: 5
-      parameter:
-      - Calm Button
-    - index: 0
-      functionType: 7
-      parameter:
-      - '*Placeholder for Rika*'
-    - index: 30
-      functionType: 5
-      parameter:
-      - '*Placeholder for Rika*'
   - text: Breathe $$Rika, breathe.
     displayText: Breathe Rika, breathe.
     color: 0
-    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
-    typeInterval: 0.0434
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.045
     dialogueType: 1
     typeSound: speak
     characterName: Maya
@@ -59,7 +31,7 @@ MonoBehaviour:
     displayText: The calm voice started again. And this time, she followed.
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0434
+    typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: 
@@ -69,24 +41,4 @@ MonoBehaviour:
     - index: 0
       functionType: 0
       parameter: []
-  - text: '                                                     '
-    displayText: The calm voice started again. And this time, she followed.
-    color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.0434
-    dialogueType: 2
-    typeSound: speak
-    characterName: 
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1d0000001d0000001d0000002b0000002b0000002b000000
-    functionCalls:
-    - index: 0
-      functionType: 7
-      parameter:
-      - ----Room3----
-      - 1
-    - index: 30
-      functionType: 5
-      parameter:
-      - ----Room3----
   _currentLineIndex: -1

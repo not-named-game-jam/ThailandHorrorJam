@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Blackboard (solved)
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Phew.$.$. $$That's quite confusing.
+    displayText: Phew... That's quite confusing.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000060000000800000008000000
+    functionCalls: []
+  - text: .$.$. $$Wait$.$.$.
+    displayText: ... Wait...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000040000000400000008000000090000000a000000
+    functionCalls: []
+  - text: Rika?
+    displayText: Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Friday.$.$.?
+    displayText: Friday...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0700000008000000
+    functionCalls: []
+  - text: Yes, $$the answer is Friday. $$What about it?
+    displayText: Yes, the answer is Friday. What about it?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000001b0000001b000000
+    functionCalls: []
+  - text: 4th of April, $$Friday.$.$.?
+    displayText: 4th of April, Friday...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a32fafbf821b6c84ca74a356f7b9b009, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0e0000000e0000001500000016000000
+    functionCalls: []
+  - text: If I remember correctly, $$your birthday is the 5th of April, $$right?
+      $$This date would be one day before your birthday.
+    displayText: If I remember correctly, your birthday is the 5th of April, right?
+      This date would be one day before your birthday.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 19000000190000003c0000003c0000004300000043000000
+    functionCalls: []
+  - text: That would be right.
+    displayText: That would be right.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: So, $$happy birthday.$.$.?
+    displayText: So, happy birthday...?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.05
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000001300000014000000
+    functionCalls: []
+  - text: That's not how it works. $$But.$.$. $$I feel weird.$.$.It's like something's
+      missing.
+    displayText: That's not how it works. But... I feel weird...It's like something's
+      missing.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 19000000190000001d0000001e00000020000000200000002d0000002e000000
+    functionCalls: []
+  - text: Something? $$What's missing, $$Rika?
+    displayText: Something? What's missing, Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b0000001b0000001b000000
+    functionCalls: []
+  - text: "I'm not sure.$.$. $$I feel like I'm somehow missing out on a gift I should
+      have received, $$if that makes sense?\u201D"
+    displayText: "I'm not sure... I feel like I'm somehow missing out on a gift I
+      should have received, if that makes sense?\u201D"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0d0000000e00000010000000100000005600000056000000
+    functionCalls: []
+  - text: "Uh.$.$. $$Maybe it's just you being tired. $$You're overthinking i\u2014"
+    displayText: "Uh... Maybe it's just you being tired. You're overthinking i\u2014"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 030000000400000006000000060000002700000027000000
+    functionCalls: []
+  - text: '                                                                               '
+    displayText: '                                                                               '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 10
+      functionType: 1
+      parameter:
+      - boom
+  - text: '!!?'
+    displayText: '!!?'
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: -1
