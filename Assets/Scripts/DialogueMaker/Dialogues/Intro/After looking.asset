@@ -48,8 +48,8 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: '                                                                                    '
-    displayText: '                                                              '
+  - text: '                                                                                                                        '
+    displayText: '                                                                                                                        '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
@@ -62,11 +62,15 @@ MonoBehaviour:
     - index: 40
       functionType: 1
       parameter:
-      - boom
+      - Boom(1)
+    - index: 5
+      functionType: 1
+      parameter:
+      - BassBoom
     - index: 20
       functionType: 2
       parameter:
-      - DARKNESS
+      - HorrorGJ1
     - index: 40
       functionType: 6
       parameter:
@@ -76,6 +80,62 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - Door To Home
+    - index: 10
+      functionType: 5
+      parameter:
+      - Tree No Click
+    - index: 10
+      functionType: 5
+      parameter:
+      - Bracelet
+    - index: 10
+      functionType: 5
+      parameter:
+      - IntroBG
+    - index: 10
+      functionType: 5
+      parameter:
+      - Plate No Click
+    - index: 10
+      functionType: 5
+      parameter:
+      - Bush No Click
+    - index: 10
+      functionType: 5
+      parameter:
+      - Cactus No Click
+    - index: 10
+      functionType: 5
+      parameter:
+      - Box No Click
+    - index: 10
+      functionType: 5
+      parameter:
+      - Pedestal No Click
+    - index: 11
+      functionType: 5
+      parameter:
+      - Box
+    - index: 11
+      functionType: 5
+      parameter:
+      - Box
+    - index: 11
+      functionType: 5
+      parameter:
+      - Pedestal
+    - index: 11
+      functionType: 5
+      parameter:
+      - Bush
+    - index: 11
+      functionType: 5
+      parameter:
+      - Plate
+    - index: 11
+      functionType: 5
+      parameter:
+      - Tree
   - text: Suddenly, the surreal desert landscape turns into a shadowy hallway.
     displayText: Suddenly, the surreal desert landscape turns into a shadowy hallway.
     color: 0
@@ -361,9 +421,13 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 3c0000003c0000003c000000
-    functionCalls: []
+    functionCalls:
+    - index: 20
+      functionType: 1
+      parameter:
+      - OpenDoor
   - text: '                                                                    '
-    displayText: '                                            '
+    displayText: '                                                                    '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
@@ -382,4 +446,4 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - ----Intro----
-  _currentLineIndex: -1
+  _currentLineIndex: 29

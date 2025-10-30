@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: 
-    displayText: I don't know.
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -28,12 +28,16 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Left Door Close 2
+    - index: -1
+      functionType: 1
+      parameter:
+      - OpenDoor
   - text: 
-    displayText: I don't know.
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -101,11 +105,11 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: 
-    displayText: I don't know.
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -116,11 +120,11 @@ MonoBehaviour:
       parameter:
       - Left Door Close 3
   - text: 
-    displayText: I don't know.
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}

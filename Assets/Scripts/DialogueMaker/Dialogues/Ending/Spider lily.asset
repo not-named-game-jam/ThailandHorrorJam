@@ -268,7 +268,7 @@ MonoBehaviour:
     - index: 10
       functionType: 1
       parameter:
-      - amogus
+      - BassBoom
   - text: A steady tone. $$Continuous. $$Uninterrupted.
     displayText: A steady tone. Continuous. Uninterrupted.
     color: 0
@@ -290,7 +290,11 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - flatline
   - text: "Temperature: 34.2 \xB0C"
     displayText: "Temperature: 34.2 \xB0C"
     color: 0

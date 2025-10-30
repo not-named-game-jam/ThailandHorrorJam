@@ -28,10 +28,14 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Left Door Close 3
+    - index: -1
+      functionType: 1
+      parameter:
+      - OpenDoor
   - text: '                  '
     displayText: '                  '
     color: 0
-    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    characterSprite: {fileID: 0}
     typeInterval: 0.036
     dialogueType: 3
     typeSound: speak
@@ -61,7 +65,7 @@ MonoBehaviour:
     - index: 0
       functionType: 1
       parameter:
-      - boom
+      - JumpScareLoud
   - text: 
     displayText: 
     color: 0

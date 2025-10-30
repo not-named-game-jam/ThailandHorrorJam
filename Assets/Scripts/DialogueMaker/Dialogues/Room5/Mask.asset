@@ -23,7 +23,11 @@ MonoBehaviour:
     characterName: 
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
     pauseIndex: 1b0000001c000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract3
   - text: '```Why are you still here.$.$.?'
     displayText: Why are you still here...?
     color: 1
@@ -78,7 +82,7 @@ MonoBehaviour:
     pauseIndex: 0100000002000000
     functionCalls: []
   - text: "```GO $\u2013$!$!$!"
-    displayText: "GO D\u2013!!!"
+    displayText: "GO \u2013!!!"
     color: 1
     characterSprite: {fileID: 0}
     typeInterval: 0.03
@@ -86,6 +90,6 @@ MonoBehaviour:
     typeSound: speak
     characterName: 
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
-    pauseIndex: 0300000003000000050000000600000007000000
+    pauseIndex: 03000000040000000500000006000000
     functionCalls: []
   _currentLineIndex: -1

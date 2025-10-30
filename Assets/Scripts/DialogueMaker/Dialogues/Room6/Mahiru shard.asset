@@ -23,7 +23,11 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 050000000600000008000000080000001d0000001e000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract1
   - text: But we have to see everything.$.$.
     displayText: But we have to see everything...
     color: 0

@@ -45,7 +45,8 @@ public class DialogueSystem : MonoBehaviour
         else Destroy(gameObject);
     }
 
-    private IEnumerator FadePanel(GameObject panel, bool isFadeIn, float duration = 0.3f) {
+//duration = 0.3f
+    private IEnumerator FadePanel(GameObject panel, bool isFadeIn, float duration = 0.1f) {
         isFading = true;
         panel.SetActive(true);
         var canvasGroup = panel.GetComponent<CanvasGroup>();
@@ -201,8 +202,7 @@ public class DialogueSystem : MonoBehaviour
 
         skipCooldown += Time.unscaledDeltaTime;
         
-        // if (Pressed() && skipCooldown >= 0.3f && !isFading && _type != DialogueType.Wait)
-        if (Pressed() && skipCooldown >= 0f && !isFading && _type != DialogueType.Wait)
+        if (((Pressed() && skipCooldown >= 0.3f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait)
         {
             skipCooldown = 0.0f;
             ContinueDialogue();

@@ -23,7 +23,11 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1f0000002000000021000000
-    functionCalls: []
+    functionCalls:
+    - index: -1
+      functionType: 1
+      parameter:
+      - MainInteract3
   - text: Can I even generate enough force to open it in the first place?
     displayText: Can I even generate enough force to open it in the first place?
     color: 0
@@ -36,11 +40,11 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: 
-    displayText: Can I even generate enough force to open it in the first place?
+    displayText: 
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}

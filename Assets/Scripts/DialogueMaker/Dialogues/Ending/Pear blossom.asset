@@ -279,7 +279,7 @@ MonoBehaviour:
     - index: 10
       functionType: 1
       parameter:
-      - amogus
+      - BassBoom
   - text: The sound of generic breaking news jingle comes out of a TV.
     displayText: The sound of generic breaking news jingle comes out of a TV.
     color: 0

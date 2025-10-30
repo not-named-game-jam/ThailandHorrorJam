@@ -69,7 +69,7 @@ MonoBehaviour:
     - index: -1
       functionType: 1
       parameter:
-      - boom
+      - BedJumpScare
   - text: 
     displayText: 
     color: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
     - index: 20
       functionType: 1
       parameter:
-      - amogus
+      - Hit2
     - index: 20
       functionType: 6
       parameter:

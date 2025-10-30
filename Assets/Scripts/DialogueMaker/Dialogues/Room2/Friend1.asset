@@ -33,6 +33,10 @@ MonoBehaviour:
       parameter:
       - Room 2 Pic1 OnScreen
       - 1
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract2
   - text: .$.$.$$She sabotaged my artwork though.
     displayText: ...She sabotaged my artwork though.
     color: 0
@@ -196,4 +200,4 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Room 2 Pic1 OnScreen
-  _currentLineIndex: 1
+  _currentLineIndex: -1

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: '```You received Jigsaw Piece 4'
-    displayText: You received Jigsaw Piece 1
+    displayText: You received Jigsaw Piece 4
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.02
@@ -27,4 +27,8 @@ MonoBehaviour:
     - index: -1
       functionType: 8
       parameter: []
+    - index: -1
+      functionType: 1
+      parameter:
+      - JigsawPiece
   _currentLineIndex: -1

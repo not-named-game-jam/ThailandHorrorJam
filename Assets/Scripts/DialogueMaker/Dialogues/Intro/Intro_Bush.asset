@@ -23,7 +23,11 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract1
   - text: This kind of plant is quite tolerant to harsh condition$.$.$. $$Only if
       humans could do the same$.$.$.
     displayText: This kind of plant is quite tolerant to harsh condition... Only
@@ -38,16 +42,15 @@ MonoBehaviour:
     pauseIndex: 3700000038000000390000003b0000003b0000005b0000005c0000005d000000
     functionCalls: []
   - text: 
-    displayText: This kind of plant is quite tolerant to harsh condition... Only
-      if humans could do the same...
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 3700000038000000390000003b0000003b0000005b0000005c0000005d000000
+    pauseIndex: 
     functionCalls:
     - index: -1
       functionType: 5

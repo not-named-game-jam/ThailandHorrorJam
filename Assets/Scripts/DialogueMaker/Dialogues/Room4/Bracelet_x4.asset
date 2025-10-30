@@ -14,72 +14,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: "This bracelet is everywhere$.$.$. $$$$What\u2019s the purpose of this?"
-    displayText: 
+    displayText: "This bracelet is everywhere... What\u2019s the purpose of this?"
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
-    functionCalls: []
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1b0000001c0000001d0000001f0000001f0000001f0000001f000000
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - ItemPickUp2
   - text: "It does look like the one I\u2019m always wearing.$$$$ But why was I always
       wearing a bracelet? $$$$That\u2019s the question."
-    displayText: 
+    displayText: "It does look like the one I\u2019m always wearing. But why was
+      I always wearing a bracelet? That\u2019s the question."
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2d0000002d0000002d0000002d00000057000000570000005700000057000000
     functionCalls: []
   - text: Because you like it?
-    displayText: 
+    displayText: Because you like it?
     color: 0
     characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "No. $$$$Definitely not. $$$$I\u2019m not the type to buy something like
       that and wear it."
-    displayText: 
+    displayText: "No. Definitely not. I\u2019m not the type to buy something like
+      that and wear it."
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000004000000040000000400000014000000140000001400000014000000
     functionCalls: []
   - text: Maybe you received it from someone?
-    displayText: 
+    displayText: Maybe you received it from someone?
     color: 0
     characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "That\u2019s what I\u2019m thinking about. $$$$But I just can\u2019t think
       of an instance where I received the bracelet$.$.$."
-    displayText: 
+    displayText: "That\u2019s what I\u2019m thinking about. But I just can\u2019t
+      think of an instance where I received the bracelet..."
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 20000000200000002000000020000000630000006400000065000000
     functionCalls: []
   _currentLineIndex: -1

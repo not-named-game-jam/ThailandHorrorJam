@@ -55,7 +55,7 @@ MonoBehaviour:
     - index: -1
       functionType: 2
       parameter:
-      - CICADA
+      - cicadas
     - index: -1
       functionType: 5
       parameter:
@@ -721,7 +721,7 @@ MonoBehaviour:
     - index: -1
       functionType: 2
       parameter:
-      - SAD
+      - HorrorGJ4
   - text: "It\u2019s the comfort she yearned for$.$.$."
     displayText: "It\u2019s the comfort she yearned for..."
     color: 0
@@ -989,4 +989,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: 2
+  _currentLineIndex: -1

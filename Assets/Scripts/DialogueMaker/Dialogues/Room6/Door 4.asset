@@ -25,7 +25,11 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 06000000060000002e0000002e0000005700000057000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract2
   - text: As long as you still have the will to live, $$you can pick this door.
     displayText: As long as you still have the will to live, you can pick this door.
     color: 0

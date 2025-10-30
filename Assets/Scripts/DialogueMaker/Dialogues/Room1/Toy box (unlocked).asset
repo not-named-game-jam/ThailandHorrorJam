@@ -28,6 +28,10 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Chest Close After Key
+    - index: -1
+      functionType: 1
+      parameter:
+      - OpenDrawer
   - text: 
     displayText: 
     color: 0
@@ -44,7 +48,7 @@ MonoBehaviour:
       parameter:
       - Chest Open
   - text: '                                               '
-    displayText: '                         '
+    displayText: '                                               '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036

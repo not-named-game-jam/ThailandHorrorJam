@@ -27,6 +27,6 @@ MonoBehaviour:
     - index: 0
       functionType: 1
       parameter:
-      - boom
+      - WritingBlackBoard
       - 0.01
   _currentLineIndex: -1

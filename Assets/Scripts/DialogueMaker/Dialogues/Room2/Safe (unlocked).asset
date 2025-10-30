@@ -23,7 +23,11 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0500000005000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - OpenSafe
   - text: Just get the jigsaw and close it. $$There might be something you don't
       want to see inside.
     displayText: Just get the jigsaw and close it. There might be something you don't

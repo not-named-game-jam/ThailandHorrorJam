@@ -33,8 +33,12 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - ----Room1----
+    - index: 20
+      functionType: 2
+      parameter:
+      - Room2 Ambient
   - text: '                                                     '
-    displayText: 
+    displayText: '                                                     '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
@@ -132,4 +136,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: 6
+  _currentLineIndex: -1

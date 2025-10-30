@@ -14,7 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: .$.$.
-    displayText: What's that flower?
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - ItemPickup1
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: .$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0100000002000000
+    functionCalls: []
+  - text: Aren't you going to comment on anything?
+    displayText: Aren't you going to comment on anything?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: I cannot understand this piece.
+    displayText: I cannot understand this piece.
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.036
@@ -24,53 +72,8 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: .$.$.
-    displayText: It's ugly, isn't it?
-    color: 0
-    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
-    typeInterval: 0.036
-    dialogueType: 1
-    typeSound: speak
-    characterName: Rika
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0b0000000b000000
-    functionCalls: []
-  - text: .$.$.
-    displayText: N-No... Your drawing is quite on the realistic side. Good job! Haha...
-    color: 0
-    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
-    typeInterval: 0.036
-    dialogueType: 1
-    typeSound: speak
-    characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0500000006000000080000000800000035000000350000004400000045000000
-    functionCalls: []
-  - text: Aren't you going to comment on anything?
-    displayText: I'm talking about the flower itself. Not my drawing skill.
-    color: 0
-    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
-    typeInterval: 0.036
-    dialogueType: 1
-    typeSound: speak
-    characterName: Rika
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 2500000025000000
-    functionCalls: []
-  - text: I cannot understand this piece.
-    displayText: Ah... In that case... Is it really ugly though? It's just a flower.
-    color: 0
-    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
-    typeInterval: 0.036
-    dialogueType: 1
-    typeSound: speak
-    characterName: Maya
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 03000000040000000600000006000000130000001400000016000000160000003000000030000000
-    functionCalls: []
   - text: Me neither.
-    displayText: I don't know about you, but I think it's ugly. And that's why I
-      drew it.
+    displayText: Me neither.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -78,6 +81,6 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 18000000180000002f0000002f000000
+    pauseIndex: 
     functionCalls: []
   _currentLineIndex: -1

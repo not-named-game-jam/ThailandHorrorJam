@@ -24,7 +24,11 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract1
   - text: I was interested in sharp objects at that time, $$and I asked mother to
       buy it for me. $$The rest was history$.$.$.
     displayText: I was interested in sharp objects at that time, and I asked mother
@@ -39,16 +43,15 @@ MonoBehaviour:
     pauseIndex: 30000000300000005500000055000000690000006a0000006b000000
     functionCalls: []
   - text: 
-    displayText: I was interested in sharp objects at that time, and I asked mother
-      to buy it for me. The rest was history...
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 30000000300000005500000055000000690000006a0000006b000000
+    pauseIndex: 
     functionCalls:
     - index: -1
       functionType: 5

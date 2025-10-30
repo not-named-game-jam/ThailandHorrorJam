@@ -25,7 +25,11 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 04000000040000002700000027000000540000005500000056000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - KeyPickUp
   - text: "Rika, $$why is the toy box locked? $$Aren\u2019t you supposed to play
       with them?"
     displayText: "Rika, why is the toy box locked? Aren\u2019t you supposed to play
@@ -77,11 +81,11 @@ MonoBehaviour:
     pauseIndex: 0b0000000b000000
     functionCalls: []
   - text: 
-    displayText: N
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 2
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}

@@ -55,7 +55,7 @@ MonoBehaviour:
     pauseIndex: 08000000090000000b0000000b000000
     functionCalls: []
   - text: '                        '
-    displayText: '                                                        '
+    displayText: '                        '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.05
@@ -112,7 +112,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: '                                     '
-    displayText: '                                                                '
+    displayText: '                                     '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.05
@@ -125,7 +125,7 @@ MonoBehaviour:
     - index: 0
       functionType: 1
       parameter:
-      - boom
+      - Unlock1
     - index: 0
       functionType: 4
       parameter:

@@ -28,6 +28,10 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Left Door Close 1
+    - index: -1
+      functionType: 1
+      parameter:
+      - OpenDoor
   - text: 
     displayText: 
     color: 0
@@ -117,4 +121,4 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - Left Door Close 2
-  _currentLineIndex: 1
+  _currentLineIndex: -1

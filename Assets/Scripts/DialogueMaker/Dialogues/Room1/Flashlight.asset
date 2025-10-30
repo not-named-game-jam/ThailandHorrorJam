@@ -81,4 +81,9 @@ MonoBehaviour:
       parameter:
       - Flashlight
       - Bed
+    - index: -1
+      functionType: 1
+      parameter:
+      - ItemPickUp1
+      - Bed
   _currentLineIndex: -1

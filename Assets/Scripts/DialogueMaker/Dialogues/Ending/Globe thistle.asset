@@ -310,7 +310,7 @@ MonoBehaviour:
     - index: 0
       functionType: 1
       parameter:
-      - amogus
+      - BassBoom
   - text: A steady beat. Beep Beep Beep
     displayText: A steady beat. Beep Beep Beep
     color: 0
@@ -321,7 +321,11 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 2
+      parameter:
+      - HeartrateMonitor
   - text: "Temperature: 36.4 \xB0C"
     displayText: "Temperature: 36.4 \xB0C"
     color: 0
@@ -387,7 +391,10 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 3
+      parameter: []
   - text: The hospital's sanitized smell is as strong as ever. $$Rika doesn't like
       it.
     displayText: The hospital's sanitized smell is as strong as ever. Rika doesn't
@@ -727,4 +734,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 2000000021000000
     functionCalls: []
-  _currentLineIndex: 1
+  _currentLineIndex: -1
