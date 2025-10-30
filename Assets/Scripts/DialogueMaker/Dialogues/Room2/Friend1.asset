@@ -22,8 +22,17 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
-    functionCalls: []
+    pauseIndex: 1f0000001f000000
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Room 2 Pic1 OnScreen
+    - index: 0
+      functionType: 6
+      parameter:
+      - Room 2 Pic1 OnScreen
+      - 1
   - text: .$.$.$$She sabotaged my artwork though.
     displayText: ...She sabotaged my artwork though.
     color: 0
@@ -33,7 +42,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0100000002000000
+    pauseIndex: 01000000020000000300000003000000
     functionCalls: []
   - text: Eh? $$How? $$Why?
     displayText: Eh? How? Why?
@@ -96,8 +105,7 @@ MonoBehaviour:
   - text: And then after that, $$she intentionally enters every competition I entered
       and eventually takes the top places away from me.
     displayText: And then after that, she intentionally enters every competition
-      I entered and eventually takes the top places away from me. And somehow, she
-      tries to console me for my lack of skills... How irritating...
+      I entered and eventually takes the top places away from me.
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.036
@@ -105,13 +113,12 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 15000000150000007c0000007c0000008900000089000000b7000000b8000000ba000000ba000000c9000000ca000000
+    pauseIndex: 1500000015000000
     functionCalls: []
   - text: And somehow, $$she tries to console me for my lack of skills.$.$. $$How
       irritating.$.$.
-    displayText: And then after that, she intentionally enters every competition
-      I entered and eventually takes the top places away from me. And somehow, she
-      tries to console me for my lack of skills... How irritating...
+    displayText: And somehow, she tries to console me for my lack of skills... How
+      irritating...
     color: 0
     characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
     typeInterval: 0.036
@@ -119,7 +126,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 15000000150000007c0000007c0000008900000089000000b7000000b8000000ba000000ba000000c9000000ca000000
+    pauseIndex: 0d0000000d0000003b0000003c0000003e0000003e0000004d0000004e000000
     functionCalls: []
   - text: Rika.$.$.
     displayText: Rika...
@@ -134,9 +141,8 @@ MonoBehaviour:
     functionCalls: []
   - text: The teacher definitely knew it, $$but they never did anything. $$And in
       the end, $$we moved on to separate middle school.
-    displayText: The teacher definitely knew it, but they never did anything. In
-      the end, we moved on to separate middle school. I haven't seen her in years
-      now. This picture is her last gift to me before we went our separate ways.
+    displayText: The teacher definitely knew it, but they never did anything. And
+      in the end, we moved on to separate middle school.
     color: 0
     characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
     typeInterval: 0.036
@@ -144,13 +150,12 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 20000000200000003d0000003d000000490000004900000070000000700000009100000091000000
+    pauseIndex: 20000000200000003d0000003d0000004d0000004d000000
     functionCalls: []
   - text: I haven't seen her in years now. $$This picture is her last gift to me
       before we went our separate ways.
-    displayText: The teacher definitely knew it, but they never did anything. In
-      the end, we moved on to separate middle school. I haven't seen her in years
-      now. This picture is her last gift to me before we went our separate ways.
+    displayText: I haven't seen her in years now. This picture is her last gift to
+      me before we went our separate ways.
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.036
@@ -158,7 +163,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 20000000200000003d0000003d000000490000004900000070000000700000009100000091000000
+    pauseIndex: 2100000021000000
     functionCalls: []
   - text: .$.$.
     displayText: ...
@@ -170,7 +175,12 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0100000002000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - Room 2 Pic1 OnScreen
+      - 1
   - text: Anyway, $$I got the jigsaw already. $$Let's go.
     displayText: Anyway, I got the jigsaw already. Let's go.
     color: 0
@@ -181,5 +191,9 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 08000000080000002200000022000000
-    functionCalls: []
-  _currentLineIndex: -1
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - Room 2 Pic1 OnScreen
+  _currentLineIndex: 1

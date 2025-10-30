@@ -20,10 +20,14 @@ MonoBehaviour:
     typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
-    characterName: Maya
+    characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0600000006000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Canvas Overlay Hint Room 2
   - text: It might be useful, $$Rika. $$Maybe you should remember them.
     displayText: It might be useful, Rika. Maybe you should remember them.
     color: 0
@@ -35,4 +39,19 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 14000000140000001a0000001a000000
     functionCalls: []
+  - text: 
+    displayText: It might be useful, Rika. Maybe you should remember them.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 14000000140000001a0000001a000000
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Canvas Overlay Hint Room 2
   _currentLineIndex: -1

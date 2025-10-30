@@ -8,8 +8,7 @@ public class LampChecker : MonoBehaviour
 {
     [Header("Lamp Settings")]
     [SerializeField] private List<Button> lampButtons;        
-    [SerializeField] private List<Light> lampLights;          
-    [SerializeField] private float lightIntensity = 3f;       
+    [SerializeField] private List<GameObject> lampLights;     
     [SerializeField] private TMP_Text displayText;            
 
     [Header("Dialogue")]
@@ -22,12 +21,12 @@ public class LampChecker : MonoBehaviour
     private bool[] lampStates = new bool[3];
     private bool gotJigsaw = false;
 
-    void Start()
+    void Update()
     {
         // ปิดไฟทุกดวงตอนเริ่ม
-        for (int i = 0; i < lampLights.Count; i++)
-            if (lampLights[i] != null)
-                lampLights[i].enabled = false;
+        // for (int i = 0; i < lampLights.Count; i++)
+        //     if (lampLights[i] != null)
+        //         lampLights[i].enabled = false;
 
         // ผูกปุ่มแต่ละโคม
         for (int i = 0; i < lampButtons.Count; i++)
@@ -63,8 +62,9 @@ public class LampChecker : MonoBehaviour
     {
         if (lampLights[index] != null)
         {
-            lampLights[index].enabled = lampStates[index];
-            lampLights[index].intensity = lampStates[index] ? lightIntensity : 0f;
+            lampLights[index].SetActive(!lampLights[index].activeSelf);
+            // lampLights[index].enabled = lampStates[index];
+            // lampLights[index].intensity = lampStates[index] ? lightIntensity : 0f;
         }
     }
 

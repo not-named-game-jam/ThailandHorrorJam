@@ -25,7 +25,7 @@ MonoBehaviour:
     pauseIndex: 0c0000000d000000
     functionCalls: []
   - text: There might be a jigsaw inside$!$!$!
-    displayText: Is there a jigsaw inside?
+    displayText: There might be a jigsaw inside!!!
     color: 0
     characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
     typeInterval: 0.036
@@ -33,7 +33,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1e0000001f00000020000000
     functionCalls: []
   - text: There's only one way to find out.$.$.
     displayText: There's only one way to find out...
@@ -47,20 +47,24 @@ MonoBehaviour:
     pauseIndex: 2100000022000000
     functionCalls: []
   - text: '                                                                  '
-    displayText: There's only one way to find out...
+    displayText: '                                                                  '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.05
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 2100000022000000
+    pauseIndex: 
     functionCalls:
     - index: 20
       functionType: 1
       parameter:
       - boom
+    - index: 20
+      functionType: 4
+      parameter:
+      - BrokenVaseRoom2
   - text: Ahhhhh!!! $$Bugs!!!
     displayText: Ahhhhh!!! Bugs!!!
     color: 0
@@ -70,21 +74,21 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0a0000000a000000
     functionCalls: []
   - text: .$.$.
-    displayText: Ahhhhh!!! Bugs!!!
+    displayText: ...
     color: 0
     characterSprite: {fileID: 21300000, guid: dd7424e912b1ed242be9b05b9e0c8d66, type: 3}
     typeInterval: 0.045
     dialogueType: 1
     typeSound: speak
-    characterName: Maya
+    characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0100000002000000
     functionCalls: []
   - text: .$.$.
-    displayText: Ahhhhh!!! Bugs!!!
+    displayText: ...
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.045
@@ -92,18 +96,18 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0100000002000000
     functionCalls: []
   - text: .$.$.
-    displayText: Ahhhhh!!! Bugs!!!
+    displayText: ...
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.045
     dialogueType: 1
     typeSound: speak
-    characterName: Maya
+    characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0100000002000000
     functionCalls: []
   - text: There's nothing inside.$.$.
     displayText: There's nothing inside...

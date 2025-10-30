@@ -91,6 +91,7 @@ public class JigsawBoardController : MonoBehaviour
 
             if (collectedPieces == jigsawPieces.Count)
             {
+                jigsawBoardPanel.SetActive(false);
                 isPlayable = true;
                 Debug.Log("All pieces collected! Board is now playable.");
             }

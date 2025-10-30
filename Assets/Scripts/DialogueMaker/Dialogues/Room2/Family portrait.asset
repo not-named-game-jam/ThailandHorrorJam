@@ -23,7 +23,11 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1e0000001e0000002f0000002f0000003a0000003b000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Room 2 Pic2 OnScreen
   - text: Let me tell you something. $$The shutter speed of a normal camera is about
       10 milliseconds. $$And anyone can fake smiling for 10 milliseconds.
     displayText: Let me tell you something. The shutter speed of a normal camera
@@ -38,7 +42,7 @@ MonoBehaviour:
     pauseIndex: 1b0000001b0000005a0000005a000000
     functionCalls: []
   - text: Au.$.$. $$Do you hate smiling that much.$.$.?
-    displayText: Au... Do you fake smile that much...?
+    displayText: Au... Do you hate smiling that much...?
     color: 0
     characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
     typeInterval: 0.036
@@ -46,10 +50,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 030000000400000006000000060000002200000023000000
+    pauseIndex: 030000000400000006000000060000002400000025000000
     functionCalls: []
   - text: Well, $$not around you. $$Just around adults, $$it's easier that way.
-    displayText: Well, not around you. Just around adults, it's easier that way,
+    displayText: Well, not around you. Just around adults, it's easier that way.
     color: 0
     characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
     typeInterval: 0.036
@@ -60,8 +64,7 @@ MonoBehaviour:
     pauseIndex: 060000000600000016000000160000002a0000002a000000
     functionCalls: []
   - text: Okay Rika. $$Whatever$.$.$.
-    displayText: Okay Rika. Whatever you say... Also, who's that old woman in the
-      back? Photobombing?
+    displayText: Okay Rika. Whatever...
     color: 0
     characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
     typeInterval: 0.036
@@ -69,11 +72,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0b0000000b0000001c0000001d0000001f0000001f00000025000000250000004700000047000000
+    pauseIndex: 0b0000000b000000130000001400000015000000
     functionCalls: []
   - text: Also, $$who's that old woman in the back? $$Photobombing?
-    displayText: Okay Rika. Whatever you say... Also, who's that old woman in the
-      back? Photobombing?
+    displayText: Also, who's that old woman in the back? Photobombing?
     color: 0
     characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
     typeInterval: 0.036
@@ -81,7 +83,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0b0000000b0000001c0000001d0000001f0000001f00000025000000250000004700000047000000
+    pauseIndex: 06000000060000002800000028000000
     functionCalls: []
   - text: Are you kidding me? $$That's my maternal grandmother. $$She's not on good
       terms with my mother though.
@@ -153,4 +155,19 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 06000000060000000b0000000c000000
     functionCalls: []
+  - text: 
+    displayText: Okay, Rika...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000000b0000000c000000
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Room 2 Pic2 OnScreen
   _currentLineIndex: -1

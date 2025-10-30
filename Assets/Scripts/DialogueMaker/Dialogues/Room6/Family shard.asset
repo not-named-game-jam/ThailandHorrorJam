@@ -25,7 +25,16 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 08000000090000000b0000000b0000001c0000001c000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 6
+      parameter:
+      - Room 2 Pic2 OnScreen
+      - 1
+    - index: 0
+      functionType: 4
+      parameter:
+      - Room 2 Pic2 OnScreen
   - text: That's your mother and grandmother, $$Rika.
     displayText: That's your mother and grandmother, Rika.
     color: 0
@@ -371,5 +380,25 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 040000000500000007000000070000000c0000000d0000000e0000000e0000002800000029000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - Room 2 Pic2 OnScreen
+      - 1
+  - text: 
+    displayText: Now... Rika.. Let's go to another shard...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 040000000500000007000000070000000c0000000d0000000e0000000e0000002800000029000000
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - Room 2 Pic2 OnScreen
   _currentLineIndex: -1
