@@ -12007,7 +12007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1058751820
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19757,7 +19757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25.7979, y: 826.1919}
+  m_AnchoredPosition: {x: -25.797852, y: 826.1919}
   m_SizeDelta: {x: -707.2328, y: -573.6162}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725866179
@@ -21753,6 +21753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1873420914}
+  - component: {fileID: 1873420915}
   m_Layer: 0
   m_Name: ----Start----
   m_TagString: Untagged
@@ -21777,6 +21778,18 @@ Transform:
   - {fileID: 510292741}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!225 &1873420915
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873420913}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1882760816
 GameObject:
   m_ObjectHideFlags: 0
@@ -22366,8 +22379,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25.7979, y: -909}
-  m_SizeDelta: {x: -707.2328, y: -573.6162}
+  m_AnchoredPosition: {x: 26.875977, y: -920}
+  m_SizeDelta: {x: -527.4908, y: -516.6248}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930455016
 MonoBehaviour:
@@ -22390,7 +22403,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Note: Sometimes the fade in/out function not working properly when clicking
-    too fast or rapidly.'
+    too fast or rapidly.
+
+    Note2: If you read this please help fix the fade in/out
+    of ----Room1---- I don''t know why BG fade in/out faster than its world space
+    sprite, the other rooms seem to be normal.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
