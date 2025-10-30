@@ -12,5 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
   m_Name: Cabinet_Before
   m_EditorClassIdentifier: 
-  dialogueSequence: []
+  dialogueSequence:
+  - text: "It\u2019s locked. $$$I have to find a 4 digit code$.$.$."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
   _currentLineIndex: -1
