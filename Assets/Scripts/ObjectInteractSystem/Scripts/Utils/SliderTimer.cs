@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class SliderTimer : MonoBehaviour
 {
     [SerializeField] float secondsDuration;
-    //[SerializeField] DialogueMaker winDialogue; // open the box successfully
-
+    [SerializeField] DialogueMaker winDialogue; // open the box successfully
 
     float currentTimeLeft;
     bool timerStopped;
     Slider slider;
+
+    bool ded;
 
     void Awake()
     {
@@ -32,12 +33,14 @@ public class SliderTimer : MonoBehaviour
         currentTimeLeft -= Time.deltaTime;
         slider.value = currentTimeLeft;
 
-        if (slider.value <= 0) EndPuzzle();
+        if (slider.value <= 0 && ded == false) EndPuzzle();
     }
 
     private void EndPuzzle()
     {
-        RoomManager.instance.LoadNextSceneWithFadeToDark();
+        ded = true;
+        winDialogue.StartDialogue();
+        // RoomManager.instance.LoadNextSceneWithFadeToDark();
     }
 
 

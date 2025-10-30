@@ -28,6 +28,10 @@ MonoBehaviour:
       functionType: 2
       parameter:
       - reverse
+    - index: 1
+      functionType: 5
+      parameter:
+      - ----Room2----
   - text: Maya said, $$skipping through the hallway as Rika walked behind her.
     displayText: Maya said, skipping through the hallway as Rika walked behind her.
     color: 0

@@ -36,15 +36,15 @@ MonoBehaviour:
     pauseIndex: 0500000005000000
     functionCalls: []
   - text: (Maya said, a small grim appearing on her face.)
-    displayText: "Okay. Fine. Let\u2019s get out of this room..."
+    displayText: (Maya said, a small grim appearing on her face.)
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.03
-    dialogueType: 1
+    dialogueType: 2
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 06000000060000000c0000000c000000
+    pauseIndex: 
     functionCalls: []
   - text: You passed out. $$$$I cleared the last room for you. $$$$Want to talk about
       what happened?
@@ -374,5 +374,9 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 06000000060000000c0000000c000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - ROOM4DisablerClicl
   _currentLineIndex: -1

@@ -60,7 +60,12 @@ MonoBehaviour:
     characterName: Unknown
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Room5----
+      - 1
   - text: '```GO DIE'
     displayText: GO DIE
     color: 1
@@ -75,8 +80,23 @@ MonoBehaviour:
     - index: 0
       functionType: 8
       parameter: []
-    - index: 1
-      functionType: 9
+  - text: 
+    displayText: '          '
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.0682
+    dialogueType: 3
+    typeSound: speak
+    characterName: Unknown
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
       parameter:
-      - 2
-  _currentLineIndex: 4
+      - DarkCutsceneRoomManager
+    - index: -1
+      functionType: 5
+      parameter:
+      - ----Room5----
+  _currentLineIndex: -1

@@ -58,18 +58,28 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1d0000001d0000001d0000002b0000002b0000002b000000
     functionCalls:
-    - index: 0
-      functionType: 0
-      parameter: []
-  - text: '****Change to Room 4****'
-    displayText: '****Change to Room 4****'
+    - index: -1
+      functionType: 7
+      parameter:
+      - ----Room3----
+      - 2
+  - text: 
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.04
-    dialogueType: 2
+    typeInterval: 0.12
+    dialogueType: 3
     typeSound: speak
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
-  _currentLineIndex: -1
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - ----Room3----
+    - index: -1
+      functionType: 4
+      parameter:
+      - ----Room4----
+  _currentLineIndex: 3
