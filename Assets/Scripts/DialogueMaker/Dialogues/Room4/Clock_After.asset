@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Clock_After
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: The clock had been spinning since the start, $$$and now it just stopped.
+    displayText: The clock had been spinning since the start, and now it just stopped.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2d0000002d0000002d000000
+    functionCalls: []
+  - text: "What can the clock do? $$$It\u2019s fixed to the wall and it\u2019s impossible
+      to move..."
+    displayText: "What can the clock do? It\u2019s fixed to the wall and it\u2019s
+      impossible to move..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 170000001700000017000000
+    functionCalls: []
+  - text: "9:35 AM. $$$$$That\u2019s 5 minutes after the class starts. $$What\u2019s
+      its significance\u2026?"
+    displayText: "9:35 AM. That\u2019s 5 minutes after the class starts. What\u2019s
+      its significance\u2026?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 09000000090000000900000009000000090000003200000032000000
+    functionCalls: []
+  - text: "$$$I don\u2019t know\u2026"
+    displayText: "I don\u2019t know\u2026"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000000000000000000
+    functionCalls: []
+  _currentLineIndex: -1

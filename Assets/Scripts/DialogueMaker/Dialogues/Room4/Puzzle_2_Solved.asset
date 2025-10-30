@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Puzzle_2_Solved
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: ' '
+    displayText: ' '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - Puzzle2
+  - text: "That flower is so beautiful. $$$$ Why would someone break it like that,
+      $$$ even if it\u2019s in a dream$$.$.$.$"
+    displayText: "That flower is so beautiful.  Why would someone break it like that, 
+      even if it\u2019s in a dream..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1d0000001d0000001d0000001d0000004400000044000000440000005c0000005c0000005d0000005e0000005f000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: Rika?
+    displayText: Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1fe9e64057009084a9c5653faca90639, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: Yes.
+    displayText: Yes.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: It is$.$.$. $$beautiful$.$.$.
+    displayText: It is... beautiful...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0500000006000000070000000900000009000000120000001300000014000000
+    functionCalls: []
+  - text: $.$.$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000
+    functionCalls: []
+  - text: Haha$.$.$.
+    displayText: Haha...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 040000000500000006000000
+    functionCalls: []
+  - text: Rika?
+    displayText: Rika?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Mahiru$.$.$.$$ How can I forget you?$$$ My first real friend$.$.$.
+    displayText: Mahiru... How can I forget you? My first real friend...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000070000000800000009000000090000001f0000001f0000001f000000340000003500000036000000
+    functionCalls: []
+  - text: $.$.$.$Rika, $$you remember her now?
+    displayText: ...Rika, you remember her now?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 000000000100000002000000030000000900000009000000
+    functionCalls: []
+  - text: Yeah$.$.$. $$I met her first when I entered high school.
+    displayText: Yeah... I met her first when I entered high school.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000060000000800000008000000
+    functionCalls: []
+  - text: She was always wearing a plum blossom with her$$$ and always acted very
+      stupidly and cute.
+    displayText: She was always wearing a plum blossom with her and always acted
+      very stupidly and cute.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2e0000002e0000002e000000
+    functionCalls: []
+  - text: In the middle of an environment where everyone tries to manipulate others
+      for their own needs,$$$$ she is just there, $$enjoying life with me.
+    displayText: In the middle of an environment where everyone tries to manipulate
+      others for their own needs, she is just there, enjoying life with me.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 5e0000005e0000005e0000005e0000007200000072000000
+    functionCalls: []
+  - text: You seem very fond of her$.$.$. $$How is she different from others?
+    displayText: You seem very fond of her... How is she different from others?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 190000001a0000001b0000001d0000001d000000
+    functionCalls: []
+  - text: "Well, $$firstly, $$she\u2019s not special at all. $$$No talent. $$$Not
+      popular. $$$Nothing notable except her extreme naivety. "
+    displayText: "Well, firstly, she\u2019s not special at all. No talent. Not popular.
+      Nothing notable except her extreme naivety. "
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000000f0000000f000000290000002900000029000000340000003400000034000000410000004100000041000000
+    functionCalls: []
+  - text: She never wanted to learn art from me.$$$$ She never wanted to talk to
+      me.$$$$ She just sits beside me all the time, $$$at every chance possible.
+    displayText: She never wanted to learn art from me. She never wanted to talk
+      to me. She just sits beside me all the time, at every chance possible.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 26000000260000002600000026000000460000004600000046000000460000006d0000006d0000006d000000
+    functionCalls: []
+  - text: "Isn\u2019t that$.$.$. $$weird$.$.$.$?"
+    displayText: "Isn\u2019t that... weird...?"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000b0000000c0000000e0000000e00000013000000140000001500000016000000
+    functionCalls: []
+  - text: It is.
+    displayText: It is.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "It\u2019s super weird having someone following me like that and not even
+      trying to speak to me."
+    displayText: "It\u2019s super weird having someone following me like that and
+      not even trying to speak to me."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: But it somehow felt comfortable.
+    displayText: But it somehow felt comfortable.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "It\u2019s like$.$.$. $$$$that\u2019s the thing I\u2019d been wanting all
+      along. $$$$Just someone, $$being with me, $$being happy$.$.$."
+    displayText: "It\u2019s like... that\u2019s the thing I\u2019d been wanting all
+      along. Just someone, being with me, being happy..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 090000000a0000000b0000000d0000000d0000000d0000000d0000003a0000003a0000003a0000003a00000048000000480000005700000057000000620000006300000064000000
+    functionCalls: []
+  - text: "Then, $$as if that happiness can be transmitted through air, $$the scent
+      of the plum blossom enters my nose and I feel like I\u2019m allowed to be happy
+      too$.$.$."
+    displayText: "Then, as if that happiness can be transmitted through air, the
+      scent of the plum blossom enters my nose and I feel like I\u2019m allowed to
+      be happy too..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 06000000060000003b0000003b000000930000009400000095000000
+    functionCalls: []
+  - text: "And that\u2019s why you consider her your first actual friend$.$.$."
+    displayText: "And that\u2019s why you consider her your first actual friend..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 38000000390000003a000000
+    functionCalls: []
+  - text: "Are you jealous? $$$I can\u2019t pinpoint the exact date, $$but I have
+      a strong feeling that you met me after Mahiru though."
+    displayText: "Are you jealous? I can\u2019t pinpoint the exact date, but I have
+      a strong feeling that you met me after Mahiru though."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1100000011000000110000003200000032000000
+    functionCalls: []
+  - text: Haha$.$.$.$$ I think I am$.$.$.
+    displayText: Haha... I think I am...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000060000000700000007000000140000001500000016000000
+    functionCalls: []
+  - text: 'One day, $$I thought it was the time to speak up, $$and I introduced myself
+      to Mahiru. '
+    displayText: 'One day, I thought it was the time to speak up, and I introduced
+      myself to Mahiru. '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 09000000090000003000000030000000
+    functionCalls: []
+  - text: "She instantly accepts me as a friend. $$$$But I guess I\u2019m quite weak
+      for this type of person. "
+    displayText: "She instantly accepts me as a friend. But I guess I\u2019m quite
+      weak for this type of person. "
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 26000000260000002600000026000000
+    functionCalls: []
+  - text: "She\u2019s so naive that I can\u2019t leave her alone, $$$so I practically
+      became an inseparable part of her life from then on\u2026"
+    displayText: "She\u2019s so naive that I can\u2019t leave her alone, so I practically
+      became an inseparable part of her life from then on\u2026"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 2d0000002d0000002d000000
+    functionCalls: []
+  - text: '```*Brrrrrrr-chk!*'
+    displayText: '*Brrrrrrr-chk!*'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Oh\u2026$$$ We\u2019re still in this dimension,$$ huh? My priority should
+      be escaping this room$.$.$."
+    displayText: "Oh\u2026 We\u2019re still in this dimension, huh? My priority should
+      be escaping this room..."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0300000003000000030000002200000022000000500000005100000052000000
+    functionCalls: []
+  - text: Yeah$.$.$.$$ I think so$.$.$.
+    displayText: Yeah... I think so...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0400000005000000060000000700000007000000120000001300000014000000
+    functionCalls: []
+  - text: "Let\u2019s go, $$Maya. $$$$And sorry if telling stories about Mahiru makes
+      you uncomfortable\u2026"
+    displayText: "Let\u2019s go, Maya. And sorry if telling stories about Mahiru
+      makes you uncomfortable\u2026"
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0a0000000a00000010000000100000001000000010000000
+    functionCalls: []
+  - text: Au$.$.$.
+    displayText: Au...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 020000000300000004000000
+    functionCalls: []
+  _currentLineIndex: -1

@@ -20,6 +20,8 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private CanvasGroup justTextContinueIndicator;
     [SerializeField] private Image image;
 
+    [SerializeField] private GameObject stopInteraction;
+
     public static DialogueSystem instance;
     public bool IsActive { get; private set; } = false;
     public bool IsTyping { get; private set; } = true;
@@ -67,6 +69,8 @@ public class DialogueSystem : MonoBehaviour
 
     private IEnumerator SetDialogueCoroutine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, string sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls) {
         IsTyping = true;
+
+        if(stopInteraction) stopInteraction.SetActive(true);
 
         if (_type != type) {
             if (_type == DialogueType.TextImmersive) {
@@ -187,6 +191,8 @@ public class DialogueSystem : MonoBehaviour
         immersiveContinueIndicator.alpha = 0;
         characterContinueIndicator.alpha = 0;
         justTextContinueIndicator.alpha = 0;
+
+        if(stopInteraction) stopInteraction.SetActive(false);
     }
 
     void Update()
@@ -195,7 +201,8 @@ public class DialogueSystem : MonoBehaviour
 
         skipCooldown += Time.unscaledDeltaTime;
         
-        if (Pressed() && skipCooldown >= 0.3f && !isFading && _type != DialogueType.Wait)
+        // if (Pressed() && skipCooldown >= 0.3f && !isFading && _type != DialogueType.Wait)
+        if (Pressed() && skipCooldown >= 0f && !isFading && _type != DialogueType.Wait)
         {
             skipCooldown = 0.0f;
             ContinueDialogue();
