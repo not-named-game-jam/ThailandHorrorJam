@@ -63,7 +63,7 @@ public class BoxPuzzleManager : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         RoomManager instance = RoomManager.instance;
-        instance.PlayDialogue(instance.GetWinningDialogue());
+        triggerDialogue.StartDialogue();
 
         SliderTimer timer = FindObjectOfType<SliderTimer>();
         if (timer != null) timer.StopSlider(); 

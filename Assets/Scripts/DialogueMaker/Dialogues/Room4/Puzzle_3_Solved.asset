@@ -17,7 +17,7 @@ MonoBehaviour:
     displayText: ' '
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0
+    typeInterval: 0.01
     dialogueType: 3
     typeSound: speak
     characterName: 
@@ -120,7 +120,7 @@ MonoBehaviour:
     pauseIndex: 0200000003000000040000000600000006000000060000000a0000000b0000000c0000000e0000000e0000000e00000041000000410000004100000041000000
     functionCalls: []
   - text: "(Rika padded Maya\u2019s shoulder.)"
-    displayText: "Rika padded Maya\u2019s shoulder."
+    displayText: "(Rika padded Maya\u2019s shoulder.)"
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.03
@@ -166,7 +166,7 @@ MonoBehaviour:
     pauseIndex: 020000000300000004000000
     functionCalls: []
   - text: "(Maya\u2019s facial expression looks worried.)"
-    displayText: "Maya\u2019s facial expression looks worried."
+    displayText: "(Maya\u2019s facial expression looks worried.)"
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.03
@@ -330,5 +330,29 @@ MonoBehaviour:
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
-  _currentLineIndex: -1
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Room4----
+      - 1
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.029142879
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 5
+      parameter:
+      - ----Room4----
+    - index: -1
+      functionType: 4
+      parameter:
+      - ----Room5----
+  _currentLineIndex: 26
