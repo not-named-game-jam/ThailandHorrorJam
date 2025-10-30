@@ -13,12 +13,39 @@ MonoBehaviour:
   m_Name: Pear blossom
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                    '
+    displayText: '                                    '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 3
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - RoomEnd Door2
+    - index: 0
+      functionType: 4
+      parameter:
+      - RoomEnd Door2 Open
+    - index: 0
+      functionType: 1
+      parameter:
+      - OpenDoor
+    - index: 0
+      functionType: 4
+      parameter:
+      - RoomEnd Door2 Light
   - text: '```"I choose peace."'
     displayText: '"I choose peace."'
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
-    dialogueType: 1
+    dialogueType: 0
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -38,9 +65,7 @@ MonoBehaviour:
     pauseIndex: 14000000140000004d0000004d000000
     functionCalls: []
   - text: I'm just so tired, $$Maya.$.$. $$I've fought for so long.
-    displayText: '"I''m just so tired, Maya...I''ve fought for so long. Nobody really
-      wants it to happen, but stuff keeps happening and it keeps getting worse and
-      worse."'
+    displayText: I'm just so tired, Maya... I've fought for so long.
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.04
@@ -48,13 +73,12 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1400000014000000190000001a00000034000000340000005600000056000000
+    pauseIndex: 130000001300000018000000190000001b0000001b000000
     functionCalls: []
   - text: Nobody really wants it to happen, $$but stuff keeps happening and it keeps
       getting worse and worse.
-    displayText: '"I''m just so tired, Maya...I''ve fought for so long. Nobody really
-      wants it to happen, but stuff keeps happening and it keeps getting worse and
-      worse."'
+    displayText: Nobody really wants it to happen, but stuff keeps happening and
+      it keeps getting worse and worse.
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.04
@@ -62,12 +86,12 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1400000014000000190000001a00000034000000340000005600000056000000
+    pauseIndex: 2200000022000000
     functionCalls: []
   - text: I know.$.$. $$Everyone tries their best in their own broken way, $$don't
       they.
-    displayText: '"I know...Everyone tries their best in their own broken way, don''t
-      they."'
+    displayText: I know... Everyone tries their best in their own broken way, don't
+      they.
     color: 0
     characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
     typeInterval: 0.04
@@ -75,12 +99,12 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 08000000090000003d0000003d000000
+    pauseIndex: 07000000080000000a0000000a0000003d0000003d000000
     functionCalls: []
   - text: Yeah, $$but that act of trying doesn't reach the other side, $$and their
       attempt at doing their best just broke me more.
-    displayText: '"Yeah, but that act of trying doesn''t reach the other side, and
-      their attempt at doing their best just broke more."'
+    displayText: Yeah, but that act of trying doesn't reach the other side, and their
+      attempt at doing their best just broke me more.
     color: 0
     characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
     typeInterval: 0.04
@@ -88,10 +112,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 07000000070000003c0000003c000000
+    pauseIndex: 06000000060000003b0000003b000000
     functionCalls: []
   - text: And Mahiru. $$And everyone else too.$.$.
-    displayText: '"And Mahiru. And everyone else too..."'
+    displayText: And Mahiru. And everyone else too...
     color: 0
     characterSprite: {fileID: 21300000, guid: f841aefe5e6e5364f8629fa39acecbdf, type: 3}
     typeInterval: 0.04
@@ -99,10 +123,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 0d0000000d0000002300000024000000
+    pauseIndex: 0c0000000c0000002200000023000000
     functionCalls: []
   - text: I just want it to stop, $$Maya.$.$.
-    displayText: '"I just want it to stop, Maya..."'
+    displayText: I just want it to stop, Maya...
     color: 0
     characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
     typeInterval: 0.04
@@ -110,7 +134,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 19000000190000001e0000001f000000
+    pauseIndex: 18000000180000001d0000001e000000
     functionCalls: []
   - text: Maya hugs her tightly and Rika melts into the touch.
     displayText: Maya hugs her tightly and Rika melts into the touch.
@@ -125,8 +149,8 @@ MonoBehaviour:
     functionCalls: []
   - text: Then let it stop, $$Rika. $$Let's rest here forever, $$I will be here too.
       $$They would be happy to know you've finally escaped the cycle.
-    displayText: '"Then let it stop, Rika. Let''s rest here forever, I will be here
-      too. They would be happy to know you''ve finally escaped the cycle."'
+    displayText: Then let it stop, Rika. Let's rest here forever, I will be here
+      too. They would be happy to know you've finally escaped the cycle.
     color: 0
     characterSprite: {fileID: 21300000, guid: 6ba46ecacc866544da47236fc876b59f, type: 3}
     typeInterval: 0.04
@@ -134,7 +158,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1300000013000000190000001900000032000000320000004600000046000000
+    pauseIndex: 1200000012000000180000001800000031000000310000004500000045000000
     functionCalls: []
   - text: Rika looks at the open door, $$at the serene field beyond.
     displayText: Rika looks at the open door, at the serene field beyond.
@@ -148,7 +172,7 @@ MonoBehaviour:
     pauseIndex: 1d0000001d000000
     functionCalls: []
   - text: It's peaceful there.$.$.
-    displayText: '"It''s peaceful there..."'
+    displayText: It's peaceful there...
     color: 0
     characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
     typeInterval: 0.04
@@ -156,10 +180,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1500000016000000
+    pauseIndex: 1400000015000000
     functionCalls: []
   - text: Yes.
-    displayText: '"Yes."'
+    displayText: Yes.
     color: 0
     characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
     typeInterval: 0.04
@@ -170,7 +194,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: Forever sounds nice.$.$.
-    displayText: '"Forever sounds nice..."'
+    displayText: Forever sounds nice...
     color: 0
     characterSprite: {fileID: 21300000, guid: 31b5c86a24193cc45b592edca35cc68f, type: 3}
     typeInterval: 0.04
@@ -178,7 +202,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1500000016000000
+    pauseIndex: 1400000015000000
     functionCalls: []
   - text: They walked towards the door, $$hand in hand. $$This is the final choice
       they made by themselves, $$and the only choice that will satisfy her.
@@ -197,7 +221,7 @@ MonoBehaviour:
       $$The sweet smell of the air reminds her of home, $$the home she's never had.
     displayText: Rika and Maya step out of the void into the endless field of pear
       blossoms. The sweet smell of the air reminds her of home, the home she's never
-      had. The gentle breeze rustles the petals. They lie down.
+      had.
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
@@ -205,12 +229,10 @@ MonoBehaviour:
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 4c0000004c0000007c0000007c0000009600000096000000bc000000bc000000
+    pauseIndex: 4c0000004c0000007c0000007c000000
     functionCalls: []
   - text: The gentle breeze rustles the petals. $$They lie down.
-    displayText: Rika and Maya step out of the void into the endless field of pear
-      blossoms. The sweet smell of the air reminds her of home, the home she's never
-      had. The gentle breeze rustles the petals. They lie down.
+    displayText: The gentle breeze rustles the petals. They lie down.
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
@@ -218,7 +240,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 4c0000004c0000007c0000007c0000009600000096000000bc000000bc000000
+    pauseIndex: 2600000026000000
     functionCalls: []
   - text: And for the first time in a long, $$long time, $$Rika feels finally free.
     displayText: And for the first time in a long, long time, Rika feels finally
@@ -244,11 +266,11 @@ MonoBehaviour:
     pauseIndex: 0400000005000000
     functionCalls: []
   - text: '                                                                     '
-    displayText: The scene cuts to black.
+    displayText: '                                                                     '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 3
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -273,45 +295,40 @@ MonoBehaviour:
       a coma in the XXX Hospital. $$The girl''s name is Konomi Rika, $$the daughter
       of a 40-year-old mother and a 45-year-old father, $$both running a start-up
       cryptocurrency business in Silicon Valley."'
-    displayText: "\"Today, police have confirmed the identity of a girl currently
-      in a coma in the XXX Hospital. The girl's name is Konomi Rika, the daughter
+    displayText: '"Today, police have confirmed the identity of a girl currently
+      in a coma in the XXX Hospital. The girl''s name is Konomi Rika, the daughter
       of a 40-year-old mother and a 45-year-old father, both running a start-up cryptocurrency
-      business in Silicon Valley. We cannot confirm the whereabouts of the girl's
-      parents at this time. The doctor reported that the damage to Konomi Rika's
-      brain is irrecoverable, and there's little to no chance she will regain consciousness\u2014\""
+      business in Silicon Valley."'
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
-    dialogueType: 2
+    dialogueType: 0
     typeSound: speak
     characterName: News Anchor
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 08000000080000005e0000005e0000007e0000007e000000bd000000bd000000000100000001000046010000460100009301000093010000
+    pauseIndex: 08000000080000005e0000005e0000007e0000007e000000bd000000bd000000
     functionCalls: []
   - text: "```\"We cannot confirm the whereabouts of the girl's parents at this time.
       $$The doctor reported that the damage to Konomi Rika's brain is irrecoverable,
       $$and there's little to no chance she will regain consciousness\u2014\""
-    displayText: "\"Today, police have confirmed the identity of a girl currently
-      in a coma in the XXX Hospital. The girl's name is Konomi Rika, the daughter
-      of a 40-year-old mother and a 45-year-old father, both running a start-up cryptocurrency
-      business in Silicon Valley. We cannot confirm the whereabouts of the girl's
-      parents at this time. The doctor reported that the damage to Konomi Rika's
-      brain is irrecoverable, and there's little to no chance she will regain consciousness\u2014\""
+    displayText: "\"We cannot confirm the whereabouts of the girl's parents at this
+      time. The doctor reported that the damage to Konomi Rika's brain is irrecoverable,
+      and there's little to no chance she will regain consciousness\u2014\""
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
-    dialogueType: 2
+    dialogueType: 0
     typeSound: speak
     characterName: News Anchor
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 08000000080000005e0000005e0000007e0000007e000000bd000000bd000000000100000001000046010000460100009301000093010000
+    pauseIndex: 47000000470000009400000094000000
     functionCalls: []
   - text: '                  '
-    displayText: Black.
+    displayText: '                  '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.04
-    dialogueType: 2
+    dialogueType: 3
     typeSound: speak
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -369,7 +386,7 @@ MonoBehaviour:
     dialogueType: 2
     typeSound: speak
     characterName: Mother
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
     pauseIndex: 190000001a000000
     functionCalls: []
   - text: She's holding a small box. $$A box she should have given to Rika years
@@ -402,16 +419,16 @@ MonoBehaviour:
     functionCalls: []
   - text: '"If she received this, $$would she smile? $$I really doubt it though.$.$.
       $$She might just be angrier to get something this irritating.$.$."'
-    displayText: '"If she received this, would she smile? I really doubt it though...She
-      might just be angry that I took this long to give it to her..."'
+    displayText: '"If she received this, would she smile? I really doubt it though...
+      She might just be angrier to get something this irritating..."'
     color: 4
     characterSprite: {fileID: 0}
     typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: Mother
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 1700000017000000280000002800000041000000420000008300000084000000
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 17000000170000002800000028000000410000004200000044000000440000007f00000080000000
     functionCalls: []
   - text: The mother lies down in despair.
     displayText: The mother lies down in despair.
@@ -432,7 +449,7 @@ MonoBehaviour:
     dialogueType: 2
     typeSound: speak
     characterName: Mother
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
     pauseIndex: 09000000090000002100000022000000
     functionCalls: []
   - text: The box hit the ground and it opened a little. A plum blossom spilled out.
@@ -448,15 +465,15 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: '"Rika.$.$. $$At least you''re smiling.$.$. $$I''m happy for you.$.$."'
-    displayText: '"Rika...At least you''re smiling...I''m happy for you..."'
+    displayText: '"Rika... At least you''re smiling... I''m happy for you..."'
     color: 4
     characterSprite: {fileID: 0}
     typeInterval: 0.04
     dialogueType: 2
     typeSound: speak
     characterName: Mother
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 060000000700000020000000210000003400000035000000
+    textColor: {r: 0.2, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 06000000070000000900000009000000210000002200000024000000240000003600000037000000
     functionCalls: []
   - text: Rika, $$she doesn't know it. $$She doesn't see this plum blossom.
     displayText: Rika, she doesn't know it. She doesn't see this plum blossom.
