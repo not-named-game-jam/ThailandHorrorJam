@@ -34,6 +34,6 @@ public class SliderTimer : MonoBehaviour
 
     private void EndPuzzle()
     {
-        RoomManager.instance.LoadNextScene();
+        RoomManager.instance.LoadNextSceneWithFadeToDark();
     }
 }

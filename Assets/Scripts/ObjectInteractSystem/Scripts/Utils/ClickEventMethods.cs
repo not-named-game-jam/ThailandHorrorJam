@@ -97,8 +97,9 @@ public class ClickEventMethods : MonoBehaviour
         switch (clickEventType)
         {
             case ClickEventType.Popup:
-                if (gameObject.activeSelf) return;
+                // if (gameObject.activeSelf) return;
                 gameObject.SetActive(true);
+                PlayAnimation();
                 break;
 
             case ClickEventType.CloseEvent:
