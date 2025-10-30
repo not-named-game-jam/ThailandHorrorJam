@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Analytics;
 
-public class Clock : MonoBehaviour
+public class ClockX : MonoBehaviour
 {
     public Transform minuteHand;
     public Transform hourHand;

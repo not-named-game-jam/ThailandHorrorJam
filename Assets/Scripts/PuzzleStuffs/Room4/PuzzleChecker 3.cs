@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PuzzleChecker3 : MonoBehaviour
 {
-    [SerializeField] Clock clock;
+    [SerializeField] ClockX clock;
     [SerializeField] DialogueMaker clockBefore;
     [SerializeField] DialogueMaker clockAfter;
     [SerializeField] LockManager lockManager;
