@@ -25,6 +25,9 @@ public class SafeCodeChecker : MonoBehaviour
     [SerializeField] private DialogueMaker correctDialogue;      // Dialogue เมื่อรหัสถูก
     [SerializeField] private DialogueMaker wrongDialogue;        // Dialogue เมื่อรหัสผิด
 
+    [SerializeField] GameObject openSafe;
+    [SerializeField] GameObject puzzleUI;
+
     private string currentInput = "";
     private bool isUnlocked = false;
 
@@ -99,6 +102,9 @@ public class SafeCodeChecker : MonoBehaviour
 
         if (correctDialogue != null)
             correctDialogue.StartDialogue();
+
+        openSafe.SetActive(true);
+        puzzleUI.SetActive(false);
 
         // ปิดตู้เซฟหลังเปิดสำเร็จ
         yield return new WaitForSeconds(1f);

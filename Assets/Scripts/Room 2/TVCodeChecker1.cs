@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 using System;
 using TMPro;
 
@@ -16,8 +17,12 @@ public class TVCodeChecker : MonoBehaviour
     [SerializeField] private DialogueMaker correctDialogue;   
     [SerializeField] private DialogueMaker wrongDialogue;     
 
+    [SerializeField] private DialogueMaker recieve;
+
+    [SerializeField] GameObject closeUI;
+
     [Header("Lamp Reference")]
-    [SerializeField] private LampChecker lampChecker;         
+    // [SerializeField] private LampChecker lampChecker;         
 
     private int[] digits = new int[3];
     private int correctCode = 0;
@@ -35,7 +40,6 @@ public class TVCodeChecker : MonoBehaviour
         }
 
         isUnlocked = false;
-        gameObject.SetActive(true); // เปิด panel
     }
 
     void Start()
@@ -52,8 +56,8 @@ public class TVCodeChecker : MonoBehaviour
         if (enterButton != null)
             enterButton.onClick.AddListener(CheckPassword);
 
-        if (closeButton != null)
-            closeButton.onClick.AddListener(ClosePanel);
+        // if (closeButton != null)
+        //     closeButton.onClick.AddListener(ClosePanel);
     }
 
     void ChangeDigit(int index, int change)
@@ -69,42 +73,59 @@ public class TVCodeChecker : MonoBehaviour
         digitsText[index].text = digits[index].ToString();
     }
 
-    /// <summary>
-    /// ตรวจสอบรหัส
-    /// ดึงรหัส Lamp ล่าสุดจาก LampChecker
-    /// </summary>
+    public IEnumerator PlayStoryThenReceive()
+    {
+        if (correctDialogue != null) correctDialogue.StartDialogue();
+        yield return new WaitUntil(() => !DialogueSystem.instance.IsActive);
+
+        if (recieve != null) recieve.StartDialogue();
+        yield return new WaitUntil(() => !DialogueSystem.instance.IsActive);
+
+        FindObjectOfType<JigsawBoardController>().AddPiece(4);
+    }
+
     void CheckPassword()
     {
         if (isUnlocked) return;
 
-        // ดึงรหัส Lamp ล่าสุด
-        if (lampChecker != null)
-        {
-            string binary = lampChecker.GetBinaryCode();
-            correctCode = Convert.ToInt32(binary, 2);
-            Debug.Log("TV correct code = " + correctCode.ToString("D3"));
-        }
-
         int currentCode = digits[0] * 100 + digits[1] * 10 + digits[2];
 
-        if (currentCode == correctCode)
+        if(currentCode == 067)
         {
             isUnlocked = true;
-            Debug.Log("✅ รหัสถูกต้อง!");
 
-            if (correctDialogue != null)
-                correctDialogue.StartDialogue();
+            closeUI.SetActive(false);
+
+            StartCoroutine(PlayStoryThenReceive());
         }
         else
         {
-            Debug.Log("❌ รหัสผิด!");
-            if (wrongDialogue != null)
-                wrongDialogue.StartDialogue();
+            wrongDialogue.StartDialogue();
         }
-    }
 
-    void ClosePanel()
-    {
-        gameObject.SetActive(false);
+        // // ดึงรหัส Lamp ล่าสุด
+        // if (lampChecker != null)
+        // {
+        //     string binary = lampChecker.GetBinaryCode();
+        //     correctCode = Convert.ToInt32(binary, 2);
+        //     Debug.Log("TV correct code = " + correctCode.ToString("D3"));
+        // }
+
+        // int currentCode = digits[0] * 100 + digits[1] * 10 + digits[2];
+
+        // if (currentCode == correctCode)
+        // {
+        //     isUnlocked = true;
+        //     Debug.Log("✅ รหัสถูกต้อง!");
+
+        //     if (correctDialogue != null)
+        //         correctDialogue.StartDialogue();
+        // }
+        // else
+        // {
+        //     Debug.Log("❌ รหัสผิด!");
+        //     if (wrongDialogue != null)
+        //         wrongDialogue.StartDialogue();
+        // }
     }
 }

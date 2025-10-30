@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TV (wrong)
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: Is this TV broken.$.$.? $$Why is it showing only number XXX $$?$?$?
+  - text: Is this TV broken.$.$.? $$Why is it showing these numbers$$?$?$?
     displayText: Is this TV broken...? Why is it showing only number XXX ???
     color: 0
     characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
@@ -22,7 +22,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 12000000130000001600000016000000
+    pauseIndex: 120000001300000016000000160000003800000038000000390000003a000000
     functionCalls: []
   - text: There must be something wrong with it.$.$.
     displayText: There must be something wrong with it...
