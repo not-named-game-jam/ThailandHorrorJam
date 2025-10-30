@@ -7,6 +7,8 @@ public class TreeManager : MonoBehaviour
 {
     [SerializeField] int spawnPaperClickThreshold; // how many times before the paper spawns
     [SerializeField] GameObject paperPrefab;
+    [SerializeField] GameObject closedHand;
+    [SerializeField] GameObject openedHand;
     private int clickedAmount;
     ClickEventMethods clickEventMethods;
     bool hasSpawnPaper;
@@ -27,10 +29,15 @@ public class TreeManager : MonoBehaviour
     {
         clickedAmount = 0;
         hasSpawnPaper = false;
+        // closedHand.SetActive(true);
+        // openedHand.SetActive(false);
     }
     public void IncrementClick() // Called by button 
     {
         if (hasSpawnPaper) return;
+
+        closedHand.SetActive(closedHand.activeSelf ? false : true);
+        openedHand.SetActive(openedHand.activeSelf ? false : true);
         clickedAmount++;
 
         CheckState(clickedAmount);
@@ -54,12 +61,8 @@ public class TreeManager : MonoBehaviour
 
     private void SpawnPaper()
     {
+        if (paperPrefab == null) return;
         Debug.Log("Spawning Paper...");
-        StartCoroutine(SpawnPaperCoroutine());
-    }
-    
-    private IEnumerator SpawnPaperCoroutine()
-    {
         hasSpawnPaper = true;
         GameObject prefab = Instantiate(
             paperPrefab,
@@ -67,17 +70,23 @@ public class TreeManager : MonoBehaviour
             position: transform.position,
             rotation: Quaternion.identity
         );
-
-        yield return new WaitForEndOfFrame();
-
-        if (prefab.TryGetComponent<ClickEventMethods>(out ClickEventMethods paperMethods))
-        {
-            Debug.Log("The paper animation belongs to: " + paperMethods.gameObject.name);
-            paperMethods.StartEvent();
-        }
-        else
-        {
-            Debug.LogWarning("Paper's Click Event Method's Component is not found!");
-        }
+        prefab.GetComponent<ClickEventMethods>().StartEvent();
+        //StartCoroutine(SpawnPaperCoroutine());
     }
+    
+    // private IEnumerator SpawnPaperCoroutine()
+    // {
+        
+    //     yield return new WaitForEndOfFrame();
+
+    //     if (prefab.TryGetComponent<ClickEventMethods>(out ClickEventMethods paperMethods))
+    //     {
+    //         Debug.Log("The paper animation belongs to: " + paperMethods.gameObject.name);
+    //         paperMethods.StartEvent();
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("Paper's Click Event Method's Component is not found!");
+    //     }
+    // }
 }

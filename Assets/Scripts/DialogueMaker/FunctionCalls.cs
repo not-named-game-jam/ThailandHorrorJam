@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System;
 using SmoothShakeFree;
+using UnityEngine.SceneManagement;
+
 
 [System.Serializable]
 public class FunctionCalls
@@ -17,8 +19,11 @@ public class FunctionCalls
         EnableObject,
         DisableObject,
         FadeIn,
+
         FadeOut,
-        CamShake
+        CamShake,
+        LoadNextScene
+
     }
 
     public int index;
@@ -86,6 +91,12 @@ public class FunctionCalls
                 GameObject.FindWithTag("MainCamera").GetComponent<SmoothShake>().StartShake();
                 break;
 
+            case FunctionType.LoadNextScene:
+                if (!IsParameterValid(1)) return;
+                Debug.Log("Im ere");
+                monoBehaviour.StartCoroutine(LoadNextSceneAfterDelay(float.Parse(parameter[0]))); // wait 3 secs
+                break;
+
             default:
                 Debug.LogWarning($"Unknown function name: {functionType}");
                 break;
@@ -116,19 +127,27 @@ public class FunctionCalls
             Debug.LogError($"No CanvasGroup component found on {obj.name}");
             yield break;
         }
-        
+
         float elapsed = 0f;
         canvasGroup.alpha = from;
-        
+
         while (elapsed < duration)
         {
             elapsed += Time.unscaledDeltaTime;
             float progress = Mathf.Clamp01(elapsed / duration);
             canvasGroup.alpha = Mathf.Lerp(from, to, progress);
-            
+
             yield return null;
         }
-        
+
         canvasGroup.alpha = to;
+    }
+    
+    IEnumerator LoadNextSceneAfterDelay(float delay)
+    {
+        Debug.Log("Im ere");
+        yield return new WaitForSecondsRealtime(delay);
+        Debug.Log("Done");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

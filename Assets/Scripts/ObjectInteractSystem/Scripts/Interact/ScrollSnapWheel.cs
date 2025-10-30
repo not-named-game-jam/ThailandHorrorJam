@@ -25,8 +25,7 @@ public class ScrollSnapWheel : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     void Start()
     {
         // if (displayImage == null) displayImage = GetComponent<Image>();
-
-
+        
         for (int i = 0; i < transform.childCount; i++)
         {
             spritesToCycle.Add(transform.GetChild(i).GetComponent<RectTransform>());
