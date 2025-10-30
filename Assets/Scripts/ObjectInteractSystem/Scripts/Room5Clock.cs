@@ -5,45 +5,53 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using TMPro;
 
-public class Clock : MonoBehaviour
+public class Room5Clock : MonoBehaviour
 {
     private int hour = 0;
-    private int tmpHour = 0;
+    //private int tmpHour = 0;
     private int minute = 0;
     private float degree = 0;
     private bool isSelectingHour = true;
-    private bool isAM = true;
+    private bool hasFinished;
+    //private bool isAM = true;
     [SerializeField] private RectTransform hourRoot;
     [SerializeField] private RectTransform minRoot;
     [SerializeField] private GameObject canvas;
     [SerializeField] private TMP_Text time;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private DialogueMaker dialogue;
+
 
     public void setIsHour(bool isHour)
     {
         isSelectingHour = isHour;
     }
 
+    void Start()
+    {
+        hasFinished = false;
+    }
+
     // Update is called once per frame
     void Update()
+    {
+        if (hasFinished) return;
+        ManageTime();
+    }
+    
+    private void ManageTime()
     {
         Vector3 mousePoint = Input.mousePosition;
         if (isSelectingHour)
         {
             Vector3 dir = mousePoint - hourRoot.position;
-            degree = Mathf.Atan2(dir.y , dir.x)*Mathf.Rad2Deg;
+            degree = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             if (degree < 0)
             {
-                hour = 12 + Mathf.RoundToInt(degree / 30);     
+                hour = 12 + Mathf.RoundToInt(degree / 30);
             }
             else
             {
-                hour = Mathf.RoundToInt(degree / 30);    
+                hour = Mathf.RoundToInt(degree / 30);
             }
 
             hour = hour - 3;
@@ -57,14 +65,14 @@ public class Clock : MonoBehaviour
         else
         {
             Vector3 dir = mousePoint - minRoot.position;
-            degree = Mathf.Atan2(dir.y , dir.x)*Mathf.Rad2Deg;
+            degree = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             if (degree < 0)
             {
-                minute = 60 + Mathf.RoundToInt(degree / 6);     
+                minute = 60 + Mathf.RoundToInt(degree / 6);
             }
             else
             {
-                minute = Mathf.RoundToInt(degree / 6);    
+                minute = Mathf.RoundToInt(degree / 6);
             }
             minute = minute - 15;
             if (minute < 0)
@@ -84,16 +92,27 @@ public class Clock : MonoBehaviour
             {
                 isSelectingHour = false;
             }
-            else
+
+            else if (!isSelectingHour)
             {
-                canvas.SetActive(false);        
+                isSelectingHour = true;
             }
+
+            if (time.text == "09:35")
+            {
+                hasFinished = true;
+                dialogue.StartDialogue();
+            }
+            // else
+            // {
+            //     canvas.SetActive(false);
+            // }
         }
 
         if (hour.ToString().Length == 1 && minute.ToString().Length == 1)
         {
-            time.text = "0" + hour + ":0" + minute;    
-        } 
+            time.text = "0" + hour + ":0" + minute;
+        }
         else if (hour.ToString().Length == 1)
         {
             time.text = "0" + hour + ":" + minute;
@@ -104,7 +123,7 @@ public class Clock : MonoBehaviour
         }
         else
         {
-            time.text = hour + ":" + minute;    
+            time.text = hour + ":" + minute;
         }
     }
 }

@@ -300,8 +300,558 @@ MonoBehaviour:
     characterName: 
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
     pauseIndex: 
+    functionCalls: []
+  - text: Ha...haha...hahahaha...HAHAHAHAHAHA
+    displayText: Ha...haha...hahahaha...HAHAHAHAHAHA
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 708777bab44cd2f45b2812ba56f77be9, type: 3}
+    typeInterval: 0.0357
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: What? Rika...Why are you laughing?
+    displayText: What? Rika...Why are you laughing?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.0382
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Maya... Mahiru... Are you kidding me? Or to be precise, am I kidding myself?
+      What the heck is this...
+    displayText: Maya... Mahiru... Are you kidding me? Or to be precise, am I kidding
+      myself? What the heck is this...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 3497fb685e16c034e905fb6d8391ba80, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Our human subconscious are quite funny, aren''t they? '
+    displayText: 'Our human subconscious are quite funny, aren''t they? '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Whenever a traumatic event occurs, we always deny it to save our conscious
+      self from the truth.
+    displayText: Whenever a traumatic event occurs, we always deny it to save our
+      conscious self from the truth.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 780e7268fcdef544198c0b3d5d94d3f9, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'The only thing that makes my case different is that I never moved on from
+      it... '
+    displayText: 'The only thing that makes my case different is that I never moved
+      on from it... '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'A normal, healthy person would break out of denial, then get angry, and
+      finally accept the truth in a few weeks or months. '
+    displayText: 'A normal, healthy person would break out of denial, then get angry,
+      and finally accept the truth in a few weeks or months. '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: However... I got stuck in the swamp of denial for such a long time that
+      I forgot that I was even trapped in it in the first place...
+    displayText: However... I got stuck in the swamp of denial for such a long time
+      that I forgot that I was even trapped in it in the first place...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika...
+    displayText: Rika...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4ec1ce6e63321a941829a1566caac4f2, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'You''re wondering why after knowing the truth, I can shake you off like
+      that. Am I right? '
+    displayText: 'You''re wondering why after knowing the truth, I can shake you
+      off like that. Am I right? '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a32fafbf821b6c84ca74a356f7b9b009, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Of course I am! You are my creation after all. And now you're thinking
+      of asking me if I'm okay.
+    displayText: Of course I am! You are my creation after all. And now you're thinking
+      of asking me if I'm okay.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: c85d44a3c2a8ea9468cde6b7baca4bfc, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Well, I''m not! Thank you for asking though, but how can I be okay after
+      all this??? '
+    displayText: 'Well, I''m not! Thank you for asking though, but how can I be okay
+      after all this??? '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: c85d44a3c2a8ea9468cde6b7baca4bfc, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: How can I be okay after knowing I've been selfishly running away from my
+      own problem?
+    displayText: How can I be okay after knowing I've been selfishly running away
+      from my own problem?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika revealed her twisted face, and her painful tears, and her trembling
+      mouth
+    displayText: Rika revealed her twisted face, and her painful tears, and her trembling
+      mouth
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: She gasped for air with a deep breath...
+    displayText: She gasped for air with a deep breath...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: But that amount of oxygen only lasted for at most a few seconds before
+      she hyperventilated again
+    displayText: But that amount of oxygen only lasted for at most a few seconds
+      before she hyperventilated again
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika looked around, ignoring Maya's existence, and looked for the exit
+      door.
+    displayText: Rika looked around, ignoring Maya's existence, and looked for the
+      exit door.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Let me tell myself this... It''s creepy to have an imaginary friend at
+      this age. '
+    displayText: 'Let me tell myself this... It''s creepy to have an imaginary friend
+      at this age. '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 4a4248579003fdf418680a2fa89b0526, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Turning a blind eye to something you can''t handle is just pathetic and
+      unforgivable... '
+    displayText: 'Turning a blind eye to something you can''t handle is just pathetic
+      and unforgivable... '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'The problem won''t be solved by just waiting. It''s exactly what those
+      parents did to me. '
+    displayText: 'The problem won''t be solved by just waiting. It''s exactly what
+      those parents did to me. '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 708777bab44cd2f45b2812ba56f77be9, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'It''s exactly what my friends and teachers did to me. '
+    displayText: 'It''s exactly what my friends and teachers did to me. '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a32fafbf821b6c84ca74a356f7b9b009, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: It's exactly what the world has always done to me...
+    displayText: It's exactly what the world has always done to me...
+    color: 1
+    characterSprite: {fileID: 21300000, guid: 163aeeba01ab15e40828b78dd5e2482f, type: 3}
+    typeInterval: 0.04
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'The path towards the exit of this room revealed itself decorated with
+      rotten pear blossoms and shards of broken glasses. '
+    displayText: 'The path towards the exit of this room revealed itself decorated
+      with rotten pear blossoms and shards of broken glasses. '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Rika walked along it, one step at a time, each step cutting into her skin
+      deeper and deeper. '
+    displayText: 'Rika walked along it, one step at a time, each step cutting into
+      her skin deeper and deeper. '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Maya was just watching silently.
+    displayText: Maya was just watching silently.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: The door is now in a few steps, but before she opened it, she stopped and
+      turned around to face Maya.
+    displayText: The door is now in a few steps, but before she opened it, she stopped
+      and turned around to face Maya.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```The normal Maya is long gone now'
+    displayText: The normal Maya is long gone now
+    color: 5
+    characterSprite: {fileID: 0}
+    typeInterval: 0.0248
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```Her face is as distorted as Rika herself. '
+    displayText: 'Her face is as distorted as Rika herself. '
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.0478
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: You, Rika, can deny me all you want. I won't stop you. I know you. I am
+      you.
+    displayText: You, Rika, can deny me all you want. I won't stop you. I know you.
+      I am you.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 639c4c430b79fb34da6880f1d3c20f4d, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: And I know you're not the type of person to willingly want to run away
+      from everything.
+    displayText: And I know you're not the type of person to willingly want to run
+      away from everything.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: e7de67e2d95a03d4b82bb6e2e759966a, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: But you know what?
+    displayText: But you know what?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: I know, for a fact too, that you cannot handle the truth, at least not
+      in this state.
+    displayText: I know, for a fact too, that you cannot handle the truth, at least
+      not in this state.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 639c4c430b79fb34da6880f1d3c20f4d, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: If this keeps on going...
+    displayText: If this keeps on going...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: You will die alone, without friends, pathetic...
+    displayText: You will die alone, without friends, pathetic...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 2deb5904c9c0b064e8665835f394bb99, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Like what you've always been..
+    displayText: '"Like what you''ve always been"'
+    color: 1
+    characterSprite: {fileID: 21300000, guid: 639c4c430b79fb34da6880f1d3c20f4d, type: 3}
+    typeInterval: 0.0697
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika's body straightened as Maya lifted her head up. Her face is in shock.
+    displayText: Rika's body straightened as Maya lifted her head up. Her face is
+      in shock.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: But you know what?
+    displayText: But you know what?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 639c4c430b79fb34da6880f1d3c20f4d, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: I don't want that. I don't want you to regret the action you made no matter
+      how unforgivable it is.
+    displayText: I don't want that. I don't want you to regret the action you made
+      no matter how unforgivable it is.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: b4e91975d53cca641b0139806b4b5627, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: So, I won't allow you to go alone
+    displayText: So, I won't allow you to go alone
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 2deb5904c9c0b064e8665835f394bb99, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Rika is lost for words.
+    displayText: Rika is lost for words.
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Maya's arms wrapped around Rika's waist
+    displayText: Maya's arms wrapped around Rika's waist
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: The next one is the last room. You need me.
+    displayText: The next one is the last room. You need me.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 1899c048cbc3cbf46ad8477960b7a91e, type: 3}
+    typeInterval: 0.01
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Without waiting for an answer, Maya pushed Rika into the door
+
+'
+    displayText: 'Without waiting for an answer, Maya pushed Rika into the door
+
+'
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: A blinding light flashes all over the void...
+    displayText: A blinding light flashes all over the void...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.01
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```...and everything changes...'
+    displayText: ...and everything changes...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
     functionCalls:
     - index: 0
-      functionType: 3
-      parameter: []
+      functionType: 7
+      parameter:
+      - DialogueSystem
+      - 3
+    - index: 1
+      functionType: 9
+      parameter:
+      - 3
   _currentLineIndex: -1

@@ -17,7 +17,11 @@ public class RoomManager : MonoBehaviour
     [SerializeField] DialogueMaker winningDialogue;
     // [SerializeField] DialogueMaker darkCutsceneDialogue;
     [SerializeField] Slider timerSlider;
+    [SerializeField] Image fadeOutImageToNextScene;
+    [SerializeField, Range(0.5f, 3f)] float fadeOutToNextSceneSpeed;
     // RoomManagerStatus currentRoomManagerStatus;
+
+    bool isFadingOut;
 
     void Awake()
     {
@@ -30,11 +34,34 @@ public class RoomManager : MonoBehaviour
         startingDialogue.StartDialogue();
     }
 
+    void Update()
+    {
+        if (isFadingOut)
+        {
+            Debug.Log("Fading");
+            Color c = fadeOutImageToNextScene.color;
+            c.a += Time.deltaTime * fadeOutToNextSceneSpeed;
+            fadeOutImageToNextScene.color = c;
+
+            if (fadeOutImageToNextScene.color.a >= 1f)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
+    }
+
+
+
     public void LoadNextScene()
     {
-        Debug.Log("loading nex scene");
-        // Uncomment this: SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void LoadNextSceneWithFadeToDark()
+    {
+        isFadingOut = true;
+    }
+
 
     public void PlayDialogue(DialogueMaker dialogueMaker)
     {

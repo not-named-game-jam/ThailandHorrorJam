@@ -1941,6 +1941,7 @@ MonoBehaviour:
   characterContinueIndicator: {fileID: 242156138}
   justTextContinueIndicator: {fileID: 1262413186}
   image: {fileID: 950593483}
+  stopInteraction: {fileID: 0}
 --- !u!114 &260903467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6334,6 +6335,9 @@ MonoBehaviour:
   - {fileID: 1406792062}
   - {fileID: 425262463}
   - {fileID: 1332136660}
+  unopenedBoxBackground: {fileID: 0}
+  horizontalDigits: {fileID: 0}
+  openedBoxBackground: {fileID: 0}
 --- !u!1 &875351117
 GameObject:
   m_ObjectHideFlags: 0
@@ -6814,6 +6818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPaperClickThreshold: 4
   paperPrefab: {fileID: 715665064539164824, guid: 48f76b3c2410ce44188f370bd496d3a6, type: 3}
+  closedHand: {fileID: 0}
+  openedHand: {fileID: 0}
 --- !u!114 &931552900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9419,7 +9425,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1383538665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dfe6fd147227834a8b6c8b867ceed2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 06d29a2b3a5b9a64eade5f1f17745e9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hourRoot: {fileID: 1415696847}
@@ -13234,6 +13240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPaperClickThreshold: 4
   paperPrefab: {fileID: 715665064539164824, guid: 48f76b3c2410ce44188f370bd496d3a6, type: 3}
+  closedHand: {fileID: 0}
+  openedHand: {fileID: 0}
 --- !u!1 &1908310353
 GameObject:
   m_ObjectHideFlags: 0

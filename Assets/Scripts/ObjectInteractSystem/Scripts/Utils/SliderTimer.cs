@@ -10,6 +10,7 @@ public class SliderTimer : MonoBehaviour
 
 
     float currentTimeLeft;
+    bool timerStopped;
     Slider slider;
 
     void Awake()
@@ -26,6 +27,8 @@ public class SliderTimer : MonoBehaviour
 
     void Update()
     {
+        if (timerStopped) return;
+        
         currentTimeLeft -= Time.deltaTime;
         slider.value = currentTimeLeft;
 
@@ -34,6 +37,12 @@ public class SliderTimer : MonoBehaviour
 
     private void EndPuzzle()
     {
-        RoomManager.instance.LoadNextScene();
+        RoomManager.instance.LoadNextSceneWithFadeToDark();
+    }
+
+
+    public void StopSlider()
+    {
+        timerStopped = true;
     }
 }

@@ -70,6 +70,7 @@ public class TreeManager : MonoBehaviour
             position: transform.position,
             rotation: Quaternion.identity
         );
+        prefab.transform.SetAsFirstSibling();
         prefab.GetComponent<ClickEventMethods>().StartEvent();
         //StartCoroutine(SpawnPaperCoroutine());
     }
