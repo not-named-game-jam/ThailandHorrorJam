@@ -10,6 +10,8 @@ public class LockManager : MonoBehaviour
     [SerializeField] DialogueMaker unlocked;
     [SerializeField] TextMeshProUGUI displayPIN;
 
+    [SerializeField] GameObject closeUI;
+
     public string answer = "0935";
     string code = "";
 
@@ -48,6 +50,8 @@ public class LockManager : MonoBehaviour
         else if (code == answer)
         {
             Debug.Log("Correct!\n");
+
+            if(closeUI) closeUI.SetActive(false);
             unlocked.StartDialogue();
         }
         else

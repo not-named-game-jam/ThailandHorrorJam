@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: "It\u2019s locked. $$$I have to find a 4 digit code$.$.$."
-    displayText: 
+    displayText: "It\u2019s locked. I have to find a 4 digit code..."
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0d0000000d0000000d0000002a0000002b0000002c000000
     functionCalls: []
   - text: Rika, $$$could it be related to the clock?
-    displayText: 
+    displayText: Rika, could it be related to the clock?
     color: 0
     characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 060000000600000006000000
     functionCalls: []
   - text: It might be$.$.$.
-    displayText: 
+    displayText: It might be...
     color: 0
     characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
     typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000c0000000d000000
     functionCalls: []
   _currentLineIndex: -1

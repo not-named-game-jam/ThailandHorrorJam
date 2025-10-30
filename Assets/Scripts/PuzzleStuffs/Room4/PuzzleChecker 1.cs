@@ -55,6 +55,7 @@ public class PuzzleChecker1 : MonoBehaviour
         }
         circleMarker.transform.position = dateButtons[index].transform.position;
 
+        gameObject.SetActive(false);
         puzzle1Solved.StartDialogue();
     }
 }

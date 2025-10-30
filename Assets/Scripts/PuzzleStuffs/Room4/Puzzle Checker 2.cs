@@ -23,6 +23,7 @@ public class PuzzleChecker2 : MonoBehaviour
         if (checkerCount >= puzzleChecker && !isDone)
         {
             isDone = true;
+            gameObject.SetActive(false);
             triggerDialogue.StartDialogue();
         }
 

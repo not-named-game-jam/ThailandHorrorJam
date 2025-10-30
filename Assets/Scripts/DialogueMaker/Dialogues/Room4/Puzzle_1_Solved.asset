@@ -214,6 +214,10 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - boom
+    - index: 0
+      functionType: 4
+      parameter:
+      - PlumFlowerPot
   - text: '!!?'
     displayText: '!!?'
     color: 0

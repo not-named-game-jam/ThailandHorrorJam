@@ -68,4 +68,27 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - CleanPlumFlower
+    - index: -1
+      functionType: 6
+      parameter:
+      - CleanPlumFlower
+    - index: -1
+      functionType: 5
+      parameter:
+      - PlumFlowerPot
   _currentLineIndex: -1
