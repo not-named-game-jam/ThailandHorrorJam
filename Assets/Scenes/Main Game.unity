@@ -6283,7 +6283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &427863273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19781,7 +19781,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: If you want to check other rooms, you need to active camera panner boundary
-    not lock camerapanner --- The Lock CameraPanner only use for Start game.
+    not lock camerapanner --- The Lock CameraPanner only use for Start game and it
+    will set active false after click to play.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -19790,8 +19791,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255371
+  m_fontColor: {r: 0.04460168, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -22379,8 +22380,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26.875977, y: -920}
-  m_SizeDelta: {x: -527.4908, y: -516.6248}
+  m_AnchoredPosition: {x: 65.03192, y: -980.20856}
+  m_SizeDelta: {x: -130.0638, y: -396.2078}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930455016
 MonoBehaviour:
@@ -22405,9 +22406,12 @@ MonoBehaviour:
   m_text: 'Note: Sometimes the fade in/out function not working properly when clicking
     too fast or rapidly.
 
-    Note2: If you read this please help fix the fade in/out
-    of ----Room1---- I don''t know why BG fade in/out faster than its world space
-    sprite, the other rooms seem to be normal.'
+    Note2: If you read this please help fix , I don''t
+    know why BG of each room fade in/out faster than its world space sprite.
+
+    Note3:
+    If able , please make player can''t click when blank dialogue appeared. So some
+    of it function won''t be override by new dialogue.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
