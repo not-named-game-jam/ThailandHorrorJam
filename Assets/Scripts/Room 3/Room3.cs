@@ -48,6 +48,7 @@ public class Room3 : MonoBehaviour
     {
         clickCount++;
         StartCoroutine(ButtonFlicker());
+        SoundManager.instance.PlaySfx("MainInteract2");
     }
 
     private void Settozero()
