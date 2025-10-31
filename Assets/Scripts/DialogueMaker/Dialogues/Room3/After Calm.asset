@@ -63,7 +63,7 @@ MonoBehaviour:
       parameter:
       - ----Room3----
       - 2
-  - text: '                                                     '
+  - text: '                                                                                           '
     displayText: '                                                     '
     color: 0
     characterSprite: {fileID: 0}
@@ -78,4 +78,4 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - ----Room3----
-  _currentLineIndex: -1
+  _currentLineIndex: 3
