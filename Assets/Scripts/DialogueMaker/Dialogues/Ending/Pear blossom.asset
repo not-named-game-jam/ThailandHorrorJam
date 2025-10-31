@@ -33,13 +33,17 @@ MonoBehaviour:
       parameter:
       - RoomEnd Door2 Open
     - index: 0
-      functionType: 1
-      parameter:
-      - OpenDoor
-    - index: 0
       functionType: 4
       parameter:
       - RoomEnd Door2 Light
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract3
+    - index: 10
+      functionType: 1
+      parameter:
+      - MainInteract4
   - text: '```"I choose peace."'
     displayText: '"I choose peace."'
     color: 0
@@ -280,6 +284,11 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - BassBoom
+    - index: 10
+      functionType: 7
+      parameter:
+      - ----RoomEnd----
+      - 2
   - text: The sound of generic breaking news jingle comes out of a TV.
     displayText: The sound of generic breaking news jingle comes out of a TV.
     color: 0
@@ -290,7 +299,23 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - ----RoomEnd----
+    - index: -1
+      functionType: 5
+      parameter:
+      - FilmPost
+    - index: -1
+      functionType: 4
+      parameter:
+      - VibrantPost
+    - index: -1
+      functionType: 4
+      parameter:
+      - IsInEnding
   - text: '```"Today, $$police have confirmed the identity of a girl currently in
       a coma in the XXX Hospital. $$The girl''s name is Konomi Rika, $$the daughter
       of a 40-year-old mother and a 45-year-old father, $$both running a start-up
@@ -542,4 +567,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: -1
+  _currentLineIndex: 22

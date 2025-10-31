@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: e9bdd3bb4920df442806e9529b3c6c0c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4213
+        width: 674
+        height: 1673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a8ec3c7ded26147be0cfeb83bcc9c8
+      internalID: -1673238662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 4110
+        width: 674
+        height: 1758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9468e6b69a56dc741be7166be2afa881
+      internalID: 789582615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 5016
+        width: 475
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e52fd87c797d444d910b0e64b63343d
+      internalID: -1364522907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 4992
+        width: 468
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dfcb146df77b648b37debd689301dc
+      internalID: -535350297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 4942
+        width: 469
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288f835150b849b4a894f38881e02241
+      internalID: 2012351965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 5590
+        width: 173
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083f36e179f50fd4986ae537c3f6faee
+      internalID: 1929919622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 5637
+        width: 182
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a827078c5e2744a8be81c63cba5f7d
+      internalID: -1526606023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 4146
+        width: 1345
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6aca0f797ca0941b146752e081e3a2
+      internalID: 1019886239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 4351
+        width: 671
+        height: 1139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c727be360cbb2f4293862466fde52ef
+      internalID: 367402051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 4061
+        width: 202
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ff2f4e2f937294b985d8dd1f7642e2
+      internalID: 320538714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 3984
+        width: 408
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f275bc0f9a3d90249a7b316d9a37cd93
+      internalID: -1586875066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3999
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bd2d069a81a7d4483d9275e87c5d11
+      internalID: -623013299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3530
+        width: 666
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6fef3fbeda6b443968d35b9c594520
+      internalID: -1452381911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 3527
+        width: 656
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4b3b7ea2de6664e92c3a419063c50b
+      internalID: -1356866538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 3583
+        width: 243
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c63245c9e157e94f8813294faee944d
+      internalID: 1931085544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 3586
+        width: 244
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e83be3dea10c6a4596324f9951b7a7f
+      internalID: 1201168990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 3738
+        width: 288
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55317537ac0999049844d17352ee3525
+      internalID: -780245381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 3633
+        width: 325
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471defbc2eb4b954a99e70bce2219bde
+      internalID: -1013823510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 3173
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886abe43d5ab670469e2c48c9a761454
+      internalID: -828786734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 3237
+        width: 196
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d7c11421c5bcb419a03b19325c16e1
+      internalID: 228216093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 3205
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f475517431b28f4da43fd5182a9b9a3
+      internalID: -225617270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 3211
+        width: 610
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a4b02b1fead940af5e5844d88379a
+      internalID: -644037276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2971
+        width: 568
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219c18ffd7b5394db74cca4046c735c
+      internalID: 1624793418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room 1.1 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1995
+        width: 2157
+        height: 1102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8198866bdd799c642b4264c2dd106af2
+      internalID: -1727829462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4ffe6dc5d7035fc40baee29a8f4df904
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Room 1.1 Sprite Sheet_0: -1673238662
+      Room 1.1 Sprite Sheet_1: 789582615
+      Room 1.1 Sprite Sheet_10: -1586875066
+      Room 1.1 Sprite Sheet_11: -623013299
+      Room 1.1 Sprite Sheet_12: -1452381911
+      Room 1.1 Sprite Sheet_13: -1356866538
+      Room 1.1 Sprite Sheet_14: 1931085544
+      Room 1.1 Sprite Sheet_15: 1201168990
+      Room 1.1 Sprite Sheet_16: -780245381
+      Room 1.1 Sprite Sheet_17: -1013823510
+      Room 1.1 Sprite Sheet_18: -828786734
+      Room 1.1 Sprite Sheet_19: 228216093
+      Room 1.1 Sprite Sheet_2: -1364522907
+      Room 1.1 Sprite Sheet_20: -225617270
+      Room 1.1 Sprite Sheet_21: -644037276
+      Room 1.1 Sprite Sheet_22: 1624793418
+      Room 1.1 Sprite Sheet_23: -1298938927
+      Room 1.1 Sprite Sheet_24: -1727829462
+      Room 1.1 Sprite Sheet_25: 1189281187
+      Room 1.1 Sprite Sheet_26: -811918889
+      Room 1.1 Sprite Sheet_3: -535350297
+      Room 1.1 Sprite Sheet_4: 2012351965
+      Room 1.1 Sprite Sheet_5: 1929919622
+      Room 1.1 Sprite Sheet_6: -1526606023
+      Room 1.1 Sprite Sheet_7: 1019886239
+      Room 1.1 Sprite Sheet_8: 367402051
+      Room 1.1 Sprite Sheet_9: 320538714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

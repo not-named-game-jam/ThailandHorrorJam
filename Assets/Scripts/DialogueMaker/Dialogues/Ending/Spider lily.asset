@@ -33,13 +33,17 @@ MonoBehaviour:
       parameter:
       - RoomEnd Door3 Open
     - index: 0
-      functionType: 1
-      parameter:
-      - OpenDoor
-    - index: 0
       functionType: 4
       parameter:
       - RoomEnd Door3 Light
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract3
+    - index: 10
+      functionType: 1
+      parameter:
+      - MainInteract4
   - text: '```"I choose death."'
     displayText: '"I choose death."'
     color: 0
@@ -269,6 +273,11 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - BassBoom
+    - index: 10
+      functionType: 7
+      parameter:
+      - ----RoomEnd----
+      - 2
   - text: A steady tone. $$Continuous. $$Uninterrupted.
     displayText: A steady tone. Continuous. Uninterrupted.
     color: 0
@@ -279,7 +288,23 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0f0000000f0000001b0000001b000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - ----RoomEnd----
+    - index: -1
+      functionType: 5
+      parameter:
+      - FilmPost
+    - index: -1
+      functionType: 4
+      parameter:
+      - VibrantPost
+    - index: -1
+      functionType: 4
+      parameter:
+      - IsInEnding
   - text: Beeeeeeeeeeep
     displayText: Beeeeeeeeeeep
     color: 0

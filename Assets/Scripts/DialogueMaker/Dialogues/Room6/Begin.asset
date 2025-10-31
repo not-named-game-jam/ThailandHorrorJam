@@ -32,6 +32,15 @@ MonoBehaviour:
       functionType: 2
       parameter:
       - beach
+    - index: 20
+      functionType: 6
+      parameter:
+      - Room6BG Beach
+      - 2
+    - index: 20
+      functionType: 4
+      parameter:
+      - Room6BG Beach
   - text: Rika has never been to a beach before. $$It's neither because she can't
       afford it, $$nor because of her parents' lack of time. $$Even if she found
       herself standing over the seaside, $$she would never dare to look at it.
@@ -297,7 +306,16 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 21000000210000003e0000003f00000041000000410000004f00000050000000
-    functionCalls: []
+    functionCalls:
+    - index: 50
+      functionType: 7
+      parameter:
+      - Room6BG Beach
+      - 2
+    - index: 0
+      functionType: 3
+      parameter:
+      - beach
   - text: Maya stood up, $$spread her hands out, $$and turned toward Rika.
     displayText: Maya stood up, spread her hands out, and turned toward Rika.
     color: 0
@@ -308,7 +326,47 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0f0000000f0000002500000025000000
-    functionCalls: []
+    functionCalls:
+    - index: 20
+      functionType: 6
+      parameter:
+      - Room6BG
+      - 2
+    - index: -1
+      functionType: 5
+      parameter:
+      - Room6BG Beach
+    - index: 20
+      functionType: 4
+      parameter:
+      - Room6BG
+    - index: 20
+      functionType: 6
+      parameter:
+      - Canvas World Space Room6
+      - 2
+    - index: 20
+      functionType: 6
+      parameter:
+      - Canvas World Space Puzzle Room6
+      - 2
+    - index: 20
+      functionType: 6
+      parameter:
+      - Canvas World Space Rotate Star
+      - 2
+    - index: 20
+      functionType: 4
+      parameter:
+      - Canvas World Space Rotate Star
+    - index: 20
+      functionType: 4
+      parameter:
+      - Canvas World Space Puzzle Room6
+    - index: 20
+      functionType: 4
+      parameter:
+      - Canvas World Space Room6
   - text: This world is the place between dream and death. $$You chose death in the
       real world, $$but that decision is without the full context.
     displayText: This world is the place between dream and death. You chose death
@@ -426,4 +484,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0500000006000000
     functionCalls: []
-  _currentLineIndex: -1
+  _currentLineIndex: 23

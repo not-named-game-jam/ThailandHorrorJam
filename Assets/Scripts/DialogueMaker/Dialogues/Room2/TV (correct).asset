@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: TV (correct)
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: '```Placeholder for jumpscare'
-    displayText: Placeholder for jumpscare
+  - text: '                                                         '
+    displayText: '                                                         '
     color: 2
     characterSprite: {fileID: 0}
     typeInterval: 0.036
-    dialogueType: 0
+    dialogueType: 3
     typeSound: speak
     characterName: Maya
     textColor: {r: 1, g: 0.84, b: 0, a: 1}
@@ -28,6 +28,14 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - JumpScareLoud
+    - index: 30
+      functionType: 5
+      parameter:
+      - Jump2-2
+    - index: -1
+      functionType: 4
+      parameter:
+      - Jump2-2
   - text: .$.$.
     displayText: ...
     color: 0

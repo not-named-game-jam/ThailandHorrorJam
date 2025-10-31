@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class CameraPanning : MonoBehaviour
 {
+    [SerializeField] public Transform centerObject;
     [SerializeField] private Transform Object;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera cam;
     [SerializeField] public float cameraSpeed = 100f;
     [SerializeField] public DialogueSystem isDialogueActive;
+    [SerializeField] private InEndingtrue inEnding;
     public bool stopCamWhenDialogue;
     private float savedcameraSpeed;
     private float cameraDeadzone = 5.055f;
@@ -20,7 +22,7 @@ public class CameraPanning : MonoBehaviour
 
     void Update()
     {
-        if (isDialogueActive != null && isDialogueActive.IsActive && stopCamWhenDialogue)
+        if (isDialogueActive != null && isDialogueActive.IsActive && stopCamWhenDialogue && !inEnding.InEnding)
         {
             cameraSpeed = 0;
         }
@@ -38,6 +40,13 @@ public class CameraPanning : MonoBehaviour
         if (deadZone > cameraDeadzone)
         {
             rb.MovePosition(newPosi);
+        }
+
+        if (inEnding.InEnding)
+        {
+            cameraSpeed = 0;
+            Vector2 centerPos = centerObject.position;
+            rb.MovePosition(centerPos);
         }
     
     }

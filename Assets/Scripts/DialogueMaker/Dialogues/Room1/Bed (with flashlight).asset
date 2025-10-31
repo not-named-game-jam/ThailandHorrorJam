@@ -65,7 +65,7 @@ MonoBehaviour:
     - index: -1
       functionType: 4
       parameter:
-      - Jump Left Door
+      - Jump1-1
     - index: -1
       functionType: 1
       parameter:
@@ -84,7 +84,7 @@ MonoBehaviour:
     - index: -1
       functionType: 5
       parameter:
-      - Jump Left Door
+      - Jump1-1
     - index: -1
       functionType: 4
       parameter:
@@ -223,4 +223,4 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - Bed No Click
-  _currentLineIndex: -1
+  _currentLineIndex: 4

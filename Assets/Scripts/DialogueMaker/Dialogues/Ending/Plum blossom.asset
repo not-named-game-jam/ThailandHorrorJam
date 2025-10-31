@@ -33,13 +33,17 @@ MonoBehaviour:
       parameter:
       - RoomEnd Door4 Open
     - index: 0
-      functionType: 1
-      parameter:
-      - OpenDoor
-    - index: 0
       functionType: 4
       parameter:
       - RoomEnd Door4 Light
+    - index: 0
+      functionType: 1
+      parameter:
+      - MainInteract3
+    - index: 10
+      functionType: 1
+      parameter:
+      - MainInteract4
   - text: '```"I choose hope."'
     displayText: '"I choose hope."'
     color: 0
@@ -236,6 +240,11 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - BassBoom
+    - index: 10
+      functionType: 7
+      parameter:
+      - ----RoomEnd----
+      - 2
   - text: A steady beat.
     displayText: A steady beat.
     color: 0
@@ -251,6 +260,22 @@ MonoBehaviour:
       functionType: 2
       parameter:
       - HeartrateMonitor
+    - index: 0
+      functionType: 5
+      parameter:
+      - ----RoomEnd----
+    - index: -1
+      functionType: 5
+      parameter:
+      - FilmPost
+    - index: -1
+      functionType: 4
+      parameter:
+      - VibrantPost
+    - index: -1
+      functionType: 4
+      parameter:
+      - IsInEnding
   - text: Beep Beep Beep
     displayText: Beep Beep Beep
     color: 0
@@ -343,7 +368,16 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 3500000035000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Ending4
+    - index: 0
+      functionType: 6
+      parameter:
+      - Ending4
+      - 2
   - text: Agh.$.$. $$I want to smell something nicer.$.$.
     displayText: Agh... I want to smell something nicer...
     color: 0
@@ -664,4 +698,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0b0000000b000000
     functionCalls: []
-  _currentLineIndex: -1
+  _currentLineIndex: 33

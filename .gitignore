@@ -122,3 +122,5 @@ InitTestScene*.unity*
 *.sln.iml
 *.keystore
 *.jks
+Assets/Scripts/DialogueMaker/Dialogues/Ending/Globe thistle.asset
+Assets/Scripts/DialogueMaker/Dialogues/Room6/Puzzle assembled.asset
