@@ -41,10 +41,6 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - Room6BG Beach
-    - index: -1
-      functionType: 4
-      parameter:
-      - ----Room6----
   - text: Rika has never been to a beach before. $$It's neither because she can't
       afford it, $$nor because of her parents' lack of time. $$Even if she found
       herself standing over the seaside, $$she would never dare to look at it.
@@ -330,8 +326,19 @@ MonoBehaviour:
     characterName: bomb
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0f0000000f0000002500000025000000
+    functionCalls: []
+  - text: '                                                                                                        '
+    displayText: '                                                                                                        '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.036
+    dialogueType: 3
+    typeSound: speak
+    characterName: bomb
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
     functionCalls:
-    - index: 20
+    - index: -1
       functionType: 6
       parameter:
       - Room6BG
@@ -340,34 +347,34 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Room6BG Beach
-    - index: 20
+    - index: -1
       functionType: 4
       parameter:
       - Room6BG
-    - index: 20
+    - index: -1
       functionType: 6
       parameter:
       - Canvas World Space Room6
-      - 2
-    - index: 20
+      - 1
+    - index: -1
       functionType: 6
       parameter:
       - Canvas World Space Puzzle Room6
-      - 2
-    - index: 20
+      - 1
+    - index: -1
       functionType: 6
       parameter:
       - Canvas World Space Rotate Star
-      - 2
-    - index: 20
+      - 1
+    - index: -1
       functionType: 4
       parameter:
       - Canvas World Space Rotate Star
-    - index: 20
+    - index: -1
       functionType: 4
       parameter:
       - Canvas World Space Puzzle Room6
-    - index: 20
+    - index: -1
       functionType: 4
       parameter:
       - Canvas World Space Room6
@@ -488,4 +495,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0500000006000000
     functionCalls: []
-  _currentLineIndex: 21
+  _currentLineIndex: -1
