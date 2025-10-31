@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
-  m_Name: PaperDialogue
+  m_Name: 202Treepaper
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: This paper says 17...
-    displayText: This paper says 17...
+  - text: What are these symbols?
+    displayText: What are these symbols?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0314
+    typeInterval: 0.0205
     dialogueType: 2
     typeSound: speak
     characterName: 
@@ -27,17 +27,12 @@ MonoBehaviour:
     - index: 0
       functionType: 4
       parameter:
-      - 17PaperCoinCode
-    - index: 1
-      functionType: 6
-      parameter:
-      - 17PaperCoinCode
-      - 1
-  - text: I wonder if there are any other papers...
-    displayText: I wonder if there are any other papers...
+      - 202
+  - text: Maybe somehow I can decrypt these symbols...?
+    displayText: Maybe somehow I can decrypt these symbols...?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0198
+    typeInterval: 0.0214
     dialogueType: 2
     typeSound: speak
     characterName: 
