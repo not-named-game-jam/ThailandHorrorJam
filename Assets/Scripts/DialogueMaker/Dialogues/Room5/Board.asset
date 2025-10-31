@@ -10,34 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
-  m_Name: PaperDialogue
+  m_Name: Board
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: This paper says 17...
-    displayText: This paper says 17...
+  - text: Hmm...a coin board game?
+    displayText: Hmm...a coin board game?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0314
+    typeInterval: 0.056
     dialogueType: 2
     typeSound: speak
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls:
-    - index: 0
-      functionType: 4
-      parameter:
-      - 17PaperCoinCode
-    - index: 1
-      functionType: 6
-      parameter:
-      - 17PaperCoinCode
-      - 1
-  - text: I wonder if there are any other papers...
-    displayText: I wonder if there are any other papers...
+    functionCalls: []
+  - text: Maybe I should try arranging these coins...
+    displayText: Maybe I should try arranging these coins...
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.0198
+    typeInterval: 0.0499
     dialogueType: 2
     typeSound: speak
     characterName: 
