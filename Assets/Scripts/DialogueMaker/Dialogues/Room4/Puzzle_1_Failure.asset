@@ -28,6 +28,14 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - WritingBlackBoard
+    - index: -1
+      functionType: 5
+      parameter:
+      - BlackBoard1Room4
+    - index: -1
+      functionType: 4
+      parameter:
+      - BlackBoard2Room4
   - text: "What do you want? $$It\u2019s a horror puzzle. $$Just solve it."
     displayText: "What do you want? It\u2019s a horror puzzle. Just solve it."
     color: 0

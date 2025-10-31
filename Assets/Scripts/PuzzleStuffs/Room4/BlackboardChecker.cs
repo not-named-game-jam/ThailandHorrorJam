@@ -10,6 +10,7 @@ public class BlackboardChecker : MonoBehaviour
     [SerializeField] IndexSender indexSender;
     public void PuzzleCheck()
     {
+        Debug.Log("igotpressed");
         int index = indexSender.getIndex();
         if (index == 4)
         {

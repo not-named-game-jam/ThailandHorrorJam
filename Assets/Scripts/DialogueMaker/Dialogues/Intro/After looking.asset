@@ -136,6 +136,10 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Tree
+    - index: -1
+      functionType: 5
+      parameter:
+      - Canvas World Space Intro
   - text: Suddenly, the surreal desert landscape turns into a shadowy hallway.
     displayText: Suddenly, the surreal desert landscape turns into a shadowy hallway.
     color: 0

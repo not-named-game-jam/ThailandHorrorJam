@@ -32,6 +32,14 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Puzzle1
+    - index: 0
+      functionType: 5
+      parameter:
+      - BlackBoard1Room4
+    - index: 0
+      functionType: 4
+      parameter:
+      - BlackBoard2Room4
   - text: "Phew\u2026$$$$$ That\u2019s quite confusing."
     displayText: "Phew\u2026 That\u2019s quite confusing."
     color: 0
@@ -213,11 +221,15 @@ MonoBehaviour:
     - index: 0
       functionType: 1
       parameter:
-      - boom
+      - GlassBreak
     - index: 0
       functionType: 4
       parameter:
       - PlumFlowerPot
+    - index: 0
+      functionType: 5
+      parameter:
+      - Flower1Room4
   - text: '!!?'
     displayText: '!!?'
     color: 0

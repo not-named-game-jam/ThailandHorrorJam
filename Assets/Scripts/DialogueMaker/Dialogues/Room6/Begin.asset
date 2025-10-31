@@ -41,6 +41,10 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - Room6BG Beach
+    - index: -1
+      functionType: 4
+      parameter:
+      - ----Room6----
   - text: Rika has never been to a beach before. $$It's neither because she can't
       afford it, $$nor because of her parents' lack of time. $$Even if she found
       herself standing over the seaside, $$she would never dare to look at it.
@@ -484,4 +488,4 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 0500000006000000
     functionCalls: []
-  _currentLineIndex: 23
+  _currentLineIndex: 21

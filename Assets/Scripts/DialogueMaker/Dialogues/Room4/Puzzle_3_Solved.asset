@@ -32,6 +32,14 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - Puzzle3
+    - index: 0
+      functionType: 5
+      parameter:
+      - Cabinet1Room4
+    - index: 0
+      functionType: 4
+      parameter:
+      - Cabinet2Room4
   - text: And that is$.$.$. $$$$$$$the door to the next room.
     displayText: And that is... the door to the next room.
     color: 0
