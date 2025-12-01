@@ -21,6 +21,7 @@ public class Room3 : MonoBehaviour
 
     void Start()
     {
+        CheckOverlayActive.IsOverlayActive = true;
         textD = spamText.GetComponent<TextMeshProUGUI>();
         buttonImage = calmButton.GetComponent<Image>();
         flickerCoroutine = StartCoroutine(SpamTextFlicker());
@@ -47,13 +48,13 @@ public class Room3 : MonoBehaviour
     public void OnButtonClick()
     {
         clickCount++;
-        StartCoroutine(ButtonFlicker());
         SoundManager.instance.PlaySfx("MainInteract2");
     }
 
     private void Settozero()
     {
         clickCount = 0;
+        CheckOverlayActive.IsOverlayActive = false;
     }
 
     IEnumerator SpamTextFlicker()
@@ -65,13 +66,6 @@ public class Room3 : MonoBehaviour
             textD.color = Color.white;
             yield return new WaitForSeconds(0.1f);
         }
-    }
-
-    IEnumerator ButtonFlicker()
-    {
-        buttonImage.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        buttonImage.color = Color.white;
     }
 
 }

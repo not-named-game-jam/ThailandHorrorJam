@@ -28,6 +28,14 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - ItemPickUp2
+    - index: 0
+      functionType: 4
+      parameter:
+      - Bracelet No Click Room4
+    - index: 0
+      functionType: 5
+      parameter:
+      - Bracelet Room4
   - text: "It does look like the one I\u2019m always wearing.$$$$ But why was I always
       wearing a bracelet? $$$$That\u2019s the question."
     displayText: "It does look like the one I\u2019m always wearing. But why was

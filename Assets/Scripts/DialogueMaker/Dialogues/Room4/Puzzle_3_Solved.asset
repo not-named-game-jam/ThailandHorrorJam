@@ -363,4 +363,8 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - ----Room5----
+    - index: -1
+      functionType: 4
+      parameter:
+      - ActiveFalse
   _currentLineIndex: 26

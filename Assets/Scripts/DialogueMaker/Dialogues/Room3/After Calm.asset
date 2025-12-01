@@ -64,7 +64,7 @@ MonoBehaviour:
       - ----Room3----
       - 2
   - text: '                                                                                           '
-    displayText: '                                                     '
+    displayText: '                                                                                           '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.12
@@ -78,4 +78,8 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - ----Room3----
+    - index: -1
+      functionType: 4
+      parameter:
+      - ActiveFalse
   _currentLineIndex: 3

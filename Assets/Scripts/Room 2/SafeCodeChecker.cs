@@ -95,7 +95,7 @@ public class SafeCodeChecker : MonoBehaviour
     private IEnumerator UnlockSafe()
     {
         isUnlocked = true;
-        displayText.text = "✅ UNLOCKED";
+        displayText.text = "✓ UNLOCKED";
         PlaySound(openSound);
 
         yield return new WaitForSeconds(1f);
@@ -114,7 +114,7 @@ public class SafeCodeChecker : MonoBehaviour
 
     private void WrongCode()
     {
-        displayText.text = "❌ WRONG";
+        displayText.text = "✕ WRONG";
         PlaySound(errorSound);
 
         if (wrongDialogue != null)

@@ -81,7 +81,7 @@ MonoBehaviour:
       functionType: 8
       parameter: []
   - text: 
-    displayText: '          '
+    displayText: 
     color: 1
     characterSprite: {fileID: 0}
     typeInterval: 0.0682
@@ -99,4 +99,12 @@ MonoBehaviour:
       functionType: 5
       parameter:
       - ----Room5----
-  _currentLineIndex: -1
+    - index: -1
+      functionType: 4
+      parameter:
+      - Camera Panner
+    - index: -1
+      functionType: 4
+      parameter:
+      - ActiveFalse
+  _currentLineIndex: 4

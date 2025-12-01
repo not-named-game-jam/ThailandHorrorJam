@@ -454,4 +454,19 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 020000000300000004000000
     functionCalls: []
+  - text: 
+    displayText: Au...
+    color: 0
+    characterSprite: {fileID: 21300000, guid: a7a112438f241d849b86cada18ec71c8, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 020000000300000004000000
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - ActiveFalse
   _currentLineIndex: -1

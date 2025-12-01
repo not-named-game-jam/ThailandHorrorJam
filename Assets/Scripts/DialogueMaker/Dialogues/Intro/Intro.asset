@@ -988,5 +988,9 @@ MonoBehaviour:
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
-  _currentLineIndex: -1
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - Camera Panner
+  _currentLineIndex: 1

@@ -92,4 +92,23 @@ MonoBehaviour:
     textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
     pauseIndex: 03000000040000000500000006000000
     functionCalls: []
+  - text: 
+    displayText: 
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: -1
+      functionType: 4
+      parameter:
+      - ActiveFalse
+    - index: -1
+      functionType: 4
+      parameter:
+      - Camera Panner
   _currentLineIndex: -1
