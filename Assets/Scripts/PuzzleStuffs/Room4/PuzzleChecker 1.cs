@@ -19,7 +19,6 @@ public class PuzzleChecker1 : MonoBehaviour
         failcount = 0;
     }
 
-
     public void Puzzle1Wrong(int index)
     {
         if (!circleMarker.activeSelf) circleMarker.SetActive(true);
