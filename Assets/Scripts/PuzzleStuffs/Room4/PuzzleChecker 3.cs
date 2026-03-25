@@ -37,9 +37,9 @@ public class PuzzleChecker3 : MonoBehaviour
         }
     }
 
-    public void cabinetDialogue()
+    public void cabinetDialogue(bool P3Started)
     {
-        if (puzzleStarted)
+        if (P3Started)
         {
             cabinetAfter.StartDialogue();
         }
@@ -47,5 +47,10 @@ public class PuzzleChecker3 : MonoBehaviour
         {
             cabinetBefore.StartDialogue();
         }
+    }
+
+    public bool getPuzzleState()
+    {
+        return puzzleStarted;
     }
 }

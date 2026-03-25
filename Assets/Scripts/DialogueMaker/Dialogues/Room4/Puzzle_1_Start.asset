@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Puzzle_1_Start
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Rika look! $$$What's up with this black board?$$$ It's got tons of these
+      weird scribbles and dates on it.
+    displayText: Rika look! What's up with this black board? It's got tons of these
+      weird scribbles and dates on it.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 72c3981eaae6be5468be6dc68fac3515, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b0000000b0000002b0000002b0000002b000000
+    functionCalls: []
+  - text: "Hm$.$.$.$$$ \nRight here it says, \"All but one lied.\" $$$ \nI think
+      this is referring to those scribbles."
+    displayText: "Hm... \nRight here it says, \"All but one lied.\"  \nI think this
+      is referring to those scribbles."
+    color: 0
+    characterSprite: {fileID: 21300000, guid: ee76e5e7fa787224cae55b97276c9bc0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0200000003000000040000000500000005000000050000002f0000002f0000002f000000
+    functionCalls: []
+  - text: Oh! $$I think I get it now! $$$Looks like we just have to pick a date right?
+    displayText: Oh! I think I get it now! Looks like we just have to pick a date
+      right?
+    color: 0
+    characterSprite: {fileID: 21300000, guid: bae9cd182668b904b879f7cbcdf2e654, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 04000000040000001a0000001a0000001a000000
+    functionCalls: []
+  - text: I believe so.
+    displayText: I believe so.
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 098a4f2cb9f2e2646b1a6906da2c3558, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: -1
