@@ -7,7 +7,7 @@ public class CameraPanning : MonoBehaviour
 {
     [SerializeField] public Transform centerObject;
     [SerializeField] private Transform Object;
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] public Rigidbody2D rb;
     [SerializeField] private Camera cam;
     [SerializeField] public float cameraSpeed = 100f;
     [SerializeField] public DialogueSystem isDialogueActive;
