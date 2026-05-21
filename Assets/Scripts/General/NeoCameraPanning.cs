@@ -1,10 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
-public class CameraPanning : MonoBehaviour
+public class NeoCameraPanning : MonoBehaviour
 {
 
     [SerializeField] public Transform centerObject;
@@ -15,10 +11,11 @@ public class CameraPanning : MonoBehaviour
     [SerializeField] public DialogueSystem isDialogueActive;
     [SerializeField] private InEndingtrue inEnding;
     public bool stopCamWhenDialogue;
+    private float savedcameraSpeed;
     private float cameraDeadzone = 5.055f;
     void Start()
     {
-        KeepingSettingValues.savedcameraSpeed = cameraSpeed;
+        savedcameraSpeed = cameraSpeed;
     }
 
     void Update()
@@ -36,7 +33,7 @@ public class CameraPanning : MonoBehaviour
 
         else
         {
-            cameraSpeed = KeepingSettingValues.savedcameraSpeed;
+            cameraSpeed = savedcameraSpeed;
         }
 
         
@@ -60,12 +57,3 @@ public class CameraPanning : MonoBehaviour
 
     }
 }
-
-//1.สร้าง empty object ใส่ rigidbody2D,ใส่ transform,collider 
-//2.สร้าง virtualcamera แล้วให้ follow ตัว object 
-//3.วาง object เพื่อใส่ edge collider กับ background
-//4.สร้าง collider เพื่อเป็น confiner สำหรับ virtualcamera ปรับขนาดให้พอดีกับ background
-//5.สร้าง edge collider เพื่อกันไม่ให้ object ไหลออกไกลเกินไป ปรับขนาดให้เล็ก แต่พอดีที่จะทำให้ virtualcamera เห็น background ทั้งหมด
-
-
-
