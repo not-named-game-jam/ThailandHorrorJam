@@ -203,7 +203,7 @@ public class DialogueSystem : MonoBehaviour
 
         skipCooldown += Time.unscaledDeltaTime;
         
-        if (((Pressed() && skipCooldown >= 0.3f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive)
+        if (((Pressed() && skipCooldown >= 0.1f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive)
         {
             skipCooldown = 0.0f;
             ContinueDialogue();
@@ -217,7 +217,7 @@ public class DialogueSystem : MonoBehaviour
             }
             continueIndicatorCooldown += Time.unscaledDeltaTime;
 
-            targetAlpha = continueIndicatorCooldown >= 0.3f ? 1f : 0f;
+            targetAlpha = continueIndicatorCooldown >= 0.1f ? 1f : 0f;
 
             float smoothTime = 0.07f;
             continueIndicatorAlpha = Mathf.Lerp(continueIndicatorAlpha, targetAlpha, Time.unscaledDeltaTime / smoothTime);
