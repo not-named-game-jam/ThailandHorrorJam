@@ -18,6 +18,10 @@ public class SoundManager : MonoBehaviour
 
     void Update()
     {
+        if (playingMusic != null && playingMusic.volume != musicVolume)
+        {
+            playingMusic.volume = musicVolume;
+        }
         for (int i = playingSfx.Count - 1; i >= 0; i--)
         {
             if (!playingSfx[i].isPlaying)

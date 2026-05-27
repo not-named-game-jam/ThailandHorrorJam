@@ -119,6 +119,7 @@ public class DialogueSystem : MonoBehaviour
     public void SetDialogueLine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, string sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls)
     {
         StopAllCoroutines();
+        TestLog.Instance?.AddToLog(speaker, sentence);
         StartCoroutine(SetDialogueCoroutine(sentence, textCol, speaker, sprite, typeInterval, sound, type, pauseIndices, functionCalls));
     }
 
@@ -202,7 +203,7 @@ public class DialogueSystem : MonoBehaviour
 
         skipCooldown += Time.unscaledDeltaTime;
         
-        if (((Pressed() && skipCooldown >= 0.3f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait)
+        if (((Pressed() && skipCooldown >= 0.3f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive)
         {
             skipCooldown = 0.0f;
             ContinueDialogue();
