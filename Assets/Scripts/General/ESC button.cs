@@ -5,13 +5,16 @@ using UnityEngine.UIElements;
 
 public class ESCbutton : MonoBehaviour
 {
-    public DialogueSystem dialogueisActive;
-    public GameObject menu;
+    [SerializeField] GameObject tint;
+    [SerializeField] GameObject continuebutton;
+    [SerializeField] GameObject settingbutton;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !CheckOverlayActive.IsOverlayActive && !dialogueisActive.IsActive)
+        if (Input.GetKeyDown(KeyCode.Escape) && !CheckOverlayActive.IsOverlayActive && !DialogueSystem.instance.IsActive)
         {
-            menu.SetActive(true);
+            tint.SetActive(true);
+            continuebutton.SetActive(true);
+            settingbutton.SetActive(true);
             CheckOverlayActive.IsOverlayActive = true;
         }
     }

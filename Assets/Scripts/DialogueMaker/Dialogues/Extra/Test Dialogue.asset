@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Test Dialogue
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Hello.$$.$$.$$.
+    displayText: Hello....
+    color: 0
+    characterSprite: {fileID: 298802763, guid: 7386e6df010c50749b9c097d09f5cfb4, type: 3}
+    typeInterval: 0.0414
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 060000000600000007000000070000000800000008000000
+    functionCalls: []
+  - text: This is test for dialogue log.
+    displayText: This is test for dialogue log.
+    color: 0
+    characterSprite: {fileID: 754202081, guid: 7386e6df010c50749b9c097d09f5cfb4, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Nuh uh....
+    displayText: Nuh uh....
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.038
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '```Hello everyone...'
+    displayText: Hello everyone...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.0387
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: 0

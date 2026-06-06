@@ -21,7 +21,6 @@ public class TestLog : MonoBehaviour
     [SerializeField] private GameObject logPanel;          // The overall Scroll View panel
     [SerializeField] private GameObject logEntryPrefab;    // Prefab with a TextMeshProUGUI component
     [SerializeField] private Transform logContentParent;   // The Content container inside the Scroll View
-    [SerializeField] DialogueSystem dialogueActive;
     public static bool logisActive = false;
 
     void Update()

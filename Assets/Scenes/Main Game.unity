@@ -19562,7 +19562,6 @@ MonoBehaviour:
   cam: {fileID: 322239975}
   cameraSpeed: 50
   isDialogueActive: {fileID: 1882760817}
-  inEnding: {fileID: 127284018}
   stopCamWhenDialogue: 1
 --- !u!4 &625887562
 Transform:

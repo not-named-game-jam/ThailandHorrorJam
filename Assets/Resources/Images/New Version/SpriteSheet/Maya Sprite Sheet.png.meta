@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: e166fccd4362c7844accca5d43e8cac0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maya_Normal
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4002
+        width: 909
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf27ef917e087a94194f4b759ac03c25
+      internalID: -221560177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Normal_Smile
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 4002
+        width: 908
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec87d617f3f34468760dcad76c45d5
+      internalID: -2008594819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Normal_Confused
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 4002
+        width: 908
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d94cc28b9eddc248afdd631d2404ba6
+      internalID: 1057101880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Normal_Think
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 4002
+        width: 908
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ababfe5a8e80c4d9c91e146382c0c1
+      internalID: 1416201024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Normal_Happy
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 4002
+        width: 914
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a95ef0816c1b6d4c8c65832a3b0b665
+      internalID: -1132392157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Normal_Wahh
+      rect:
+        serializedVersion: 2
+        x: 5079
+        y: 4004
+        width: 908
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764fb592137b1b54483e6419c8dbd1f3
+      internalID: 431630658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Normal_Ehehe
+      rect:
+        serializedVersion: 2
+        x: 6102
+        y: 4002
+        width: 908
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b29f18e7f0f0c4594741fd40900a9c
+      internalID: -2017387519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Scary_Normal
+      rect:
+        serializedVersion: 2
+        x: 7076
+        y: 3969
+        width: 848
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8214ebcfa84ef4abe8f405f2743816
+      internalID: 1352298683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Scary_Shocked
+      rect:
+        serializedVersion: 2
+        x: 7980
+        y: 3975
+        width: 848
+        height: 1779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4544f3028751c4a4bb24e56c884a5397
+      internalID: 933735747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Scary_Shocked_Talk
+      rect:
+        serializedVersion: 2
+        x: 8920
+        y: 3975
+        width: 849
+        height: 1779
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffdd58512676a5468c9461b5b7247c8
+      internalID: 427402541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2135
+        width: 843
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03620aff9b5a8714ab34e53b33c25ec6
+      internalID: -318979472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Sad
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 2135
+        width: 848
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf3521998a4c5347abce691d2a0d7cb
+      internalID: -2131582723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Happy
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 2135
+        width: 848
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f33f7a35468cde4db9fa112353cfeb4
+      internalID: 1077574537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Smile
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 2135
+        width: 843
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ec77459ac1d444781c88b426ab62bb
+      internalID: -1234465409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Confused
+      rect:
+        serializedVersion: 2
+        x: 4044
+        y: 2135
+        width: 849
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21d2446b1e046d41a16a0a7f9bbbf07
+      internalID: 674674170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Cry
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 2135
+        width: 843
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d566cb537e8b91742b71402c7d03b8e2
+      internalID: 1476380595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Cry_Closed
+      rect:
+        serializedVersion: 2
+        x: 5845
+        y: 2135
+        width: 848
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4cea47677fb8f4fa8db5ff60050b23
+      internalID: -844548146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Scary_Still
+      rect:
+        serializedVersion: 2
+        x: 6797
+        y: 2135
+        width: 843
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aefef075b3f90e498b3ad4119a9b5fb
+      internalID: -1073889418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Scary_Disgusted
+      rect:
+        serializedVersion: 2
+        x: 7716
+        y: 2135
+        width: 849
+        height: 1785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a44b1675806aa408fc37912762e666
+      internalID: -1600179459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Bored
+      rect:
+        serializedVersion: 2
+        x: 8636
+        y: 2130
+        width: 848
+        height: 1790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266b0fe3ab851f3498bff8951a7d132c
+      internalID: -1369402092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Pose_Normal
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 274
+        width: 848
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00133893eac4d943ad85f9ce82d4b5b
+      internalID: 2029178180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Pose_Wink
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 274
+        width: 854
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3891f1ff73e903b449ece74ce930eab0
+      internalID: -335844630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Pose_Angry
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 277
+        width: 848
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401acd258b9b16d499368af760dacba3
+      internalID: 925829959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Pose_Angrier
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 274
+        width: 853
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfff1d27c3d2d244b111a0a975ba207
+      internalID: -1725693901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Pose_Wow
+      rect:
+        serializedVersion: 2
+        x: 4258
+        y: 274
+        width: 853
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d62305df0bb9a8409f77441bee34b07
+      internalID: 595441986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Pose_Shocked
+      rect:
+        serializedVersion: 2
+        x: 5429
+        y: 274
+        width: 854
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0b9ace54f8b7943a300ba55c048aca
+      internalID: 2141097810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Doubt
+      rect:
+        serializedVersion: 2
+        x: 6605
+        y: 296
+        width: 843
+        height: 1784
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793d45f5de299c64ea90ea0ba0739ffb
+      internalID: 65890346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Still
+      rect:
+        serializedVersion: 2
+        x: 7525
+        y: 279
+        width: 843
+        height: 1790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4866b6fddef7a4345a52e625a107059f
+      internalID: -2078441926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Noeye
+      rect:
+        serializedVersion: 2
+        x: 8428
+        y: 274
+        width: 848
+        height: 1790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da936eaa2e689af4490d40f9442140c9
+      internalID: 341772219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Stand_Noeye2
+      rect:
+        serializedVersion: 2
+        x: 9367
+        y: 271
+        width: 848
+        height: 1790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a308a5d7fdfdc3540afb130f592ee645
+      internalID: 1206795328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maya_Scary_Smile
+      rect:
+        serializedVersion: 2
+        x: 10289
+        y: 274
+        width: 848
+        height: 1790
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7527c47b1abf84cbcda737f6d62024
+      internalID: 233658273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 424fcf4a0610a2f40b7688f0e87c84ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Maya Sprite Sheet_10: 1596194254
+      Maya Sprite Sheet_12: 437306525
+      Maya Sprite Sheet_22: -1094970067
+      Maya Sprite Sheet_23: -1234845245
+      Maya Sprite Sheet_35: -1627390342
+      Maya_Normal: -221560177
+      Maya_Normal_Confused: 1057101880
+      Maya_Normal_Ehehe: -2017387519
+      Maya_Normal_Happy: -1132392157
+      Maya_Normal_Smile: -2008594819
+      Maya_Normal_Think: 1416201024
+      Maya_Normal_Wahh: 431630658
+      Maya_Pose_Angrier: -1725693901
+      Maya_Pose_Angry: 925829959
+      Maya_Pose_Normal: 2029178180
+      Maya_Pose_Shocked: 2141097810
+      Maya_Pose_Wink: -335844630
+      Maya_Pose_Wow: 595441986
+      Maya_Scary_Disgusted: -1600179459
+      Maya_Scary_Normal: 1352298683
+      Maya_Scary_Shocked: 933735747
+      Maya_Scary_Shocked_Talk: 427402541
+      Maya_Scary_Smile: 233658273
+      Maya_Scary_Still: -1073889418
+      Maya_Stand: -318979472
+      Maya_Stand_Bored: -1369402092
+      Maya_Stand_Confused: 674674170
+      Maya_Stand_Cry: 1476380595
+      Maya_Stand_Cry_Closed: -844548146
+      Maya_Stand_Doubt: 65890346
+      Maya_Stand_Happy: 1077574537
+      Maya_Stand_Noeye: 341772219
+      Maya_Stand_Noeye2: 1206795328
+      Maya_Stand_Sad: -2131582723
+      Maya_Stand_Smile: -1234465409
+      Maya_Stand_Still: -2078441926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

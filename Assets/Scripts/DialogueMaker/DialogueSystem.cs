@@ -39,6 +39,16 @@ public class DialogueSystem : MonoBehaviour
 
     private bool isFading = false;
 
+    [Header("Auto Settings")]
+    [SerializeField] bool isAuto = false;
+    [SerializeField] float minAutotime = 1.0f;
+    [SerializeField] float autotimeperCharacter = 0.02f;
+
+    private Coroutine autoCoroutine;
+    [SerializeField] GameObject autoButtonparent;
+    [SerializeField] Image autoButton;
+    [SerializeField] TextMeshProUGUI autoText;
+
     void Awake()
     {
         if (instance == null) instance = this;
@@ -72,6 +82,9 @@ public class DialogueSystem : MonoBehaviour
         IsTyping = true;
 
         if(stopInteraction) stopInteraction.SetActive(true);
+
+        if(autoButtonparent != null) autoButtonparent.SetActive(true);
+        UpdateAutoButton();
 
         if (_type != type) {
             if (_type == DialogueType.TextImmersive) {
@@ -109,6 +122,8 @@ public class DialogueSystem : MonoBehaviour
             }
         }
         _type = type;
+
+        UpdateAutoButton();
 
         yield return StartCoroutine(TypeSentence());
     }
@@ -171,6 +186,11 @@ public class DialogueSystem : MonoBehaviour
             yield return new WaitForSecondsRealtime(_secondsPerChar);
         }
         IsTyping = false;
+
+        if (isAuto && _currentSequence != null)
+        {
+            autoCoroutine = StartCoroutine(AutoDialogue(totalLength));
+        }
     }
 
 
@@ -179,11 +199,17 @@ public class DialogueSystem : MonoBehaviour
     /// </summary>
     public void EndDialogue()
     {
+        if (autoCoroutine != null)
+        {
+            StopCoroutine(autoCoroutine);
+            autoCoroutine = null;
+        }
         // Time.timeScale = 1;
         IsActive = false;
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
         justTextPanel.SetActive(false);
+        if(autoButtonparent != null) autoButtonparent.SetActive(false);
         _currentSequence = null; // Clear the sequence reference
         _type = DialogueType.Wait;
         skipCooldown = 0;
@@ -200,6 +226,11 @@ public class DialogueSystem : MonoBehaviour
     void Update()
     {
         if (!IsActive) return;
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            ToggleAuto();
+        }
 
         skipCooldown += Time.unscaledDeltaTime;
         
@@ -279,4 +310,52 @@ public class DialogueSystem : MonoBehaviour
         Input.GetKeyDown(KeyCode.E) ||
         Input.GetKeyDown(KeyCode.Return) ||
         Input.GetMouseButtonDown(0);
+
+    private IEnumerator AutoDialogue(int textLength)
+    {
+        float autoTime = minAutotime + (autotimeperCharacter*textLength);
+
+        yield return new WaitForSecondsRealtime(autoTime);
+        autoCoroutine = null;
+
+        ContinueDialogue();
+    }
+
+    public void ToggleAuto()
+    {
+        isAuto = !isAuto;
+        UpdateAutoButton();
+
+        if(isAuto)
+        {
+            if (!IsTyping && _currentSequence != null && autoCoroutine == null)
+            {
+                ContinueDialogue();
+            }
+        }
+        else
+        {
+            if (autoCoroutine != null)
+            {
+                StopCoroutine(autoCoroutine);
+                autoCoroutine = null;
+            }
+        }
+    }
+
+    private void UpdateAutoButton()
+    {
+        if (autoButton == null && autoText == null) return;
+
+        if (isAuto)
+        {
+            autoButton.color = Color.yellow;
+            autoText.color = Color.black;
+        }
+        else
+        {
+            autoButton.color = Color.black;
+            autoText.color = Color.white;
+        }
+    }
 }
