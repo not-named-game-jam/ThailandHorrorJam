@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7386e6df010c50749b9c097d09f5cfb4
+guid: e03e9e6f15669634cafbbe8d217c2db2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 2
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 55
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 2
@@ -113,10 +113,10 @@ TextureImporter:
       name: Rika_Normal
       rect:
         serializedVersion: 2
-        x: 45
-        y: 2407
-        width: 651
-        height: 1515
+        x: 1198
+        y: 2310
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11e30f2286ccb9a4d9567d9b7f74a0c5
-      internalID: 298802763
+      spriteID: c0a14ff54a25a75478f6c0aecfc8deb6
+      internalID: 2011750063
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Rika_Normal_Talk
       rect:
         serializedVersion: 2
-        x: 808
-        y: 2407
-        width: 676
-        height: 1515
+        x: 2315
+        y: 2300
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ff217de6616c9b419c9a08f2272bd22
-      internalID: -757106581
+      spriteID: 28b0e61d66f8ebf42900d0cced897e0f
+      internalID: 973624856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Normal_Hand1
+      name: Rika_Normal_Talk_Hand
       rect:
         serializedVersion: 2
-        x: 1555
-        y: 2407
-        width: 723
-        height: 1515
+        x: 3404
+        y: 2302
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8560b4100f5f5b4082fcca543bab133
-      internalID: -1894156270
+      spriteID: 3272656b1c8eae949825f30241b7f7ee
+      internalID: -1225898225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Normal_Hand2
+      name: Rika_Normal_Talk_Hand_Close
       rect:
         serializedVersion: 2
-        x: 2266
-        y: 2407
-        width: 723
-        height: 1515
+        x: 4645
+        y: 2302
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf097162a58e694f9f0796c42e18c7f
-      internalID: 754202081
+      spriteID: 32c2e43a7696ed2499507e0086c15b2c
+      internalID: -1953434355
       vertices: []
       indices: 
       edges: []
@@ -197,10 +197,10 @@ TextureImporter:
       name: Rika_Normal_Shocked
       rect:
         serializedVersion: 2
-        x: 2980
-        y: 2407
-        width: 656
-        height: 1515
+        x: 5755
+        y: 2300
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb77630eae8430740b7e949be8c758a5
-      internalID: 1754224776
+      spriteID: 2ca9186bab134584a98c36c43182f385
+      internalID: -1962330079
       vertices: []
       indices: 
       edges: []
@@ -218,10 +218,10 @@ TextureImporter:
       name: Rika_Normal_VeryShocked
       rect:
         serializedVersion: 2
-        x: 3658
-        y: 2407
-        width: 654
-        height: 1515
+        x: 6670
+        y: 2300
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e17b04d4d1926344ad10fbcdf92f425
-      internalID: -102094123
+      spriteID: 2081165a83333f34ea8558f6e9b01801
+      internalID: 1216157850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Normal_Frightened
+      name: Rika_Normal_SuperShocked
       rect:
         serializedVersion: 2
-        x: 4376
-        y: 2407
-        width: 656
-        height: 1515
+        x: 7743
+        y: 2300
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d638a61098ee0247bb08cd81c131ec5
-      internalID: -787954659
+      spriteID: dd2983adb9d517c428ede916aa6ee9c4
+      internalID: -142652558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Pose_Angry
+      name: Rika_Normal_Doubt
       rect:
         serializedVersion: 2
-        x: 5112
-        y: 2396
-        width: 699
-        height: 1536
+        x: 610
+        y: 405
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f9d36459883bef40aee4aa6b89eade8
-      internalID: -111864897
+      spriteID: 9e6d25f1b1704cf49b95cfad542cc3bc
+      internalID: -1567119930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Normal_Angry
+      name: Rika_Pose_Frustrated
       rect:
         serializedVersion: 2
-        x: 58
-        y: 746
-        width: 654
-        height: 1515
+        x: 1771
+        y: 395
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0968f9dbad8b5994a9bb71ff7010e6a3
-      internalID: -1756358977
+      spriteID: 420915f1aef1f7d468dec4bfa62df9af
+      internalID: 1741699914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Pose_Doubted
+      name: Rika_Pose_Serious
       rect:
         serializedVersion: 2
-        x: 864
-        y: 741
-        width: 699
-        height: 1517
+        x: 2910
+        y: 395
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +313,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0011f97a99306604aa2754c8a9d8fad0
-      internalID: -793824711
+      spriteID: 989d95d92cf2f8449a5fdf39465d6522
+      internalID: 1735935646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rika_Pose_Talk
+      rect:
+        serializedVersion: 2
+        x: 4244
+        y: 395
+        width: 914
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab2a98c5d0b0ee498f77304d72c2e80
+      internalID: -1776494549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rika_Pose_Hand
+      rect:
+        serializedVersion: 2
+        x: 5445
+        y: 395
+        width: 914
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf13bc15db8bf704e87c1dfa5f4d2d93
+      internalID: 220642914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rika_Pose_Hand_Shocked
+      rect:
+        serializedVersion: 2
+        x: 6616
+        y: 395
+        width: 914
+        height: 1746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5756af81a1db1654c828c38b14fa2e22
+      internalID: -4286266
       vertices: []
       indices: 
       edges: []
@@ -323,10 +386,10 @@ TextureImporter:
       name: Rika_Pose_VeryAngry
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 737
-        width: 699
-        height: 1521
+        x: 7811
+        y: 395
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ecea01dc69260c4ab07fe7c69f148d1
-      internalID: -4342408
+      spriteID: 289294d90054eb84f95995d0b6d9f1e3
+      internalID: -1548258814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rika_Pose_Still
+      name: Rika_Pose_Angry
       rect:
         serializedVersion: 2
-        x: 2387
-        y: 724
-        width: 699
-        height: 1534
+        x: 8830
+        y: 395
+        width: 914
+        height: 1746
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,71 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5af20914a150ed4888673cdc5446a23
-      internalID: -1672279326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rika_Pose_Think
-      rect:
-        serializedVersion: 2
-        x: 3107
-        y: 724
-        width: 699
-        height: 1534
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a5066739a6745e4bbc1bb8123d20c75
-      internalID: 1672539052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rika_Pose_Shocked
-      rect:
-        serializedVersion: 2
-        x: 3827
-        y: 724
-        width: 699
-        height: 1534
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12d6d4bb1f4c32d43923d31ecb143cce
-      internalID: 1132640911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rika_Pose_VERYVERYANGRY
-      rect:
-        serializedVersion: 2
-        x: 4557
-        y: 724
-        width: 699
-        height: 1534
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 293ba96f00c858f449a6549beaa30cae
-      internalID: 244107984
+      spriteID: d5720a65518037d48b7daef0c5ce99ed
+      internalID: 2027173096
       vertices: []
       indices: 
       edges: []
@@ -427,7 +427,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a569770e48788314b940353f8dd33cac
+    spriteID: 9a254ecf91a750047be0d311613340d8
     internalID: 0
     vertices: []
     indices: 
@@ -435,28 +435,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rika Redesign Sheet_10: -815891186
-      Rika Redesign Sheet_11: -908672925
-      Rika Redesign Sheet_12: -1662456801
-      Rika Redesign Sheet_13: 884375260
-      Rika Redesign Sheet_15: -580052843
-      Rika Redesign Sheet_22: -944829948
-      Rika Redesign Sheet_9: -1824324566
-      Rika_Normal: 298802763
-      Rika_Normal_Angry: -1756358977
-      Rika_Normal_Frightened: -787954659
-      Rika_Normal_Hand1: -1894156270
-      Rika_Normal_Hand2: 754202081
-      Rika_Normal_Shocked: 1754224776
-      Rika_Normal_Talk: -757106581
-      Rika_Normal_VeryShocked: -102094123
-      Rika_Pose_Angry: -111864897
-      Rika_Pose_Doubted: -793824711
-      Rika_Pose_Shocked: 1132640911
-      Rika_Pose_Still: -1672279326
-      Rika_Pose_Think: 1672539052
-      Rika_Pose_VERYVERYANGRY: 244107984
-      Rika_Pose_VeryAngry: -4342408
+      Rika Redesign Sheet new size_10: 95275897
+      Rika Redesign Sheet new size_7: 592179760
+      Rika_Normal: 2011750063
+      Rika_Normal_Doubt: -1567119930
+      Rika_Normal_Shocked: -1962330079
+      Rika_Normal_SuperShocked: -142652558
+      Rika_Normal_Talk: 973624856
+      Rika_Normal_Talk_Hand: -1225898225
+      Rika_Normal_Talk_Hand_Close: -1953434355
+      Rika_Normal_VeryShocked: 1216157850
+      Rika_Pose_Angry: 2027173096
+      Rika_Pose_Frustrated: 1741699914
+      Rika_Pose_Hand: 220642914
+      Rika_Pose_Hand_Shocked: -4286266
+      Rika_Pose_Serious: 1735935646
+      Rika_Pose_Talk: -1776494549
+      Rika_Pose_VeryAngry: -1548258814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

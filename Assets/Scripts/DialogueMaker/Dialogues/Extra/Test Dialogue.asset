@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: Hello.$$.$$.$$.
     displayText: Hello....
     color: 0
-    characterSprite: {fileID: 298802763, guid: 7386e6df010c50749b9c097d09f5cfb4, type: 3}
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.0414
     dialogueType: 1
     typeSound: speak
@@ -27,7 +27,7 @@ MonoBehaviour:
   - text: This is test for dialogue log.
     displayText: This is test for dialogue log.
     color: 0
-    characterSprite: {fileID: 754202081, guid: 7386e6df010c50749b9c097d09f5cfb4, type: 3}
+    characterSprite: {fileID: -1225898225, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.036
     dialogueType: 1
     typeSound: speak
@@ -57,4 +57,59 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: 0
+  - text: 'Hey$$ Rika, $$ Give me the pose. '
+    displayText: 'Hey Rika,  Give me the pose. '
+    color: 0
+    characterSprite: {fileID: 2029178180, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 03000000030000000a0000000a000000
+    functionCalls: []
+  - text: ....
+    displayText: ....
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: What?$$?$$?
+    displayText: What???
+    color: 0
+    characterSprite: {fileID: 2027173096, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000000600000006000000
+    functionCalls: []
+  - text: Pleaseeeee~~~~
+    displayText: Pleaseeeee~~~~
+    color: 0
+    characterSprite: {fileID: 2029178180, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Nuh uh.
+    displayText: Nuh uh.
+    color: 0
+    characterSprite: {fileID: -1776494549, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  _currentLineIndex: 6
