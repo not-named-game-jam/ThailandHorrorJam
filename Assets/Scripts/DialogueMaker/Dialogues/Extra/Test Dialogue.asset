@@ -112,4 +112,69 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  _currentLineIndex: 6
+  - text: By the way, do you know 'Tung tung tung sahur' ?
+    displayText: By the way, do you know 'Tung tung tung sahur' ?
+    color: 0
+    characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Hm~~~ Maybe not.$$$$$ I think.
+    displayText: Hm~~~ Maybe not. I think.
+    color: 0
+    characterSprite: {fileID: 65890346, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1000000010000000100000001000000010000000
+    functionCalls: []
+  - text: He's here.
+    displayText: He's here.
+    color: 0
+    characterSprite: {fileID: -1225898225, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: This is my friend, I told you about.
+    displayText: This is my friend, I told you about.
+    color: 0
+    characterSprite: {fileID: -1953434355, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.0387
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$
+      Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$ Tung$$
+      Tung$$ Tung$$ Tung$$ Tung$$ Sahur. '
+    displayText: 'Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung
+      Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung Tung Sahur. '
+    color: 0
+    characterSprite: {fileID: 21300000, guid: 69910f67a551cf446b219a39fa37ea12, type: 3}
+    typeInterval: 0.0328
+    dialogueType: 1
+    typeSound: speak
+    characterName: tung
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices:
+  - choicesText: Choose this.
+    nextDialogue: {fileID: 11400000, guid: 6ecc01cd4ab150049b576b44894c0a0a, type: 2}
+  - choicesText: Choose me.
+    nextDialogue: {fileID: 11400000, guid: 658a9817fc9733b429fd9659fec3fb02, type: 2}
+  - choicesText: Not me.
+    nextDialogue: {fileID: 0}
+  _currentLineIndex: -1

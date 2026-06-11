@@ -67,6 +67,14 @@ public class DialogueLine
     }
 }
 
+[System.Serializable]
+public class DialogueChoices
+{
+    public string choicesText;
+    public DialogueMaker nextDialogue;
+    public string condition; // Do later :P
+}
+
 
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "DialogueMaker/Dialogue")]
 public class DialogueMaker : ScriptableObject
@@ -74,6 +82,7 @@ public class DialogueMaker : ScriptableObject
     [Header("Dialogue Sequence")]
     [Tooltip("List of dialogue lines in this sequence")]
     [SerializeField] private List<DialogueLine> dialogueSequence;
+    [SerializeField] private List<DialogueChoices> dialogueChoices;
 
     [Header("Runtime State")]
     [Tooltip("Current line being displayed")]
@@ -108,6 +117,11 @@ public class DialogueMaker : ScriptableObject
         else
         {
             EndDialogue();
+            if(dialogueChoices.Count > 0)
+            {
+                DialogueSystem.instance?.ShowChoices(dialogueChoices);
+                _currentLineIndex = -1;
+            }
         }
     }
 

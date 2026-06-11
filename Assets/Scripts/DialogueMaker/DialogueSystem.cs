@@ -14,6 +14,9 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private GameObject immersiveDialoguePanel;
     [SerializeField] private GameObject characterDialoguePanel;
     [SerializeField] private GameObject justTextPanel;
+    [SerializeField] private GameObject choicesPanel;
+    [SerializeField] private Button[] choiceButtons;
+    [SerializeField] private TextMeshProUGUI[] choiceTexts;
 
     [SerializeField] private CanvasGroup immersiveContinueIndicator;
     [SerializeField] private CanvasGroup characterContinueIndicator;
@@ -25,6 +28,7 @@ public class DialogueSystem : MonoBehaviour
     public static DialogueSystem instance;
     public bool IsActive { get; private set; } = false;
     public bool IsTyping { get; private set; } = true;
+    private bool IsShowChoices;
     private string _dialogueAudio;
     private List<int> _pauseIndices;
     private List<FunctionCalls> _functionCalls;
@@ -42,7 +46,7 @@ public class DialogueSystem : MonoBehaviour
     [Header("Auto Settings")]
     [SerializeField] bool isAuto = false;
     [SerializeField] float minAutotime = 1.0f;
-    [SerializeField] float autotimeperCharacter = 0.02f;
+    [SerializeField] float autotimeperCharacter = 0.015f;
 
     private Coroutine autoCoroutine;
     [SerializeField] GameObject autoButtonparent;
@@ -227,7 +231,7 @@ public class DialogueSystem : MonoBehaviour
     {
         if (!IsActive) return;
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && !IsShowChoices)
         {
             ToggleAuto();
         }
@@ -282,7 +286,12 @@ public class DialogueSystem : MonoBehaviour
             foreach (TextMeshProUGUI x in sentenceText) {
                 x.maxVisibleCharacters = x.text.Length;
             }
-            
+            if (isAuto)
+            {
+                Debug.Log("Pass here");
+                int halflength = sentenceText[0].text.Length/2;
+                autoCoroutine = StartCoroutine(AutoDialogue(sentenceText[0].maxVisibleCharacters/2));
+            }
             IsTyping = false;
         }
         else if (_currentSequence != null)
@@ -330,7 +339,7 @@ public class DialogueSystem : MonoBehaviour
         {
             if (!IsTyping && _currentSequence != null && autoCoroutine == null)
             {
-                ContinueDialogue();
+                autoCoroutine = StartCoroutine(AutoDialogue(sentenceText[0].text.Length/4));
             }
         }
         else
@@ -356,6 +365,55 @@ public class DialogueSystem : MonoBehaviour
         {
             autoButton.color = Color.black;
             autoText.color = Color.white;
+        }
+    }
+
+    public void ShowChoices(List<DialogueChoices> dialogueChoices)
+    {
+        IsShowChoices = true;
+        IsActive = true;
+        IsTyping = false;
+        immersiveDialoguePanel.SetActive(false);
+        characterDialoguePanel.SetActive(false);
+        justTextPanel.SetActive(false);
+        immersiveContinueIndicator.alpha = 0;
+        characterContinueIndicator.alpha = 0;
+        justTextContinueIndicator.alpha = 0;
+
+        StartCoroutine(FadePanel(choicesPanel, true));
+
+        for (int i = 0; i < choiceButtons.Length; i++)
+        {
+            if (i < dialogueChoices.Count)
+            {
+                choiceButtons[i].gameObject.SetActive(true);
+                choiceTexts[i].text = dialogueChoices[i].choicesText;
+
+                choiceButtons[i].onClick.RemoveAllListeners();
+
+                DialogueMaker choicesresult = dialogueChoices[i].nextDialogue;
+                choiceButtons[i].onClick.AddListener(() => StartCoroutine(SelectChoices(choicesresult)));
+            }
+            else
+            {
+                choiceButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    private IEnumerator SelectChoices(DialogueMaker nextDialogue)
+    {
+        yield return StartCoroutine(FadePanel(choicesPanel,false));
+
+        IsShowChoices = false;
+
+        if(nextDialogue != null)
+        {
+            nextDialogue.StartDialogue();
+        }
+        else
+        {
+            EndDialogue();
         }
     }
 }
