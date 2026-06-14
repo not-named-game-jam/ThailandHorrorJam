@@ -15,6 +15,8 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private GameObject characterDialoguePanel;
     [SerializeField] private GameObject justTextPanel;
     [SerializeField] private GameObject choicesPanel;
+    [SerializeField] private GameObject skipPanel;
+    [SerializeField] private GameObject skipWarning;
     [SerializeField] private Button[] choiceButtons;
     [SerializeField] private TextMeshProUGUI[] choiceTexts;
 
@@ -213,6 +215,7 @@ public class DialogueSystem : MonoBehaviour
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
         justTextPanel.SetActive(false);
+        skipPanel.SetActive(false);
         if(autoButtonparent != null) autoButtonparent.SetActive(false);
         _currentSequence = null; // Clear the sequence reference
         _type = DialogueType.Wait;
@@ -236,9 +239,15 @@ public class DialogueSystem : MonoBehaviour
             ToggleAuto();
         }
 
+        if (Input.GetKeyDown(KeyCode.P) && skipPanel.activeSelf)
+        {
+            SkipButtonWarning();
+        }
+        
+
         skipCooldown += Time.unscaledDeltaTime;
         
-        if (((Pressed() && skipCooldown >= 0.1f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive)
+        if (((Pressed() && skipCooldown >= 0.1f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive && !skipWarning.activeSelf)
         {
             skipCooldown = 0.0f;
             ContinueDialogue();
@@ -415,5 +424,27 @@ public class DialogueSystem : MonoBehaviour
         {
             EndDialogue();
         }
+    }
+
+    public void ShowSkipButton()
+    {
+        skipPanel.SetActive(true);
+    }
+
+    public void SkipButtonWarning()
+    {
+        if (skipWarning.activeSelf)
+        {
+            skipWarning.SetActive(false);
+        }
+        else
+        {
+            skipWarning.SetActive(true);
+        }
+    }
+
+    public void SkipConfirm()
+    {
+        _currentSequence.Skip();
     }
 }

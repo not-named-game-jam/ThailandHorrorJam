@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum DialogueType { TextImmersive, CharacterDialogue, JustText, Wait }
@@ -72,7 +74,7 @@ public class DialogueChoices
 {
     public string choicesText;
     public DialogueMaker nextDialogue;
-    public string condition; // Do later :P
+    public List<DialogueCondition> dialogueConditions = new List<DialogueCondition>();
 }
 
 
@@ -94,7 +96,7 @@ public class DialogueMaker : ScriptableObject
     // Public property for external access
     public bool IsActive { get; private set; }
 
-    void OnEnable()
+    void OnEnable() 
     {
         _currentLineIndex = -1;
         foreach (DialogueLine line in dialogueSequence)
@@ -103,10 +105,17 @@ public class DialogueMaker : ScriptableObject
         }
     }
 
-    /// Advances to the next line in the sequence. Called by DialogueUI.
+    /// Advances to the next line in the sequence. Sed by DialogueUI.
     public void StartDialogue()
     {
         DialogueSystem.instance.SetCurrentSequence(this);
+
+        bool skippable = StaticVariableForDialogue.CheckForAlreadyRead(this.name);
+        
+        if (skippable)
+        {
+            DialogueSystem.instance?.ShowSkipButton();
+        }
 
         _currentLineIndex++;
 
@@ -145,7 +154,22 @@ public class DialogueMaker : ScriptableObject
     public void EndDialogue()
     {
         IsActive = false;
+        StaticVariableForDialogue.AddAlreadyRead(this.name);
+        Debug.Log("Added title");
         _currentLineIndex = -1;
         DialogueSystem.instance.EndDialogue();
+    }
+
+    public void Skip() // just for skip button confirm
+    {
+        if (dialogueChoices.Count > 0)
+        {
+            _currentLineIndex = dialogueSequence.Count;
+            StartDialogue();
+        }
+        else
+        {
+            EndDialogue();
+        }
     }
 }

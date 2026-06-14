@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: The Dialogue
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Hello$$$, Maya.
+    displayText: Hello, Maya.
+    color: 0
+    characterSprite: {fileID: 973624856, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 050000000500000005000000
+    functionCalls: []
+  - text: .......
+    displayText: .......
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Hi hi~~$$$, Rika.
+    displayText: Hi hi~~, Rika.
+    color: 0
+    characterSprite: {fileID: 1077574537, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 070000000700000007000000
+    functionCalls: []
+  - text: Wanna have lunch together?
+    displayText: Wanna have lunch together?
+    color: 0
+    characterSprite: {fileID: -335844630, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Ermm.$.$.$.$.
+    displayText: Ermm.....
+    color: 0
+    characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000060000000700000008000000
+    functionCalls: []
+  dialogueChoices:
+  - choicesText: Let's go.
+    nextDialogue: {fileID: 11400000, guid: e0513fe8737b49946af8b34d4bd464f8, type: 2}
+    condition: 
+  - choicesText: I have something else to do.
+    nextDialogue: {fileID: 11400000, guid: 48105a8c5cae32e4c9f4bd02447ba676, type: 2}
+    condition: 
+  - choicesText: I want to eat you.
+    nextDialogue: {fileID: 11400000, guid: f3c34ab6a3bfb1f4283d27533717413f, type: 2}
+    condition: 
+  _currentLineIndex: -1

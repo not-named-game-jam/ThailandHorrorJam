@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: The DialogueChoice1
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Yeah yeah~~~. Lunch with Rika is the best.
+    displayText: Yeah yeah~~~. Lunch with Rika is the best.
+    color: 0
+    characterSprite: {fileID: 595441986, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Let's go before our favorite menu sold out.
+    displayText: Let's go before our favorite menu sold out.
+    color: 0
+    characterSprite: {fileID: -1234465409, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Yeah.$$.$$.
+    displayText: Yeah...
+    color: 0
+    characterSprite: {fileID: -1776494549, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.036
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 05000000050000000600000006000000
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1
