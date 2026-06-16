@@ -19,6 +19,7 @@ public class StatChanger : MonoBehaviour
         {
             case ChangeType.Boolean:
                 StaticVariableForDialogue.boolforDialogue[Valuename] = true;
+                Debug.Log("Set"+Valuename+StaticVariableForDialogue.boolforDialogue[Valuename]);
                 this.enabled = false;
                 break;
             

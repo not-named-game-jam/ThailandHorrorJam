@@ -11,7 +11,7 @@ public static class StaticVariableForDialogue
 
     public static Dictionary<string,int> statwithvalue = new Dictionary<string, int>()
     {
-        {"SelfDoubt", 0}, {"SelfBlame", 0}
+        {"SelfDoubt", 15}, {"SelfBlame", 70}
     };
 
     public static List<string> claimedRewards = new List<string>();

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene1Ending
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: .$$$.$$$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000100000001000000020000000200000002000000
+    functionCalls: []
+  dialogueChoices:
+  - choicesText: This house was always too quiet.
+    nextDialogue: {fileID: 11400000, guid: 4a61c8f3a6540d94cbc9cae1846a108a, type: 2}
+    dialogueConditions: []
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 2
+  - choicesText: Those gifts never made the house warmer.
+    nextDialogue: {fileID: 11400000, guid: 3eabe399158c54c458422b736727085b, type: 2}
+    dialogueConditions:
+    - conditionTypes: 0
+      Name: Scene1-HasClickBox
+      comparisionType: 0
+      Value: 
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 2
+  - choicesText: They always got more important things, always.
+    nextDialogue: {fileID: 11400000, guid: 3c47dae1e2db54140a669ca50d9ecc8b, type: 2}
+    dialogueConditions:
+    - conditionTypes: 0
+      Name: Scene1-HasReadDiary
+      comparisionType: 0
+      Value: 
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 2
+  - choicesText: I grew up waiting.
+    nextDialogue: {fileID: 11400000, guid: 2eeb5c97a19ffe549a9bdd773f060ac2, type: 2}
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: Scene1-Interact
+      comparisionType: 3
+      Value: 2
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 3
+  _currentLineIndex: -1
