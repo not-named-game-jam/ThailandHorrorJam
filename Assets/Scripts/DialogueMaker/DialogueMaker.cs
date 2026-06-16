@@ -75,8 +75,8 @@ public class DialogueChoices
     public string choicesText;
     public DialogueMaker nextDialogue;
     public List<DialogueCondition> dialogueConditions = new List<DialogueCondition>();
+    public List<DialogueRewards> dialogueRewards = new List<DialogueRewards>();
 }
-
 
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "DialogueMaker/Dialogue")]
 public class DialogueMaker : ScriptableObject

@@ -26,6 +26,7 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private Image image;
 
     [SerializeField] private GameObject stopInteraction;
+    [SerializeField] private FloatingTextForButton spawnFloatingText;
 
     public static DialogueSystem instance;
     public bool IsActive { get; private set; } = false;
@@ -38,12 +39,16 @@ public class DialogueSystem : MonoBehaviour
 
     private float _secondsPerChar = 0.06f;
     private DialogueMaker _currentSequence;
+    private string saveCurrentSequencename;
     private float skipCooldown;
     private float continueIndicatorCooldown;
     private float continueIndicatorAlpha;
     private float targetAlpha;
 
     private bool isFading = false;
+    
+    private Coroutine dialogueLoopCoroutine;
+    private Coroutine typingCoroutine;
 
     [Header("Auto Settings")]
     [SerializeField] bool isAuto = false;
@@ -131,7 +136,8 @@ public class DialogueSystem : MonoBehaviour
 
         UpdateAutoButton();
 
-        yield return StartCoroutine(TypeSentence());
+        typingCoroutine = StartCoroutine(TypeSentence());
+        //yield return StartCoroutine(TypeSentence());
     }
 
     /// <summary>
@@ -139,7 +145,10 @@ public class DialogueSystem : MonoBehaviour
     /// </summary>
     public void SetDialogueLine(string sentence, Color textCol, string speaker, Sprite sprite, float typeInterval, string sound, DialogueType type, List<int> pauseIndices, List<FunctionCalls> functionCalls)
     {
-        StopAllCoroutines();
+        if(dialogueLoopCoroutine != null) StopCoroutine(dialogueLoopCoroutine);
+        if(typingCoroutine != null) StopCoroutine(typingCoroutine);
+        if(autoCoroutine != null) StopCoroutine(autoCoroutine);
+        //StopAllCoroutines();
         TestLog.Instance?.AddToLog(speaker, sentence);
         StartCoroutine(SetDialogueCoroutine(sentence, textCol, speaker, sprite, typeInterval, sound, type, pauseIndices, functionCalls));
     }
@@ -159,10 +168,17 @@ public class DialogueSystem : MonoBehaviour
         IsTyping = true;
         int totalLength = sentenceText[0].text.Length;
         int currentCharIndex = 0;
-
-        _functionCalls
-            .FindAll(x => x.index == -1)
-            .ForEach(x => x.CallFunction(this));
+        
+        for (int i = 0; i < _functionCalls.Count; i++)
+        {
+            if (_functionCalls[i].index == currentCharIndex)
+            {
+                _functionCalls[i].CallFunction(this);
+            }
+        }
+        //_functionCalls
+            //.FindAll(x => x.index == -1)
+            //.ForEach(x => x.CallFunction(this));
 
         while (currentCharIndex < totalLength)
         {
@@ -284,7 +300,8 @@ public class DialogueSystem : MonoBehaviour
         if (IsTyping)
         {
             // Skip typing animation
-            StopAllCoroutines();
+            if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+            //StopAllCoroutines();
 
             // Call all remaining functions that would have been called during typing
             _functionCalls
@@ -321,6 +338,7 @@ public class DialogueSystem : MonoBehaviour
     {
         // Time.timeScale = 0;
         _currentSequence = sequence;
+        saveCurrentSequencename = sequence.name;
     }
 
     private bool Pressed() =>
@@ -395,13 +413,33 @@ public class DialogueSystem : MonoBehaviour
         {
             if (i < dialogueChoices.Count)
             {
+                choiceButtons[i].interactable = true;
                 choiceButtons[i].gameObject.SetActive(true);
-                choiceTexts[i].text = dialogueChoices[i].choicesText;
-
+                bool allConditionpassed = true;
+                foreach(DialogueCondition condition in dialogueChoices[i].dialogueConditions)
+                    {
+                        if (condition.CheckCondition() == false)
+                        {
+                            allConditionpassed = false;
+                            break;
+                        }
+                    }
                 choiceButtons[i].onClick.RemoveAllListeners();
-
-                DialogueMaker choicesresult = dialogueChoices[i].nextDialogue;
-                choiceButtons[i].onClick.AddListener(() => StartCoroutine(SelectChoices(choicesresult)));
+                if (allConditionpassed)
+                {
+                    choiceButtons[i].interactable = true;
+                    choiceTexts[i].text = dialogueChoices[i].choicesText;
+                    DialogueMaker choicesresult = dialogueChoices[i].nextDialogue;
+                    List<DialogueRewards> rewardresult = dialogueChoices[i].dialogueRewards;
+                    int choiceindex = i;
+                    choiceButtons[i].onClick.AddListener(() => StartCoroutine(SelectChoices(choicesresult, rewardresult, choiceindex)));
+                }
+                else
+                {
+                    choiceTexts[i].text = "? ? ?";
+                    Vector3 choicePos = choiceButtons[i].transform.position;
+                    choiceButtons[i].onClick.AddListener(() => spawnFloatingText.SpawnRandomText(choicePos));
+                }                      
             }
             else
             {
@@ -410,14 +448,61 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
-    private IEnumerator SelectChoices(DialogueMaker nextDialogue)
+    private IEnumerator SelectChoices(DialogueMaker nextDialogue, List<DialogueRewards> dialogueRewards,int choiceindex)
     {
+        foreach (var button in choiceButtons)
+        {
+            if (button != null) button.interactable = false;
+        }
         yield return StartCoroutine(FadePanel(choicesPanel,false));
-
+        string nameforkey;
+        if (saveCurrentSequencename != null)
+        {
+            nameforkey = saveCurrentSequencename;
+        }
+        else
+        {
+            nameforkey = "Unknown";
+            Debug.Log("Unknown sequence");
+        }
         IsShowChoices = false;
+        string rewardkey = nameforkey+"UIIA"+" choice no. "+(choiceindex+1).ToString();
+
+        if (StaticVariableForDialogue.claimedRewards == null)
+        {
+            StaticVariableForDialogue.claimedRewards = new List<string>();
+        }
 
         if(nextDialogue != null)
         {
+            if (dialogueRewards.Count() > 0 && !StaticVariableForDialogue.claimedRewards.Contains(rewardkey))
+            {
+                StaticVariableForDialogue.claimedRewards.Add(rewardkey);
+                foreach(DialogueRewards reward in dialogueRewards)
+                {
+                    if(reward == null || string.IsNullOrEmpty(reward.rewardName)) continue;
+                    if(reward.rewardTypes == DialogueRewards.RewardTypes.Boolean)
+                    {
+                        StaticVariableForDialogue.boolforDialogue[reward.rewardName] = true;
+                    }
+                    else if(reward.rewardTypes == DialogueRewards.RewardTypes.Integer)
+                    {
+                        int.TryParse(reward.rewardValue, out int newrewardValue);
+                        if (StaticVariableForDialogue.statwithvalue.ContainsKey(reward.rewardName))
+                        {
+                            StaticVariableForDialogue.statwithvalue[reward.rewardName] += newrewardValue;
+                        }
+                        else
+                        {
+                            StaticVariableForDialogue.statwithvalue[reward.rewardName] = newrewardValue;
+                        }
+                    }
+                }
+            }
+            else if(dialogueRewards.Count() > 0)
+            {
+                Debug.Log("Reward already claimed"+rewardkey);
+            }
             nextDialogue.StartDialogue();
         }
         else

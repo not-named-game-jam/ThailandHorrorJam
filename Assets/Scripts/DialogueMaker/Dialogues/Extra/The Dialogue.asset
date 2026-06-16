@@ -71,11 +71,21 @@ MonoBehaviour:
   dialogueChoices:
   - choicesText: Let's go.
     nextDialogue: {fileID: 11400000, guid: e0513fe8737b49946af8b34d4bd464f8, type: 2}
-    condition: 
+    dialogueConditions: []
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 10
   - choicesText: I have something else to do.
     nextDialogue: {fileID: 11400000, guid: 48105a8c5cae32e4c9f4bd02447ba676, type: 2}
-    condition: 
+    dialogueConditions: []
+    dialogueRewards: []
   - choicesText: I want to eat you.
     nextDialogue: {fileID: 11400000, guid: f3c34ab6a3bfb1f4283d27533717413f, type: 2}
-    condition: 
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: SelfBlame
+      comparisionType: 3
+      Value: 100
+    dialogueRewards: []
   _currentLineIndex: -1
