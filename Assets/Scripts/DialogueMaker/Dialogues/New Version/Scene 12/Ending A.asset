@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Ending A
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: This is the final stop.$$$$What do you think$$,Rika?
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -2078441926, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: I already know.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 973624856, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$$.$$.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 674674170, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$$.$$.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: It was my fault.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$$.$$.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 341772219, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: If I hadn't walked away that day.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: If I had chosen to speak up
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "If.$$$.$$$.$$$ if Mahiru had never met me\u2013"
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -142652558, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: It wouldn't have turned out like this.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -142652558, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$$$.$$$.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1206795328, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: Yes.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "That's what you\u2019ve always believed."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -2078441926, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Because it\u2019s the truth."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1216157850, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Don't tell me it\u2019s not."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1735935646, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "Don\u2019t tell me it was an accident."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1735935646, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "I don\u2019t want to hear anything else."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -1548258814, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: Then hold on to it.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -1234465409, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1

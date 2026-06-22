@@ -12,17 +12,23 @@ public class FloatingTextForButton : MonoBehaviour
     {
         "Locked...", "Maybe you missed something." , "That's hurt." , "Observe more." , ". . ."
     };
+    private Coroutine floatingText;
 
     private bool canclick = true;
+    private GameObject currentText;
 
     public void SpawnRandomText(Vector3 position)
     {
         if (!canclick) return;
+        if (floatingText != null)
+        {
+            floatingText = null;
+        }
         if (randomTexts.Count == 0 || floatingTextPrefab == null || randomTexts == null) return;
 
         int randomIndex = Random.Range(0, randomTexts.Count);
         string choosenText = randomTexts[randomIndex];
-        StartCoroutine(Floatingtext(position, choosenText));
+        floatingText = StartCoroutine(Floatingtext(position, choosenText));
     }
 
     private IEnumerator Floatingtext(Vector3 position, string mytext)
@@ -37,15 +43,15 @@ public class FloatingTextForButton : MonoBehaviour
         {
             parentTransform = transform;
         }
-        GameObject textObject = Instantiate(floatingTextPrefab,parentTransform);
-        textObject.transform.localScale = Vector3.one;
-        textObject.transform.position = position+ new Vector3(0,1f,0);
+        currentText = Instantiate(floatingTextPrefab,parentTransform);
+        currentText.transform.localScale = Vector3.one;
+        currentText.transform.position = position+ new Vector3(0,1f,0);
 
-        TextMeshProUGUI prefabtext = textObject.GetComponentInChildren<TextMeshProUGUI>();
+        TextMeshProUGUI prefabtext = currentText.GetComponentInChildren<TextMeshProUGUI>();
         if (prefabtext != null) prefabtext.text = mytext;
         
-        CanvasGroup canvasGroup = textObject.GetComponent<CanvasGroup>();
-        Vector3 startpos = textObject.transform.position;
+        CanvasGroup canvasGroup = currentText.GetComponent<CanvasGroup>();
+        Vector3 startpos = currentText.transform.position;
         Vector3 endpos = startpos + new Vector3(0,3f,0);
         
 
@@ -54,10 +60,11 @@ public class FloatingTextForButton : MonoBehaviour
 
         while (elapsed < duration)
         {
+            if (currentText == null) yield break;
             elapsed += Time.unscaledDeltaTime;
             float progress = Mathf.Clamp01(elapsed / duration);
 
-            textObject.transform.position = Vector3.Lerp(startpos, endpos, progress);
+            currentText.transform.position = Vector3.Lerp(startpos, endpos, progress);
 
             if (canvasGroup != null)
             {
@@ -67,6 +74,19 @@ public class FloatingTextForButton : MonoBehaviour
             yield return null;
         }
         canclick = true;
-        Destroy(textObject);
+        floatingText = null;
+        if(currentText != null)
+        {
+            Destroy(currentText);
+        }
+    }
+    private void OnDisable()
+    {
+        if (currentText != null)
+        {
+            Destroy(currentText);
+        }
+        canclick = true;
+        floatingText = null;
     }
 }

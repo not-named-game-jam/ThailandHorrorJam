@@ -15,6 +15,7 @@ public class StatChanger : MonoBehaviour
     [SerializeField] private ChangeType type;
     public void valueChanger()
     {
+        if (!this.enabled) return;
         switch (type)
         {
             case ChangeType.Boolean:
