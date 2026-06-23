@@ -82,6 +82,8 @@ ShaderVariantCollection:
         passType: 0
       - keywords: SAMPLING_BLUR_FAST
         passType: 0
+      - keywords: SAMPLING_EDGE_ALPHA
+        passType: 0
       - keywords: SAMPLING_EDGE_LUMINANCE
         passType: 0
       - keywords: SAMPLING_PIXELATION
