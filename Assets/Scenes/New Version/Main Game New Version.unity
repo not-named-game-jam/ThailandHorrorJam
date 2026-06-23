@@ -329,7 +329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.70898, y: -142.76501}
+  m_AnchoredPosition: {x: 213.70901, y: -142.76501}
   m_SizeDelta: {x: 424.5, y: 285.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113625765
@@ -4640,7 +4640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.70898, y: -142.76501}
+  m_AnchoredPosition: {x: 213.70901, y: -142.76501}
   m_SizeDelta: {x: 424.5, y: 285.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471700021
@@ -5202,7 +5202,6 @@ GameObject:
   - component: {fileID: 513075065}
   - component: {fileID: 513075064}
   - component: {fileID: 513075068}
-  - component: {fileID: 513075067}
   m_Layer: 0
   m_Name: DialogueLogPanel
   m_TagString: Untagged
@@ -5229,8 +5228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 168.82126}
-  m_SizeDelta: {x: -694, y: -427.68}
+  m_AnchoredPosition: {x: -292.69458, y: 191.33621}
+  m_SizeDelta: {x: -694, y: -472.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513075064
 MonoBehaviour:
@@ -5275,7 +5274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.3529412}
+  m_Color: {r: 0.021026531, g: 0.011213934, b: 0.07924521, a: 0.6666667}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5300,82 +5299,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513075062}
   m_CullTransparentMesh: 1
---- !u!114 &513075067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513075062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90ac5d06c7b714c29a6b7b3b80e443a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CullingMask: 367
-  m_Direction: 0
-  m_Curve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 1
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  m_SeparateReverseCurve: 0
-  m_ReverseCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 1
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  m_Delay: 0
-  m_Duration: 1
-  m_Interval: 0
-  m_PlayOnEnable: 1
-  m_ResetTimeOnEnable: 1
-  m_WrapMode: 1
-  m_UpdateMode: 0
-  m_OnComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnChangedRate:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &513075068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5399,7 +5322,7 @@ MonoBehaviour:
   m_SamplingWidth: 1
   m_SamplingScale: 1
   m_TransitionFilter: 8
-  m_TransitionRate: 0.49155837
+  m_TransitionRate: 0.3293049
   m_TransitionReverse: 0
   m_TransitionTex: {fileID: 2800000, guid: 51cf4ae69d327428fbac4ee73e8587fe, type: 3}
   m_TransitionTexScale: {x: 1, y: 1}
@@ -5412,11 +5335,11 @@ MonoBehaviour:
   m_TransitionRange:
     m_Min: 0.48067886
     m_Max: 1
-  m_TransitionColorFilter: 2
-  m_TransitionColor: {r: 0.6150943, g: 0.6150943, b: 0.6150943, a: 0.5019608}
+  m_TransitionColorFilter: 4
+  m_TransitionColor: {r: 0.10998221, g: 0.11544113, b: 0.21509439, a: 0.5019608}
   m_TransitionColorGlow: 0
   m_TransitionPatternReverse: 0
-  m_TransitionAutoPlaySpeed: 0
+  m_TransitionAutoPlaySpeed: 1
   m_TransitionGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5511,7 +5434,7 @@ MonoBehaviour:
   m_EdgeColorFilter: 2
   m_EdgeColor: {r: 1, g: 1, b: 1, a: 1}
   m_EdgeColorGlow: 0
-  m_EdgeShinyRate: 0.49155837
+  m_EdgeShinyRate: 0.3293049
   m_EdgeShinyWidth: 0.5
   m_EdgeShinyAutoPlaySpeed: 0.05
   m_PatternArea: 1
@@ -7587,7 +7510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.70898, y: -142.76501}
+  m_AnchoredPosition: {x: 213.70901, y: -142.76501}
   m_SizeDelta: {x: 424.5, y: 285.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666901110
@@ -8088,7 +8011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.70898, y: -142.76501}
+  m_AnchoredPosition: {x: 213.70901, y: -142.76501}
   m_SizeDelta: {x: 424.5, y: 285.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &705547455
@@ -12947,7 +12870,7 @@ MonoBehaviour:
     m_Top: 25
     m_Bottom: 25
   m_ChildAlignment: 0
-  m_Spacing: 50
+  m_Spacing: 5
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -15629,7 +15552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.70898, y: -142.76501}
+  m_AnchoredPosition: {x: 213.70901, y: -142.76501}
   m_SizeDelta: {x: 424.5, y: 285.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541592086
@@ -19800,7 +19723,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.70898, y: -142.76501}
+  m_AnchoredPosition: {x: 213.70901, y: -142.76501}
   m_SizeDelta: {x: 424.5, y: 285.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1981372525
