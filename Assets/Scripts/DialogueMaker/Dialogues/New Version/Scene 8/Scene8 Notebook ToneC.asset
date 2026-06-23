@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene8 Notebook ToneC
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: "(I didn\u2019t write this part.)"
+    displayText: "(I didn\u2019t write this part.)"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "\u2026She wrote them."
+    displayText: "\u2026She wrote them."
+    color: 0
+    characterSprite: {fileID: -4286266, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Even more than I remember.
+    displayText: Even more than I remember.
+    color: 0
+    characterSprite: {fileID: 1735935646, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: (She stayed beside me.)
+    displayText: "(She helped because I couldn\u2019t keep up.)"
+    color: 0
+    characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1

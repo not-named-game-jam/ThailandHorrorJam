@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene9 Phone ToneB
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: Did you get home yet?
+    displayText: Did you get home yet?
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "We might be late tonight. Don\u2019t wait up."
+    displayText: "We might be late tonight. Don\u2019t wait up."
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "There\u2019s money on the table. Make sure you eat something."
+    displayText: "There\u2019s money on the table. Make sure you eat something."
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'See you tomorrow, love you.
+
+'
+    displayText: 'See you tomorrow, love you.
+
+'
+    color: 1
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: ...
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 1735935646, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: (I filled the silence myself.)
+    displayText: (I decided what it meant before asking.)
+    color: 0
+    characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "(Did I?)\r"
+    displayText: You sound certain.
+    color: 0
+    characterSprite: {fileID: -4286266, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "I didn\u2019t even check.\r"
+    displayText: Because I am.
+    color: 0
+    characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "I just\u2026 assumed."
+    displayText: "\u2026I decided a long time ago."
+    color: 0
+    characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: You assumed.
+    displayText: "\u2026I decided a long time ago."
+    color: 0
+    characterSprite: {fileID: 65890346, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1

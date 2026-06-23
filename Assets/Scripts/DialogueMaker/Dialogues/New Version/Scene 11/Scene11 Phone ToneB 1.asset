@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene11 Phone ToneB 1
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: ...
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 2
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: They texted again.
+    displayText: They texted again.
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: (They cared.)
+    displayText: (They checked on me.)
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "(She cared.)\r"
+    displayText: "I didn\u2019t reply.\r"
+    color: 0
+    characterSprite: {fileID: -4286266, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1

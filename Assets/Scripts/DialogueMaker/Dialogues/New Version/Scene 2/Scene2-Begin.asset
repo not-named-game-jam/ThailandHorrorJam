@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene2-Begin
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: (Nothing really changed.)
+    displayText: ' (Nothing really changed.)'
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: (I expected it to.)
+    displayText: (I expected it to.)
+    color: 0
+    characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'This room feels so cold.
+
+'
+    displayText: 'This room feels so cold.
+
+'
+    color: 0
+    characterSprite: {fileID: -2131582723, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: It always is.
+    displayText: It always is.
+    color: 0
+    characterSprite: {fileID: 1741699914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1

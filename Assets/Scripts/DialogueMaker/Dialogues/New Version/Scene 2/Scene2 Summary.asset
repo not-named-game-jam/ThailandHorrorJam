@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene2 Summary
+  m_EditorClassIdentifier: 
+  dialogueSequence: []
+  dialogueChoices:
+  - choicesText: "\u201CWe lived under the same roof, separately.\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  - choicesText: "\u201CThey give me everything\u2026 except time\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  - choicesText: "\u201CThey said it\u2014but it felt so empty.\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  _currentLineIndex: -1

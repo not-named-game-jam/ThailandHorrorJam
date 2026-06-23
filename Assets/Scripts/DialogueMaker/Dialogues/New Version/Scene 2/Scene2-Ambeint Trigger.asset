@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene2-Ambeint Trigger
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: "(\u201C\u2026work\u2026\u201D)"
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "(\u201C\u2026expenses\u2026\u201D)"
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "(\u201C\u2026Rika\u2026\u201D)"
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: "I wasn\u2019t supposed to hear that."
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1741699914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: (But I always did.)
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1741699914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices: []
+  _currentLineIndex: -1

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
+  m_Name: Scene8 Summary
+  m_EditorClassIdentifier: 
+  dialogueSequence:
+  - text: We've been here before.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 1057101880, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  - text: But it feels different, right?
+    displayText: 
+    color: 0
+    characterSprite: {fileID: -335844630, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
+  dialogueChoices:
+  - choicesText: "\u201CThis classroom hasn\u2019t changed.\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  - choicesText: "\u201CMaybe I wasn\u2019t the only one left behind.\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  - choicesText: "\u201CShe never tried to rush me.\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  - choicesText: "\u201CThat doesn\u2019t mean they wanted me there.\u201D"
+    nextDialogue: {fileID: 0}
+    dialogueConditions: []
+    dialogueRewards: []
+  _currentLineIndex: -1

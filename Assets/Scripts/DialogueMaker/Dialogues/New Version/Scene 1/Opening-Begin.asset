@@ -13,15 +13,219 @@ MonoBehaviour:
   m_Name: Opening-Begin
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: "You\u2019re here."
+    displayText: "You\u2019re here."
+    color: 0
+    characterSprite: {fileID: -2008594819, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Where am I?$$$$$$ What is this place?
+    displayText: Where am I? What is this place?
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 0b0000000b0000000b0000000b0000000b0000000b000000
+    functionCalls: []
+  - text: Somewhere in between.
+    displayText: Somewhere in between.
+    color: 0
+    characterSprite: {fileID: 1416201024, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                            '
+    displayText: '                                            '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 'Not a place you remember. '
+    displayText: 'Not a place you remember. '
+    color: 0
+    characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: Not one you forgot.
+    displayText: Not one you forgot.
+    color: 0
+    characterSprite: {fileID: -1234465409, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                                                                     '
+    displayText: '                                                                                                     '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - NewWindAmbient
+  - text: Is this.$$.$$. a dream?
+    displayText: Is this... a dream?
+    color: 0
+    characterSprite: {fileID: 973624856, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 08000000080000000900000009000000
+    functionCalls: []
+  - text: No.
+    displayText: No.
+    color: 0
+    characterSprite: {fileID: -2078441926, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "But it\u2019s not real either."
+    displayText: "But it\u2019s not real either."
+    color: 0
+    characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: .$$.$$.$$.
+    displayText: ....
+    color: 0
+    characterSprite: {fileID: 341772219, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000100000002000000020000000300000003000000
+    functionCalls: []
+  - text: '                                            '
+    displayText: '                                            '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - NewFootStep
+  - text: Come on.
+    displayText: Come on.
+    color: 0
+    characterSprite: {fileID: 2029178180, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: We still have a long way to go.
+    displayText: We still have a long way to go.
+    color: 0
+    characterSprite: {fileID: -335844630, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.03
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: "                                                                                                                                                                  
+      \n                                                                                                         
+      \n                                                                \n                                                                                
+      \n                            "
+    displayText: "                                                                                                                                                                  
+      \n                                                                                                         
+      \n                                                                 "
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 20
+      functionType: 1
+      parameter:
+      - BassBoom
+    - index: 20
+      functionType: 7
+      parameter:
+      - ----Intro----
+      - 5
+    - index: 150
+      functionType: 5
+      parameter:
+      - ----Intro----
+    - index: 150
+      functionType: 4
+      parameter:
+      - ----Scene1----
+    - index: 150
+      functionType: 6
+      parameter:
+      - ----Scene1----
+      - 5
+    - index: 80
+      functionType: 1
+      parameter:
+      - NewRumbling
   - text: 
     displayText: 
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.1
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.03
+    dialogueType: 3
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []
