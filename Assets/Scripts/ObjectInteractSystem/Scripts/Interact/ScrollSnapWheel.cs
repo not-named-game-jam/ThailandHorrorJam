@@ -14,7 +14,7 @@ public class ScrollSnapWheel : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     [SerializeField] float snapSpeed = 10f; // How fast it snaps once dragging stops
     [SerializeField] RectTransform verticalContent;
     [SerializeField] int correctNumberCode;
-    private int currentIndex = 0; // current index in spritesToCycle that will show is displayImage
+    //private int currentIndex = 0; // current index in spritesToCycle that will show is displayImage
     private float scrollOffset = 0;
     private bool isSnapping = false; // true at the end of drag
     private float spriteHeight;

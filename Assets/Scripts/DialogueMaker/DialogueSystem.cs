@@ -226,6 +226,11 @@ public class DialogueSystem : MonoBehaviour
             StopCoroutine(autoCoroutine);
             autoCoroutine = null;
         }
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
         // Time.timeScale = 1;
         IsActive = false;
         immersiveDialoguePanel.SetActive(false);

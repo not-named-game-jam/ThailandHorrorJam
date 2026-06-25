@@ -25,7 +25,7 @@ public class TVCodeChecker : MonoBehaviour
     // [SerializeField] private LampChecker lampChecker;         
 
     private int[] digits = new int[3];
-    private int correctCode = 0;
+    //private int correctCode = 0;
     private bool isUnlocked = false;
 
     /// <summary>

@@ -162,14 +162,17 @@ public class DialogueMaker : ScriptableObject
 
     public void Skip() // just for skip button confirm
     {
-        if (dialogueChoices.Count > 0)
+        if(dialogueSequence[dialogueSequence.Count-1].displayText.Length > 0)
         {
-            _currentLineIndex = dialogueSequence.Count;
+            Debug.Log("there is text on last");
+            _currentLineIndex = dialogueSequence.Count-1;
             StartDialogue();
         }
         else
         {
-            EndDialogue();
+            _currentLineIndex = dialogueSequence.Count-2;
+            StartDialogue();
         }
+        
     }
 }

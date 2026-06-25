@@ -8,12 +8,12 @@ public class JigsawBoardController : MonoBehaviour
     [Header("Board Settings")]
     [SerializeField] private GameObject jigsawBoardPanel;
     [SerializeField] private CanvasGroup jigsawCanvasGroup;
-    [SerializeField] private float fadeDuration = 0.5f;
+    //[SerializeField] private float fadeDuration = 0.5f;
 
     [Header("Pieces")]
     [SerializeField] private List<GameObject> jigsawPieces; // ทั้งหมด 6 ชิ้น
     private int collectedPieces = 0;
-    private bool isPlayable = false;
+    public bool isPlayableeee = false;
     private bool firstTimeOpened = false;
 
     [Header("Progress UI")]
@@ -92,7 +92,7 @@ public class JigsawBoardController : MonoBehaviour
             if (collectedPieces == jigsawPieces.Count)
             {
                 jigsawBoardPanel.SetActive(false);
-                isPlayable = true;
+                isPlayableeee = true;
                 Debug.Log("All pieces collected! Board is now playable.");
             }
         }
