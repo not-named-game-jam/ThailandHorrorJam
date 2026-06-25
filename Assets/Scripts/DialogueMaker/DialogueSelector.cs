@@ -30,13 +30,19 @@ public class DialogueSelector : MonoBehaviour
     {
         for (int i = 0; i < dialogues.Length; i++)
         {
+            bool allConditionpassed = true;
             for (int o = 0; o < dialogues[i].statToCompares.Length; o++)
             {
-                if (CheckCondition(dialogues[i].statToCompares[o]))
+                if (!CheckCondition(dialogues[i].statToCompares[o]))
                 {
-                    dialogues[i].dialogue.StartDialogue();
-                    return;
+                    allConditionpassed = false;
+                    break;
                 }
+            }
+            if (allConditionpassed)
+            {
+                dialogues[i].dialogue.StartDialogue();
+                break;
             }
         }
     }

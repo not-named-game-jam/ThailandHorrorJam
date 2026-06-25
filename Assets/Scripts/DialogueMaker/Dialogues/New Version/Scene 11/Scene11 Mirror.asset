@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: "No need to rush.\r"
-    displayText: 
+    displayText: "No need to rush.\r"
     color: 0
     characterSprite: {fileID: -2008594819, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "You can take as long as you want here.\r"
-    displayText: 
+    displayText: "You can take as long as you want here.\r"
     color: 0
     characterSprite: {fileID: 2029178180, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "And I\u2019ll be with you, as always.\r"
-    displayText: 
+  - text: "And I\u2019ll be with you$$$, as always.\r"
+    displayText: "And I\u2019ll be with you, as always.\r"
     color: 0
     characterSprite: {fileID: 1077574537, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

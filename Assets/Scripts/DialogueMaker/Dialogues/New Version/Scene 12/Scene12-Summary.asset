@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
-  m_Name: Scene12-End
+  m_Name: Scene12-Summary
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: .$$.$$.
-    displayText: 
+    displayText: ...
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 01000000010000000200000002000000
     functionCalls: []
   dialogueChoices:
   - choicesText: Everything feels louder here.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
     dialogueConditions: []
     dialogueRewards:
     - rewardTypes: 1
@@ -34,7 +34,7 @@ MonoBehaviour:
       rewardValue: 1
   - choicesText: 'I still think I should do something. But I''m not sure if even
       if I do... it will really change anything. '
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
     dialogueConditions:
     - conditionTypes: 1
       Name: SelfDoubt
@@ -48,7 +48,7 @@ MonoBehaviour:
       rewardName: SelfBlame
       rewardValue: 1
   - choicesText: "If I had stayed, none of this would\u2019ve happened."
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
     dialogueConditions:
     - conditionTypes: 1
       Name: SelfBlame
@@ -63,7 +63,7 @@ MonoBehaviour:
       rewardName: SelfBlame
       rewardValue: 2
   - choicesText: We both hesitated.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
     dialogueConditions:
     - conditionTypes: 1
       Name: SelfDoubt
@@ -74,7 +74,7 @@ MonoBehaviour:
       rewardName: SelfDoubt
       rewardValue: 2
   - choicesText: The sound cuts everything short, before any answer could exist.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
     dialogueConditions: []
     dialogueRewards:
     - rewardTypes: 1

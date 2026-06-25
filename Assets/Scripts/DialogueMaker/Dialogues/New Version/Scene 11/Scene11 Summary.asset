@@ -13,54 +13,89 @@ MonoBehaviour:
   m_Name: Scene11 Summary
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: ...
-    displayText: 
+  - text: .$$.$$.
+    displayText: ...
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: (I keep thinking about it.)
-    displayText: 
+    displayText: (I keep thinking about it.)
     color: 0
     characterSprite: {fileID: 1741699914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: (Again and again.)
-    displayText: 
+    displayText: (Again and again.)
     color: 0
     characterSprite: {fileID: 1735935646, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices:
-  - choicesText: "\u201CThis room is quiet enough to think.\u201D"
-    nextDialogue: {fileID: 0}
+  - choicesText: This room is quiet enough to think.
+    nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
     dialogueConditions: []
-    dialogueRewards: []
-  - choicesText: "\u201CI keep replaying the same moments, trying to see them differently.\u201D "
-    nextDialogue: {fileID: 0}
-    dialogueConditions: []
-    dialogueRewards: []
-  - choicesText: "\u201CMaybe what I believed wasn\u2019t the whole story.\u201D"
-    nextDialogue: {fileID: 0}
-    dialogueConditions: []
-    dialogueRewards: []
-  - choicesText: "\u201CEverything still feels like it was my fault.\u201D"
-    nextDialogue: {fileID: 0}
-    dialogueConditions: []
-    dialogueRewards: []
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfDoubt
+      rewardValue: 1
+  - choicesText: 'I keep replaying the same moments, trying to see them differently. '
+    nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: SelfDoubt
+      comparisionType: 2
+      Value: 28
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfDoubt
+      rewardValue: 2
+  - choicesText: "Maybe what I believed wasn\u2019t the whole story."
+    nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: SelfDoubt
+      comparisionType: 2
+      Value: 38
+    - conditionTypes: 1
+      Name: SelfBlame
+      comparisionType: 1
+      Value: 85
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: -2
+    - rewardTypes: 1
+      rewardName: SelfDoubt
+      rewardValue: 2
+  - choicesText: Everything still feels like it was my fault.
+    nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: SelfDoubt
+      comparisionType: 1
+      Value: 30
+    - conditionTypes: 1
+      Name: SelfBlame
+      comparisionType: 2
+      Value: 86
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 1
   _currentLineIndex: -1

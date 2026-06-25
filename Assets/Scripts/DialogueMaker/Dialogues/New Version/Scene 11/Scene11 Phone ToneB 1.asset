@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Scene11 Phone ToneB 1
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: ...
+  - text: .$$.$$.
     displayText: ...
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 2
     typeSound: speak
     characterName: 
@@ -28,7 +28,7 @@ MonoBehaviour:
     displayText: They texted again.
     color: 0
     characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -36,10 +36,10 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: (They cared.)
-    displayText: (They checked on me.)
+    displayText: (They cared.)
     color: 0
     characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -47,10 +47,10 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: "(She cared.)\r"
-    displayText: "I didn\u2019t reply.\r"
+    displayText: "(She cared.)\r"
     color: 0
     characterSprite: {fileID: -4286266, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika

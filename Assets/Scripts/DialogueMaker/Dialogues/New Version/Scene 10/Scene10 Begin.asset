@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: "(It\u2019s getting dark soon.)"
-    displayText: 
+    displayText: "(It\u2019s getting dark soon.)"
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

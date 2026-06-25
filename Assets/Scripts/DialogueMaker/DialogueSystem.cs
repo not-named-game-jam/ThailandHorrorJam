@@ -17,6 +17,7 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] private GameObject choicesPanel;
     [SerializeField] private GameObject skipPanel;
     [SerializeField] private GameObject skipWarning;
+    [SerializeField] private GameObject controltipPanel;
     [SerializeField] private Button[] choiceButtons;
     [SerializeField] private TextMeshProUGUI[] choiceTexts;
 
@@ -93,8 +94,19 @@ public class DialogueSystem : MonoBehaviour
         IsTyping = true;
 
         if(stopInteraction) stopInteraction.SetActive(true);
+        if (type == DialogueType.Wait)
+        {
+            if (autoButtonparent != null) autoButtonparent.SetActive(false);
+            if (skipPanel != null) skipPanel.SetActive(false);
+            if (controltipPanel != null) controltipPanel.SetActive(false);
+        }
+        else
+        {
+            if (autoButtonparent != null) autoButtonparent.SetActive(true);
+            if (controltipPanel != null) controltipPanel.SetActive(true);
+        }
 
-        if(autoButtonparent != null) autoButtonparent.SetActive(true);
+        // if(autoButtonparent != null) autoButtonparent.SetActive(true);
         UpdateAutoButton();
 
         if (_type != type) {

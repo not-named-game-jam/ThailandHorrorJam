@@ -14,58 +14,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: (Everything is all the same.)
-    displayText: 
+    displayText: (Everything is all the same.)
     color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: (Even when years pass...)
-    displayText: 
+  - text: (Even when years pass.$.$.)
+    displayText: (Even when years pass...)
     color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: (Except her.)
-    displayText: 
+    displayText: (Except her.)
     color: 0
-    characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: You noticed her right away.
-    displayText: 
+    displayText: You noticed her right away.
     color: 0
     characterSprite: {fileID: -1234465409, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "\u2026I didn\u2019t mean to."
-    displayText: 
+  - text: ".$.$.$I didn\u2019t mean to."
+    displayText: "\u2026I didn\u2019t mean to."
     color: 0
     characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

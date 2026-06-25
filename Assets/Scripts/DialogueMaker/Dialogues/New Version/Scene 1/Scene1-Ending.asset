@@ -40,14 +40,14 @@ MonoBehaviour:
       parameter: []
   dialogueChoices:
   - choicesText: This house was always too quiet.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: d09da84f741f5434e8bf08016431a2c3, type: 2}
     dialogueConditions: []
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame
       rewardValue: 2
   - choicesText: Those gifts never made the house warmer.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: d09da84f741f5434e8bf08016431a2c3, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene1-HasClickBox
@@ -58,7 +58,7 @@ MonoBehaviour:
       rewardName: SelfBlame
       rewardValue: 2
   - choicesText: They always got more important things, always.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: d09da84f741f5434e8bf08016431a2c3, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene1-HasReadDiary
@@ -69,7 +69,7 @@ MonoBehaviour:
       rewardName: SelfBlame
       rewardValue: 2
   - choicesText: I grew up waiting.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: d09da84f741f5434e8bf08016431a2c3, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene1-HasClickBox

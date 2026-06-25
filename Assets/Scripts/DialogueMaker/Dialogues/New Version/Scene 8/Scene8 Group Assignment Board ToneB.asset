@@ -17,18 +17,18 @@ MonoBehaviour:
     displayText: (The list is still here.)
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 2
     typeSound: speak
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "...There are others\u2019 names too."
+  - text: ".$$.$$.$$There are others\u2019 names too."
     displayText: "...There are others\u2019 names too."
     color: 0
     characterSprite: {fileID: -1776494549, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -36,10 +36,10 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: (There were others.)
-    displayText: "(Others were here too\u2026 but that doesn\u2019t include me.)\r\n"
+    displayText: (There were others.)
     color: 0
     characterSprite: {fileID: 1735935646, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika

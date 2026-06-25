@@ -14,47 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: Do you understand this part?
-    displayText: 
+    displayText: Do you understand this part?
     color: 6
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 1, g: 0.41, b: 0.71, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: ...Kind of.
-    displayText: 
+  - text: .$.$.Kind of.
+    displayText: ...Kind of.
     color: 0
     characterSprite: {fileID: 973624856, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: OK. Just let me know if you need any help.
-    displayText: 
+    displayText: OK. Just let me know if you need any help.
     color: 6
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 1, g: 0.41, b: 0.71, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "(She didn\u2019t have to say that.)"
-    displayText: 
+    displayText: "(She didn\u2019t have to say that.)"
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

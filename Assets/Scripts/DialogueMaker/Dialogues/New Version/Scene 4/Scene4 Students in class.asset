@@ -13,48 +13,48 @@ MonoBehaviour:
   m_Name: Scene4 Students in class
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: "Did you do\u2026 yesterday?"
-    displayText: 
+  - text: Did you do.$.$.$ yesterday?
+    displayText: "Did you do\u2026 yesterday?"
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "\u2026Can I \u2026yours?"
-    displayText: 
+  - text: .$.$.Can I .$$.$$.$$.$$.$$yours?
+    displayText: "\u2026Can I \u2026yours?"
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "\u2026So I\u2026"
-    displayText: 
+  - text: .$.$.So I.$.$.
+    displayText: "\u2026So I\u2026"
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: What?
-    displayText: 
+    displayText: What?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

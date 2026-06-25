@@ -12,18 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
   m_Name: Scene2 Summary
   m_EditorClassIdentifier: 
-  dialogueSequence: []
+  dialogueSequence:
+  - text: .$$$.$$$.
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: 
+    characterName: 
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    pauseIndex: 
+    functionCalls: []
   dialogueChoices:
-  - choicesText: "\u201CWe lived under the same roof, separately.\u201D"
-    nextDialogue: {fileID: 0}
+  - choicesText: We lived under the same roof, separately.
+    nextDialogue: {fileID: 11400000, guid: dcdbe1289828d5840b7ae97d6166be28, type: 2}
     dialogueConditions: []
-    dialogueRewards: []
-  - choicesText: "\u201CThey give me everything\u2026 except time\u201D"
-    nextDialogue: {fileID: 0}
-    dialogueConditions: []
-    dialogueRewards: []
-  - choicesText: "\u201CThey said it\u2014but it felt so empty.\u201D"
-    nextDialogue: {fileID: 0}
-    dialogueConditions: []
-    dialogueRewards: []
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 2
+  - choicesText: "They give me everything\u2026 except time."
+    nextDialogue: {fileID: 11400000, guid: dcdbe1289828d5840b7ae97d6166be28, type: 2}
+    dialogueConditions:
+    - conditionTypes: 0
+      Name: Scene2-HasReadNote
+      comparisionType: 0
+      Value: 
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 3
+  - choicesText: "They said it\u2014but it felt so empty."
+    nextDialogue: {fileID: 11400000, guid: dcdbe1289828d5840b7ae97d6166be28, type: 2}
+    dialogueConditions:
+    - conditionTypes: 0
+      Name: Scene2-HasReadNote
+      comparisionType: 0
+      Value: 
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 1
   _currentLineIndex: -1
