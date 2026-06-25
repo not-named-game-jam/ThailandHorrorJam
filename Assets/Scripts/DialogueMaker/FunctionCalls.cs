@@ -56,7 +56,7 @@ public class FunctionCalls
             case FunctionType.EnableObject:
                 if (!IsParameterValid(1)) return;
                 var objToEnable = Resources.FindObjectsOfTypeAll<GameObject>()
-                    .FirstOrDefault(x => x.name == parameter[0]);
+                    .FirstOrDefault(x => x.name == parameter[0]&& x.scene.name != null);
                 if (objToEnable != null) objToEnable.SetActive(true);
                 Debug.Log("Enabled object: " + parameter[0]);
                 break;
@@ -64,7 +64,7 @@ public class FunctionCalls
             case FunctionType.DisableObject:
                 if (!IsParameterValid(1)) return;
                 var objToDisable = Resources.FindObjectsOfTypeAll<GameObject>()
-                    .FirstOrDefault(x => x.name == parameter[0]);
+                    .FirstOrDefault(x => x.name == parameter[0]&& x.scene.name != null);
                 if (objToDisable != null) objToDisable.SetActive(false);
                 Debug.Log("Disabled object: " + parameter[0]);
                 break;
