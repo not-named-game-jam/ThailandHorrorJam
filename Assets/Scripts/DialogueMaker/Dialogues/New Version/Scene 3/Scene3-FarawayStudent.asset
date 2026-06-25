@@ -14,47 +14,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: Let's go play outside!
-    displayText: 
+    displayText: Let's go play outside!
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: .$$.$$.Should we invite$$.$$.$$.$$too?
-    displayText: 
+  - text: .$$$$.$$$$.Should we invite$$$$.$$$$.$$$$.$$$$too?
+    displayText: ...Should we invite...too?
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
+    typeInterval: 0.06
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    pauseIndex: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000100000002000000020000001300000013000000140000001400000015000000150000001600000016000000
     functionCalls: []
   - text: "(They\u2019d always do things together in groups.)"
-    displayText: 
+    displayText: "(They\u2019d always do things together in groups.)"
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: (And I wasn't part of it.)
-    displayText: 
+    displayText: (And I wasn't part of it.)
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

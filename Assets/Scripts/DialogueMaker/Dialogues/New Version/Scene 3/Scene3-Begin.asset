@@ -17,7 +17,7 @@ MonoBehaviour:
     displayText: '                                                                            '
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 3
     typeSound: speak
     characterName: 
@@ -41,7 +41,7 @@ MonoBehaviour:
     displayText: (I'd always liked this seat.)
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -52,7 +52,7 @@ MonoBehaviour:
     displayText: (It lets me blend in, like one of the walls.)
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -63,7 +63,7 @@ MonoBehaviour:
     displayText: (Unnoticed.)
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -74,7 +74,7 @@ MonoBehaviour:
     displayText: '                      '
     color: 0
     characterSprite: {fileID: 0}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 3
     typeSound: speak
     characterName: Rika
@@ -82,4 +82,4 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []
-  _currentLineIndex: 1
+  _currentLineIndex: -1

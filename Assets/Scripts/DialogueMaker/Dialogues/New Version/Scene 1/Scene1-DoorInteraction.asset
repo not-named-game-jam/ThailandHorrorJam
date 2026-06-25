@@ -13,27 +13,42 @@ MonoBehaviour:
   m_Name: Scene1-DoorInteraction
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: Let's go
-    displayText: 
+  - text: Let's go.
+    displayText: Let's go
     color: 0
     characterSprite: {fileID: 973624856, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: Alright.
+    displayText: Alright.
+    color: 0
+    characterSprite: {fileID: -221560177, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: 
     displayText: 
     color: 0
     characterSprite: {fileID: -221560177, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Next Scene Warning
   dialogueChoices: []
   _currentLineIndex: -1

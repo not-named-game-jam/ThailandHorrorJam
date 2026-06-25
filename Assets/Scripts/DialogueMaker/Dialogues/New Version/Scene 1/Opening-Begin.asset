@@ -13,6 +13,51 @@ MonoBehaviour:
   m_Name: Opening-Begin
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '```.$$$.$$$.$$$.'
+    displayText: ....
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 0
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000100000001000000020000000200000002000000030000000300000003000000
+    functionCalls: []
+  - text: "                                                                                          
+      \n"
+    displayText: "                                                                                               
+      \n                           "
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 3
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Camera Panner
+    - index: 0
+      functionType: 5
+      parameter:
+      - ----Start----
+    - index: 0
+      functionType: 4
+      parameter:
+      - ----Intro----
+    - index: 0
+      functionType: 6
+      parameter:
+      - ----Intro----
+      - 2
+    - index: 150
+      functionType: 1
+      parameter:
+      - WindBlowing
   - text: "You\u2019re here."
     displayText: "You\u2019re here."
     color: 0
@@ -23,7 +68,11 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 2
+      parameter:
+      - HorrorGJ4
   - text: Where am I?$$$$$$ What is this place?
     displayText: Where am I? What is this place?
     color: 0
@@ -153,6 +202,10 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - NewFootStep
+    - index: 0
+      functionType: 3
+      parameter:
+      - HorrorGJ4
   - text: Come on.
     displayText: Come on.
     color: 0
@@ -181,7 +234,8 @@ MonoBehaviour:
       \n                            "
     displayText: "                                                                                                                                                                  
       \n                                                                                                         
-      \n                                                                 "
+      \n                                                                \n                                                                                
+      \n                            "
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.03
@@ -227,6 +281,18 @@ MonoBehaviour:
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 3
+      parameter:
+      - HorrorGJ4
+    - index: 0
+      functionType: 5
+      parameter:
+      - ----Intro----
+    - index: 0
+      functionType: 4
+      parameter:
+      - IntrotoScene1
   dialogueChoices: []
   _currentLineIndex: -1

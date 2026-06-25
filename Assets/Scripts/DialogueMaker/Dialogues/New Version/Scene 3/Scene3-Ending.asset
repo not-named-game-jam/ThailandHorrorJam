@@ -17,7 +17,7 @@ MonoBehaviour:
     displayText: You always sat there.
     color: 0
     characterSprite: {fileID: -2078441926, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Maya
@@ -28,7 +28,7 @@ MonoBehaviour:
     displayText: ...
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -39,7 +39,7 @@ MonoBehaviour:
     displayText: It was quiet.
     color: 0
     characterSprite: {fileID: 973624856, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.03
+    typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
     characterName: Rika
@@ -76,4 +76,4 @@ MonoBehaviour:
     - rewardTypes: 1
       rewardName: SelfBlame
       rewardValue: 3
-  _currentLineIndex: 0
+  _currentLineIndex: -1
