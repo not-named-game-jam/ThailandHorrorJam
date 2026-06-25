@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public enum DialogueType { TextImmersive, CharacterDialogue, JustText, Wait }
+public enum DialogueType { TextImmersive, CharacterDialogue, JustText, CutScene, Wait }
 
 public enum TextColor { White, Red, Gold, Navy, Teal, Gray, Pink, Orange }
 
@@ -35,12 +35,24 @@ public class DialogueLine
             dialogueType = DialogueType.Wait;
             displayText = text;
         }
-        else if (characterSprite != null) {
+        else if (characterSprite != null && !text.StartsWith("~~~")) {
             characterName = characterSprite.name.Split('_')[0];
             dialogueType = DialogueType.CharacterDialogue;
         }
         else if (!string.IsNullOrEmpty(text) && text.StartsWith("```")) {
             dialogueType = DialogueType.TextImmersive;
+            displayText = displayText.Substring(3);
+        }
+        else if (!string.IsNullOrEmpty(text) && text.StartsWith("~~~")) {
+            if (characterName != null)
+            {
+                characterName = characterSprite.name.Split('_')[0];
+            }
+            else
+            {
+                characterName = "";
+            }
+            dialogueType = DialogueType.CutScene;
             displayText = displayText.Substring(3);
         }
         else {

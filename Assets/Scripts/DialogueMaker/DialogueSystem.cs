@@ -9,11 +9,13 @@ public class DialogueSystem : MonoBehaviour
 {
     // --- UI References ---
     [SerializeField] private TextMeshProUGUI nameText;
+    [SerializeField] private TextMeshProUGUI cutscenenameText;
     [SerializeField] private TextMeshProUGUI[] sentenceText;
 
     [SerializeField] private GameObject immersiveDialoguePanel;
     [SerializeField] private GameObject characterDialoguePanel;
     [SerializeField] private GameObject justTextPanel;
+    [SerializeField] private GameObject cutsceneDialoguePanel;
     [SerializeField] private GameObject choicesPanel;
     [SerializeField] private GameObject skipPanel;
     [SerializeField] private GameObject skipWarning;
@@ -116,12 +118,22 @@ public class DialogueSystem : MonoBehaviour
                 yield return StartCoroutine(FadePanel(characterDialoguePanel, false));
             } else if (_type == DialogueType.JustText) {
                 yield return StartCoroutine(FadePanel(justTextPanel, false));
+            } else if (_type == DialogueType.CutScene){
+                yield return StartCoroutine(FadePanel(cutsceneDialoguePanel, false));
             }
         }
 
         IsActive = true;
         image.sprite = sprite;
-        nameText.text = speaker;
+        if (type == DialogueType.CutScene)
+        {
+            cutscenenameText.text = speaker;
+            Debug.Log("Cutscenename");
+        }
+        else
+        {
+            nameText.text = speaker;
+        }
         _dialogueAudio = type == DialogueType.Wait ? "" : sound;
         _pauseIndices = pauseIndices;
         _functionCalls = functionCalls;
@@ -142,6 +154,9 @@ public class DialogueSystem : MonoBehaviour
                 yield return StartCoroutine(FadePanel(characterDialoguePanel, true));
             } else if (type == DialogueType.JustText) {
                 yield return StartCoroutine(FadePanel(justTextPanel, true));
+            }
+              else if (type == DialogueType.CutScene) {
+                yield return StartCoroutine(FadePanel(cutsceneDialoguePanel, true));
             }
         }
         _type = type;
@@ -248,6 +263,7 @@ public class DialogueSystem : MonoBehaviour
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
         justTextPanel.SetActive(false);
+        cutsceneDialoguePanel.SetActive(false);
         skipPanel.SetActive(false);
         if(autoButtonparent != null) autoButtonparent.SetActive(false);
         _currentSequence = null; // Clear the sequence reference
@@ -420,6 +436,7 @@ public class DialogueSystem : MonoBehaviour
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
         justTextPanel.SetActive(false);
+        cutsceneDialoguePanel.SetActive(false);
         immersiveContinueIndicator.alpha = 0;
         characterContinueIndicator.alpha = 0;
         justTextContinueIndicator.alpha = 0;
