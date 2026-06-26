@@ -10,7 +10,7 @@ public class ESCbutton : MonoBehaviour
     [SerializeField] GameObject settingbutton;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !CheckOverlayActive.IsOverlayActive && !DialogueSystem.instance.IsActive)
+        if (Input.GetKeyDown(KeyCode.Escape) && !CheckOverlayActive.IsOverlayActive && !DialogueSystem.instance.IsActive && !InEndingtrue.InEnding)
         {
             tint.SetActive(true);
             continuebutton.SetActive(true);

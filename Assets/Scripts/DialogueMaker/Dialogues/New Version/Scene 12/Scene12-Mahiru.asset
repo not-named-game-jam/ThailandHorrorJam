@@ -14,36 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: "...wait\u2014"
-    displayText: 
+    displayText: "...wait\u2014"
     color: 0
-    characterSprite: {fileID: 21300000, guid: 53f7875a51b44fb4fb5e5d55d359d24e, type: 3}
+    characterSprite: {fileID: -321176362, guid: 53f7875a51b44fb4fb5e5d55d359d24e, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "...there\u2019s something I\u2014"
-    displayText: 
+    displayText: "...there\u2019s something I\u2014"
     color: 0
-    characterSprite: {fileID: 21300000, guid: 53f7875a51b44fb4fb5e5d55d359d24e, type: 3}
+    characterSprite: {fileID: -321176362, guid: 53f7875a51b44fb4fb5e5d55d359d24e, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
+    dialogueType: 2
+    typeSound: speak
     characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "I don\u2019t know what she was about to say."
-    displayText: 
+    displayText: "I don\u2019t know what she was about to say."
     color: 0
     characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

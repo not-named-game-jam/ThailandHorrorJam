@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene10 Activity Board
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: ...
+  - text: .$$.$$.
     displayText: ...
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}

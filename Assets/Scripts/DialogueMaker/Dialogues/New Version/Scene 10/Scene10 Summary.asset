@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene10 Summary
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: ...
+  - text: .$$.$$.
     displayText: ...
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
@@ -24,7 +24,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: You didn't notice that before,did you?
+  - text: You didn't notice that before$$$,did you?
     displayText: You didn't notice that before,did you?
     color: 0
     characterSprite: {fileID: 1057101880, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
@@ -96,4 +96,4 @@ MonoBehaviour:
     - rewardTypes: 1
       rewardName: SelfBlame
       rewardValue: 3
-  _currentLineIndex: -1
+  _currentLineIndex: 1

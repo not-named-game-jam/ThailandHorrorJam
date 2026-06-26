@@ -13,60 +13,95 @@ MonoBehaviour:
   m_Name: Scene7 cutscene
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: '```Have you ever wondered.$.$.'
+  - text: '                                                                   '
+    displayText: '                                                                   '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Scene7----
+      - 2
+    - index: 40
+      functionType: 5
+      parameter:
+      - ----Scene7----
+  - text: Have you ever wondered.$.$.
     displayText: Have you ever wondered...
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -221560177, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1700000018000000
     functionCalls: []
-  - text: "```.$.$.if you remember things the way they felt\u2014"
-    displayText: "\u2026if you remember things the way they felt\u2014"
+  - text: ".$.$.$if you remember things the way they felt\u2014"
+    displayText: "...if you remember things the way they felt\u2014"
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 010000000200000003000000
     functionCalls: []
-  - text: '```not the way they happened?'
+  - text: not the way they happened?
     displayText: not the way they happened?
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: -2078441926, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: '```.$.$.What difference does it make?'
-    displayText: "\u2026What difference does it make?"
-    color: 1
-    characterSprite: {fileID: 0}
+  - text: .$.$.$What difference does it make?
+    displayText: ...What difference does it make?
+    color: 0
+    characterSprite: {fileID: 220642914, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    pauseIndex: 010000000200000003000000
+    functionCalls: []
+  - text: ".$.$.$You\u2019ll see."
+    displayText: "...You\u2019ll see."
+    color: 0
+    characterSprite: {fileID: 1077574537, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
     typeSound: speak
     characterName: Maya
-    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
-    pauseIndex: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000200000003000000
     functionCalls: []
-  - text: "```.$.$.You\u2019ll see."
-    displayText: "\u2026You\u2019ll see."
+  - text: 
+    displayText: 
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 4
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene7To8
   dialogueChoices: []
   _currentLineIndex: -1

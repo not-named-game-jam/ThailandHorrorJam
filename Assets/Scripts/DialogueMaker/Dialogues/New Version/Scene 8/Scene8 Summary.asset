@@ -39,25 +39,43 @@ MonoBehaviour:
   - choicesText: "This classroom hasn\u2019t changed."
     nextDialogue: {fileID: 11400000, guid: 440fc390f3a467f41be0827bd560c790, type: 2}
     dialogueConditions: []
-    dialogueRewards: []
-  - choicesText: "\u201CMaybe I wasn\u2019t the only one left behind.\u201D"
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfDoubt
+      rewardValue: 1
+  - choicesText: "Maybe I wasn\u2019t the only one left behind."
     nextDialogue: {fileID: 11400000, guid: 440fc390f3a467f41be0827bd560c790, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene8-HasClickedBoard
       comparisionType: 0
       Value: 
-    dialogueRewards: []
-  - choicesText: "\u201CShe never tried to rush me.\u201D"
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: -1
+    - rewardTypes: 1
+      rewardName: SelfDoubt
+      rewardValue: 3
+  - choicesText: She never tried to rush me.
     nextDialogue: {fileID: 11400000, guid: 440fc390f3a467f41be0827bd560c790, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene8-HasClickedMahiru
       comparisionType: 0
       Value: 
-    dialogueRewards: []
-  - choicesText: "\u201CThat doesn\u2019t mean they wanted me there.\u201D"
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: -1
+    - rewardTypes: 1
+      rewardName: SelfDoubt
+      rewardValue: 2
+  - choicesText: "That doesn\u2019t mean they wanted me there."
     nextDialogue: {fileID: 11400000, guid: 440fc390f3a467f41be0827bd560c790, type: 2}
     dialogueConditions: []
-    dialogueRewards: []
+    dialogueRewards:
+    - rewardTypes: 1
+      rewardName: SelfBlame
+      rewardValue: 2
   _currentLineIndex: -1

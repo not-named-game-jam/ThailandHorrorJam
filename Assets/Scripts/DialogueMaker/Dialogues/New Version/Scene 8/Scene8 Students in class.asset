@@ -13,38 +13,40 @@ MonoBehaviour:
   m_Name: Scene8 Students in class
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: Did you do.$$$.$$$.$$$one that.$$$.$$$.$$$ from yesterday?
-    displayText: "Did you do\u2026one that\u2026 from yesterday?"
+  - text: "Did you do $$$\u25A0$$$\u25A0$$$\u25A0$$$ one that \u25A0$$$\u25A0$$$\u25A0$$$
+      from yesterday?"
+    displayText: "Did you do \u25A0\u25A0\u25A0 one that \u25A0\u25A0\u25A0 from
+      yesterday?"
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: efb18640b53c36848839644b50b5e6a7, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Classmate 1
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0b0000000b0000000b0000000c0000000c0000000c0000000d0000000d0000000d0000000e0000000e0000000e0000001900000019000000190000001a0000001a0000001a0000001b0000001b0000001b000000
     functionCalls: []
-  - text: I totally .$$$.$$$.$$$! Can I .$$$.$$$.$$$yours?
-    displayText: "I totally \u2026! Can I \u2026yours?"
+  - text: "I totally \u25A0$$$\u25A0$$$\u25A0$$$! Can I \u25A0$$$\u25A0$$$\u25A0$$$yours?"
+    displayText: "I totally \u25A0\u25A0\u25A0! Can I \u25A0\u25A0\u25A0yours?"
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: efb18640b53c36848839644b50b5e6a7, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Classmate 2
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 0b0000000b0000000b0000000c0000000c0000000c0000000d0000000d0000000d000000160000001600000016000000170000001700000017000000180000001800000018000000
     functionCalls: []
-  - text: .$$.$$.$$we can meet after class.
-    displayText: "\u2026we can meet after class."
+  - text: "\u25A0$$\u25A0$$\u25A0$$we can meet after class."
+    displayText: "\u25A0\u25A0\u25A0we can meet after class."
     color: 0
-    characterSprite: {fileID: 0}
+    characterSprite: {fileID: 21300000, guid: efb18640b53c36848839644b50b5e6a7, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Classmate 3
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 010000000100000002000000020000000300000003000000
     functionCalls: []
   dialogueChoices: []
-  _currentLineIndex: -1
+  _currentLineIndex: 1

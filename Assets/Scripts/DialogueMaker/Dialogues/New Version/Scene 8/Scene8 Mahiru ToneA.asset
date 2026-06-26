@@ -16,13 +16,13 @@ MonoBehaviour:
   - text: "Oh\u2014sorry.$$$ Am I blocking the light?"
     displayText: "Oh\u2014sorry. Am I blocking the light?"
     color: 0
-    characterSprite: {fileID: 21300000, guid: 53f7875a51b44fb4fb5e5d55d359d24e, type: 3}
+    characterSprite: {fileID: -321176362, guid: 53f7875a51b44fb4fb5e5d55d359d24e, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Mahiru
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 090000000900000009000000
     functionCalls: []
   - text: No.
     displayText: No.
@@ -35,21 +35,21 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "\u2026Let me know if you need anything."
-    displayText: "\u2026Let me know if you need anything."
+  - text: .$.$.$Let me know if you need anything.
+    displayText: ...Let me know if you need anything.
     color: 0
-    characterSprite: {fileID: 21300000, guid: 9dbf43376f495f04aac5386d47b98338, type: 3}
+    characterSprite: {fileID: -88448614, guid: 24191e3c72b5c8445a714723ab577dfa, type: 3}
     typeInterval: 0.06
-    dialogueType: 2
+    dialogueType: 1
     typeSound: speak
-    characterName: 
+    characterName: Mahiru
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 010000000200000003000000
     functionCalls: []
-  - text: ' (She just stayed by my side.)
+  - text: '(She just stayed by my side.)
 
 '
-    displayText: ' (She just stayed by my side.)
+    displayText: '(She just stayed by my side.)
 
 '
     color: 0
@@ -83,8 +83,8 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: ' (Anyone would have done the same.)'
-    displayText: ' (Anyone would have done the same.)'
+  - text: (Anyone would have done the same.)
+    displayText: (Anyone would have done the same.)
     color: 0
     characterSprite: {fileID: 2027173096, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06

@@ -25,11 +25,9 @@ public class TestLog : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.L) && !InEndingtrue.InEnding)
         {
-            CheckOverlayActive.IsOverlayActive = !CheckOverlayActive.IsOverlayActive;
-            logisActive = CheckOverlayActive.IsOverlayActive;
-            ToggleLogWindow();
+            SetLogWindowState(!logisActive);
         }
     }
 
@@ -52,15 +50,29 @@ public class TestLog : MonoBehaviour
     }
 
     // To open log interface
-    public void ToggleLogWindow()
+    public void SetLogWindowState(bool open)
     {
-        bool isActive = !logPanel.activeSelf;
-        logPanel.SetActive(isActive);
+        logisActive = open;
+        logPanel.SetActive(open);
+        CheckOverlayActive.IsOverlayActive = open;
 
-        if (isActive)
+        if (open)
         {
             GenerateLogUI();
         }
+    }
+
+    public void CloseLogWindow()
+    {
+        if(logisActive == false || !logPanel.activeSelf)
+        {
+            return;
+        }
+        else
+        {
+           SetLogWindowState(false); 
+        }
+        
     }
 
     private void GenerateLogUI()

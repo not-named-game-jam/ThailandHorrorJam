@@ -16,7 +16,7 @@ public class DialogueSceneChanger : MonoBehaviour
     }
     private IEnumerator ChangeScene()
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return null;
         nextSceneDialouge.StartDialogue();
         gameObject.SetActive(false);
     }

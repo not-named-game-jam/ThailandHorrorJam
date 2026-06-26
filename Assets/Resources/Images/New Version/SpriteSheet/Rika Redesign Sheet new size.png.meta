@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 55
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,10 +113,10 @@ TextureImporter:
       name: Rika_Normal
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 2310
-        width: 914
-        height: 1746
+        x: 1294
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Rika_Normal_Talk
       rect:
         serializedVersion: 2
-        x: 2315
-        y: 2300
-        width: 914
-        height: 1746
+        x: 2417
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: Rika_Normal_Talk_Hand
       rect:
         serializedVersion: 2
-        x: 3404
-        y: 2302
-        width: 914
-        height: 1746
+        x: 3504
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Rika_Normal_Talk_Hand_Close
       rect:
         serializedVersion: 2
-        x: 4645
-        y: 2302
-        width: 914
-        height: 1746
+        x: 4743
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Rika_Normal_Shocked
       rect:
         serializedVersion: 2
-        x: 5755
-        y: 2300
-        width: 914
-        height: 1746
+        x: 5851
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Rika_Normal_VeryShocked
       rect:
         serializedVersion: 2
-        x: 6670
-        y: 2300
-        width: 914
-        height: 1746
+        x: 6767
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Rika_Normal_SuperShocked
       rect:
         serializedVersion: 2
-        x: 7743
-        y: 2300
-        width: 914
-        height: 1746
+        x: 7836
+        y: 2403
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Rika_Normal_Doubt
       rect:
         serializedVersion: 2
-        x: 610
-        y: 405
-        width: 914
-        height: 1746
+        x: 716
+        y: 507
+        width: 725
+        height: 1525
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Rika_Pose_Frustrated
       rect:
         serializedVersion: 2
-        x: 1771
-        y: 395
-        width: 914
-        height: 1746
+        x: 1875
+        y: 508
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: Rika_Pose_Serious
       rect:
         serializedVersion: 2
-        x: 2910
-        y: 395
-        width: 914
-        height: 1746
+        x: 3008
+        y: 512
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: Rika_Pose_Talk
       rect:
         serializedVersion: 2
-        x: 4244
-        y: 395
-        width: 914
-        height: 1746
+        x: 4342
+        y: 510
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Rika_Pose_Hand
       rect:
         serializedVersion: 2
-        x: 5445
-        y: 395
-        width: 914
-        height: 1746
+        x: 5552
+        y: 510
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: Rika_Pose_Hand_Shocked
       rect:
         serializedVersion: 2
-        x: 6616
-        y: 395
-        width: 914
-        height: 1746
+        x: 6719
+        y: 512
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Rika_Pose_VeryAngry
       rect:
         serializedVersion: 2
-        x: 7811
-        y: 395
-        width: 914
-        height: 1746
+        x: 7917
+        y: 512
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: Rika_Pose_Angry
       rect:
         serializedVersion: 2
-        x: 8830
-        y: 395
-        width: 914
-        height: 1746
+        x: 8936
+        y: 525
+        width: 701
+        height: 1518
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

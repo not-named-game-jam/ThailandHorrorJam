@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd46f4c48ea13f644b49af6b289fdb82, type: 3}
-  m_Name: Scene11 Phone ToneB 1
+  m_Name: Scene8 Group Assignment Board ToneC
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: .$$.$$.
-    displayText: ...
+  - text: (The list is still here.)
+    displayText: (The list is still here.)
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.06
@@ -24,10 +24,10 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: They texted again.
-    displayText: They texted again.
+  - text: ".$$.$$.$$There are others\u2019 names too."
+    displayText: "...There are others\u2019 names too."
     color: 0
-    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    characterSprite: {fileID: -1776494549, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
     dialogueType: 1
     typeSound: speak
@@ -35,21 +35,10 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: (They cared.)
-    displayText: (They cared.)
+  - text: "(I wasn\u2019t the only one unsure.)"
+    displayText: "(I wasn\u2019t the only one unsure.)"
     color: 0
-    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
-    typeInterval: 0.06
-    dialogueType: 1
-    typeSound: speak
-    characterName: Rika
-    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
-    functionCalls: []
-  - text: "(She cared.)\r"
-    displayText: "(She cared.)\r"
-    color: 0
-    characterSprite: {fileID: -4286266, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
     dialogueType: 1
     typeSound: speak

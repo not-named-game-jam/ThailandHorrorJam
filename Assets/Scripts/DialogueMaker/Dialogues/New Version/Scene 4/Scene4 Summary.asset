@@ -83,7 +83,7 @@ MonoBehaviour:
       rewardName: SelfDoubt
       rewardValue: 1
   - choicesText: "If I hadn\u2019t accepted it, she wouldn\u2019t be stuck."
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: c7613b2a6dc96664d8af4e9c96e84315, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene4-HasClickMahiru

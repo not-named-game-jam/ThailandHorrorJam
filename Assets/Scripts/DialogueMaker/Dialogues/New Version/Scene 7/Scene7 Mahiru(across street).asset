@@ -13,6 +13,25 @@ MonoBehaviour:
   m_Name: Scene7 Mahiru(across street)
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                   '
+    displayText: Mahiru?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene7-MahiruSit2
+    - index: 0
+      functionType: 5
+      parameter:
+      - Scene7-MahiruSit1
   - text: Mahiru?
     displayText: Mahiru?
     color: 0
@@ -24,5 +43,29 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
+  - text: '                                                                    '
+    displayText: Mahiru?
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene7-Bus
+    - index: 0
+      functionType: 6
+      parameter:
+      - Scene7-Bus
+      - 3
+    - index: 0
+      functionType: 1
+      parameter:
+      - NewBusArrive
   dialogueChoices: []
   _currentLineIndex: -1

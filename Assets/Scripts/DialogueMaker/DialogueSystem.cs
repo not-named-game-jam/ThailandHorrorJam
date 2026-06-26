@@ -128,7 +128,6 @@ public class DialogueSystem : MonoBehaviour
         if (type == DialogueType.CutScene)
         {
             cutscenenameText.text = speaker;
-            Debug.Log("Cutscenename");
         }
         else
         {
@@ -259,6 +258,7 @@ public class DialogueSystem : MonoBehaviour
             typingCoroutine = null;
         }
         // Time.timeScale = 1;
+        TestLog.Instance?.CloseLogWindow();
         IsActive = false;
         immersiveDialoguePanel.SetActive(false);
         characterDialoguePanel.SetActive(false);
@@ -275,6 +275,7 @@ public class DialogueSystem : MonoBehaviour
         immersiveContinueIndicator.alpha = 0;
         characterContinueIndicator.alpha = 0;
         justTextContinueIndicator.alpha = 0;
+        if(!controltipPanel.activeSelf && !InEndingtrue.InEnding) controltipPanel.SetActive(true);
 
         if(stopInteraction) stopInteraction.SetActive(false);
     }
@@ -296,7 +297,7 @@ public class DialogueSystem : MonoBehaviour
 
         skipCooldown += Time.unscaledDeltaTime;
         
-        if (((Pressed() && skipCooldown >= 0.1f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive && !skipWarning.activeSelf)
+        if (((Pressed() && skipCooldown >= 0.1f) || Input.GetKey(KeyCode.Tab)) && !isFading && _type != DialogueType.Wait && !TestLog.logisActive && !skipWarning.activeSelf && !InEndingtrue.InEnding)
         {
             skipCooldown = 0.0f;
             ContinueDialogue();

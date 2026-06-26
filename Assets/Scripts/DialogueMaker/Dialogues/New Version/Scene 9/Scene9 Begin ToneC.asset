@@ -13,6 +13,39 @@ MonoBehaviour:
   m_Name: Scene9 Begin ToneC
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                                                                                                  '
+    displayText: "(I just didn\u2019t know where to stand.)"
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Scene8----
+      - 2
+    - index: 40
+      functionType: 5
+      parameter:
+      - ----Scene8----
+    - index: 40
+      functionType: 4
+      parameter:
+      - ----Scene9----
+    - index: 40
+      functionType: 6
+      parameter:
+      - ----Scene9----
+      - 2
+    - index: 40
+      functionType: 4
+      parameter:
+      - Scene9-Begin Position
   - text: "(Everyone\u2019s still here.)"
     displayText: "(Everyone\u2019s still here.)"
     color: 0

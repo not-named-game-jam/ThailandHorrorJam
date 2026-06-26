@@ -37,6 +37,7 @@ public class DialogueLine
         }
         else if (characterSprite != null && !text.StartsWith("~~~")) {
             characterName = characterSprite.name.Split('_')[0];
+            if(characterName == "`") characterName = "? ? ?";
             dialogueType = DialogueType.CharacterDialogue;
         }
         else if (!string.IsNullOrEmpty(text) && text.StartsWith("```")) {

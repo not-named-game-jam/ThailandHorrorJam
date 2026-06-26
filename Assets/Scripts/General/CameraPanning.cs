@@ -30,7 +30,7 @@ public class CameraPanning : MonoBehaviour
             return;
         }
         
-        if (isDialogueActive != null && isDialogueActive.IsActive && stopCamWhenDialogue )//&& !inEnding.InEnding)
+        if (isDialogueActive != null && isDialogueActive.IsActive && stopCamWhenDialogue || InEndingtrue.InEnding)
         {
             cameraSpeed = 0;
         }

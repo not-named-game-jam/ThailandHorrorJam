@@ -32,6 +32,7 @@ public class NextSceneWarning : MonoBehaviour
     private IEnumerator TonextScene()
     {
         yield return new WaitForEndOfFrame();
+        CheckOverlayActive.IsOverlayActive = true;
         GameObject allobject = FindObjectsByType<GameObject>(FindObjectsInactive.Include, FindObjectsSortMode.None)
             .FirstOrDefault(obj => 
                 obj != null &&
@@ -52,7 +53,7 @@ public class NextSceneWarning : MonoBehaviour
         int indexnum = newscenenum-1;
         DialogueMaker targetDialogue = continueDialouge[indexnum];
         continueButton.onClick.RemoveAllListeners();
-        continueButton.onClick.AddListener(() => targetDialogue.StartDialogue());
         continueButton.onClick.AddListener(() => nextSceneWarning.SetActive(false));
+        continueButton.onClick.AddListener(() => targetDialogue.StartDialogue());
     }
 }

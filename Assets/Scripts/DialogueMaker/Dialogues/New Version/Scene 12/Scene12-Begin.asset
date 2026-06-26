@@ -13,26 +13,171 @@ MonoBehaviour:
   m_Name: Scene12-Begin
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                                                                                                      '
+    displayText: '                                                                                                                      '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Scene11----
+      - 2
+    - index: 40
+      functionType: 5
+      parameter:
+      - ----Scene11----
+    - index: 40
+      functionType: 4
+      parameter:
+      - ----Scene12----
+    - index: 40
+      functionType: 6
+      parameter:
+      - ----Scene12----
+      - 2
+    - index: 40
+      functionType: 4
+      parameter:
+      - Scene12-Begin Position
+    - index: 40
+      functionType: 4
+      parameter:
+      - Scene12BG
+  - text: "                                                                                                                
+      \n                       "
+    displayText: "                                                                                                                
+      \n                       "
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene12-RikaHoldPhone
+    - index: 0
+      functionType: 6
+      parameter:
+      - Scene12-RikaHoldPhone
+      - 1
+    - index: 80
+      functionType: 4
+      parameter:
+      - Scene12-RikaDropPhone
+    - index: 80
+      functionType: 5
+      parameter:
+      - Scene12-RikaHoldPhone
+  - text: "                                                                                                                 
+      \n         "
+    displayText: "                                                                                                                 
+      \n         "
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - Scene12-RikaDropPhone
+      - 2
+    - index: 0
+      functionType: 7
+      parameter:
+      - Scene12BG
+      - 2
+    - index: 40
+      functionType: 4
+      parameter:
+      - Scene12BG3
+    - index: 40
+      functionType: 6
+      parameter:
+      - Scene12BG3
+      - 2
+    - index: 40
+      functionType: 5
+      parameter:
+      - Scene12BG
+  - text: '                                                                                                                      '
+    displayText: '                                                                                                                      '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - Scene12BG3
+      - 2
+    - index: 0
+      functionType: 5
+      parameter:
+      - Scene12-RikaDropPhone
+    - index: 40
+      functionType: 5
+      parameter:
+      - Scene12BG3
+    - index: 40
+      functionType: 4
+      parameter:
+      - Scene12BG1
+    - index: 40
+      functionType: 6
+      parameter:
+      - Scene12BG1
+      - 2
+    - index: 40
+      functionType: 6
+      parameter:
+      - Scene12-Object
+      - 2
+    - index: 40
+      functionType: 4
+      parameter:
+      - Scene12-Object
   - text: (Everything feels louder here.)
-    displayText: 
+    displayText: (Everything feels louder here.)
     color: 0
     characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   - text: "We\u2019re here."
-    displayText: 
+    displayText: "We\u2019re here."
     color: 0
     characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
     typeInterval: 0.06
-    dialogueType: 0
-    typeSound: 
-    characterName: 
-    textColor: {r: 0, g: 0, b: 0, a: 0}
+    dialogueType: 1
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []

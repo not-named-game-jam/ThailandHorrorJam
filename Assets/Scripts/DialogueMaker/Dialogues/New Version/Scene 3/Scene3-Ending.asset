@@ -48,14 +48,14 @@ MonoBehaviour:
     functionCalls: []
   dialogueChoices:
   - choicesText: I watched everyone from the farthest seat.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: b5749b1070c83f54d9a69ec7e24c1e12, type: 2}
     dialogueConditions: []
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame
       rewardValue: 2
   - choicesText: There was no space left for me.
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: b5749b1070c83f54d9a69ec7e24c1e12, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene3-HasWatchBoard
@@ -66,7 +66,7 @@ MonoBehaviour:
       rewardName: SelfBlame
       rewardValue: 2
   - choicesText: If I disappeared, will they ever notice?
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: b5749b1070c83f54d9a69ec7e24c1e12, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene3-HasInteractFriend

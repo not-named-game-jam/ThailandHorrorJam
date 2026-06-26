@@ -13,172 +13,310 @@ MonoBehaviour:
   m_Name: Ending C
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: This is the final stop.$$$$ What do you think$$$$, Rika?
+  - text: ~~~This is the final stop.$$$$ What do you think$$$$, Rika?
     displayText: This is the final stop. What do you think, Rika?
     color: 0
     characterSprite: {fileID: -2078441926, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 1
+    typeInterval: 0.06
+    dialogueType: 3
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
-    functionCalls: []
-  - text: .$$$.$$$.
+    pauseIndex: 1700000017000000170000001700000029000000290000002900000029000000
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene12-Begin Position
+  - text: ~~~.$$$.$$$.
     displayText: ...
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 010000000100000001000000020000000200000002000000
     functionCalls: []
-  - text: .$$$.$$$.
+  - text: ~~~.$$$.$$$.
     displayText: ...
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 010000000100000001000000020000000200000002000000
     functionCalls: []
-  - text: "I don\u2019t think I know anymore."
+  - text: "~~~I don\u2019t think I know anymore."
     displayText: "I don\u2019t think I know anymore."
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: .$$$.$$$.
+  - text: ~~~.$$$.$$$.
     displayText: ...
     color: 0
     characterSprite: {fileID: 674674170, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 1
+    typeInterval: 0.06
+    dialogueType: 3
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 010000000100000001000000020000000200000002000000
     functionCalls: []
-  - text: I keep replaying those moments again and again.
+  - text: ~~~I keep replaying those moments again and again.
     displayText: I keep replaying those moments again and again.
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: Trying to fix it.
+  - text: ~~~Trying to fix it.
     displayText: Trying to fix it.
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: To see whose fault it actually is.
+  - text: ~~~To see whose fault it actually is.
     displayText: To see whose fault it actually is.
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: "But the more I think about it\u2026 the less alone I am."
-    displayText: "But the more I think about it\u2026 the less alone I am."
+  - text: ~~~But the more I think about it.$$.$$.$$ the less alone I am.
+    displayText: But the more I think about it... the less alone I am.
     color: 0
     characterSprite: {fileID: -142652558, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1e0000001e0000001f0000001f0000002000000020000000
     functionCalls: []
-  - text: About what?
+  - text: ~~~About what?
     displayText: About what?
     color: 0
     characterSprite: {fileID: 674674170, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 1
+    typeInterval: 0.06
+    dialogueType: 3
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: Everything.
+  - text: ~~~Everything.
     displayText: Everything.
     color: 0
     characterSprite: {fileID: -142652558, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: .$$$.$$$.$$$
+  - text: ~~~.$$$.$$$.$$$
     displayText: ...
     color: 0
     characterSprite: {fileID: 674674170, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 010000000100000001000000020000000200000002000000030000000300000003000000
     functionCalls: []
-  - text: I'm still not sure what the whole truth is$$$$, but maybe.$$.$$.$$$$$ I'm
-      not the cause of everything.
-    displayText: I'm still not sure what the whole truth is, but maybe... I'm not
-      the cause of everything.
+  - text: ~~~I'm still not sure what the whole truth is$$$$, but maybe.$$.$$.$$$$$
+    displayText: I'm still not sure what the whole truth is, but maybe...
     color: 0
     characterSprite: {fileID: -1567119930, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 3
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 2a0000002a0000002a0000002a000000360000003600000037000000370000003800000038000000380000003800000038000000
     functionCalls: []
-  - text: "And that\u2019s enough."
-    displayText: "And that\u2019s enough."
+  - text: ~~~I'm not the cause of everything.
+    displayText: I'm not the cause of everything.
     color: 0
-    characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 1
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 3
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                            '
+    displayText: '                                                            '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
-    functionCalls: []
-  - text: For now.$$.$$. you just have to keep walking.
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - EndingC-1
+    - index: 0
+      functionType: 6
+      parameter:
+      - EndingC-1
+      - 3
+  - text: "~~~And that\u2019s enough."
+    displayText: "And that\u2019s enough."
+    color: 0
+    characterSprite: {fileID: -318979472, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 3
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - Ending
+  - text: ~~~For now.$$.$$. you just have to keep walking.
     displayText: For now... you just have to keep walking.
     color: 0
     characterSprite: {fileID: -1234465409, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
-    typeInterval: 0.03
-    dialogueType: 1
+    typeInterval: 0.06
+    dialogueType: 3
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 08000000080000000900000009000000
     functionCalls: []
+  - text: '                                                                 '
+    displayText: '                                                                 '
+    color: 0
+    characterSprite: {fileID: -1234465409, guid: e166fccd4362c7844accca5d43e8cac0, type: 3}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - EndingC-2
+    - index: 0
+      functionType: 6
+      parameter:
+      - EndingC-2
+      - 3
+  - text: ~~~.$$$.$$$.
+    displayText: ...
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 010000000100000001000000020000000200000002000000
+    functionCalls:
+    - index: 0
+      functionType: 5
+      parameter:
+      - EndingC-1
+  - text: '                                                       '
+    displayText: '                                                       '
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls: []
+  - text: '                                                                         '
+    displayText: '                                                                         '
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 7
+      parameter:
+      - ----Scene12----
+      - 3
+    - index: 50
+      functionType: 5
+      parameter:
+      - ----Scene12----
+  - text: '                                                                               '
+    displayText: '                                                                               '
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - ----Ending----
+    - index: 0
+      functionType: 6
+      parameter:
+      - ----Ending----
+      - 3
+  - text: 
+    displayText: 
+    color: 0
+    characterSprite: {fileID: 2011750063, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Maya
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene12Credit
   dialogueChoices: []
   _currentLineIndex: -1

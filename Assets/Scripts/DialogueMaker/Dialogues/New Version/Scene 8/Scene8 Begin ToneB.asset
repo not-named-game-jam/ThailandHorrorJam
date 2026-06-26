@@ -13,6 +13,30 @@ MonoBehaviour:
   m_Name: Scene8 Begin ToneB
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: '                                                    '
+    displayText: (But something feels... off.)
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 1
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 1500000016000000170000001700000017000000
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - ----Scene8----
+    - index: 0
+      functionType: 6
+      parameter:
+      - ----Scene8----
+      - 2
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene8-Begin Position
   - text: (It looks the same.)
     displayText: (It looks the same.)
     color: 0
@@ -25,7 +49,7 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   - text: (But something feels.$.$.$$$ off.)
-    displayText: "(But something feels\u2026 off.)"
+    displayText: (But something feels... off.)
     color: 0
     characterSprite: {fileID: -1776494549, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
     typeInterval: 0.06
@@ -33,7 +57,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1500000016000000170000001700000017000000
     functionCalls: []
   dialogueChoices: []
   _currentLineIndex: -1

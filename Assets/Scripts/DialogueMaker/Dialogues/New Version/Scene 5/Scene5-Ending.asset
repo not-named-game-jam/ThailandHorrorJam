@@ -44,7 +44,7 @@ MonoBehaviour:
       rewardName: SelfBlame
       rewardValue: 3
   - choicesText: She had her own world, I was just passing by.
-    nextDialogue: {fileID: 11400000, guid: 5bb61e5e8703c024f861e14d519d2149, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 1d9681f13591e444f863ca2a69c5ab49, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene5-HasCheckClassmate
@@ -58,7 +58,7 @@ MonoBehaviour:
       rewardName: SelfDoubt
       rewardValue: 1
   - choicesText: "I shouldn\u2019t be someone people have to choose."
-    nextDialogue: {fileID: 11400000, guid: 5bb61e5e8703c024f861e14d519d2149, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 1d9681f13591e444f863ca2a69c5ab49, type: 2}
     dialogueConditions:
     - conditionTypes: 0
       Name: Scene5-HasCheckPhone
