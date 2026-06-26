@@ -26567,6 +26567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: {fileID: 414619548}
+  cutscenenameText: {fileID: 0}
   sentenceText:
   - {fileID: 1171774211}
   - {fileID: 1673678653}
@@ -26574,9 +26575,11 @@ MonoBehaviour:
   immersiveDialoguePanel: {fileID: 1208995634}
   characterDialoguePanel: {fileID: 140708062}
   justTextPanel: {fileID: 2022753616}
+  cutsceneDialoguePanel: {fileID: 0}
   choicesPanel: {fileID: 1728700987}
   skipPanel: {fileID: 461667040}
   skipWarning: {fileID: 1071551454}
+  controltipPanel: {fileID: 0}
   choiceButtons:
   - {fileID: 666901114}
   - {fileID: 705547459}

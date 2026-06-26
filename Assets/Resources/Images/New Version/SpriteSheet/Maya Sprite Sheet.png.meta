@@ -113,10 +113,10 @@ TextureImporter:
       name: Maya_Normal
       rect:
         serializedVersion: 2
-        x: 131
-        y: 4002
-        width: 909
-        height: 1746
+        x: 128
+        y: 3917
+        width: 908
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,9 +135,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1177
-        y: 4002
+        y: 3917
         width: 908
-        height: 1746
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,9 +156,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2162
-        y: 4002
+        y: 3917
         width: 908
-        height: 1746
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,9 +177,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3169
-        y: 4002
+        y: 3917
         width: 908
-        height: 1746
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,9 +198,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4124
-        y: 4002
+        y: 3917
         width: 914
-        height: 1746
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,9 +219,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5079
-        y: 4004
+        y: 3919
         width: 908
-        height: 1746
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,9 +240,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6102
-        y: 4002
+        y: 3917
         width: 908
-        height: 1746
+        height: 1831
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

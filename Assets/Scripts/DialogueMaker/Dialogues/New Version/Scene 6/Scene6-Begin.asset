@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene6-Begin
   m_EditorClassIdentifier: 
   dialogueSequence:
-  - text: '                                                                '
+  - text: '                                                                                          '
     displayText: '                                                                '
     color: 0
     characterSprite: {fileID: 0}

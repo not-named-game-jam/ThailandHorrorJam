@@ -86,5 +86,20 @@ MonoBehaviour:
       functionType: 4
       parameter:
       - Scene4-Book
+  - text: 
+    displayText: '                                                                                                          '
+    color: 0
+    characterSprite: {fileID: 0}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: 
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene4AfterCutscene
   dialogueChoices: []
   _currentLineIndex: -1

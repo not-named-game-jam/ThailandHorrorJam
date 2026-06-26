@@ -24,7 +24,7 @@ MonoBehaviour:
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 
     functionCalls: []
-  - text: .$$$$.$$$$.Should we invite$$$$.$$$$.$$$$.$$$$too?
+  - text: ".$$$$.$$$$.Should we invite$$$\u25A0$$$$\u25A0$$$$\u25A0$$$$too?"
     displayText: ...Should we invite...too?
     color: 0
     characterSprite: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 010000000100000002000000020000001300000013000000140000001400000015000000150000001600000016000000
+    pauseIndex: 010000000100000001000000010000000200000002000000020000000200000013000000130000001300000013000000140000001400000014000000140000001500000015000000150000001500000016000000160000001600000016000000
     functionCalls: []
   - text: "(They\u2019d always do things together in groups.)"
     displayText: "(They\u2019d always do things together in groups.)"
@@ -58,4 +58,4 @@ MonoBehaviour:
     pauseIndex: 
     functionCalls: []
   dialogueChoices: []
-  _currentLineIndex: -1
+  _currentLineIndex: 1
