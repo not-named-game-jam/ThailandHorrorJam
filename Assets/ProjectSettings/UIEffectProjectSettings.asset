@@ -54,6 +54,10 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER
         passType: 0
+      - keywords: COLOR_FILTER EDGE_PLAIN TRANSITION_PATTERN
+        passType: 0
+      - keywords: COLOR_FILTER EDGE_SHINY TRANSITION_PATTERN
+        passType: 0
       - keywords: COLOR_FILTER GRADATION_COLOR2
         passType: 0
       - keywords: COLOR_FILTER GRADATION_COLOR4
@@ -63,6 +67,8 @@ ShaderVariantCollection:
       - keywords: COLOR_FILTER SAMPLING_BLUR_FAST
         passType: 0
       - keywords: COLOR_FILTER SAMPLING_EDGE_ALPHA
+        passType: 0
+      - keywords: COLOR_FILTER TRANSITION_PATTERN
         passType: 0
       - keywords: DETAIL_MASKING
         passType: 0
