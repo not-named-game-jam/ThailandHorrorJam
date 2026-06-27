@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: '                                                                              '
-    displayText: I know.
+    displayText: '                                                                              '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.06
-    dialogueType: 1
+    dialogueType: 4
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
@@ -45,6 +45,24 @@ MonoBehaviour:
       functionType: 1
       parameter:
       - NewBusLeave
+    - index: 0
+      functionType: 4
+      parameter:
+      - Scene7-BusSmoke
+    - index: 0
+      functionType: 6
+      parameter:
+      - Scene7-BusSmoke
+      - 1
+    - index: 30
+      functionType: 7
+      parameter:
+      - Scene7-BusSmoke
+      - 1
+    - index: 50
+      functionType: 5
+      parameter:
+      - Scene7-BusSmoke
   - text: "The bus\u2019s already left."
     displayText: "The bus\u2019s already left."
     color: 0
