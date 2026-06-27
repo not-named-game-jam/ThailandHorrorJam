@@ -35,8 +35,9 @@ public class DialogueCondition
                 }
                 else
                 {
-                    Debug.LogWarning("Statwithvalue of that key not found. Return false");
-                    return false;
+                    StaticVariableForDialogue.statwithvalue[Name] = 0;
+                    currentStatValue = StaticVariableForDialogue.statwithvalue[Name];
+                    Debug.LogWarning("Statwithvalue of that key not found. set that to zero");
                 }
                 switch (comparisionType)
                 {

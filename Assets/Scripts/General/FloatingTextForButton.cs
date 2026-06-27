@@ -16,6 +16,7 @@ public class FloatingTextForButton : MonoBehaviour
 
     private bool canclick = true;
     private GameObject currentText;
+    private int oldNum;
 
     public void SpawnRandomText(Vector3 position)
     {
@@ -27,6 +28,14 @@ public class FloatingTextForButton : MonoBehaviour
         if (randomTexts.Count == 0 || floatingTextPrefab == null || randomTexts == null) return;
 
         int randomIndex = Random.Range(0, randomTexts.Count);
+        int checkrenew = 0;
+        while (randomIndex == oldNum)
+        {
+            checkrenew += 1;
+            randomIndex = Random.Range(0,randomTexts.Count);
+            Debug.Log(checkrenew);
+        }
+        oldNum = randomIndex;
         string choosenText = randomTexts[randomIndex];
         floatingText = StartCoroutine(Floatingtext(position, choosenText));
     }
@@ -52,7 +61,7 @@ public class FloatingTextForButton : MonoBehaviour
         
         CanvasGroup canvasGroup = currentText.GetComponent<CanvasGroup>();
         Vector3 startpos = currentText.transform.position;
-        Vector3 endpos = startpos + new Vector3(0,3f,0);
+        Vector3 endpos = startpos + new Vector3(0,2f,0);
         
 
         float elapsed = 0f;

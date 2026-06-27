@@ -92,7 +92,11 @@ MonoBehaviour:
       rewardValue: 3
   - choicesText: "If she really wanted me there, she would\u2019ve said something."
     nextDialogue: {fileID: 11400000, guid: 2360f0ca37ddd654aa4a50155c631308, type: 2}
-    dialogueConditions: []
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: Scene9-HasClickAll
+      comparisionType: 3
+      Value: 1
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame
@@ -113,7 +117,11 @@ MonoBehaviour:
       rewardValue: 3
   - choicesText: I understood it correctly.
     nextDialogue: {fileID: 11400000, guid: 2360f0ca37ddd654aa4a50155c631308, type: 2}
-    dialogueConditions: []
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: Scene9-AlreadyPhone
+      comparisionType: 3
+      Value: 0
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame

@@ -73,7 +73,11 @@ MonoBehaviour:
       rewardValue: 2
   - choicesText: "That doesn\u2019t mean they wanted me there."
     nextDialogue: {fileID: 11400000, guid: 440fc390f3a467f41be0827bd560c790, type: 2}
-    dialogueConditions: []
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: Scene8-HasClickAll
+      comparisionType: 3
+      Value: 1
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame

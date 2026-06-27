@@ -22,7 +22,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Rika
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 01000000010000000200000002000000
     functionCalls: []
   - text: You didn't notice that before$$$,did you?
     displayText: You didn't notice that before,did you?
@@ -33,7 +33,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 1d0000001d0000001d000000
     functionCalls: []
   - text: Maybe.
     displayText: Maybe.
@@ -70,7 +70,11 @@ MonoBehaviour:
       rewardValue: 3
   - choicesText: "Waiting doesn\u2019t mean choosing."
     nextDialogue: {fileID: 11400000, guid: 1003648715b70d5428a4ad0df5bd5f64, type: 2}
-    dialogueConditions: []
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: Scene10-HasClickall
+      comparisionType: 3
+      Value: 1
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame
@@ -91,9 +95,13 @@ MonoBehaviour:
       rewardValue: 3
   - choicesText: "I just wasn\u2019t being waited for."
     nextDialogue: {fileID: 11400000, guid: 1003648715b70d5428a4ad0df5bd5f64, type: 2}
-    dialogueConditions: []
+    dialogueConditions:
+    - conditionTypes: 1
+      Name: Scene10-StatShadow
+      comparisionType: 3
+      Value: 0
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfBlame
       rewardValue: 3
-  _currentLineIndex: 1
+  _currentLineIndex: -1

@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 4228388}
   - component: {fileID: 4228391}
   - component: {fileID: 4228392}
+  - component: {fileID: 4228393}
   m_Layer: 5
   m_Name: Scene9-Paper
   m_TagString: Untagged
@@ -270,6 +271,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 4228392}
+        m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
+        m_MethodName: valueChanger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4228393}
         m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
         m_MethodName: valueChanger
         m_Mode: 1
@@ -365,6 +378,21 @@ MonoBehaviour:
   Valuename: Scene9-HasClickPaper
   ValueChange: 0
   type: 0
+--- !u!114 &4228393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4228386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e600e90b67e64b80779ee902ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valuename: Scene9-HasClickAll
+  ValueChange: 1
+  type: 1
 --- !u!1 &7367595
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,6 +13947,7 @@ GameObject:
   - component: {fileID: 675031557}
   - component: {fileID: 675031556}
   - component: {fileID: 675031555}
+  - component: {fileID: 675031559}
   m_Layer: 5
   m_Name: Scene7-Bus
   m_TagString: Untagged
@@ -14051,6 +14080,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675031553}
   m_CullTransparentMesh: 1
+--- !u!114 &675031559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675031553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb0189e6e641814fbb26555948fccc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 675031557}
 --- !u!1 &678210942
 GameObject:
   m_ObjectHideFlags: 0
@@ -27552,6 +27594,7 @@ GameObject:
   - component: {fileID: 1328354779}
   - component: {fileID: 1328354778}
   - component: {fileID: 1328354782}
+  - component: {fileID: 1328354783}
   m_Layer: 0
   m_Name: Scene8-Board
   m_TagString: Untagged
@@ -27661,6 +27704,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1328354783}
+        m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
+        m_MethodName: valueChanger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1328354780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27730,6 +27785,21 @@ MonoBehaviour:
     - statName: SelfDoubt
       compareValue: 46
       blameCompareType: 2
+--- !u!114 &1328354783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328354776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e600e90b67e64b80779ee902ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valuename: Scene8-HasClickAll
+  ValueChange: 1
+  type: 1
 --- !u!1 &1343292123
 GameObject:
   m_ObjectHideFlags: 0
@@ -33442,6 +33512,7 @@ GameObject:
   - component: {fileID: 1622627198}
   - component: {fileID: 1622627197}
   - component: {fileID: 1622627196}
+  - component: {fileID: 1622627199}
   m_Layer: 0
   m_Name: Scene8-Mahiru
   m_TagString: Untagged
@@ -33620,6 +33691,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1622627199}
+        m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
+        m_MethodName: valueChanger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1622627199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622627192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e600e90b67e64b80779ee902ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valuename: Scene8-HasClickAll
+  ValueChange: 1
+  type: 1
 --- !u!1 &1628264899
 GameObject:
   m_ObjectHideFlags: 0
@@ -36066,6 +36164,11 @@ MonoBehaviour:
   - That's hurt.
   - Observe more.
   - . . .
+  - Not again.
+  - I'm sorry.
+  - My head hurts.
+  - Let's move on.
+  - Stop this nonsense.
 --- !u!1 &1729155418
 GameObject:
   m_ObjectHideFlags: 0
@@ -38043,7 +38146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1804315157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38219,6 +38322,8 @@ GameObject:
   - component: {fileID: 1814722920}
   - component: {fileID: 1814722923}
   - component: {fileID: 1814722924}
+  - component: {fileID: 1814722925}
+  - component: {fileID: 1814722926}
   m_Layer: 5
   m_Name: Scene9-Phone
   m_TagString: Untagged
@@ -38302,6 +38407,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1814722924}
+        m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
+        m_MethodName: valueChanger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1814722926}
         m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
         m_MethodName: valueChanger
         m_Mode: 1
@@ -38397,6 +38514,36 @@ MonoBehaviour:
   Valuename: Scene9-HasCheckPhone
   ValueChange: 0
   type: 0
+--- !u!114 &1814722925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814722918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e600e90b67e64b80779ee902ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valuename: Scene9-HasClickAll
+  ValueChange: 1
+  type: 1
+--- !u!114 &1814722926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814722918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e600e90b67e64b80779ee902ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valuename: Scene9-AlreadyPhone
+  ValueChange: 1
+  type: 1
 --- !u!1 &1815949783
 GameObject:
   m_ObjectHideFlags: 0
@@ -43326,6 +43473,7 @@ GameObject:
   - component: {fileID: 2047456861}
   - component: {fileID: 2047456863}
   - component: {fileID: 2047456864}
+  - component: {fileID: 2047456865}
   m_Layer: 5
   m_Name: Scene10-RikaShadow
   m_TagString: Untagged
@@ -43458,6 +43606,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2047456865}
+        m_TargetAssemblyTypeName: StatChanger, Assembly-CSharp
+        m_MethodName: valueChanger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2047456864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43473,6 +43633,21 @@ MonoBehaviour:
   Valuename: Scene10-HasClickShadow
   ValueChange: 0
   type: 0
+--- !u!114 &2047456865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047456859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18e600e90b67e64b80779ee902ca106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valuename: Scene10-StatShadow
+  ValueChange: 1
+  type: 1
 --- !u!1 &2062302294
 GameObject:
   m_ObjectHideFlags: 0
