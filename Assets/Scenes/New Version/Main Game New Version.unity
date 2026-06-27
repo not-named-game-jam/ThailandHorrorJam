@@ -1774,7 +1774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!225 &131768121
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -10534,6 +10534,7 @@ GameObject:
   - component: {fileID: 550851041}
   - component: {fileID: 550851040}
   - component: {fileID: 550851039}
+  - component: {fileID: 550851042}
   m_Layer: 5
   m_Name: Scene2-FamilyPhoto
   m_TagString: Untagged
@@ -10654,6 +10655,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550851037}
   m_CullTransparentMesh: 1
+--- !u!114 &550851042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550851037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781c6944d383dcd41b6049dbeaee3295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickableCursor: {fileID: 2800000, guid: cf4431e7f836c2f418147a608ef6ae7a, type: 3}
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &551459487
 GameObject:
   m_ObjectHideFlags: 0
@@ -11877,6 +11892,7 @@ MonoBehaviour:
   cameraSpeed: 150
   isDialogueActive: {fileID: 1882760817}
   stopCamWhenDialogue: 1
+  borderThickness: 20
 --- !u!4 &625887562
 Transform:
   m_ObjectHideFlags: 0
@@ -25591,7 +25607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5974428438880502775, guid: 11409a6ee0ac40c40ac096d4803a290c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.686111
+      value: -6.34
       objectReference: {fileID: 0}
     - target: {fileID: 5974428438880502775, guid: 11409a6ee0ac40c40ac096d4803a290c, type: 3}
       propertyPath: m_LocalPosition.z
