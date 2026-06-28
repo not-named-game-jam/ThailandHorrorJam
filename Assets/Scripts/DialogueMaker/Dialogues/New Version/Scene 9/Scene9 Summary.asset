@@ -13,6 +13,21 @@ MonoBehaviour:
   m_Name: Scene9 Summary
   m_EditorClassIdentifier: 
   dialogueSequence:
+  - text: "                    \r\r"
+    displayText: "                    \r\r"
+    color: 0
+    characterSprite: {fileID: -1962330079, guid: e03e9e6f15669634cafbbe8d217c2db2, type: 3}
+    typeInterval: 0.06
+    dialogueType: 4
+    typeSound: speak
+    characterName: Rika
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
+    pauseIndex: 
+    functionCalls:
+    - index: 0
+      functionType: 1
+      parameter:
+      - CloclInteract
   - text: ".$$.$$.\r"
     displayText: "...\r"
     color: 0
@@ -75,7 +90,7 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: This was never just the two of us.
     nextDialogue: {fileID: 11400000, guid: 2360f0ca37ddd654aa4a50155c631308, type: 2}
     dialogueConditions:
@@ -89,7 +104,7 @@ MonoBehaviour:
       rewardValue: -1
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 3
+      rewardValue: 5
   - choicesText: "If she really wanted me there, she would\u2019ve said something."
     nextDialogue: {fileID: 11400000, guid: 2360f0ca37ddd654aa4a50155c631308, type: 2}
     dialogueConditions:
@@ -114,7 +129,7 @@ MonoBehaviour:
       rewardValue: -2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 3
+      rewardValue: 5
   - choicesText: I understood it correctly.
     nextDialogue: {fileID: 11400000, guid: 2360f0ca37ddd654aa4a50155c631308, type: 2}
     dialogueConditions:

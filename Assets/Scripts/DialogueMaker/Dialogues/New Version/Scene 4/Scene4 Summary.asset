@@ -67,7 +67,7 @@ MonoBehaviour:
       rewardValue: 2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: I owed her for staying.
     nextDialogue: {fileID: 11400000, guid: c7613b2a6dc96664d8af4e9c96e84315, type: 2}
     dialogueConditions:
@@ -81,7 +81,7 @@ MonoBehaviour:
       rewardValue: 1
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: "If I hadn\u2019t accepted it, she wouldn\u2019t be stuck."
     nextDialogue: {fileID: 11400000, guid: c7613b2a6dc96664d8af4e9c96e84315, type: 2}
     dialogueConditions:
@@ -99,5 +99,5 @@ MonoBehaviour:
       rewardValue: 2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   _currentLineIndex: -1

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSequence:
   - text: '                                                                                          '
-    displayText: '                                                                '
+    displayText: '                                                                                          '
     color: 0
     characterSprite: {fileID: 0}
     typeInterval: 0.06
@@ -44,6 +44,10 @@ MonoBehaviour:
       - 2
     - index: 40
       functionType: 4
+      parameter:
+      - Scene6-Begin Position
+    - index: 40
+      functionType: 2
       parameter:
       - Scene6-Begin Position
   - text: (It's getting dark soon.)

@@ -43,7 +43,11 @@ MonoBehaviour:
     characterName: Maya
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 1700000018000000
-    functionCalls: []
+    functionCalls:
+    - index: 0
+      functionType: 2
+      parameter:
+      - HorrorGJ9
   - text: ".$.$.$if you remember things the way they felt\u2014"
     displayText: "...if you remember things the way they felt\u2014"
     color: 0
@@ -74,7 +78,7 @@ MonoBehaviour:
     dialogueType: 1
     typeSound: speak
     characterName: Rika
-    textColor: {r: 0.733, g: 0.0667, b: 0.2157, a: 1}
+    textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
     pauseIndex: 010000000200000003000000
     functionCalls: []
   - text: ".$.$.$You\u2019ll see."

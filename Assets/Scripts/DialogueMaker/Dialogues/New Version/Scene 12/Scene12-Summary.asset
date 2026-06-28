@@ -31,7 +31,7 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: 'I still think I should do something. But I''m not sure if even
       if I do... it will really change anything. '
     nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
@@ -43,7 +43,7 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
     - rewardTypes: 1
       rewardName: SelfBlame
       rewardValue: 1
@@ -72,12 +72,12 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 2
+      rewardValue: 4
   - choicesText: The sound cuts everything short, before any answer could exist.
     nextDialogue: {fileID: 11400000, guid: 82c154e1a1710e543a0ce358d9380107, type: 2}
     dialogueConditions: []
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   _currentLineIndex: -1

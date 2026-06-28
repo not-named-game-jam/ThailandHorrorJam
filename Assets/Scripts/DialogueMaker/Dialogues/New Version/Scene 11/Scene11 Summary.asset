@@ -22,7 +22,7 @@ MonoBehaviour:
     typeSound: speak
     characterName: 
     textColor: {r: 0.9098, g: 0.9255, b: 0.9333, a: 1}
-    pauseIndex: 
+    pauseIndex: 01000000010000000200000002000000
     functionCalls: []
   - text: (I keep thinking about it.)
     displayText: (I keep thinking about it.)
@@ -53,7 +53,7 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: 'I keep replaying the same moments, trying to see them differently. '
     nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
     dialogueConditions:
@@ -64,7 +64,7 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 2
+      rewardValue: 4
   - choicesText: "Maybe what I believed wasn\u2019t the whole story."
     nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
     dialogueConditions:
@@ -82,7 +82,7 @@ MonoBehaviour:
       rewardValue: -2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 2
+      rewardValue: 4
   - choicesText: Everything still feels like it was my fault.
     nextDialogue: {fileID: 11400000, guid: 2919aaa597cbc8f4abb6f360c07d23fa, type: 2}
     dialogueConditions:

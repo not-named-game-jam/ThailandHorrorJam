@@ -67,7 +67,7 @@ MonoBehaviour:
       rewardValue: 2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: Staying here felt safer.
     nextDialogue: {fileID: 11400000, guid: bb97ee6aa5bc7e340a894433c2e5e5e7, type: 2}
     dialogueConditions:
@@ -81,5 +81,5 @@ MonoBehaviour:
       rewardValue: 1
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 2
+      rewardValue: 4
   _currentLineIndex: -1

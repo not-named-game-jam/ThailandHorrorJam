@@ -53,7 +53,7 @@ MonoBehaviour:
     dialogueRewards:
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 1
+      rewardValue: 3
   - choicesText: She waited for me.
     nextDialogue: {fileID: 11400000, guid: 1003648715b70d5428a4ad0df5bd5f64, type: 2}
     dialogueConditions:
@@ -67,7 +67,7 @@ MonoBehaviour:
       rewardValue: -2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 3
+      rewardValue: 5
   - choicesText: "Waiting doesn\u2019t mean choosing."
     nextDialogue: {fileID: 11400000, guid: 1003648715b70d5428a4ad0df5bd5f64, type: 2}
     dialogueConditions:
@@ -92,7 +92,7 @@ MonoBehaviour:
       rewardValue: -2
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 3
+      rewardValue: 5
   - choicesText: "I just wasn\u2019t being waited for."
     nextDialogue: {fileID: 11400000, guid: 1003648715b70d5428a4ad0df5bd5f64, type: 2}
     dialogueConditions:

@@ -150,7 +150,7 @@ MonoBehaviour:
       rewardValue: 1
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 2
+      rewardValue: 4
   - choicesText: "I didn\u2019t cross."
     nextDialogue: {fileID: 11400000, guid: ec8e098920a6ead46b9cf73b2476860e, type: 2}
     dialogueConditions:
@@ -168,5 +168,5 @@ MonoBehaviour:
       rewardValue: -1
     - rewardTypes: 1
       rewardName: SelfDoubt
-      rewardValue: 3
+      rewardValue: 5
   _currentLineIndex: -1
