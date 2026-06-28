@@ -58,6 +58,7 @@ public class TestLog : MonoBehaviour
 
         if (open)
         {
+            SoundManager.instance?.PlaySfx("CloclInteract");
             GenerateLogUI();
         }
     }
@@ -100,6 +101,18 @@ public class TestLog : MonoBehaviour
                 { 
                     tmp.text = $"<color=#FFCC00><b>{entry.speakerName}:</b></color> {entry.dialogueText}";
                 }
+            }
+        }
+    }
+
+    public void ClearLog()
+    {
+        logHistory.Clear();
+        if (logContentParent != null)
+        {
+            foreach (Transform child in logContentParent)
+            {
+                Destroy(child.gameObject);
             }
         }
     }

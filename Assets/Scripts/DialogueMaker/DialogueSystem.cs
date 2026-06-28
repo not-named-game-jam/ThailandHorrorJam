@@ -289,7 +289,7 @@ public class DialogueSystem : MonoBehaviour
             ToggleAuto();
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && skipPanel.activeSelf)
+        if (Input.GetKeyDown(KeyCode.S) && skipPanel.activeSelf)
         {
             SkipButtonWarning();
         }
@@ -324,6 +324,17 @@ public class DialogueSystem : MonoBehaviour
             {
                 continueIndicatorCooldown = 0;
             }
+        }
+    }
+
+    public void MouseClickedContinue()
+    {
+        if (!IsActive || isFading || _type == DialogueType.Wait || TestLog.logisActive || skipWarning.activeSelf || InEndingtrue.InEnding) return;
+
+        if (skipCooldown >= 0.1f)
+        {
+            skipCooldown = 0f;
+            ContinueDialogue();
         }
     }
 
@@ -378,8 +389,7 @@ public class DialogueSystem : MonoBehaviour
     private bool Pressed() =>
         Input.GetKeyDown(KeyCode.Space) ||
         Input.GetKeyDown(KeyCode.E) ||
-        Input.GetKeyDown(KeyCode.Return) ||
-        Input.GetMouseButtonDown(0);
+        Input.GetKeyDown(KeyCode.Return);
 
     private IEnumerator AutoDialogue(int textLength)
     {
@@ -393,7 +403,9 @@ public class DialogueSystem : MonoBehaviour
 
     public void ToggleAuto()
     {
+        if (IsShowChoices) return;
         isAuto = !isAuto;
+        SoundManager.instance?.PlaySfx("PINClick");
         UpdateAutoButton();
 
         if(isAuto)
@@ -419,7 +431,7 @@ public class DialogueSystem : MonoBehaviour
 
         if (isAuto)
         {
-            autoButton.color = Color.yellow;
+            autoButton.color = new Color(1f,1f,0f);
             autoText.color = Color.black;
         }
         else
@@ -467,12 +479,14 @@ public class DialogueSystem : MonoBehaviour
                     DialogueMaker choicesresult = dialogueChoices[i].nextDialogue;
                     List<DialogueRewards> rewardresult = dialogueChoices[i].dialogueRewards;
                     int choiceindex = i;
+                    choiceButtons[i].onClick.AddListener(() => SoundManager.instance?.PlaySfx("PINClick"));
                     choiceButtons[i].onClick.AddListener(() => StartCoroutine(SelectChoices(choicesresult, rewardresult, choiceindex)));
                 }
                 else
                 {
                     choiceTexts[i].text = "? ? ?";
                     Vector3 choicePos = choiceButtons[i].transform.position;
+                    choiceButtons[i].onClick.AddListener(() => SoundManager.instance?.PlaySfx("GlassPlace"));
                     choiceButtons[i].onClick.AddListener(() => spawnFloatingText.SpawnRandomText(choicePos));
                 }                      
             }
@@ -553,6 +567,7 @@ public class DialogueSystem : MonoBehaviour
 
     public void SkipButtonWarning()
     {
+        SoundManager.instance?.PlaySfx("PINClick");
         if (skipWarning.activeSelf)
         {
             skipWarning.SetActive(false);

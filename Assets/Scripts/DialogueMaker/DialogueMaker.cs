@@ -175,6 +175,7 @@ public class DialogueMaker : ScriptableObject
 
     public void Skip() // just for skip button confirm
     {
+        SoundManager.instance?.PlaySfx("PINClick");
         if(dialogueSequence[dialogueSequence.Count-1].displayText.Length > 0)
         {
             Debug.Log("there is text on last");

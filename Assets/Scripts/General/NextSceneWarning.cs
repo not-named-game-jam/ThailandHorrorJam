@@ -8,11 +8,13 @@ public class NextSceneWarning : MonoBehaviour
 {
     [SerializeField] private GameObject nextSceneWarning;
     [SerializeField] private Button continueButton;
+    [SerializeField] private Button cancelButton;
     [SerializeField] private DialogueMaker[] continueDialouge;
     private Coroutine nextCoroutine;
 
     void OnEnable()
     {
+        SoundManager.instance?.PlaySfx("lockValid");
         if (nextCoroutine != null)
         {
             nextCoroutine = null;
@@ -53,6 +55,10 @@ public class NextSceneWarning : MonoBehaviour
         int indexnum = newscenenum-1;
         DialogueMaker targetDialogue = continueDialouge[indexnum];
         continueButton.onClick.RemoveAllListeners();
+        cancelButton.onClick.RemoveAllListeners();
+        cancelButton.onClick.AddListener(() => SoundManager.instance?.PlaySfx("PINClick"));
+        cancelButton.onClick.AddListener(() => nextSceneWarning.SetActive(false));
+        continueButton.onClick.AddListener(() => SoundManager.instance?.PlaySfx("PINClick"));
         continueButton.onClick.AddListener(() => nextSceneWarning.SetActive(false));
         continueButton.onClick.AddListener(() => targetDialogue.StartDialogue());
     }
